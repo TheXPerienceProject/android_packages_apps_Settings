@@ -25,4 +25,8 @@
 	
     <string name="xpe_update_settings_title">XPerience™ Updates</string>
 	<string name="xpe_update_settings_summary">Find new updates</string>
+
+    <!-- Launch Dev Tools -->
+    <string name="development_tools_title">Development tools</string>
+
 </resources>

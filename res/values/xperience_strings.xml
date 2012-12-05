@@ -46,4 +46,7 @@
     <string name="screen_off_animation_crt" translatable="false" >CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
 
+    <!-- Launch Dev Tools -->
+    <string name="development_tools_title">Development tools</string>
+
 </resources>

@@ -17,6 +17,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+		<!--XPERIENCE HEADER-->
+	 <PreferenceScreen android:key="xpe_logo"
+			   android:layout="@layout/logo_xpe" />
+
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
                     android:title="@string/additional_system_update_settings_list_item_title">

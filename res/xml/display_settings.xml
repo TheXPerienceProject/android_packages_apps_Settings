@@ -70,11 +70,17 @@
         android:entryValues="@array/screen_timeout_values"
         settings:keywords="@string/keywords_screen_timeout"/>
 
-    <SwitchPreference
+<!--    <SwitchPreference
         android:key="auto_rotate"
         android:title="@string/accelerometer_title"
         settings:keywords="@string/keywords_auto_rotate"
-        settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
+        settings:controller="com.android.settings.display.AutoRotatePreferenceController" />-->
+
+    <Preference
+        android:key="display_rotation"
+        android:fragment="com.android.settings.display.DisplayRotation"
+        android:title="@string/display_rotation_title"
+        settings:controller="com.android.settings.display.DisplayRotationPreferenceController" />
 
     <Preference
         android:key="font_size"

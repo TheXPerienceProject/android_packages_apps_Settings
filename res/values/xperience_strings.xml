@@ -21,5 +21,13 @@
     <string name="xpe_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Channel</string>
+
+    <!--Reset feature -->
+    <string name="reset_all_settings">RESET ALL</string>
+    <string name="reset_selected_settings">RESET SELECTED</string>
+    <string name="reset_settings_title">Feature preferences</string>
+    <string name="reset_settings_summary">Reset XPerience feature preferences</string>
+    <string name="keywords_settings_reset">reset</string>
+
 </resources>
 

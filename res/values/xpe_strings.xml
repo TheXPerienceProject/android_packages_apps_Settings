@@ -56,4 +56,10 @@
     <string name="system_theme_style_black">Black</string>
 	<string name="theme_applied">Theme applied!</string>
 
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">back</string>
+    <string name="security_settings_fingerprint_sensor_location_front">front</string>
+    <string name="security_settings_fingerprint_sensor_location_left">left side</string>
+    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+
 </resources>

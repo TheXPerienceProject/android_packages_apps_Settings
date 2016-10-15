@@ -672,7 +672,6 @@ public class AccessibilitySettings extends DashboardFragment {
         private RestrictedPreference createRestrictedPreference(String key, CharSequence title,
                 CharSequence summary, Drawable icon, String fragment) {
             final RestrictedPreference preference = new RestrictedPreference(mContext);
-
             preference.setKey(key);
             preference.setTitle(title);
             preference.setSummary(summary);

@@ -146,4 +146,8 @@
     <string name="xperience_title">Rainbow Unicorn</string>
     <string name="xperience_summary">Custom settings of XPerience</string>
 
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
 </resources>

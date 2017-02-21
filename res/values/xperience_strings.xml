@@ -143,4 +143,7 @@
     <string name="touchscreen_hovering_title">Touchscreen hovering</string>
     <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
 
+    <!-- Pocket mode -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>

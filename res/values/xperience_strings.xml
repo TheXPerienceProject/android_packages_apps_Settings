@@ -261,4 +261,8 @@
     <!-- Advanced VPN -->
     <string name="advanced_vpn_preference_group_title">Built-in</string>
     <string name="vpn_preference_group_title">Others</string>
+
+    <!-- Pocket mode -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>

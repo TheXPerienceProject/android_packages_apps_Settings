@@ -22,6 +22,10 @@
 	
     <string name="xperience_settings_title">XPerience™ Settings</string>
     <string name="xperience_settings_summary">Customize ROM features</string>  
+
+	<!--Alessa-->
+	<string name="alessa_title" translatable="false">Alessa™</string>
+	<string name="alessa_settings_summary">Customize your kernel features</string>
 	
     <string name="xperience_version">XPerience™ version</string>
     <string name="xperience_version_default">Unknown</string>

@@ -300,4 +300,13 @@
     <!-- HDR Display -->
     <string name="hdr_display_title">HDR Display</string>
     <string name="hdr_display_summary">Enable peak brightness for HDR content. This will increase battery usage</string>
+
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">XPerience Updater</string>
+    <string name="update_settings_summary">Check for the latest version of XPerience</string>
+    <string name="update_package" translatable="false">mx.xperience.updater</string>
+    <string name="update_activity" translatable="false">mx.xperience.updater.UpdatesActivity</string>
+
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Languages, gestures, updater, time, backup</string>
 </resources>

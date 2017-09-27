@@ -69,4 +69,12 @@
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
 
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">XPerience Updater</string>
+    <string name="update_settings_summary">Check for the latest version of XPerience</string>
+    <string name="update_package" translatable="false">mx.xperience.updater</string>
+    <string name="update_activity" translatable="false">mx.xperience.updater.UpdatesActivity</string>
+
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Languages, gestures, updater, time, backup</string>
 </resources>

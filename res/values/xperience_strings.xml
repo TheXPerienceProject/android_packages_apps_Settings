@@ -33,5 +33,9 @@
     <string name="reset_settings_summary">Reset XPerience feature preferences</string>
     <string name="keywords_settings_reset">reset</string>
 
+    <!--XPerience custom settings -->
+    <string name="xperience_settings_title">XPerience™ Settings</string>
+    <string name="xperience_settings_summary">Customize ROM features</string> 
+
 </resources>
 

@@ -4,6 +4,9 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := \
         $(call all-logtags-files-under, src)
 
+LOCAL_SRC_FILES += \
+        $(call all-java-files-under, ../RainbowUnicorn/src)
+
 LOCAL_MODULE := settings-logtags
 
 include $(BUILD_STATIC_JAVA_LIBRARY)
@@ -53,7 +56,13 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-logtags \
     zxing-core-1.7
 
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+    packages/apps/RainbowUnicorn/res
+
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+
+LOCAL_AAPT_FLAGS := --auto-add-overlay \
+    --extra-packages mx.xperience.rainbowunicorn
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled

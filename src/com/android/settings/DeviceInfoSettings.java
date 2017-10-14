@@ -38,6 +38,7 @@ import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
 import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.SecurityPatchPreferenceController;
+import com.android.settings.deviceinfo.XPerienceUpdaterPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -121,6 +122,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         controllers.add(new AdditionalSystemUpdatePreferenceController(context));
         controllers.add(new ManualPreferenceController(context));
+		controllers.add(new XPerienceUpdaterPreferenceController(context));
         controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new KernelVersionPreferenceController(context));
         controllers.add(new BasebandVersionPreferenceController(context));

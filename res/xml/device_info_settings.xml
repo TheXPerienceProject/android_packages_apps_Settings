@@ -84,6 +84,11 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
+        <!-- XPerience version -->
+        <Preference android:key="xperience_version"
+                android:title="@string/xperience_version"
+                android:summary="@string/xperience_version_default" />
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 android:title="@string/security_patch"

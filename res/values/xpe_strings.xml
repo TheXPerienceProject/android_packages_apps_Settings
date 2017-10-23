@@ -23,6 +23,9 @@
     <string name="xperience_settings_title">XPerience™ Settings</string>
     <string name="xperience_settings_summary">Customize ROM features</string>  
 	
+    <string name="xperience_version">XPerience™ version</string>
+    <string name="xperience_version_default">Unknown</string>
+
     <string name="xpe_update_settings_title">XPerience™ Updates</string>
 	<string name="xpe_update_settings_summary">Find new updates</string>
 

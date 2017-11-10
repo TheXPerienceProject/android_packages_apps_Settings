@@ -101,6 +101,10 @@
         <item>com.example.package.second/com.example.class.SecondService</item>
         -->
     </string-array>
+	
+	<!-- does the device have multi color led support or only
+         a fixed set of led colors -->
+    <bool name="config_has_multi_color_led">true</bool>
 
     <!-- Whether or not we should tint the icon color on setting pages. -->
     <bool name="config_tintSettingIcon">true</bool>

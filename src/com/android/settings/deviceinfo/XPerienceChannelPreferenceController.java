@@ -23,9 +23,10 @@ import android.support.v7.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
-import com.android.settings.core.PreferenceController;
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
 
-public class XPerienceChannelPreferenceController extends PreferenceController {
+public class XPerienceChannelPreferenceController extends AbstractPreferenceController implements PreferenceControllerMixin {
 
     private static final String KEY_XPERIENCE_CHANNEL_VERSION = "xperience_channel_version";
     private static final String KEY_XPERIENCE_CHANNEL_VERSION_PROP = "ro.xpe.channeltype";

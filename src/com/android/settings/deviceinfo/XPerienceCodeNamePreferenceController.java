@@ -23,9 +23,10 @@ import android.support.v7.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
-import com.android.settings.core.PreferenceController;
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
 
-public class XPerienceCodeNamePreferenceController extends PreferenceController {
+public class XPerienceCodeNamePreferenceController extends AbstractPreferenceController implements PreferenceControllerMixin {
 
     private static final String KEY_XPERIENCE_CODE_NAME_VERSION = "xperience_codename_version";
     private static final String KEY_XPERIENCE_CODE_NAME_VERSION_PROP = "ro.xpe.codename";

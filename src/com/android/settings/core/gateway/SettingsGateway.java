@@ -254,7 +254,7 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
-            DataUsageList.class.getName()
+            DataUsageList.class.getName(),
             RainbowUnicorn.class.getName(),
     };
 

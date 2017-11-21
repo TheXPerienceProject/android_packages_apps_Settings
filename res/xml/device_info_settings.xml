@@ -89,6 +89,16 @@
                 android:title="@string/xperience_version"
                 android:summary="@string/xperience_version_default" />
 
+        <!-- XPerience Channel -->
+        <Preference android:key=“xperience_channel_version"
+                android:title="@string/xperience_channel_version"
+                android:summary="@string/xperience_channel_version_default" />
+
+        <!-- XPerience CAF Branch -->
+        <Preference android:key=“xperience_caf_version"
+                android:title="@string/xperience_caf_version"
+                android:summary="@string/xperience_caf_version_default" />
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 android:title="@string/security_patch"
@@ -120,6 +130,11 @@
                 android:key="build_number"
                 android:title="@string/build_number"
                 android:summary="@string/summary_placeholder"/>
+
+        <!-- XPerience build type -->
+        <Preference android:key=“xperience_build_version"
+                android:title="@string/xperience_build_version"
+                android:summary="@string/xperience_build_version_default" />
 
         <!-- SELinux status information -->
         <Preference

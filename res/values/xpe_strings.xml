@@ -33,15 +33,15 @@
     <string name="development_tools_title">Development tools</string>
 
     <!-- XPerience Channel version -->
-    <string name=“xperience_channel_version">XPerience Channel</string>
-    <string name=“xperience_channel_version_default">Unknown</string>
+    <string name="xperience_channel_version">XPerience Channel</string>
+    <string name="xperience_channel_version_default">Unknown</string>
 
     <!-- CAF Branch version -->
-    <string name=“xperience_caf_version">CAF Branch</string>
-    <string name=“xperience_caf_version_default">Unknown</string>
+    <string name="xperience_caf_version">CAF Branch</string>
+    <string name="xperience_caf_version_default">Unknown</string>
 
     <!-- Build type version -->
-    <string name=“xperience_build_version">Build type</string>
-    <string name=“xperience_build_version_default">Unknown</string>
+    <string name="xperience_build_version">Build type</string>
+    <string name="xperience_build_version_default">Unknown</string>
 
 </resources>

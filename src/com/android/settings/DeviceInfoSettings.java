@@ -43,6 +43,7 @@ import com.android.settings.deviceinfo.XPerienceVersionPreferenceController;
 import com.android.settings.deviceinfo.XPerienceChannelPreferenceController;
 import com.android.settings.deviceinfo.XPerienceCAFPreferenceController;
 import com.android.settings.deviceinfo.XPerienceBuildTypePreferenceController;
+import com.android.settings.deviceinfo.XPerienceCodeNamePreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -136,6 +137,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new XPerienceVersionPreferenceController(context));
         controllers.add(new XPerienceChannelPreferenceController(context));
         controllers.add(new XPerienceCAFPreferenceController(context));
+		controllers.add(new XPerienceCodeNamePreferenceController(context));
         controllers.add(new SecurityPatchPreferenceController(context));
         controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(new XPerienceBuildTypePreferenceController(context));

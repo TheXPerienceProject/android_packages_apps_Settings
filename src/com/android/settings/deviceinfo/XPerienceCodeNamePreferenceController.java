@@ -25,12 +25,12 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.PreferenceController;
 
-public class XPerienceChannelPreferenceController extends PreferenceController {
+public class XPerienceCodeNamePreferenceController extends PreferenceController {
 
-    private static final String KEY_XPERIENCE_CHANNEL_VERSION = "xperience_channel_version";
-    private static final String KEY_XPERIENCE_CHANNEL_VERSION_PROP = "ro.xpe.channeltype";
+    private static final String KEY_XPERIENCE_CODE_NAME_VERSION = "xperience_codename_version";
+    private static final String KEY_XPERIENCE_CODE_NAME_VERSION_PROP = "ro.xpe.codename";
 
-    public XPerienceChannelPreferenceController(Context context) {
+    public XPerienceCodeNamePreferenceController(Context context) {
         super(context);
     }
 
@@ -41,13 +41,13 @@ public class XPerienceChannelPreferenceController extends PreferenceController {
 
     @Override
     public String getPreferenceKey() {
-        return KEY_XPERIENCE_CHANNEL_VERSION;
+        return KEY_XPERIENCE_CODE_NAME_VERSION;
     }
 
     @Override
     public void updateState(Preference preference) {
         super.updateState(preference);
-        preference.setSummary(SystemProperties.get(KEY_XPERIENCE_CHANNEL_VERSION_PROP,
-                mContext.getResources().getString(R.string.xperience_channel_version_default)));
+        preference.setSummary(SystemProperties.get(KEY_XPERIENCE_CODE_NAME_VERSION_PROP,
+                mContext.getResources().getString(R.string.xperience_codename_version_default)));
     }
 }

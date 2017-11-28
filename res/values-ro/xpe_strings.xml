@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The XPerience Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Trafic reţea</string>
+    <string name="network_traffic_state_summary">Afişare activitate reţea în bara de stare</string>
+    <string name="network_traffic_autohide_threshold_title">Pragul de ascundere a activităţii reţelei (KB/s)</string>
+	
+    <string name="xperience_settings_title">Setări XPerience™</string>
+    <string name="xperience_settings_summary">Personalizaţi caracteristicile ROM-ului</string>  
+	
+    <string name="xperience_version">Versiune XPerience™</string>
+    <string name="xperience_version_default">Necunoscut</string>
+
+    <string name="xpe_update_settings_title">Actualizări XPerience™</string>
+	<string name="xpe_update_settings_summary">Căutaţi actualizăti noi</string>
+
+    <!-- Launch Dev Tools -->
+    <string name="development_tools_title">Instrumente de dezvoltare</string>
+
+    <!-- XPerience Channel version -->
+    <string name="xperience_channel_version">Canal XPerience™</string>
+    <string name="xperience_channel_version_default">Necunoscut</string>
+
+    <!-- CAF Branch version -->
+    <string name="xperience_caf_version">Ramură CAF</string>
+    <string name="xperience_caf_version_default">Necunoscut</string>
+
+    <!-- Build type version -->
+    <string name="xperience_build_version">Tip Build</string>
+    <string name="xperience_build_version_default">Necunoscut</string>
+
+    <!-- Build type version -->
+    <string name="xperience_codename_version">Nume de cod XPerience™</string>
+    <string name="xperience_codename_version_default">Necunoscut</string>
+
+</resources>

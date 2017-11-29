@@ -155,4 +155,8 @@
 
     <string name="xperience_gestures">Button Gesture</string>
     <string name="button_custom">Power torch gesture</string>
+
+    <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Show 4G instead of LTE</string>
+    <string name="show_fourg_icon_summary">Replace LTE indicator with 4G</string>
 </resources>

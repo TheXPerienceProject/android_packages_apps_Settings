@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2012 The CyanogenMod Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -16,32 +15,20 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.android.settings.xperience.SystemSettingSwitchPreference
-        android:key="battery_light_enabled"
-        android:title="@string/battery_light_enable"
-        android:persistent="false"/>
+        android:key="battery_light_pulse"
+        android:title="@string/battery_low_pulse_title"
+        android:summary="@string/battery_low_pulse_title_summary"
+        android:persistent="false" />
 
-    <PreferenceCategory
-        android:key="general_section"
-        android:title="@string/notification_light_general_title">
-
-        <com.android.settings.xperience.SystemSettingSwitchPreference
-            android:key="battery_light_pulse"
-            android:title="@string/battery_low_pulse_title"
-            android:dependency="battery_light_enabled"
-            android:persistent="false" />
-
-        <com.android.settings.xperience.SystemSettingSwitchPreference
-            android:key="battery_light_only_fully_charged"
-            android:title="@string/battery_light_only_full_charge_title"
-            android:dependency="battery_light_enabled"
-            android:defaultValue="false" />
-
-    </PreferenceCategory>
+    <com.android.settings.xperience.SystemSettingSwitchPreference
+        android:key="battery_light_only_fully_charged"
+        android:title="@string/battery_light_only_full_charge_title"
+        android:summary="@string/battery_light_only_full_charge_title_summary"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="colors_list"
-        android:title="@string/battery_light_list_title"
-        android:dependency="battery_light_enabled" >
+        android:title="@string/battery_light_list_title">
 
         <com.android.settings.xperience.fuelgauge.BatteryLightPreference
             android:key="low_color"
@@ -67,8 +54,7 @@
 
     <PreferenceCategory
         android:key="fast_color_cat"
-        android:title="@string/fast_color_cat_title"
-        android:dependency="battery_light_enabled" >
+        android:title="@string/fast_color_cat_title">
 
         <com.android.settings.xperience.SystemSettingSwitchPreference
             android:key="fast_charging_led_enabled"

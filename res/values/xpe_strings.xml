@@ -116,10 +116,13 @@
 
     <!-- Battery Light -->
     <string name="battery_light_title">Battery light</string>
-    <string name="battery_light_title_summary">Turn on/off the battery light indicator or change it\'s behavior</string>
-	<string name="battery_light_enable">Enable</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
-    <string name="battery_light_only_full_charge_title">Only light up when fully charged</string>
+    <string name="battery_light_title_summary_on">On / Battery level will indicate</string>
+    <string name="battery_light_title_summary_off">Off / Battery level will not indicate</string>
+    <string name="battery_light_description">Turn on/off the battery light indicator or change it\'s behavior</string>
+    <string name="battery_low_pulse_title">Pulse when low</string>
+    <string name="battery_low_pulse_title_summary">Pulse when the battery level is low</string>
+    <string name="battery_light_only_full_charge_title">Fully charged indication</string>
+    <string name="battery_light_only_full_charge_title_summary">Only show the battery light when the device is fully charged</string>
     <string name="battery_light_list_title">Colors</string>
     <string name="battery_light_low_color_title">Battery low</string>
     <string name="battery_light_medium_color_title">Charging</string>
@@ -135,4 +138,6 @@
     <string name="led_color_red">Red</string>
     <string name="led_color_blue">Blue</string>
 
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
 </resources>

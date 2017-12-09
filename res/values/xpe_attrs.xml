@@ -37,4 +37,6 @@
         <attr name="ledPreview" format="boolean" />
         <attr name="alphaSlider" format="boolean" />
     </declare-styleable>
+
+    <attr name="batteryLightPreference" format="reference" />
 </resources>

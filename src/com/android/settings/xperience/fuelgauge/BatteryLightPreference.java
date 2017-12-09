@@ -22,7 +22,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RectShape;
+import android.graphics.drawable.shapes.OvalShape;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
@@ -40,18 +40,18 @@ public class BatteryLightPreference extends Preference implements DialogInterfac
     private int mColorValue;
     private Dialog mDialog;
 
-    /**
-     * @param context
-     * @param attrs
-     */
+    public BatteryLightPreference(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    }
+
     public BatteryLightPreference(Context context, AttributeSet attrs) {
-        super(context, attrs);
+        this(context, attrs, R.attr.batteryLightPreference);
         mColorValue = DEFAULT_COLOR;
         init();
     }
 
     public BatteryLightPreference(Context context, int color) {
-        super(context, null);
+        this(context, null);
         mColorValue = color;
         init();
     }
@@ -85,7 +85,7 @@ public class BatteryLightPreference extends Preference implements DialogInterfac
 
         if (mLightColorView != null) {
             mLightColorView.setEnabled(true);
-            mLightColorView.setImageDrawable(createRectShape(width, height, 0xFF000000 | mColorValue));
+            mLightColorView.setImageDrawable(createOvalShape(width, height, 0xFF000000 | mColorValue));
         }
     }
 
@@ -116,8 +116,8 @@ public class BatteryLightPreference extends Preference implements DialogInterfac
         return d;
     }
 
-    private static ShapeDrawable createRectShape(int width, int height, int color) {
-        ShapeDrawable shape = new ShapeDrawable(new RectShape());
+    private static ShapeDrawable createOvalShape(int width, int height, int color) {
+        ShapeDrawable shape = new ShapeDrawable(new OvalShape());
         shape.setIntrinsicHeight(height);
         shape.setIntrinsicWidth(width);
         shape.getPaint().setColor(color);

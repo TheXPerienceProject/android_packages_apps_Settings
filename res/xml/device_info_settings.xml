@@ -101,8 +101,8 @@
 
         <!-- XPerience CodeName -->
         <Preference android:key="xperience_codename_version"
-                android:title="@string/xperience_caf_version"
-                android:summary="@string/xperience_caf_version_default" />
+                android:title="@string/xperience_codename_version"
+                android:summary="@string/xperience_codename_version_default" />
 
         <!-- Security patch level -->
         <Preference android:key="security_patch"

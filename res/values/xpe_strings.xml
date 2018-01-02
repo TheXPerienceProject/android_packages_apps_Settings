@@ -49,10 +49,11 @@
     <string name="xperience_codename_version_default">Unknown</string>
 
     <!-- Themes -->
-    <string name="system_theme_style_title">UI style</string>
+    <string name="system_theme_style_title">Theme Style</string>
     <string name="system_theme_style_auto">Dynamic</string>
     <string name="system_theme_style_light">Light</string>
     <string name="system_theme_style_dark">Dark</string>
+    <string name="system_theme_style_black">Black</string>
 	<string name="theme_applied">Theme applied!</string>
 
 </resources>

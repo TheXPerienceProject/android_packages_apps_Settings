@@ -247,4 +247,8 @@
     <string name="top_level_security" translatable="false">@string/security_settings_title</string>
     <string name="top_level_accounts">Accounts</string>
     <string name="top_level_others">Others</string>
+
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Ring volume</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>

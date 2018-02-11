@@ -64,6 +64,13 @@
         android:key="auto_rotate"
         android:title="@string/accelerometer_title" />
 
+    <ListPreference
+        android:key="screen_off_animation"
+        android:title="@string/screen_off_animation_title"
+        android:entries="@array/screen_off_animation_entries"
+        android:entryValues="@array/screen_off_animation_values"
+        android:defaultValue="1" />
+
     <Preference
         android:key="color_manager"
         android:title="@string/color_manager_title"

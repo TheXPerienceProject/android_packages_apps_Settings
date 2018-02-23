@@ -35,7 +35,7 @@ import android.widget.Toast;
 public class DarkUIPreferenceController extends AbstractPreferenceController implements 
        PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
-    private static final String SYSTEM_THEME_STYLE = "system_theme_style";
+    private static final String DEVICE_THEME  = "device_theme";
     private ListPreference mSystemThemeStyle;
 
     public DarkUIPreferenceController(Context context) {
@@ -44,7 +44,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
 
     @Override
     public String getPreferenceKey() {
-        return SYSTEM_THEME_STYLE;
+        return DEVICE_THEME;
     }
 
     @Override
@@ -55,9 +55,9 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
-        int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.SYSTEM_THEME_STYLE, 0);
+        mSystemThemeStyle = (ListPreference) screen.findPreference(DEVICE_THEME);
+        int systemThemeStyle = Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.DEVICE_THEME, 0);
         int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
         mSystemThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntry());
@@ -67,7 +67,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mSystemThemeStyle) {
             String value = (String) newValue;
-            Settings.System.putInt(mContext.getContentResolver(), Settings.System.SYSTEM_THEME_STYLE, Integer.valueOf(value));
+            Settings.Secure.putInt(mContext.getContentResolver(), Settings.Secure.DEVICE_THEME, Integer.valueOf(value));
             int valueIndex = mSystemThemeStyle.findIndexOfValue(value);
             mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntries()[valueIndex]);
             Toast.makeText(mContext, mContext.getString(R.string.theme_applied),

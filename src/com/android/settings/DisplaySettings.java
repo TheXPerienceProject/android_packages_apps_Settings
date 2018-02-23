@@ -109,8 +109,9 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
-        controllers.add(new ThemePreferenceController(context));
-		controllers.add(new DarkUIPreferenceController(context));
+		controllers.add(new ColorManagerPreferenceController(context));
+        //controllers.add(new ThemePreferenceController(context));
+		//controllers.add(new DarkUIPreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
         return controllers;

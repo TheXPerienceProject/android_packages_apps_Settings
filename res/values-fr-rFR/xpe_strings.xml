@@ -16,17 +16,74 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Statusbar net monitor -->
+  <string name="network_traffic_state_title">Débit réseau</string>
+  <string name="network_traffic_state_summary">Afficher l\'activité réseau dans la barre d\'état</string>
+  <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
+  <string name="xperience_settings_title">Paramètre XPerience™</string>
+  <string name="xperience_settings_summary">Personnaliser des fonctionnalités de ROM</string>
+  <string name="xperience_version">Version XPerience™</string>
+  <string name="xperience_version_default">Inconnu</string>
+  <string name="xpe_update_settings_title">Mise à Jour XPerience™</string>
+  <string name="xpe_update_settings_summary">Nouvelle mise à jour trouvée</string>
   <!-- Launch Dev Tools -->
+  <string name="development_tools_title">Outils de développement</string>
   <!-- XPerience Channel version -->
+  <string name="xperience_channel_version">Canal XPerience™</string>
+  <string name="xperience_channel_version_default">Inconnu</string>
   <!-- CAF Branch version -->
+  <string name="xperience_caf_version">Branche CAF</string>
+  <string name="xperience_caf_version_default">Inconnu</string>
   <!-- Build type version -->
+  <string name="xperience_build_version">Type de compilation</string>
+  <string name="xperience_build_version_default">Inconnu</string>
   <!-- Build type version -->
+  <string name="xperience_codename_version">Nom de code XPerience™</string>
+  <string name="xperience_codename_version_default">Inconnue</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Style de thème</string>
+  <string name="system_theme_style_auto">Dynamique</string>
+  <string name="system_theme_style_light">Clair</string>
+  <string name="system_theme_style_dark">Sombre</string>
+  <string name="system_theme_style_black">Noir</string>
+  <string name="theme_applied">Thème appliqué !</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Repérez le capteur d’empreintes digitales sur <xliff:g id="sensor_location">%1$s </xliff:g> de votre téléphone.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">retour</string>
+  <string name="security_settings_fingerprint_sensor_location_front">avant</string>
+  <string name="security_settings_fingerprint_sensor_location_left">côté gauche</string>
+  <string name="security_settings_fingerprint_sensor_location_right">côté droit</string>
   <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> est <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_disabled">désactivé</string>
+  <string name="sim_missing">manquante ou défectueuse</string>
+  <string name="sim_enabler_need_disable_sim">La carte SIM va être désactivée. Voulez-vous continuer ?</string>
+  <string name="sim_enabler_will_disable_sim_title">Attention</string>
+  <string name="sim_enabler_need_switch_data_service">Cette carte SIM sera désactivée et la SIM <xliff:g id="slotid">%1$s </xliff:g> sera utilisée pour les services de données. Êtes-vous sûr de vouloir continuer ?</string>
+  <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tant que le mode avion est activé.</string>
+  <string name="sim_enabler_in_call">Impossible d\'effectuer cette opération pendant un appel.</string>
+  <string name="sim_enabler_both_inactive">Impossible de désactiver toutes les cartes SIM</string>
+  <string name="sim_enabler_enabling">Activation\u2026</string>
+  <string name="sim_enabler_disabling">Désactivation\u2026</string>
+  <string name="sub_activate_success">SIM activée.</string>
+  <string name="sub_activate_failed">Échec de l\'activation.</string>
+  <string name="sub_deactivate_success">Carte SIM désactivée.</string>
+  <string name="sub_deactivate_failed">Échec de la désactivation.</string>
   <!-- Color Manager -->
+  <string name="color_manager_title">Gestionnaire de couleurs</string>
+  <string name="color_manager_summary">Modifier les couleurs du système avec différents thèmes</string>
   <!-- Color Manager: Options -->
+  <string name="theme_auto_title">Automatique</string>
+  <string name="theme_auto_title_summary">Colorier le système en fonction du fond d\'écran</string>
+  <string name="theme_light_title">Clair</string>
+  <string name="theme_light_title_summary">Colorie le système en blanc</string>
+  <string name="theme_dark_title">Sombre</string>
+  <string name="theme_dark_title_summary">Colorie le système en gris foncé</string>
+  <string name="theme_black_title">Noir</string>
+  <string name="theme_black_title_summary">Colorie le système en noir</string>
   <!-- Color Manager: Device accent -->
+  <string name="device_accent_title">Accent de l’appareil</string>
   <!-- Wake on plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Réveiller sur prise</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Allumez l\'écran lors du branchement ou du débranchement de la source d\'alimentation</string>
 </resources>

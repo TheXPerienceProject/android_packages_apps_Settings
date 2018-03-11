@@ -40,6 +40,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import com.android.internal.xpe.hardware.LineageHardwareManager;
+
 @SearchIndexable
 public class KeyboardSettings extends DashboardFragment {
 
@@ -47,6 +49,7 @@ public class KeyboardSettings extends DashboardFragment {
 
     private static final String KEY_KEYBOARDS_CATEGORY = "keyboards_category";
     private static final String KEY_POINTER_CATEGORY = "pointer_category";
+    private static final String KEY_TOUCH_HOVERING = "feature_touch_hovering";
 
     @Override
     public int getMetricsCategory() {
@@ -76,6 +79,8 @@ public class KeyboardSettings extends DashboardFragment {
     protected int getPreferenceScreenResId() {
         return R.xml.keyboard_settings;
     }
+
+
 
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
@@ -109,6 +114,16 @@ public class KeyboardSettings extends DashboardFragment {
         return controllers;
     }
 
-    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.keyboard_settings);
+   public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.keyboard_settings) {
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+                    if (!hardware.isSupported(LineageHardwareManager.FEATURE_TOUCH_HOVERING)) {
+                        keys.add(KEY_TOUCH_HOVERING);
+                    }
+                    return keys;
+                }
+            };
 }

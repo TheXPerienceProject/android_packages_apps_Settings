@@ -30,25 +30,29 @@
         android:key="colors_list"
         android:title="@string/battery_light_list_title">
 
-        <com.android.settings.xperience.fuelgauge.BatteryLightPreference
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="low_color"
             android:title="@string/battery_light_low_color_title"
-            android:persistent="false" />
+            ledPreview="true"
+            android:defaultValue="0xFFFF0000" />
 
-        <com.android.settings.xperience.fuelgauge.BatteryLightPreference
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="medium_color"
             android:title="@string/battery_light_medium_color_title"
-            android:persistent="false" />
+            ledPreview="true"
+            android:defaultValue="0xFFFFFF00" />
 
-        <com.android.settings.xperience.fuelgauge.BatteryLightPreference
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="full_color"
             android:title="@string/battery_light_full_color_title"
-            android:persistent="false" />
+            ledPreview="true"
+            android:defaultValue="0xFF00FF00" />
 
-        <com.android.settings.xperience.fuelgauge.BatteryLightPreference
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="really_full_color"
             android:title="@string/battery_light_really_full_color_title"
-            android:persistent="false" />
+            ledPreview="true"
+            android:defaultValue="0xFF00FF00" />
 
     </PreferenceCategory>
 
@@ -62,12 +66,14 @@
             android:summary="@string/fast_charging_led_enabled_summary"
             android:defaultValue="false" />
 
-        <com.android.settings.xperience.fuelgauge.BatteryLightPreference
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="fast_color"
             android:title="@string/fast_charging_light_color_title"
             android:summary="@string/fast_charging_light_color_summary"
             android:persistent="false"
-            android:dependency="fast_charging_led_enabled" />
+            android:dependency="fast_charging_led_enabled"
+            ledPreview="true"
+            android:defaultValue="0xFF0000FF" />
 
     </PreferenceCategory>
 

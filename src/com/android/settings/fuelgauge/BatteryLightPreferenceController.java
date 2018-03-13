@@ -22,6 +22,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.ContentObserver;
 import android.os.Handler;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
@@ -75,8 +76,10 @@ public class BatteryLightPreferenceController extends AbstractPreferenceControll
 
     @Override
     public void updateState(Preference preference) {
-        mBatteryLightPref.setChecked(isBatteryLightEnabled());
-        updateSummary();
+        if (mBatteryLightPref != null) {
+            mBatteryLightPref.setChecked(isBatteryLightEnabled());
+            updateSummary();
+        }
     }
 
     @Override
@@ -116,11 +119,11 @@ public class BatteryLightPreferenceController extends AbstractPreferenceControll
     }
 
     public boolean isBatteryLightEnabled() {
-        return Settings.System.getInt(mContext.getContentResolver(), BATTERY_LIGHT_ENABLED, isAvailable() ? 1 : 0) != 0;
+        return Settings.System.getIntForUser(mContext.getContentResolver(), BATTERY_LIGHT_ENABLED, isAvailable() ? 1 : 0, UserHandle.USER_CURRENT) != 0;
     }
 
     public boolean setBatteryLightEnabled(boolean enabled) {
-        return Settings.System.putInt(mContext.getContentResolver(), BATTERY_LIGHT_ENABLED, enabled ? 1 : 0);
+        return Settings.System.putIntForUser(mContext.getContentResolver(), BATTERY_LIGHT_ENABLED, enabled ? 1 : 0, UserHandle.USER_CURRENT);
     }
 
     private final ContentObserver mObserver = new ContentObserver(new Handler()) {
@@ -138,8 +141,7 @@ public class BatteryLightPreferenceController extends AbstractPreferenceControll
             if (DEBUG) {
                 Log.d(TAG, "Received: Battery Light state");
             }
-            mBatteryLightPref.setChecked(isBatteryLightEnabled());
-            updateSummary();
+            updateState(/* not needed */ null);
         }
 
         public void setListening(boolean listening) {

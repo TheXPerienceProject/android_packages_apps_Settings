@@ -17,7 +17,7 @@
 package com.android.settings.xperience;
 
 import android.content.Context;
-import android.preference.support.v14.SwitchPreference;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.util.AttributeSet;
 

@@ -95,7 +95,7 @@
   <string name="color_default">Por defecto</string>
   <!-- Battery Light -->
   <string name="battery_light_title">Luz indicadora de batería</string>
-  <string name="battery_light_title_summary_on">Activado / El nivel de la batería indicará</string>
+  <string name="battery_light_title_summary_on">Activado / El nivel de la batería se indicará</string>
   <string name="battery_light_title_summary_off">Desactivado / El nivel de la batería no se indicará</string>
   <string name="battery_light_description">Enciende / apaga el indicador de luz de la batería o cambia su comportamiento</string>
   <string name="battery_low_pulse_title">Pulsa cuando esta baja</string>

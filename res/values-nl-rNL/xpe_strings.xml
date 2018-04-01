@@ -16,17 +16,72 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Statusbar net monitor -->
+  <string name="network_traffic_state_title">Netwerkverkeer</string>
+  <string name="network_traffic_state_summary">Netwerkactiviteit weergeven in statusbalk</string>
+  <string name="network_traffic_autohide_threshold_title">Drempel voor netwerkactiviteit (KB/s)</string>
+  <string name="xperience_settings_title">XPerience™ instellingen</string>
+  <string name="xperience_settings_summary">Customaliseer ROM-functies</string>
+  <!--Alessa-->
+  <string name="xperience_version">XPerience™ versie</string>
+  <string name="xperience_version_default">Onbekend</string>
+  <string name="xpe_update_settings_title">XPerience™ Updates</string>
+  <string name="xpe_update_settings_summary">Zoeken naar nieuwe updates</string>
   <!-- Launch Dev Tools -->
+  <string name="development_tools_title">Opties voor ontwikkelaars</string>
   <!-- XPerience Channel version -->
+  <string name="xperience_channel_version">XPerience™ kanaal</string>
+  <string name="xperience_channel_version_default">Onbekend</string>
   <!-- CAF Branch version -->
+  <string name="xperience_caf_version">CAF Branch</string>
+  <string name="xperience_caf_version_default">Onbekend</string>
   <!-- Build type version -->
+  <string name="xperience_build_version">Build-type</string>
+  <string name="xperience_build_version_default">Onbekend</string>
   <!-- Build type version -->
+  <string name="xperience_codename_version">XPerience™ Codenaam</string>
+  <string name="xperience_codename_version_default">Onbekend</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Thema stijl</string>
+  <string name="system_theme_style_auto">Dynamisch</string>
+  <string name="system_theme_style_light">Licht</string>
+  <string name="system_theme_style_dark">Donker</string>
+  <string name="system_theme_style_black">Zwart</string>
+  <string name="theme_applied">Thema toegepast!</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Lokaliseer de vingerafdruksensor op de <xliff:g id="sensor_location">%1$s</xliff:g> van je telefoon.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">achterkant</string>
+  <string name="security_settings_fingerprint_sensor_location_front">voorkant</string>
+  <string name="security_settings_fingerprint_sensor_location_left">linkerkant</string>
+  <string name="security_settings_fingerprint_sensor_location_right">rechterkant</string>
   <!-- Manual provisioning support -->
+  <string name="sim_disabled">uitgeschakeld</string>
+  <string name="sim_missing">ontbrekend of foutief</string>
+  <string name="sim_enabler_need_disable_sim">Simkaart wordt gedeactiveerd. Wilt u doorgaan?</string>
+  <string name="sim_enabler_will_disable_sim_title">Opgelet</string>
+  <string name="sim_enabler_need_switch_data_service">Deze simkaart wordt uitgeschakeld en simkaart <xliff:g id="slotid">%1$s</xliff:g> zal worden gebruikt voor gegevensverbinding. Weet u zeker dat u wilt doorgaan?</string>
+  <string name="sim_enabler_airplane_on">Kan de bewerking niet uitvoeren in vliegtuigmodus.</string>
+  <string name="sim_enabler_in_call">Bewerking kan niet worden uitgevoerd als u in gesprek bent.</string>
+  <string name="sim_enabler_both_inactive">Kan niet alle simkaarten uitschakelen</string>
+  <string name="sim_enabler_enabling">Activeren\u2026</string>
+  <string name="sim_enabler_disabling">Uitschakelen\u2026</string>
+  <string name="sub_activate_success">Simkaart ingeschakeld.</string>
+  <string name="sub_activate_failed">Inschakelen mislukt.</string>
+  <string name="sub_deactivate_success">Simkaart uitgeschakeld.</string>
+  <string name="sub_deactivate_failed">Uitschakelen mislukt.</string>
   <!-- Color Manager -->
+  <string name="color_manager_title">Kleur manager</string>
+  <string name="color_manager_summary">Verander systeemkleuren met diverse thema mogelijkheden</string>
   <!-- Color Manager: Options -->
+  <string name="theme_auto_title">Automatisch</string>
+  <string name="theme_light_title">Licht</string>
+  <string name="theme_dark_title">Donker</string>
+  <string name="theme_black_title">Zwart</string>
   <!-- Color Manager: Device accent -->
   <!-- Wake on plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Ontwaken wanneer aangesloten aan stroomnet</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Het scherm inschakelen wanneer aansluiten of loskoppelen van een voedingsbron</string>
+  <!-- Color Picker -->
+  <!-- Battery Light -->
+  <!-- Custom light color -->
 </resources>

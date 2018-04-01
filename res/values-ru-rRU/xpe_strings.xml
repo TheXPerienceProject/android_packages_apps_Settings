@@ -16,17 +16,78 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Statusbar net monitor -->
+  <string name="network_traffic_state_title">Сетевой трафик</string>
+  <string name="network_traffic_state_summary">Показывать индикатор сетевого трафика в строке состояния</string>
+  <string name="network_traffic_autohide_threshold_title">Автоматическое скрытие индикатора сетевого трафика (KB/s)</string>
+  <string name="xperience_settings_title">Настройки XPerience™</string>
+  <string name="xperience_settings_summary">Расширения</string>
+  <!--Alessa-->
+  <string name="xperience_version">Версия XPerience™</string>
+  <string name="xperience_version_default">Неизвестно</string>
+  <string name="xpe_update_settings_title">Обновления XPerience™</string>
+  <string name="xpe_update_settings_summary">Обновить</string>
   <!-- Launch Dev Tools -->
+  <string name="development_tools_title">Инструменты разработчика</string>
   <!-- XPerience Channel version -->
+  <string name="xperience_channel_version">XPerience™ Channel</string>
+  <string name="xperience_channel_version_default">Неизвестно</string>
   <!-- CAF Branch version -->
+  <string name="xperience_caf_version">CAF Branch</string>
+  <string name="xperience_caf_version_default">Неизвестно</string>
   <!-- Build type version -->
+  <string name="xperience_build_version">Тип сборки</string>
+  <string name="xperience_build_version_default">Неизвестно</string>
   <!-- Build type version -->
+  <string name="xperience_codename_version">Кодовое имя XPerience™</string>
+  <string name="xperience_codename_version_default">Неизвестно</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Тема</string>
+  <string name="system_theme_style_auto">Динамическая</string>
+  <string name="system_theme_style_light">Светлая</string>
+  <string name="system_theme_style_dark">Тёмная</string>
+  <string name="system_theme_style_black">Черная</string>
+  <string name="theme_applied">Тема применена!</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">Сзади</string>
+  <string name="security_settings_fingerprint_sensor_location_front">Спереди</string>
+  <string name="security_settings_fingerprint_sensor_location_left">Левая сторона</string>
+  <string name="security_settings_fingerprint_sensor_location_right">Правая сторона</string>
   <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_disabled">Отключено</string>
+  <string name="sim_missing">отсутствует или неисправна</string>
+  <string name="sim_enabler_need_disable_sim">SIM-карта будет отключена. Вы хотите продолжить?</string>
+  <string name="sim_enabler_will_disable_sim_title">Внимание</string>
+  <string name="sim_enabler_need_switch_data_service">Эта SIM будет деактивирована и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использована для передачи данных. Вы уверены что хотите продолжить?</string>
+  <string name="sim_enabler_airplane_on">Выполнение операции невозможно, пока активен режим полета.</string>
+  <string name="sim_enabler_in_call">Выполнение операции невозможно во время вызова.</string>
+  <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
+  <string name="sim_enabler_enabling">Включение\u2026</string>
+  <string name="sim_enabler_disabling">Деактивация\u2026</string>
+  <string name="sub_activate_success">SIM-карта активирована.</string>
+  <string name="sub_activate_failed">Ошибка активации.</string>
+  <string name="sub_deactivate_success">SIM-карта деактивирована.</string>
+  <string name="sub_deactivate_failed">Ошибка деактивации.</string>
   <!-- Color Manager -->
+  <string name="color_manager_title">Управление цветом</string>
+  <string name="color_manager_summary">Изменение цвета системы с различными режимами темы</string>
   <!-- Color Manager: Options -->
+  <string name="theme_auto_title">Автоматически</string>
+  <string name="theme_auto_title_summary">Тема системы на основе цвета изображения рабочего стола</string>
+  <string name="theme_light_title">Светлая</string>
+  <string name="theme_light_title_summary">Светлая тема системы</string>
+  <string name="theme_dark_title">Темная</string>
+  <string name="theme_dark_title_summary">Тёмно-серая тема системы</string>
+  <string name="theme_black_title">Чёрная</string>
+  <string name="theme_black_title_summary">Чёрная тема системы</string>
   <!-- Color Manager: Device accent -->
+  <string name="device_accent_title">Цвет темы</string>
   <!-- Wake on plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Включение экрана при подключении зарядки</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении зарядного устройства</string>
+  <!-- Color Picker -->
+  <!-- Battery Light -->
+  <!-- Custom light color -->
 </resources>

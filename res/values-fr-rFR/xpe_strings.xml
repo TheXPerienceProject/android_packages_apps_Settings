@@ -21,6 +21,7 @@
   <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
   <string name="xperience_settings_title">Paramètre XPerience™</string>
   <string name="xperience_settings_summary">Personnaliser des fonctionnalités de ROM</string>
+  <!--Alessa-->
   <string name="xperience_version">Version XPerience™</string>
   <string name="xperience_version_default">Inconnu</string>
   <string name="xpe_update_settings_title">Mise à Jour XPerience™</string>
@@ -86,4 +87,7 @@
   <!-- Wake on plug -->
   <string name="wake_when_plugged_or_unplugged_title">Réveiller sur prise</string>
   <string name="wake_when_plugged_or_unplugged_summary">Allumez l\'écran lors du branchement ou du débranchement de la source d\'alimentation</string>
+  <!-- Color Picker -->
+  <!-- Battery Light -->
+  <!-- Custom light color -->
 </resources>

@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Statusbar net monitor -->
+  <!--Alessa-->
   <!-- Launch Dev Tools -->
   <!-- XPerience Channel version -->
   <!-- CAF Branch version -->
@@ -29,4 +30,7 @@
   <!-- Color Manager: Options -->
   <!-- Color Manager: Device accent -->
   <!-- Wake on plug -->
+  <!-- Color Picker -->
+  <!-- Battery Light -->
+  <!-- Custom light color -->
 </resources>

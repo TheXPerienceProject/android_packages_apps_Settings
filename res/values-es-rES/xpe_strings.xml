@@ -21,6 +21,8 @@
   <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
   <string name="xperience_settings_title">Configuración de XPerience™</string>
   <string name="xperience_settings_summary">Personalizar funciones de la ROM</string>
+  <!--Alessa-->
+  <string name="alessa_settings_summary">Personaliza tus funciones de kernel</string>
   <string name="xperience_version">Versión de XPerience™</string>
   <string name="xperience_version_default">Desconocido</string>
   <string name="xpe_update_settings_title">Actualizaciones XPerience™</string>
@@ -86,4 +88,41 @@
   <!-- Wake on plug -->
   <string name="wake_when_plugged_or_unplugged_title">Encender al Conectar</string>
   <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla cuando conecte o desconecte una fuente de energía</string>
+  <!-- Color Picker -->
+  <string name="dialog_color_picker">Selector de Color</string>
+  <string name="press_color_to_apply">Pulsa sobre el color debajo para aplicar</string>
+  <string name="set">Establecer</string>
+  <string name="color_default">Por defecto</string>
+  <!-- Battery Light -->
+  <string name="battery_light_title">Luz indicadora de batería</string>
+  <string name="battery_light_title_summary_on">Activado / El nivel de la batería indicará</string>
+  <string name="battery_light_title_summary_off">Desactivado / El nivel de la batería no se indicará</string>
+  <string name="battery_light_description">Enciende / apaga el indicador de luz de la batería o cambia su comportamiento</string>
+  <string name="battery_low_pulse_title">Pulsa cuando esta baja</string>
+  <string name="battery_low_pulse_title_summary">Pulso cuando el nivel de la batería es bajo</string>
+  <string name="battery_light_only_full_charge_title">Indicación de completamente cargado</string>
+  <string name="battery_light_only_full_charge_title_summary">Solo muestra la luz de la batería cuando el dispositivo está completamente cargado</string>
+  <string name="battery_light_list_title">Colores</string>
+  <string name="battery_light_low_color_title">Batería baja</string>
+  <string name="battery_light_medium_color_title">Cargando</string>
+  <string name="battery_light_full_color_title">Cargado (90%)</string>
+  <string name="battery_light_really_full_color_title">Cargado (100%)</string>
+  <string name="fast_color_cat_title">Carga rápida</string>
+  <string name="fast_charging_led_enabled_title">Habilita el color de carga rápida</string>
+  <string name="fast_charging_led_enabled_summary">Cuando se está cargando rápidamente, use un color diferente hasta un 90% de carga</string>
+  <string name="fast_charging_light_color_title">Color</string>
+  <string name="edit_battery_settings">Editar ajustes de batería</string>
+  <string name="led_color_green">Verde</string>
+  <string name="led_color_red">Rojo</string>
+  <string name="led_color_blue">Azúl</string>
+  <string name="ok">Aceptar</string>
+  <string name="reset">Restablecer</string>
+  <!-- Custom light color -->
+  <string name="light_customization">Luz led de notificación</string>
+  <string name="custom_light_title">Color del Led</string>
+  <string name="custom_light_on_time_title">"Tiempo de encendido de la luz durante el pulso de led (ms)"</string>
+  <string name="custom_light_off_time_title">"Tiempo de apagado de la luz durante el pulso de led (ms)"</string>
+  <string name="app_notifications_info_desc">Pulse sobre uno de los canales para configurar los colores del led de notificacion y otras opciones</string>
+  <string name="value_equals_default">Def</string>
+  <string name="show_light_on_zen_title">Parpadee durante No molestar</string>
 </resources>

@@ -3323,6 +3323,7 @@
         <service android:name=".fuelgauge.batterytip.AnomalyDetectionJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <activity android:name=".Settings$RainbowUnicornActivity"
                   android:label="@string/xperience_settings_title"
@@ -3338,5 +3339,18 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/xperience_settings_summary"/>
         </activity>
+
+        <!-- Smart Pixels settings activity. -->
+        <activity android:name="Settings$SmartPixelsActivity"
+                android:label="@string/smart_pixels_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="mx.xperience.rainbowunicorn.fragments.SmartPixels" />
+        </activity>
+
     </application>
 </manifest>

@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package com.android.settings.display;
 
 import java.util.ArrayList;
@@ -44,13 +45,14 @@ import android.util.Log;
 
 public class FontPickerPreferenceController extends AbstractPreferenceController
 		implements PreferenceControllerMixin, LifecycleObserver, OnResume {
+
 	private static final String TAG = "FontPickerPreferenceController";
 	private static final String KEY_FONT_PICKER_FRAGMENT_PREF = "custom_font";
 	private static final String SUBS_PACKAGE = "projekt.substratum";
 	private FontDialogPreference mFontPreference;
 	private IFontService mFontService;
 
-	public FontPickerPreferenceController(Context context, Lifecycle lifecycle, Fragment parent) {
+	public FontPickerPreferenceController(Context context, Lifecycle lifecycle) {
 		super(context);
 		if (lifecycle != null) {
 			lifecycle.addObserver(this);
@@ -107,4 +109,8 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
 			return false;
 		}
 	}
+
+    public void stopProgress() {
+        mFontPreference.stopProgress();
+    }
 }

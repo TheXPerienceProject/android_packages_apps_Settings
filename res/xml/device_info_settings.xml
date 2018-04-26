@@ -35,7 +35,7 @@
              android:summary="@string/xpe_update_settings_summary">
              <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="mx.xperience.updater"
-                 android:targetClass="com.cyanogenmod.updater.UpdatesActivity" />
+                 android:targetClass="org.lineageos.updater.UpdatesActivity" />
          </Preference>
 
         <!-- Device status - launches activity -->

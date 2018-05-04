@@ -22,6 +22,7 @@ import android.provider.SearchIndexableResource;
 import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.aoscp.display.ColorManagerPreferenceController;
+import com.android.settings.aoscp.buttons.NavbarThemePreferenceController;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.AmbientDisplayPreferenceController;
 import com.android.settings.display.AutoBrightnessPreferenceController;
@@ -57,6 +58,8 @@ public class DisplaySettings extends DashboardFragment {
 
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
     private static final String KEY_AMBIENT_DISPLAY = "ambient_display";
+    private static final String KEY_NAVBAR_THEME    = "navbar_theme";
+ 
 
     @Override
     public int getMetricsCategory() {
@@ -114,6 +117,7 @@ public class DisplaySettings extends DashboardFragment {
 		//controllers.add(new DarkUIPreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
+        controllers.add(new NavbarThemePreferenceController(context, KEY_NAVBAR_THEME));
         return controllers;
     }
 

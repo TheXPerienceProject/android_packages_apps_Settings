@@ -70,12 +70,18 @@
         android:summary="@string/color_manager_summary"
         android:fragment="com.android.settings.aoscp.display.ColorManagerFragment" />
 
+	<PreferenceCategory
+			android:key="nav_themes"
+			android:title="Navbar Themes">
+
     <ListPreference
             android:key="navbar_theme"
             android:title="@string/navbar_theme_title"
             android:dialogTitle="@string/navbar_theme_title"
             android:entries="@array/navbar_theme_entries"
             android:entryValues="@array/navbar_theme_values" />
+
+    </PreferenceCategory>
 
     <Preference
         android:key="color_mode"

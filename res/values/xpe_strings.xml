@@ -19,14 +19,14 @@
     <string name="network_traffic_state_title">Network traffic</string>
     <string name="network_traffic_state_summary">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-	
+
     <string name="xperience_settings_title">XPerience™ Settings</string>
-    <string name="xperience_settings_summary">Customize ROM features</string>  
+    <string name="xperience_settings_summary">Customize ROM features</string>
 
 	<!--Alessa-->
 	<string name="alessa_title" translatable="false">Alessa™</string>
 	<string name="alessa_settings_summary">Customize your kernel features</string>
-	
+
     <string name="xperience_version">XPerience™ version</string>
     <string name="xperience_version_default">Unknown</string>
 
@@ -155,5 +155,11 @@
     <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
 
 </resources>

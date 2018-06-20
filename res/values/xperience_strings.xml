@@ -29,4 +29,11 @@
     <string name="xperience_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Channel</String>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+
 </resources>

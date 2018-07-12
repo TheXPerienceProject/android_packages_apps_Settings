@@ -84,4 +84,9 @@
   <!-- Color Picker -->
   <!-- Battery Light -->
   <!-- Custom light color -->
+  <!-- Per-app data restrictions -->
+  <!-- Hardware info -->
+  <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+  <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+  <!-- Screen Off animation -->
 </resources>

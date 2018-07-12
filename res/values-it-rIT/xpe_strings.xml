@@ -16,21 +16,85 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Statusbar net monitor -->
+  <string name="network_traffic_state_title">Traffico di rete</string>
+  <string name="network_traffic_state_summary">Mostra l\'attività di rete nella barra di stato</string>
+  <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
+  <string name="xperience_settings_title">Impostazioni XPerience™</string>
+  <string name="xperience_settings_summary">Personalizzare caratteristiche ROM</string>
   <!--Alessa-->
+  <string name="xperience_version">Versione XPerience™</string>
+  <string name="xperience_version_default">Sconosciuta</string>
+  <string name="xpe_update_settings_title">Aggiornamenti XPerience™</string>
+  <string name="xpe_update_settings_summary">Trova nuovi aggiornamenti</string>
   <!-- Launch Dev Tools -->
+  <string name="development_tools_title">Strumenti di sviluppo</string>
   <!-- XPerience Channel version -->
+  <string name="xperience_channel_version">Canale XPerience™</string>
+  <string name="xperience_channel_version_default">Sconosciuto</string>
   <!-- CAF Branch version -->
+  <string name="xperience_caf_version">Ramo CAF</string>
+  <string name="xperience_caf_version_default">Sconosciuto</string>
   <!-- Build type version -->
+  <string name="xperience_build_version">Tipo Build</string>
+  <string name="xperience_build_version_default">Sconosciuto</string>
   <!-- Build type version -->
+  <string name="xperience_codename_version">Nome in codice XPerience™</string>
+  <string name="xperience_codename_version_default">Sconosciuto</string>
   <!-- Themes -->
+  <string name="system_theme_style_title">Stile del tema</string>
+  <string name="system_theme_style_auto">Dinamico</string>
+  <string name="system_theme_style_light">Chiaro</string>
+  <string name="system_theme_style_dark">Scuro</string>
+  <string name="system_theme_style_black">Nero</string>
+  <string name="theme_applied">Tema applicato!</string>
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individua il sensore d\'impronte nella parte <xliff:g id="sensor_location">%1$s</xliff:g> del tuo telefono.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">indietro</string>
+  <string name="security_settings_fingerprint_sensor_location_front">avanti</string>
+  <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
+  <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
   <!-- Manual provisioning support -->
+  <string name="sim_disabled">disabilitato</string>
+  <string name="sim_missing">mancante o difettoso</string>
+  <string name="sim_enabler_will_disable_sim_title">Attenzione</string>
+  <string name="sim_enabler_enabling">Attivazione\2026</string>
+  <string name="sim_enabler_disabling">Disattivazione\u2026</string>
+  <string name="sub_activate_success">SIM attivata.</string>
+  <string name="sub_activate_failed">Attivazione fallita.</string>
+  <string name="sub_deactivate_success">SIM disattivata.</string>
+  <string name="sub_deactivate_failed">Disattivazione fallita.</string>
   <!-- Color Manager -->
+  <string name="color_manager_title">Gestione del colore</string>
+  <string name="color_manager_summary">Modifica i colori di sistemi attraverso diverse modalità tema</string>
   <!-- Color Manager: Options -->
+  <string name="theme_auto_title">Automatico</string>
+  <string name="theme_auto_title_summary">Tema il sistema sulla base dello sfondo selezionato</string>
+  <string name="theme_light_title">Chiaro</string>
+  <string name="theme_light_title_summary">Tema di sistema bianco</string>
+  <string name="theme_dark_title">Scuro</string>
+  <string name="theme_dark_title_summary">Tema di sistema grigio scuro</string>
+  <string name="theme_black_title">Nero</string>
+  <string name="theme_black_title_summary">Tema di sistema nero</string>
   <!-- Color Manager: Device accent -->
   <!-- Wake on plug -->
+  <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando si collega o scollega ad una fonte di alimentazione</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Selettore del colore</string>
+  <string name="press_color_to_apply">Seleziona il colore per applicarlo</string>
+  <string name="set">Imposta</string>
+  <string name="color_default">Predefinito</string>
   <!-- Battery Light -->
+  <string name="battery_light_title">Luce batteria</string>
+  <string name="battery_light_title_summary_on">On/indicherà il livello della batteria</string>
+  <string name="battery_light_title_summary_off">Off/non indicherà il livello della batteria</string>
+  <string name="battery_light_low_color_title">Batteria scarica</string>
+  <string name="battery_light_medium_color_title">In carica</string>
   <!-- Custom light color -->
+  <!-- Per-app data restrictions -->
+  <!-- Hardware info -->
+  <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+  <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+  <!-- Screen Off animation -->
 </resources>

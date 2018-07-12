@@ -125,4 +125,18 @@
   <string name="app_notifications_info_desc">Pulse sobre uno de los canales para configurar los colores del led de notificacion y otras opciones</string>
   <string name="value_equals_default">Def</string>
   <string name="show_light_on_zen_title">Parpadee durante No molestar</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Datos móviles</string>
+  <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
+  <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Permitir el uso de datos de Wi\u2011Fi</string>
+  <!-- Hardware info -->
+  <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+  <string name="platform_revision">Plataforma</string>
+  <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+  <string name="total_ram">RAM total</string>
+  <!-- Screen Off animation -->
+  <string name="screen_off_animation_title">Animación de apagado de pantalla</string>
+  <string name="screen_off_animation_default">Predeterminado</string>
+  <string name="screen_off_animation_scale">Escalado</string>
 </resources>

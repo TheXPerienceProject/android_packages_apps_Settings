@@ -55,7 +55,7 @@ public class ScreenOffAnimationsPreferenceController extends AbstractPreferenceC
         super.displayPreference(screen);
         mScreenOffAnimation = (ListPreference) screen.findPreference(SCREEN_OFF_ANIMATION);
         int screenOffStyle = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.SCREEN_OFF_ANIMATION, 0);
+                Settings.System.SCREEN_OFF_ANIMATION, 1);
         mScreenOffAnimation.setValue(String.valueOf(screenOffStyle));
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);

@@ -33,4 +33,8 @@
     <string name="alessa_title" translatable="false">Alessa™</string>
     <string name="alessa_settings_summary">Customize your kernel features</string>
 
+    <!-- XPerience version -->
+    <string name="xperience_version">XPerience™ version</string>
+    <string name="xperience_version_default">Unknown</string>
+
 </resources>

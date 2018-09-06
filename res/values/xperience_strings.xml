@@ -36,5 +36,7 @@
     <!-- XPerience version -->
     <string name="xperience_version">XPerience™ version</string>
     <string name="xperience_version_default">Unknown</string>
+    <string name="xperience_codename">XPerience™ Codename</string>
+    <string name="xperience_codename_default">Mizaki-MEI</string>
 
 </resources>

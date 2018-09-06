@@ -54,7 +54,7 @@ public class XPerienceCodenameDialogController {
     }
 
     /**
-     * Populates the XPerience version field in the dialog.
+     * Populates the XPerience codename field in the dialog.
      */
     public void initialize() {
         initializeAdminPermissions();

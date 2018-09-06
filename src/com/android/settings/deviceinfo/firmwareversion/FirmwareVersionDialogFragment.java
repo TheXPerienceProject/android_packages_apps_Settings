@@ -90,5 +90,6 @@ public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
         new KernelVersionDialogController(this).initialize();
         new BuildNumberDialogController(this).initialize();
         new XPerienceVersionDialogController(this).initialize();
+        new XPerienceCodenameDialogController(this).initialize();
     }
 }

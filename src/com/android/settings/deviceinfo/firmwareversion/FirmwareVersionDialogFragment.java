@@ -92,5 +92,6 @@ public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
         new XPerienceVersionDialogController(this).initialize();
         new XPerienceCodenameDialogController(this).initialize();
         new XPerienceBranchDialogController(this).initialize();
+        new SELinuxStatusDialogController(this).initialize();
     }
 }

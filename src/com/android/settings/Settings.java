@@ -169,4 +169,7 @@ public class Settings extends SettingsActivity {
     public static class SMQQtiFeedbackActivity extends SettingsActivity { /* empty */ }
     public static class RainbowUnicornActivity extends SettingsActivity {}
 
+    // Ambient play
+    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
+
 }

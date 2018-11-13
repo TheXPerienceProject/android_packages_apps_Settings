@@ -69,5 +69,9 @@
     <string name="xperience_branch">XPerience™ Branch</string>
     <string name="xperience_settings_title">XPerience™ Settings</string>
     <string name="xperience_settings_summary">Customize ROM features</string> 
-	
+
+    <!-- Font picker -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall Substratum if you wish to use the font picker.</string>
+
 </resources>

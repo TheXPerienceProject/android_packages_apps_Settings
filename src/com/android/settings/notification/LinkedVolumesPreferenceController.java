@@ -29,7 +29,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.notification.VolumeSeekBarPreference;
 import com.android.settings.R;
 
-import org.derpfest.support.preferences.SecureSettingSwitchPreference;
+import mx.xperience.framework.preference.SecureSettingSwitchPreference;
 
 public class LinkedVolumesPreferenceController extends AbstractPreferenceController
         implements Preference.OnPreferenceChangeListener {

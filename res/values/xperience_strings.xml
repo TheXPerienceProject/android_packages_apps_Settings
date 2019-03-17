@@ -16,29 +16,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!--Alessa-->
+    <string name="alessa_title" translatable="false">Alessa™</string>
+    <string name="alessa_settings_summary">Customize your kernel features</string>
+
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
 
-    <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-	
-    <string name="xperience_settings_title">XPerience™ Settings</string>
-    <string name="xperience_settings_summary">Customize ROM features</string> 
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
+    <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
 
-    <!--Alessa-->
-    <string name="alessa_title" translatable="false">Alessa™</string>
-    <string name="alessa_settings_summary">Customize your kernel features</string>
+    <!-- Launch Dev Tools -->
+    <string name="development_tools_title">Development tools</string>
 
-    <!-- XPerience version -->
-    <string name="xperience_version">XPerience™ version</string>
-    <string name="xperience_version_default">Unknown</string>
-    <string name="xperience_codename">XPerience™ Codename</string>
-    <string name="xperience_codename_default">Mizaki-MEI</string>
-    <string name="xperience_branch">XPerience™ Branch</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Substratum overlays</string>
+    <string name="menu_show_substratum">Show overlays</string>
+    <string name="menu_hide_substratum">Hide overlays</string>
+
+    <!-- Reset Features -->
+    <string name="reset_all_settings">RESET ALL</string>
+    <string name="reset_selected_settings">RESET SELECTED</string>
+    <string name="reset_settings_title">Feature preferences</string>
+    <string name="reset_settings_summary">Reset XPerience feature preferences</string>
+    <string name="keywords_settings_reset">reset</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
@@ -52,16 +56,18 @@
     <string name="screen_off_animation_crt" translatable="false" >CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
 
-    <!-- Launch Dev Tools -->
-    <string name="development_tools_title">Development tools</string>
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
-    <!-- Force authorize substratum packages -->
-    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
-    <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
-
-     <!-- Manage applications: show substratum overlays -->
-    <string name="filter_substratum_apps">Substratum overlays</string>
-    <string name="menu_show_substratum">Show overlays</string>
-    <string name="menu_hide_substratum">Hide overlays</string>
-
+    <!-- XPerience information -->
+    <string name="xperience_version">XPerience™ version</string>
+    <string name="xperience_version_default">Unknown</string>
+    <string name="xperience_codename">XPerience™ Codename</string>
+    <string name="xperience_codename_default">Mizaki-MEI</string>
+    <string name="xperience_branch">XPerience™ Branch</string>
+    <string name="xperience_settings_title">XPerience™ Settings</string>
+    <string name="xperience_settings_summary">Customize ROM features</string> 
+	
 </resources>

@@ -16,11 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Fingerprint location message -->
-    <!-- Statusbar net monitor -->
     <!--Alessa-->
-    <!-- XPerience version -->
+    <!-- Fingerprint location message -->
+    <!-- Force authorize substratum packages -->
+    <!-- Launch Dev Tools -->
+    <!-- Manage applications: show substratum overlays -->
+    <!-- Reset Features -->
     <!-- SELinux Status -->
     <!-- Screen Off animation -->
-    <!-- Launch Dev Tools -->
+    <!-- Statusbar net monitor -->
+    <!-- XPerience information -->
 </resources>

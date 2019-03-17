@@ -16,24 +16,27 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Alessa-->
+    <string name="alessa_settings_summary">Personaliza tus funciones de kernel</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huellas dactilares en el lado izquierdo del dispositivo.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huellas dactilares en el lado derecho del dispositivo.</string>
-    <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Tráfico de red</string>
-    <string name="network_traffic_state_summary">Muestra la actividad de red en la barra de estado</string>
-    <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
-    <string name="xperience_settings_title">Configuración de XPerience™</string>
-    <string name="xperience_settings_summary">Personalizar funciones de la ROM</string>
-    <!--Alessa-->
-    <string name="alessa_settings_summary">Personaliza tus funciones de kernel</string>
-    <!-- XPerience version -->
-    <string name="xperience_version">Versión XPerience™</string>
-    <string name="xperience_version_default">Desconocido</string>
-    <string name="xperience_codename">Código XPerience™</string>
-    <string name="xperience_codename_default">Mizaki-MEI</string>
-    <string name="xperience_branch">Rama XPerience™</string>
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Forzar autorización de temas de origen desconocido</string>
+    <string name="force_authorize_substratum_packages_summary">Permitir aplicaciones de temas de fuentes desconocidas</string>
+    <!-- Launch Dev Tools -->
+    <string name="development_tools_title">Herramientas de desarrollo</string>
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Capas de Substratum</string>
+    <string name="menu_show_substratum">Mostrar capas</string>
+    <string name="menu_hide_substratum">Ocultar capas</string>
+    <!-- Reset Features -->
+    <string name="reset_all_settings">REINICIAR TODO</string>
+    <string name="reset_selected_settings">REINICIAR SELECCIONADOS</string>
+    <string name="reset_settings_title">Preferencias de características</string>
+    <string name="reset_settings_summary">Restablecer preferencias de características de XPerience</string>
+    <string name="keywords_settings_reset">restablecer</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Desactivado</string>
@@ -43,6 +46,16 @@
     <string name="screen_off_animation_title">Animación de apagado de pantalla</string>
     <string name="screen_off_animation_default">Predeterminado</string>
     <string name="screen_off_animation_scale">Escalado</string>
-    <!-- Launch Dev Tools -->
-    <string name="development_tools_title">Herramientas de desarrollo</string>
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Tráfico de red</string>
+    <string name="network_traffic_state_summary">Muestra la actividad de red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
+    <!-- XPerience information -->
+    <string name="xperience_version">Versión XPerience™</string>
+    <string name="xperience_version_default">Desconocido</string>
+    <string name="xperience_codename">Código XPerience™</string>
+    <string name="xperience_codename_default">Mizaki-MEI</string>
+    <string name="xperience_branch">Rama XPerience™</string>
+    <string name="xperience_settings_title">Configuración de XPerience™</string>
+    <string name="xperience_settings_summary">Personalizar funciones de la ROM</string>
 </resources>

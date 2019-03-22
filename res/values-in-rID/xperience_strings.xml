@@ -32,6 +32,10 @@
     <string name="menu_show_substratum">Tampilkan lapisan</string>
     <string name="menu_hide_substratum">Sembunyikan lapisan</string>
     <!-- Reset Features -->
+    <string name="reset_selected_settings">Atur ulang pengaturan yang dipilih</string>
+    <string name="reset_settings_title">Preferensi fitur</string>
+    <string name="reset_settings_summary">Atur ulang preferensi fitur XPerience</string>
+    <string name="keywords_settings_reset">atur ulang</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Nonaktif</string>

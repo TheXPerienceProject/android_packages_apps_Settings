@@ -147,13 +147,6 @@
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
 
-
-    <Preference
-        android:key="qs_tile_style"
-        android:title="@string/qs_tile_style_title" />
-
-    </PreferenceCategory>
-
     <PreferenceCategory
         android:key="theme_category"
         android:title="@string/theme_category_title">
@@ -174,7 +167,7 @@
         android:title="@string/font_picker_title"
         android:persistent="false" />
 
-    </PreferenceCategory >
+    </PreferenceCategory>
 
 
 </PreferenceScreen>

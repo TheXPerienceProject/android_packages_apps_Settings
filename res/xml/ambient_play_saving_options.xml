@@ -3,13 +3,13 @@
         android:key="ambient_recognition_saving_options"
         android:title="@string/ambient_play_saving_options_title">
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <mx.xperience.rainbowunicorn.preferences.SystemSettingSwitchPreference
         android:defaultValue="true"
         android:key="ambient_recognition_saving_options_low_battery"
         android:title="@string/ambient_play_saving_options_low_battery_title"
         android:summary="@string/ambient_play_saving_options_low_battery_summary" />
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <mx.xperience.rainbowunicorn.preferences.SystemSettingSwitchPreference
         android:defaultValue="false"
         android:key="ambient_recognition_saving_options_mobile_data"
         android:title="@string/ambient_play_saving_options_mobile_data_title"
@@ -19,7 +19,7 @@
         android:key="ambient_play_saving_options_quiet_period_cat"
         android:title="@string/ambient_play_saving_options_quiet_period_title">
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        <mx.xperience.rainbowunicorn.preferences.SystemSettingSwitchPreference
             android:defaultValue="false"
             android:key="ambient_recognition_saving_options_quiet_period"
             android:title="@string/ambient_play_saving_options_quiet_period_enable_title"

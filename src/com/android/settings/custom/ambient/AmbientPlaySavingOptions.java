@@ -112,11 +112,11 @@ public class AmbientPlaySavingOptions extends SettingsPreferenceFragment {
 
     @Override
     public int getDialogMetricsCategory(int dialogId) {
-        return MetricsEvent.XPERIENCE_CUSTOM;
+        return MetricsEvent.CUSTOM_SETTINGS;
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.XPERIENCE_CUSTOM;
+        return MetricsEvent.CUSTOM_SETTINGS;
     }
 }

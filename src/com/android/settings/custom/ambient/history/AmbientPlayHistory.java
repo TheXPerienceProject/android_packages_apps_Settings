@@ -155,7 +155,7 @@ public class AmbientPlayHistory extends SettingsPreferenceFragment implements Pr
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.XPERIENCE_CUSTOM;
+        return MetricsEvent.CUSTOM_SETTINGS;
     }
 
     private void updateListState() {

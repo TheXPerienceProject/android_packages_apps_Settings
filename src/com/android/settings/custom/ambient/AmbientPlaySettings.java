@@ -98,7 +98,7 @@ public class AmbientPlaySettings extends SettingsPreferenceFragment implements C
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.XPERIENCE_CUSTOM;
+        return MetricsEvent.CUSTOM_SETTINGS;
     }
 
     private boolean isEnabled() {

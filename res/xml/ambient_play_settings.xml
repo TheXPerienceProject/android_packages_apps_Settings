@@ -28,14 +28,12 @@
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_keyguard"
-            android:title="@string/ambient_play_lockscreen_title"
-            android:summary="@string/ambient_play_lockscreen_summary" />
+            android:title="@string/ambient_play_lockscreen_title" />
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_notification"
-            android:title="@string/ambient_play_notifications_title"
-            android:summary="@string/ambient_play_notifications_summary" />
+            android:title="@string/ambient_play_notifications_title" />
 
         <com.android.settings.custom.ambient.history.AmbientPlayHistoryPreference
             android:key="ambient_recognition_history_preference" />

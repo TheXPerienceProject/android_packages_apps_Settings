@@ -51,7 +51,7 @@
         android:key="weather_lockscreen_key"
         android:title="@string/weather_title"
         settings:controller="com.android.settings.security.screenlock.WeatherPreferenceController">
-        <mx.xperience.rainbowunicorn.preferences.SystemSettingListPreference
+        <com.android.settings.custom.preference.SystemSettingListPreference
             android:key="weather_lockscreen_unit"
             android:dialogTitle="@string/weather_unit"
             android:title="@string/weather_unit"

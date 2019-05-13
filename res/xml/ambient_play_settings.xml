@@ -25,13 +25,13 @@
         android:layout="@layout/ambient_play_illustration" />
 
     <PreferenceCategory>
-        <mx.xperience.rainbowunicorn.preferences.SystemSettingSwitchPreference
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_keyguard"
             android:title="@string/ambient_play_lockscreen_title"
             android:summary="@string/ambient_play_lockscreen_summary" />
 
-        <mx.xperience.rainbowunicorn.preferences.SystemSettingSwitchPreference
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_notification"
             android:title="@string/ambient_play_notifications_title"

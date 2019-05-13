@@ -22,7 +22,6 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
-import android.support.v7.preference.Preference;
 import android.support.v14.preference.SwitchPreference;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -47,12 +46,10 @@ public class AmbientPlaySettings extends SettingsPreferenceFragment implements C
     private SwitchPreference mAmbientRecognitionKeyguardPreference;
     private SwitchPreference mAmbientRecognitionNotificationPreference;
     private AmbientPlayHistoryPreference mAmbientRecognitionHistoryPreference;
-    private Preference mAmbientRecognitionSavingOptionsPreference;
 
     private String AMBIENT_RECOGNITION_KEYGUARD = "ambient_recognition_keyguard";
     private String AMBIENT_RECOGNITION_NOTIFICATION = "ambient_recognition_notification";
     private String AMBIENT_RECOGNITION_HISTORY = "ambient_recognition_history_preference";
-    private String AMBIENT_RECOGNITION_SAVING_OPTIONS = "ambient_recognition_saving_options";
 
     private BroadcastReceiver onSongMatch = new BroadcastReceiver() {
         @Override
@@ -77,8 +74,6 @@ public class AmbientPlaySettings extends SettingsPreferenceFragment implements C
         mAmbientRecognitionNotificationPreference = (SwitchPreference) findPreference(AMBIENT_RECOGNITION_NOTIFICATION);
         mAmbientRecognitionNotificationPreference.setEnabled(isEnabled());
         mAmbientRecognitionHistoryPreference = (AmbientPlayHistoryPreference) findPreference(AMBIENT_RECOGNITION_HISTORY);
-        mAmbientRecognitionSavingOptionsPreference = (Preference) findPreference(AMBIENT_RECOGNITION_SAVING_OPTIONS);
-        mAmbientRecognitionSavingOptionsPreference.setEnabled(isEnabled());
     }
 
     @Override
@@ -137,6 +132,5 @@ public class AmbientPlaySettings extends SettingsPreferenceFragment implements C
         mTextView.setText(getString(isChecked ? R.string.ambient_play_switch_bar_on : R.string.ambient_play_switch_bar_off));
         mAmbientRecognitionKeyguardPreference.setEnabled(isChecked);
         mAmbientRecognitionNotificationPreference.setEnabled(isChecked);
-        mAmbientRecognitionSavingOptionsPreference.setEnabled(isChecked);
     }
 }

@@ -59,6 +59,19 @@
     <string name="xperience_settings_title">Configuración de XPerience™</string>
     <string name="xperience_settings_summary">Personalizar funciones de la ROM</string>
     <!-- Font picker -->
+    <string name="font_picker_title">Tipografía</string>
+    <string name="disable_fonts_installed_title">El selector de fuentes no está disponible para evitar conflictos con Substratum. Desinstala Substratum si deseas utilizar el selector de fuentes.</string>
+    <string name="font_picker_progress">Aplicando nueva fuente\u2026</string>
     <!-- Weather -->
+    <string name="weather_title">Información meteorológica</string>
+    <string name="weather_unit">Unidad de medida de temperatura</string>
     <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Perfil de optimización</string>
+    <string name="thermal_control_per_app_default">Sin optimización</string>
+    <string name="thermal_control_per_app_benchmark">Rendimiento</string>
+    <string name="thermal_control_per_app_games">Juegos</string>
+    <string name="thermal_control_per_app_browser">Navegador</string>
+    <string name="thermal_control_per_app_video_playback">Reproducción de vídeo</string>
+    <string name="thermal_control_per_app_dialer">Marcador telefónico</string>
+    <string name="thermal_control_per_app_camera">Cámara</string>
 </resources>

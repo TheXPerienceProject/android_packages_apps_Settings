@@ -17,15 +17,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!--Alessa-->
+    <string name="alessa_settings_summary">Menyesuaikan fitur kernel Anda</string>
     <!-- Fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Temukan lokasi pemindai sidik jari di bagian depan telepon anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Tentukan lokasi sensor sidik jari di samping kiri telepon anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Temukan lokasi pemindai sidik jari di sisi kanan telepon anda.</string>
     <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Paksakan otorisasi setiap aplikasi tema</string>
+    <string name="force_authorize_substratum_packages_summary">Izinkan aplikasi tema dari sumber tidak dikenal</string>
     <!-- Launch Dev Tools -->
+    <string name="development_tools_title">Alat pengembangan</string>
     <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Lapisan substratum</string>
+    <string name="menu_show_substratum">Tampilkan lapisan</string>
+    <string name="menu_hide_substratum">Sembunyikan lapisan</string>
     <!-- Reset Features -->
+    <string name="reset_all_settings">Mengatur ulang semua pengaturan ke dalam pengaturan pabrik</string>
+    <string name="reset_selected_settings">Atur ulang pengaturan yang dipilih</string>
+    <string name="reset_settings_title">Preferensi fitur</string>
+    <string name="reset_settings_summary">Atur ulang preferensi fitur XPerience</string>
+    <string name="keywords_settings_reset">atur ulang</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Nonaktif</string>
+    <string name="selinux_status_permissive">Tidak Wajib</string>
+    <string name="selinux_status_enforcing">Wajib</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animasi layar mati</string>
+    <string name="screen_off_animation_default">Bawaan</string>
+    <string name="screen_off_animation_scale">Skala</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Lalu lintas jaringan</string>
+    <string name="network_traffic_state_summary">Tampilkan aktivitas jaringan di bilah status</string>
+    <string name="network_traffic_autohide_threshold_title">Otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
     <!-- XPerience information -->
+    <string name="xperience_version">Versi XPerience™</string>
+    <string name="xperience_version_default">Tidak diketahui</string>
+    <string name="xperience_codename">XPerience™ Codename</string>
+    <string name="xperience_codename_default">Mizaki-MEI</string>
+    <string name="xperience_branch">XPerience™ Branch</string>
+    <string name="xperience_settings_title">Pengaturan XPerience™</string>
+    <string name="xperience_settings_summary">Menyesuaikan fitur ROM</string>
     <!-- Font picker -->
     <!-- Weather -->
     <!-- Thermal control per app -->

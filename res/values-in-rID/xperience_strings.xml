@@ -57,4 +57,7 @@
     <string name="xperience_branch">XPerience™ Branch</string>
     <string name="xperience_settings_title">Pengaturan XPerience™</string>
     <string name="xperience_settings_summary">Menyesuaikan fitur ROM</string>
+    <!-- Font picker -->
+    <!-- Weather -->
+    <!-- Thermal control per app -->
 </resources>

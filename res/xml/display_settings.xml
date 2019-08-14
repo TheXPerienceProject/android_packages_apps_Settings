@@ -70,12 +70,6 @@
         android:entryValues="@array/screen_timeout_values"
         settings:keywords="@string/keywords_screen_timeout"/>
 
-    <Preference
-	    android:key="intelligent_backlight"
-		android:title="Ingelligent Backlight">
-        <intent android:targetPackage="mx.xperience.intellilight.backlight" android:targetClass="mx.xperience.intellilight.backlight.SmartBacklightGuidance"/>
-    </Preference>
-
     <SwitchPreference
         android:key="auto_rotate"
         android:title="@string/accelerometer_title"

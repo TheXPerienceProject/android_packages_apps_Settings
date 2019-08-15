@@ -336,4 +336,8 @@
     <string name="battery_protection_reset_stats_title">Reset battery statistics</string>
     <string name="battery_protection_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="battery_protection_intro_text">To protect the battery and prevent it from degrading (Limits the battery charge to 80% (can be changed from the settings above))</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>

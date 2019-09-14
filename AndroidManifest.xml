@@ -3329,15 +3329,13 @@
                   android:label="@string/xperience_settings_title"
                   android:icon="@drawable/ic_homepage_xperience"
                   android:taskAffinity="com.android.settings">
-            <intent-filter android:priority="-1">
+            <intent-filter android:priority="69">
                 <action android:name="com.android.settings.action.SETTINGS"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.homepage"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="mx.xperience.rainbowunicorn.RainbowUnicorn"/>
-            <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/xperience_settings_summary"/>
         </activity>
     </application>
 </manifest>

@@ -14,6 +14,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+<<<<<<< HEAD
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Battery optimization availability</string>
 
@@ -30,4 +31,14 @@
     <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
 
+=======
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience Version</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.org/</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience Codename</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Channel</String>
+>>>>>>> 85d9d875f04 (Settings: Add XPerience entries into device info)
 </resources>

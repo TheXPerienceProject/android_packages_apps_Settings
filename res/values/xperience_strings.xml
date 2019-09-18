@@ -20,4 +20,13 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience Version</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.org/</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience Codename</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Channel</String>
 </resources>

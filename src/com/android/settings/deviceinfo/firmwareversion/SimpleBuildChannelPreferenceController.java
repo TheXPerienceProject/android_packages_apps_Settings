@@ -19,7 +19,9 @@ package com.android.settings.deviceinfo.firmwareversion;
 import android.content.Context;
 import android.os.Build;
 import android.text.BidiFormatter;
+import android.os.SystemProperties;
 
+import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
 public class SimpleBuildChannelPreferenceController extends BasePreferenceController {

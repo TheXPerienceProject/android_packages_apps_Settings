@@ -13,12 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xpe_firmware_version">XPerience Version</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-	<string name="xpe_build_code">XPerience Codename</string>
+    <string name="xpe_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-	<string name="build_channel">Channel</String>
+    <string name="build_channel">Channel</string>
 </resources>
+

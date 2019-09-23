@@ -127,6 +127,6 @@ public class FirmwareVersionXPerienceDetailPreferenceController extends BasePref
     @Override
     public void copy() {
         Sliceable.setCopyContent(mContext, getSummary(),
-                mContext.getText(R.string.xperience_firmware_version));
+                mContext.getText(R.string.xpe_firmware_version));
     }
 }

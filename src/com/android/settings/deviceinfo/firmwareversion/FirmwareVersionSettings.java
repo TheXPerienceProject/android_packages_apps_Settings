@@ -19,6 +19,8 @@ package com.android.settings.deviceinfo.firmwareversion;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.provider.SearchIndexableResource;
+import androidx.preference.Preference;
+import android.view.LayoutInflater;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;

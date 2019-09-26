@@ -21,20 +21,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-	<LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:selectable="false" ><!--Make it not selectable-->
-
-        <ImageView
-            android:adjustViewBounds="true"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:scaleType="centerInside"
-            android:src="@drawable/ic_xperience_logo" />
-	</LinearLayout>
-
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

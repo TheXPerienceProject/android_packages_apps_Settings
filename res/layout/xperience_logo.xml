@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011-2019 The XPerience Project
+
+     SPDX-License-Identifier: Apache-2.0
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:selectable="false"> <!--Make it not selectable-->
+ <ImageView
+        android:adjustViewBounds="true"	
+        android:layout_height="match_parent"	
+        android:layout_width="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_xperience_logo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

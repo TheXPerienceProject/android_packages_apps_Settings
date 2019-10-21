@@ -4,9 +4,6 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := \
         $(call all-logtags-files-under, src)
 
-LOCAL_SRC_FILES += \
-        $(call all-java-files-under, ../RainbowUnicorn/src)
-
 LOCAL_MODULE := settings-logtags
 
 include $(BUILD_STATIC_JAVA_LIBRARY)
@@ -24,6 +21,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../RainbowUnicorn/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \

@@ -128,7 +128,7 @@
     <Preference
         android:key="top_level_xperience_settings"
         android:title="@string/xperience_settings_title"
-        android:summary="@string/xperience_settings_summaryy"
+        android:summary="@string/xperience_settings_summary"
         android:icon="@drawable/ic_homepage_xperience"
         android:order="9"
         android:fragment="mx.xperience.rainbowunicorn.RainbowUnicorn"/>

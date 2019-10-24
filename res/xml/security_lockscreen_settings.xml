@@ -118,11 +118,11 @@
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
 
-        <mx.xperience.framework.preference.SecureSettingSwitchPreference
-            android:key="lockscreen_visualizer_enabled"
+        <Preference
+            android:key="lockscreen_visualizer"
             android:title="@string/lockscreen_visualizer_enable"
-            android:summary="@string/lockscreen_visualizer_enable_summary"
-            android:defaultValue="false" />
+            android:fragment="com.android.settings.xperience.Visualizer"
+            android:summary="@string/lockscreen_visualizer_enable_summary" />
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that

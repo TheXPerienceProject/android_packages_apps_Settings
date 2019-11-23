@@ -55,4 +55,8 @@
         android:summary="@string/show_cpu_info_summary" 
         android:defaultValue="false" />
 
+    <Preference
+        android:key="carrier_label"
+        android:fragment="com.android.settings.xperience.CarrierLabel"
+        android:title="@string/carrier_label_settings_title" />
 </PreferenceScreen>

@@ -66,6 +66,7 @@ android_library {
         "res-export", // for external usage
         "res-product",
         "RainbowUnicorn/res",
+        "TouchGestures/res"
     ],
     static_libs: [
         // External dependencies

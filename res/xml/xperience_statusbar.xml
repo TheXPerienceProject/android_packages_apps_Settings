@@ -31,11 +31,10 @@
         settings:min="0"
         settings:units="" />
 
-    <!-- 
     <Preference
-        android:key="status_bar_carrier"
-        android:fragment="mx.xperience.rainbowunicorn.fragments.CarrierLabelSettings"
-        android:title="@string/carrier_category" /> -->
+        android:key="carrier_label"
+        android:fragment="com.android.settings.xperience.CarrierLabel"
+        android:title="@string/carrier_label_settings_title" />
 
     <mx.xperience.framework.preference.SystemSettingSwitchPreference
         android:key="use_old_mobiletype"
@@ -55,8 +54,4 @@
         android:summary="@string/show_cpu_info_summary" 
         android:defaultValue="false" />
 
-    <Preference
-        android:key="carrier_label"
-        android:fragment="com.android.settings.xperience.CarrierLabel"
-        android:title="@string/carrier_label_settings_title" />
 </PreferenceScreen>

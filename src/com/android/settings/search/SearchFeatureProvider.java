@@ -33,6 +33,7 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.search.SearchIndexableResources;
+import com.android.settingslib.search.SearchIndexableResourcesMobile;
 
 /**
  * FeatureProvider for Settings Search

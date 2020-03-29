@@ -172,6 +172,14 @@
             android:order="-107"
             settings:controller="com.android.settings.notification.SpatialAudioParentPreferenceController"/>
 
+    	<!-- Adaptive Playback -->
+    	<Preference
+            android:key="sound_adaptive_playback_summary"
+            android:title="@string/adaptive_playback_screen_title"
+            android:fragment="com.android.settings.sound.AdaptivePlaybackSoundSettings"
+            android:order="-103"
+            settings:controller="com.android.settings.sound.AdaptivePlaybackParentPreferenceController" />
+
         <Preference
             android:key="media_controls"
             android:title="@string/media_controls_title"

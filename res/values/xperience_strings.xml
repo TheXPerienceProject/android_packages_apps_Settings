@@ -14,55 +14,6 @@
      limitations under the License.
 -->
 <resources>
-
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="xpe_firmware_version">XPerience Version</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="xpe_build_code">XPerience Codename</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="build_channel">Channel</string>
-
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
-
-    <!--Reset feature -->
-    <string name="reset_all_settings">RESET ALL</string>
-    <string name="reset_selected_settings">RESET SELECTED</string>
-    <string name="reset_settings_title">Feature preferences</string>
-    <string name="reset_settings_summary">Reset XPerience feature preferences</string>
-    <string name="keywords_settings_reset">reset</string>
-
-    <!--XPerience custom settings -->
-    <string name="xperience_settings_title">XPerience™ Settings</string>
-    <string name="xperience_settings_summary">Customize ROM features</string> 
-
-    <!-- Hardware info -->
-    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
-    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
-
-    <!-- SELinux status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-
-    <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
-
+ <!-- Dummy --> 
 </resources>
 

@@ -50,6 +50,12 @@
         settings:searchable="true" />
 
     <Preference
+        android:fragment="com.android.settings.fuelgauge.BatteryHealthSettings"
+        android:key="battery_health_key"
+        android:title="@string/battery_health_title"
+        android:summary="@string/battery_health_summary" />
+
+    <Preference
         android:fragment="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingDashboardFragment"
         android:key="reverse_charging"
         android:title="@string/reverse_charging_title"

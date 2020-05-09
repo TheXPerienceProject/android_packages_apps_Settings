@@ -56,7 +56,14 @@
         android:key="smart_battery_manager"
         android:title="@string/smart_battery_manager_title"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
-        settings:keywords="@string/keywords_battery_adaptive_preferences" />
+        settings:keywords="@string/keywords_battery_adaptive_preferences"
+        settings:searchable="true" />
+
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.BatteryHealthSettings"
+        android:key="battery_health_key"
+        android:title="@string/battery_health_title"
+        android:summary="@string/battery_health_summary" />
 
     <SwitchPreference
         android:key="battery_percentage"

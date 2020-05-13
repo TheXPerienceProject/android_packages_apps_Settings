@@ -20,9 +20,9 @@ import android.content.Context;
 import android.database.ContentObserver;
 import android.os.Bundle;
 import android.os.Handler;
-import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;

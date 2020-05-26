@@ -93,6 +93,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.display.darkmode.DarkModeCustomModesPreferenceController" />
 
+    <mx.xperience.framework.preference.SecureSettingSwitchPreference
+        android:key="berry_black_theme"
+        android:dependency="dark_ui_activated"
+        android:title="@string/berry_black_theme_title"
+        android:summary="@string/berry_black_theme_summary"
+        android:defaultValue="false"
+        settings:requiresPackage="com.android.system.theme.black" />
+
     <com.android.settingslib.widget.ButtonPreference
         android:key="feedback"
         android:title="@string/accessibility_send_feedback_title"
@@ -112,4 +120,5 @@
         settings:buttonPreferenceSize="normal"
         settings:buttonPreferenceType="tonal"
         settings:controller="com.android.settings.accessibility.ForceInvertSurveyButtonPreferenceController" />
+
 </PreferenceScreen>

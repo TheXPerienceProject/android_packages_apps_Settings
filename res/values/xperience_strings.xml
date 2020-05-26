@@ -184,4 +184,8 @@
     <!-- Screen resolution -->
     <string name="screen_resolution_footer_custom">Full resolution uses more of your battery. SystemUI will be restarted to reload proper layout.</string>
 
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+
 </resources>

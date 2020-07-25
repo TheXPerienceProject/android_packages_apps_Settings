@@ -79,6 +79,14 @@
     <PreferenceCategory
         android:title="@string/category_name_color">
 
+        <com.android.settings.display.DcDimmingPreference
+            android:key="dc_dimming"
+            android:title="@string/dc_dimming_title"
+            android:fragment="com.android.settings.display.DcDimmingSettings"
+            android:widgetLayout="@null"
+            settings:widgetLayout="@null"
+            settings:keywords="@string/keywords_display_dc_dimming"/>
+
         <com.android.settingslib.PrimarySwitchPreference
             android:key="night_display"
             android:title="@string/night_display_title"

@@ -34,14 +34,6 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- XPerience version -->
-    <Preference
-        android:key="xpe_firmware_version"
-        android:title="@string/xpe_firmware_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionXPerienceDetailPreferenceController"/>
-
     <!-- Security patch -->
     <Preference
         android:key="security_key"
@@ -56,6 +48,14 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
+
+    <!-- XPerience version -->
+    <Preference
+        android:key="xpe_firmware_version"
+        android:title="@string/xpe_firmware_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionXPerienceDetailPreferenceController"/>
 
     <!-- Baseband -->
     <Preference

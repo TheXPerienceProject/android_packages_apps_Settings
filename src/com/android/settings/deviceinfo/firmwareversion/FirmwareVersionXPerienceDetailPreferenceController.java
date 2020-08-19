@@ -41,7 +41,7 @@ public class FirmwareVersionXPerienceDetailPreferenceController extends BasePref
     private static final String TAG = "XPerienceVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
-	private static final String KEY_XPERIENCE_VERSION_PROP = "ro.xpe.version";
+	private static final String KEY_XPERIENCE_VERSION_PROP = "ro.xperience.build.version";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];

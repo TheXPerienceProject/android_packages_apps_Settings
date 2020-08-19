@@ -19,8 +19,8 @@
 
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:width="1150px"
-    android:height="650px"
+    android:width="1150dp"
+    android:height="650dp"
     android:viewportWidth="1920"
     android:viewportHeight="1080"
     tools:ignore="VectorRaster">

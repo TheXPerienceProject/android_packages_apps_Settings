@@ -18,4 +18,6 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
+    <!-- Black theme -->
+    <string name="darker_theme_enable">Enable black theme</string>
 </resources>

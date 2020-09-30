@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2020-2024 The XPerience Project
+<!-- Copyright (C) 2020-2024 The XPerience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
@@ -22,4 +22,7 @@
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">false</bool>
 
+    <string-array name="config_ignored_backup_transports" translatable="false">
+        <item>com.android.localtransport/.LocalTransport</item>
+    </string-array>
 </resources>

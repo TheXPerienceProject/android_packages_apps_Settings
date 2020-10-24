@@ -180,6 +180,14 @@
             android:defaultValue="true"
             settings:controller="com.android.settings.security.UdfpsGesturePreferenceController" />
 
+    <!-- Smart Pixels -->
+    <Preference
+        android:key="smart_pixels"
+        android:icon="@drawable/ic_smart_pixels"
+        android:title="@string/smart_pixels_title" 
+        android:summary="@string/smart_pixels_summary" 
+        android:fragment="com.android.settings.xperience.SmartPixels" />
+
     </PreferenceCategory>
 	<PreferenceCategory
 	    android:key="statusbar_xpe_category"

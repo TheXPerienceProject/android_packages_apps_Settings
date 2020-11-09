@@ -107,4 +107,9 @@
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Navigation bar</string>
+    <string name="immersive_navigation_title">Immersive navigation</string>
+    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
 </resources>

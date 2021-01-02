@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Black theme -->
-    <string name="darker_theme_enable">Enable black theme</string>
 	    
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>

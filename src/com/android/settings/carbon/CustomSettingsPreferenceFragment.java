@@ -140,6 +140,6 @@ public abstract class CustomSettingsPreferenceFragment extends SettingsPreferenc
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CARBONFIBERS;
+        return MetricsEvent.RAINBOW_UNICORN;
     }
 }

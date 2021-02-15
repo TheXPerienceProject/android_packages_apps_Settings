@@ -91,7 +91,7 @@
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <com.android.settings.carbon.SecureSettingSwitchPreference
+    <com.android.settings.xperience.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
@@ -223,7 +223,7 @@
           android:title="@string/screenshot_shutter_sound_title" />
 
         <!-- Notification sound / vibration with screen on -->
-	<com.android.settings.carbon.SystemSettingSwitchPreference
+	<com.android.settings.xperience.SystemSettingSwitchPreference
           android:key="notification_sound_vib_screen_on"
           android:title="@string/notification_sound_vib_screen_on_title"
           android:summary="@string/notification_sound_vib_screen_on_summary"

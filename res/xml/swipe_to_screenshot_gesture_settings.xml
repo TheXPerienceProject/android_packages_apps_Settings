@@ -21,7 +21,7 @@
     android:key="gesture_swipe_to_screenshot"
     android:title="@string/swipe_to_screenshot_gesture_title">
 
-    <com.android.settings.carbon.SystemSettingSwitchPreference
+    <com.android.settings.xperience.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
         android:title="@string/swipe_to_screenshot_gesture_title"
         android:summary="@string/swipe_to_screenshot_gesture_summary"

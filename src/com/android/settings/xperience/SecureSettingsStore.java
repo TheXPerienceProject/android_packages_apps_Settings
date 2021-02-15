@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.carbon;
+package com.android.settings.xperience;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

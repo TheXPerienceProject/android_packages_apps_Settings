@@ -59,5 +59,9 @@
     <string name="ambient_notification_light_color_automatic_title">Notification color</string>
     <string name="pulse_ambient_light_color">When pulsing, use</string>
 
+    <!-- Ambien music ticker -->
+    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
 </resources>
 

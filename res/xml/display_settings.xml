@@ -161,4 +161,14 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <PreferenceCategory 
+         android:key="qsheader_category"
+         android:title="@string/qsheader_title">
+
+        <PreferenceScreen
+            android:key="qsheader"
+            android:title="@string/custom_header_title"
+            android:fragment="com.android.settings.xperience.QSHeader" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

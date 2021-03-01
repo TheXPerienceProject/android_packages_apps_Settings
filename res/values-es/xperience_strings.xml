@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The XPerience Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Versión de XPerience™ </string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_build_code">Código XPerience™</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activar reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recuperación y cargador de arranque</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reproducción adaptativa</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_title">Notificaciones Edge</string>
+    <string name="pulse_ambient_light_summary">Ilumina los bordes de la pantalla al recibir una notificación</string>
+    <string name="ambient_notification_light_accent_title">Color de acento del sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Color de notificación</string>
+    <string name="pulse_ambient_light_color">Al pulsar, usar</string>
+    <!-- Ambien music ticker -->
+    <string name="pulse_on_new_tracks_title">Etiqueta de música ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar pantalla ambiente cuando se reproduce una nueva pista de música. Doble toque en la información de la pista para saltar a la siguiente pista.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Mostrar pantalla ambiente cuando se reproduce una pista de música nueva</string>
+    <!-- QS Headers -->
+    <string name="qsheader_title">Cabeceras custom de QS</string>
+    <string name="status_bar_custom_header_title">Activar</string>
+    <string name="daylight_header_pack_title">Paquete de imagen para la cabecera</string>
+    <string name="status_bar_custom_header_shadow_title">Sombra de la imagen de cabecera</string>
+    <string name="status_bar_custom_header_shadow_summary">Para mejorar la visibilidad en imágenes brillantes</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">-- Estático --</string>
+    <string name="daylight_header_provider_title">-- Dinámico --</string>
+    <string name="custom_header_provider_title">Proveedor de imágenes</string>
+    <string name="custom_header_browse_title">Explorar cabeceras instaladas</string>
+    <string name="custom_header_browse_summary">Haga clic en cualquier imagen para usar en modo estático</string>
+    <string name="custom_header_browse_summary_new">Navegar todos los paquetes de cabecera disponibles</string>
+    <string name="custom_header_pick_title">Seleccionar imagen de cabecera</string>
+    <string name="custom_header_pick_summary">Seleccione una imagen para usar en modo estático</string>
+    <string name="style_enabled_summary">Imagen de cabecera personalizada activada</string>
+    <string name="style_disabled_summary">Imagen de encabezado personalizada está deshabilitado</string>
+    <string name="header_provider_disabled">Inhabilitado</string>
+    <string name="custom_header_title">Cabecera personalizada</string>
+    <string name="file_header_select_title">Elegir imagen del almacenamiento</string>
+    <string name="file_header_select_summary">Seleccione una imagen del almacenamiento interno</string>
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animación al apagar pantalla</string>
+    <string name="screen_off_animation_default">Por defecto</string>
+    <string name="screen_off_animation_scale">Escalado</string>
+</resources>

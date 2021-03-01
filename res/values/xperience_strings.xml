@@ -87,5 +87,11 @@
     <string name="custom_header_title">Custom header</string>
 	<string name="file_header_select_title">Pick image from storage</string>
     <string name="file_header_select_summary">Select an image from internal storage</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt" translatable="false">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
 </resources>
 

@@ -95,6 +95,7 @@
     <string name="screen_off_animation_scale">Scale</string>
 
     <!-- Status bar Icon Manager -->
+    <string name="status_bar_title">Status bar</string>
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
 </resources>

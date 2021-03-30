@@ -182,6 +182,12 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+     <Preference
+        android:key="smart_pixels" 
+        android:title="@string/smart_pixels_title" 
+        android:summary="@string/smart_pixels_summary"
+        android:fragment="com.android.settings.xperience.SmartPixels" />
+
     <PreferenceCategory 
          android:key="qsheader_category"
          android:title="@string/qsheader_title">

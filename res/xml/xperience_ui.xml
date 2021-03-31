@@ -95,4 +95,8 @@
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
 
+		<PreferenceScreen
+		    android:key="statusbar_xpe"
+			android:title="@string/statusbar_custom"
+			android:fragment="com.android.settings.xperience.StatusBarSettings" />
 </PreferenceScreen>

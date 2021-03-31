@@ -82,7 +82,25 @@
     <string name="screen_off_animation_default">Por defecto</string>
     <string name="screen_off_animation_scale">Escalado</string>
     <!-- Status bar Icon Manager -->
+    <string name="status_bar_title">Barra de estado</string>
+    <string name="icon_manager_title">Administrador de iconos</string>
+    <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Píxeles inteligentes</string>
+    <string name="smart_pixels_summary">Ahorra batería apagando píxeles</string>
+    <string name="smart_pixels_enable_title">Habilitar píxeles inteligentes</string>
+    <string name="smart_pixels_enable_summary">Apaga los píxeles para reducir el consumo de energía</string>
+    <string name="smart_pixels_on_power_save_title">Activar automáticamente en modo ahorro de batería</string>
+    <string name="smart_pixels_on_power_save_summary">Habilitar Píxeles Inteligentes cuando el ahorro de batería esté habilitado</string>
+    <string name="smart_pixels_percent">Porcentaje de píxeles a desactivar</string>
+    <string name="smart_pixels_shift">Evitar quemaduras desplazando los píxeles</string>
     <!-- Statusbar configs -->
+    <string name="statusbar_custom">Personalizaciones de la barra de estado</string>
+    <string name="xperience_statusbar">Barra de estado</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Tráfico de red</string>
+    <string name="network_traffic_state_summary">Muestra la actividad de red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral de ocultación automática de la actividad de red (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Oculta las flechas de actividad del monitor</string>
 </resources>

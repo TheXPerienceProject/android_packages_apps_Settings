@@ -15,17 +15,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Версия XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_build_code">Кодовое имя XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Канал</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего ОЗУ</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры для восстановления и загрузчика</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_disabled_summary">Выключено</string>
+    <string name="adaptive_playback_timeout_title">Использовать таймаут</string>
+    <string name="adaptive_playback_timeout_none">Отсутствие времени ожидания</string>
+    <string name="adaptive_playback_timeout_none_summary">Вкл (без паузы)</string>
     <!-- Horizon Light -->
     <!-- Ambien music ticker -->
     <!-- QS Headers -->
+    <string name="status_bar_custom_header_title">Включить</string>
+    <string name="static_header_provider_title">Статичный</string>
+    <string name="daylight_header_provider_title">Динамическая</string>
+    <string name="header_provider_disabled">Отключено</string>
     <!-- Screen Off animation -->
     <!-- Status bar Icon Manager -->
     <!-- Smart Pixels -->

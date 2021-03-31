@@ -193,4 +193,16 @@
             android:fragment="com.android.settings.xperience.QSHeader" />
 
     </PreferenceCategory>
+    
+	<PreferenceCategory
+	    android:key="statusbar_xpe_category"
+		android:title="@string/xperience_statusbar">
+		
+		<PreferenceScreen
+		    android:key="statusbar_xpe"
+			android:title="@string/statusbar_custom"
+			android:fragment="com.android.settings.xperience.StatusBarSettings" />
+		
+		</PreferenceCategory>
+		
 </PreferenceScreen>

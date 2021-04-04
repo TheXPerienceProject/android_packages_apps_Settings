@@ -103,4 +103,5 @@
     <string name="network_traffic_autohide_threshold_title">Umbral de ocultación automática de la actividad de red (KB/s)</string>
     <string name="network_traffic_hidearrow">Ocultar flechas</string>
     <string name="network_traffic_hidearrow_summary">Oculta las flechas de actividad del monitor</string>
+    <!-- Battery health -->
 </resources>

@@ -103,4 +103,11 @@
     <string name="network_traffic_autohide_threshold_title">Umbral de ocultación automática de la actividad de red (KB/s)</string>
     <string name="network_traffic_hidearrow">Ocultar flechas</string>
     <string name="network_traffic_hidearrow_summary">Oculta las flechas de actividad del monitor</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Salud de la batería</string>
+    <string name="battery_health_summary">Monitorea la salud de la batería de su dispositivo</string>
+    <string name="current_battery_capacity">Capacidad actual de la batería</string>
+    <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
+    <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
+    <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
 </resources>

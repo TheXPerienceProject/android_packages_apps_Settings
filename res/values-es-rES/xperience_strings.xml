@@ -110,4 +110,10 @@
     <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
     <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
     <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina el escaneo facial existente y crea uno nuevo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer escaneo facial</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bloqueo de pantalla, huella dactilar, desbloqueo facial</string>
+    <string name="face_redo_confirm_btn">Rehacer</string>
+    <string name="face_redo_warning_msg">¿Desea eliminar el escaneo facial actual y crear uno nuevo?</string>
 </resources>

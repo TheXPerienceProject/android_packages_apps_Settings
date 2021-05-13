@@ -61,4 +61,7 @@
     <string name="xperience_title">Rainbow Unicorn</string>
     <string name="xperience_summary">Custom settings of XPerience</string>
 
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 </resources>

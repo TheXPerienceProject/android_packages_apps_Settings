@@ -153,7 +153,7 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
     <!-- XPerience Maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer" translatable="false">Maintainer</string>
     <string name="maintainer_name">Your name kid.</string>
 </resources>
 

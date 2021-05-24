@@ -116,4 +116,21 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Bloqueo de pantalla, huella dactilar, desbloqueo facial</string>
     <string name="face_redo_confirm_btn">Rehacer</string>
     <string name="face_redo_warning_msg">¿Desea eliminar el escaneo facial actual y crear uno nuevo?</string>
+    <!--Battery Icon selection-->
+    <string name="battery_status_icon_title">Iconos de estado</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical (por defecto)</string>
+    <string name="status_bar_battery_style_circle">Circular</string>
+    <string name="status_bar_battery_style_circle_percent">Círculo (% dentro)</string>
+    <string name="status_bar_battery_style_dotted_circle">Circular (Punteado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Relleno)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <!-- XPerience Maintainer -->
+    <string name="maintainer_name">Tu nombre chico.</string>
 </resources>

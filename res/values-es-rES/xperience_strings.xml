@@ -131,6 +131,4 @@
     <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
-    <!-- XPerience Maintainer -->
-    <string name="maintainer_name">Tu nombre chico.</string>
 </resources>

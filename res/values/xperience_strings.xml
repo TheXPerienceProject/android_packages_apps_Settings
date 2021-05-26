@@ -154,6 +154,6 @@
 
     <!-- XPerience Maintainer -->
     <string name="maintainer" translatable="false">Maintainer</string>
-    <string name="maintainer_name">Your name kid.</string>
+    <string name="maintainer_name" translatable="false">Your name kid.</string>
 </resources>
 

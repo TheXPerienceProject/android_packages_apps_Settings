@@ -81,13 +81,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
 
-    <!-- Maintainer name -->
-    <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/maintainer_name"
-        settings:enableCopying="true" />
-
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"

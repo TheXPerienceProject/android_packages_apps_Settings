@@ -104,4 +104,10 @@
         android:title="@string/adaptive_playback_screen_title"
         android:fragment="com.android.settings.gestures.AdaptivePlaybackGestureSettings"
         settings:controller="com.android.settings.gestures.AdaptivePlaybackParentPreferenceController" />
+
+    <mx.xperience.framework.preference.SecureSettingSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/navbar_invert_layout_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

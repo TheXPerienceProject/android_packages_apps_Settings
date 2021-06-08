@@ -21,6 +21,8 @@
     <string name="xpe_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Channel</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_caf_number">CAF Branch</string>
 
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->

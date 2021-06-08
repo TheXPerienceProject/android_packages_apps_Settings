@@ -72,6 +72,15 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildChannelPreferenceController"/>
 
+    <!-- Build -->
+    <Preference
+        android:key="caf_build_number"
+        android:title="@string/build_caf_number"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareCafVersion"/>
+
     <!-- Baseband -->
     <Preference
         android:key="base_band"

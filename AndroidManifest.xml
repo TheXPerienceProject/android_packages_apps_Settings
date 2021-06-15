@@ -185,6 +185,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true"
             android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+            tools:replace="android:appComponentFactory">
             android:gwpAsanMode="always"
             android:enableOnBackInvokedCallback="true">
 

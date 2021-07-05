@@ -192,6 +192,13 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.xperience.touch.HighTouchSensitivitySettingsPreferenceController" />
 
+        <SwitchPreference
+            android:key="high_touch_polling_rate_enable"
+            android:title="@string/high_touch_polling_rate_title"
+            android:summary="@string/high_touch_polling_rate_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.xperience.touch.HighTouchPollingRateSettingsPreferenceController" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"

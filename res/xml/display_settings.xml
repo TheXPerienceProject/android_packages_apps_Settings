@@ -235,6 +235,13 @@
             android:defaultValue="true" />
 
         <mx.xperience.framework.preference.SystemSettingSwitchPreference
+            android:key="high_touch_polling_rate_enable"
+            android:title="@string/high_touch_polling_rate_title"
+            android:summary="@string/high_touch_polling_rate_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.xperience.touch.HighTouchPollingRateSettingsPreferenceController" />
+
+        <mx.xperience.framework.preference.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"

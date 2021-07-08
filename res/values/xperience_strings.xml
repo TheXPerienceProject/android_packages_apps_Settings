@@ -24,7 +24,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">XPerience Version</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.org/</string>
+    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.klozz.dev/</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
@@ -270,4 +270,13 @@
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <string name="navbar_invert_info">Swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
 
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Color balance</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Red strength</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Green strength</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 </resources>

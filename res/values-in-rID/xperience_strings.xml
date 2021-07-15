@@ -15,25 +15,122 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_firmware_version">Versi XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xpe_build_code">Nama Kode XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Saluran</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk pemulihan dan bootloader</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
+    <string name="adaptive_playback_disabled_summary">Tidak aktif</string>
+    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
+    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Hidup (30 detik)</string>
+    <string name="adaptive_playback_timeout_1_min">1 menit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Hidup (1 menit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 menit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Hidup (2 menit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Hidup (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 menit)</string>
     <!-- Horizon Light -->
+    <string name="pulse_ambient_light_title">Notifikasi pencahayaan tepi</string>
+    <string name="pulse_ambient_light_summary">Nyalakan cahaya di sisi pinggir layar saat ada notifikasi</string>
+    <string name="ambient_notification_light_accent_title">Warna aksen sistem</string>
+    <string name="ambient_notification_light_color_automatic_title">Warna Notifikasi</string>
+    <string name="pulse_ambient_light_color">Saat menyala, gunakan</string>
     <!-- Ambien music ticker -->
+    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
+    <string name="pulse_on_new_tracks_summary">Tampilkan Tampilan Ambien saat trek musik baru diputar. Ketuk dua kali pada info trek untuk melompat ke trek berikutnya.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Perlihatkan Tampilan Ambien ketika trek musik baru dimainkan</string>
     <!-- QS Headers -->
+    <string name="qsheader_title">Tajuk QS</string>
+    <string name="status_bar_custom_header_title">Aktifkan</string>
+    <string name="daylight_header_pack_title">Paket gambar Header</string>
+    <string name="status_bar_custom_header_shadow_title">Bayangan gambar Header</string>
+    <string name="status_bar_custom_header_shadow_summary">Untuk visibilitas lebih baik pada gambar yang terang</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">Statis</string>
+    <string name="daylight_header_provider_title">Dinamis</string>
+    <string name="custom_header_provider_title">Penyedia Header</string>
+    <string name="custom_header_browse_title">Jelajahi Header yang terpasang</string>
+    <string name="custom_header_browse_summary">Klik pada gambar apa pun untuk menggunakan mode statis</string>
+    <string name="custom_header_browse_summary_new">Telusuri semua paket header yang tersedia</string>
+    <string name="custom_header_pick_title">Pilih gambar Header</string>
+    <string name="custom_header_pick_summary">Pilih sebuah gambar untuk digunakan pada mode statis</string>
+    <string name="style_enabled_summary">Gambar header kustom aktif</string>
+    <string name="style_disabled_summary">Gambar header kustom mati</string>
+    <string name="header_provider_disabled">Dinonaktifkan</string>
+    <string name="custom_header_title">Header kustom</string>
+    <string name="file_header_select_title">Pilih gambar dari penyimpanan</string>
+    <string name="file_header_select_summary">Pilih gambar dari penyimpanan internal</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animasi layar mati</string>
+    <string name="screen_off_animation_default">Bawaan</string>
+    <string name="screen_off_animation_scale">Skala</string>
     <!-- Status bar Icon Manager -->
+    <string name="status_bar_title">Bilah Status</string>
+    <string name="icon_manager_title">Pengelola ikon</string>
+    <string name="icon_manager_summary">Kontrol visibilitas ikon bilah status</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Piksel Cerdas</string>
+    <string name="smart_pixels_summary">Menghemat baterai dengan mematikan beberapa piksel</string>
+    <string name="smart_pixels_enable_title">Aktifkan Piksel Cerdas</string>
+    <string name="smart_pixels_enable_summary">Mematikan beberapa piksel untuk mengurangi konsumsi daya</string>
+    <string name="smart_pixels_on_power_save_title">Aktifkan otomatis pada penghemat baterai</string>
+    <string name="smart_pixels_on_power_save_summary">Aktifkan Piksel Cerdas saat penghemat baterai diaktifkan</string>
+    <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
+    <string name="smart_pixels_shift">Mencegah burn-in dengan menggeser setiap piksel</string>
     <!-- Statusbar configs -->
+    <string name="statusbar_custom">Kustomisasi bilah status</string>
+    <string name="xperience_statusbar">Bilah status</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Lalu lintas jaringan</string>
+    <string name="network_traffic_state_summary">Tampilkan aktivitas jaringan di bilah status</string>
+    <string name="network_traffic_autohide_threshold_title">Otomatis menyembunyikan aktivitas jaringan (KB/d)</string>
+    <string name="network_traffic_hidearrow">Sembunyikan panah</string>
+    <string name="network_traffic_hidearrow_summary">Sembunyikan panah indikator lalu lintas jaringan</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Kesehatan Baterai</string>
+    <string name="battery_health_summary">Pantau kesehatan baterai perangkat Anda</string>
+    <string name="current_battery_capacity">Kapasitas baterai saat ini</string>
+    <string name="current_battery_capacity_summary">Kapasitas baterai saat ini diukur oleh kernel</string>
+    <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
+    <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Kunci layar, sidik jari, buka kunci dengan wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
     <!--Battery Icon selection-->
+    <string name="battery_status_icon_title">Ikon status</string>
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon tegak (standar)</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_circle_percent">Lingkaran (% di dalam)</string>
+    <string name="status_bar_battery_style_dotted_circle">Lingkaran (putus-putus)</string>
+    <string name="status_bar_battery_style_filled_circle">Lingkaran (terisi)</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+    <string name="status_bar_battery_percentage_default">Tersembunyi (bawaan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
     <!-- XPerience Maintainer -->
+    <string name="maintainer_name">Nama Anda.</string>
 </resources>

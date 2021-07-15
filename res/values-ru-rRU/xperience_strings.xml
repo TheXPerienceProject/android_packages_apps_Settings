@@ -36,21 +36,101 @@
     <string name="adaptive_playback_timeout_title">Использовать таймаут</string>
     <string name="adaptive_playback_timeout_none">Отсутствие времени ожидания</string>
     <string name="adaptive_playback_timeout_none_summary">Вкл (без паузы)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Вкл (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Вкл (1 минута)</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Вкл (2 минуты)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Вкл (5 минут)</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
     <!-- Horizon Light -->
+    <string name="pulse_ambient_light_title">Уведомление по краям экрана</string>
+    <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомления</string>
+    <string name="ambient_notification_light_accent_title">Цвет акцента системы</string>
+    <string name="ambient_notification_light_color_automatic_title">Цвет уведомлений</string>
+    <string name="pulse_ambient_light_color">При пульсации, использовать</string>
     <!-- Ambien music ticker -->
+    <string name="pulse_on_new_tracks_title">Функция «Сейчас играет»</string>
+    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении нового музыкального трека. Дважды нажмите на информацию о треке, чтобы перейти к следующему треку.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Отображать Ambient Display при воспроизведении нового трека</string>
     <!-- QS Headers -->
+    <string name="qsheader_title">Заголовок быстрых настроек</string>
     <string name="status_bar_custom_header_title">Включить</string>
+    <string name="daylight_header_pack_title">Набор изображений в заголовке</string>
+    <string name="status_bar_custom_header_shadow_title">Тень изображения в заголовке</string>
+    <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на ярких изображениях</string>
+    <string name="unit_percent">%</string>
     <string name="static_header_provider_title">Статичный</string>
     <string name="daylight_header_provider_title">Динамическая</string>
+    <string name="custom_header_provider_title">Кастомный заголовок</string>
+    <string name="custom_header_browse_title">Просмотр установленных заголовков</string>
+    <string name="custom_header_browse_summary">Нажмите на любое изображение для использования в статичном режиме</string>
+    <string name="custom_header_browse_summary_new">Просмотр всех доступных пакетов заголовков</string>
+    <string name="custom_header_pick_title">Выбрать изображение заголовка</string>
+    <string name="custom_header_pick_summary">Выберите изображение для статичного режима</string>
+    <string name="style_enabled_summary">Пользовательское изображение заголовка ВКЛ</string>
+    <string name="style_disabled_summary">Пользовательское изображение заголовка ВЫКЛ</string>
     <string name="header_provider_disabled">Отключено</string>
+    <string name="custom_header_title">Пользовательское изображение в заголовке</string>
+    <string name="file_header_select_title">Выберите изображение из памяти</string>
+    <string name="file_header_select_summary">Выберите изображение из внутренней памяти</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_default">По умолчанию</string>
+    <string name="screen_off_animation_scale">Маштабирование</string>
     <!-- Status bar Icon Manager -->
+    <string name="status_bar_title">Строка состояния</string>
+    <string name="icon_manager_title">Менеджер иконок</string>
+    <string name="icon_manager_summary">Управление видимостью значков в строке состояния</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Экономить заряд батареи, выключая дополнительные пиксели</string>
+    <string name="smart_pixels_enable_title">Включить Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Выключить пиксели для снижения энергопотребления</string>
+    <string name="smart_pixels_on_power_save_title">Включать автоматически в режиме энергосбережения</string>
+    <string name="smart_pixels_on_power_save_summary">Включить Smart Pixels при включенном энергосбережении</string>
+    <string name="smart_pixels_percent">Процент отключаемых пикселей</string>
+    <string name="smart_pixels_shift">Предотвратить выгорание, сдвигая пиксели каждые</string>
     <!-- Statusbar configs -->
+    <string name="statusbar_custom">Настройки строки состояния</string>
+    <string name="xperience_statusbar">Строка состояния</string>
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic_state_summary">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Порог автоскрытия сетевой активности (KB/s)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Состояние батареи</string>
+    <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
+    <string name="designed_battery_capacity">Заявленная емкость батареи</string>
+    <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующий снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, разблокировка по лицу</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий снимок лица и создать новый?</string>
     <!--Battery Icon selection-->
+    <string name="battery_status_icon_title">Значок батареи</string>
+    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка (по умолчанию)</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_circle_percent">Круг (% внутри)</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (сплошной)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Не показывать</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрыт (по умолчанию)</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
     <!-- XPerience Maintainer -->
+    <string name="maintainer_name">Твой ник, парень.</string>
 </resources>

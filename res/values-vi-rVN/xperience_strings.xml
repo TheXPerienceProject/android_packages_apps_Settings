@@ -76,6 +76,7 @@
     <string name="style_disabled_summary">Tùy chỉnh tiêu đề hình ảnh đang TẮT</string>
     <string name="header_provider_disabled">Vô hiệu hoá</string>
     <string name="custom_header_title">Tuỳ chỉnh Đầu mục</string>
+    <string name="file_header_select_title">Chọn hình ảnh từ bộ nhớ</string>
     <string name="file_header_select_summary">Chọn một hình ảnh từ bộ nhớ trong</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Hiệu ứng tắt màn hình</string>

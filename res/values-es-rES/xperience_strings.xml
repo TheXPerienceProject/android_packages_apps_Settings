@@ -21,6 +21,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_caf_number">Rama CAF</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -133,14 +134,40 @@
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Inhabilitado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio (Enforcing)</string>
     <!-- Lock screen double tap -->
+    <string name="doubletap_lockscreen_screen_title">Apagar pantalla</string>
+    <string name="doubletap_lockscreen_title">Toca dos veces para apagar la pantalla</string>
+    <string name="doubletap_lockscreen_summary">Doble toque en la pantalla de bloqueo para apagar la pantalla</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslizar para hacer captura de pantalla</string>
+    <string name="swipe_to_screenshot_gesture_summary">Desliza tres dedos por la pantalla para hacer una captura</string>
     <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
     <!-- Notification sound -->
+    <string name="notification_sound_vib_screen_on_title">Sonido de notificación si está activo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproducir sonido y vibrar al recibir notificaciones cuando la pantalla está encendida</string>
     <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
+    <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
+    <string name="battery_saver_refresh_rate_summary">Usar velocidad de refresco de la pantalla de 60 Hz para ahorrar energía cuando el Ahorro de batería está encendido</string>
     <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localiza el sensor de huella digital en el <xliff:g id="sensor_location">%1$s </xliff:g> de tu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localiza el sensor de huella dactilar <xliff:g id="sensor_location">%1$s</xliff:g> de tu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localiza el sensor de huella digital en el <xliff:g id="sensor_location">%1$s </xliff:g> de su teléfono.</string>
     <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">detrás</string>
+    <string name="security_settings_fingerprint_sensor_location_front">enfrente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lado Izquierdo</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lado derecho</string>
     <!-- Inverted navbar layout -->
+    <string name="navbar_invert_layout_title">Invertir barra de navegación</string>
 </resources>

@@ -20,6 +20,7 @@
     <string name="xpe_build_code">Nama Kode XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Saluran</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -131,6 +132,15 @@
     <string name="status_bar_battery_percentage_default">Tersembunyi (bawaan)</string>
     <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
-    <!-- XPerience Maintainer -->
-    <string name="maintainer_name">Nama Anda.</string>
+    <!-- SELinux Status -->
+    <!-- Lock screen double tap -->
+    <!-- App details: open play store link if app is user installed -->
+    <!-- Volume link notification -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Screenshot shutter -->
+    <!-- Notification sound -->
+    <!-- Min refresh rate -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <!-- Inverted navbar layout -->
 </resources>

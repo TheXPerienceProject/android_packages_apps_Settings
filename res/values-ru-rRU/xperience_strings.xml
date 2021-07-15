@@ -20,6 +20,7 @@
     <string name="xpe_build_code">Кодовое имя XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Канал</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
@@ -131,6 +132,15 @@
     <string name="status_bar_battery_percentage_default">Скрыт (по умолчанию)</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
-    <!-- XPerience Maintainer -->
-    <string name="maintainer_name">Твой ник, парень.</string>
+    <!-- SELinux Status -->
+    <!-- Lock screen double tap -->
+    <!-- App details: open play store link if app is user installed -->
+    <!-- Volume link notification -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Screenshot shutter -->
+    <!-- Notification sound -->
+    <!-- Min refresh rate -->
+    <!-- Format string for fingerprint location message -->
+    <!-- Fingerprint sensor locations -->
+    <!-- Inverted navbar layout -->
 </resources>

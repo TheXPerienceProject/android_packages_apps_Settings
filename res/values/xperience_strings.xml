@@ -55,6 +55,7 @@
     <string name="model_name">Device status</string>
     <string name="legal_summary">Licenses and legal</string>
 
+
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">XPerience Version</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
@@ -62,6 +63,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="build_channel">Channel</String>
+
+    <string name="build_channel">Channel</string>
 
 </resources>

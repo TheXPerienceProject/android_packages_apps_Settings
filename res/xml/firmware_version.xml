@@ -51,6 +51,21 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
+    <!-- Build channel and codename -->
+    <Preference
+        android:key="os_build_codename"
+        android:title="@string/xperience_build_code"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildCodeNamePreferenceController"/>
+
+    <Preference
+        android:key="os_build_channel"
+        android:title="@string/build_channel"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildChannelPreferenceController"/>
+
     <!-- Mainline module version -->
     <Preference
         android:key="module_version"
@@ -94,20 +109,5 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
-
-    <!-- Build channel and codename -->
-    <Preference
-        android:key="os_build_codename"
-        android:title="@string/xperience_build_code"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildCodeNamePreferenceController"/>
-
-    <Preference
-        android:key="os_build_channel"
-        android:title="@string/build_channel"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildChannelPreferenceController"/>
 
 </PreferenceScreen>

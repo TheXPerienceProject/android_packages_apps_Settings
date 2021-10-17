@@ -92,7 +92,6 @@
     <string name="xperience_title">Rainbow Unicorn</string>
     <string name="xperience_summary">Custom settings of XPerience</string>
 
-=======
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">XPerience Version</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
@@ -100,6 +99,12 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="build_channel">Channel</String>
->>>>>>> 85d9d875f04 (Settings: Add XPerience entries into device info)
+    <string name="build_channel">Channel</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+
 </resources>

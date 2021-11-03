@@ -49,4 +49,10 @@
         android:summary="@string/show_fourg_icon_summary"
         android:defaultValue="false"/>
 
+    <mx.xperience.framework.preferenceGlobalSettingSwitchPreference
+        android:key="show_cpu_overlay"
+        android:title="@string/show_cpu_info"
+        android:summary="@string/show_cpu_info_summary" 
+        android:defaultValue="false" />
+
 </PreferenceScreen>

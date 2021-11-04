@@ -101,6 +101,12 @@
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
 
+        <mx.xperience.framework.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that

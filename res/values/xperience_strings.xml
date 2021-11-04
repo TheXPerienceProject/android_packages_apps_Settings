@@ -110,4 +110,8 @@
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">Font style</string>
     <string name="theme_customization_icon_pack_title">Icon pack</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Small mobile type icon</string>
+    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
 </resources>

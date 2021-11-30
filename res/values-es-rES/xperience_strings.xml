@@ -26,6 +26,8 @@
     <string name="xperience_build_code">Código XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal de actualización</string>
+    <!-- About to show Device name -->
+    <string name="about_device_name">Dispositivo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>

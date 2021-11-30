@@ -15,17 +15,39 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Deshabilitado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio (Enforcing)</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versión de XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Código XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal de actualización</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activar reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recuperación y cargador de arranque</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
+    <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
+    <string name="battery_saver_refresh_rate_summary">Utilice 60Hz como frecuencia de actualización máxima para ahorrar energía en el modo Ahorro de Batería</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Desliza para captura de pantalla</string>
+    <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Cambiar proveedor de copia de seguridad</string>
+    <string name="backup_transport_title">Seleccionar proveedor de la copia de seguridad</string>
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Evitar el encendido accidental</string>
+    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
 </resources>

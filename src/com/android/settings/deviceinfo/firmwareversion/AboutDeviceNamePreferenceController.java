@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2019 ArrowOS
+ * Copyright (C) 2021 The XPerience Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +28,7 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
     private static final String TAG = "AboutDeviceNameCtrl";
 
     private static final String KEY_DEVICE_NAME_PROP = "ro.product.device";
-    private static final String KEY_DEVICE_MODEL_PROP = "ro.product.model";
+    private static final String KEY_DEVICE_MODEL_PROP = "ro.product.marketname";
 
     public AboutDeviceNamePreferenceController(Context context, String key) {
         super(context, key);

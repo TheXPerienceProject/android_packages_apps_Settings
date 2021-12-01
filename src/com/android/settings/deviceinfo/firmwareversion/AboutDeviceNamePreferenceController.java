@@ -29,6 +29,7 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     private static final String KEY_DEVICE_NAME_PROP = "ro.product.device";
     private static final String KEY_DEVICE_MODEL_PROP = "ro.product.marketname";
+    private static final String KEY_DEVICE_MODEL2_PROP = "ro.product.model";
 
     public AboutDeviceNamePreferenceController(Context context, String key) {
         super(context, key);
@@ -43,8 +44,12 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
     public CharSequence getSummary() {
 	String deviceName = SystemProperties.get(KEY_DEVICE_NAME_PROP);
 	String deviceModel =  SystemProperties.get(KEY_DEVICE_MODEL_PROP);
+	String deviceModel2 = SystemProperties.get(KEY_DEVICE_MODEL2_PROP);
+
 	if (!deviceName.isEmpty() && !deviceModel.isEmpty())
 	    return deviceName + " (" + deviceModel + ")";
+	else if (!deviceName.isEmpty() && !deviceModel2.isEmpty())
+	    return deviceName + " (" + deviceModel2 + ")";
 	else
             return mContext.getString(R.string.unknown);
     }

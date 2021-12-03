@@ -35,6 +35,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.settings.R;
 
+import mx.xperience.framework.preference.SystemSettingListPreference;
 import mx.xperience.framework.preference.SystemSettingSwitchPreference;
 
 public class BatterySettings extends SettingsPreferenceFragment
@@ -113,8 +114,8 @@ public class BatterySettings extends SettingsPreferenceFragment
                     UserHandle.USER_CURRENT);
             int index = mBatteryPercent.findIndexOfValue((String) newValue);
             mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
-        } else if (preference == mLeftBatteryText) {
             return true;
+        } else if (preference == mLeftBatteryText) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.DO_LEFT_BATTERY_TEXT, value ? 1 : 0);

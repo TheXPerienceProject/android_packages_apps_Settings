@@ -61,7 +61,6 @@
     <Preference
         android:key="battery_styles_category"
         android:fragment="com.android.settings.BatterySettings"
-        android:icon="@drawable/ic_battery_styles"
         android:summary="@string/battery_style_category_summary"        
         android:title="@string/battery_style_category_title" />
         

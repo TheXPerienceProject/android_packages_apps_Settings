@@ -16,7 +16,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <com.xperience.support.preference.SystemSettingListPreference
+        <mx.xperience.framework.preferences.SystemSettingListPreference
             android:key="status_bar_battery_style"
             android:title="@string/status_bar_battery_style_title"
             android:summary="%s"
@@ -25,7 +25,7 @@
             android:entryValues="@array/status_bar_battery_style_values"
             android:defaultValue="0" />
 
-        <com.xperience.support.preference.SystemSettingListPreference
+        <mx.xperience.framework.preferences.SystemSettingListPreference
             android:key="status_bar_show_battery_percent"
             android:title="@string/battery_percent_title"
             android:dialogTitle="@string/battery_percent_title"

@@ -114,10 +114,10 @@ public class BatterySettings extends SettingsPreferenceFragment
             int index = mBatteryPercent.findIndexOfValue((String) newValue);
             mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
         } else if (preference == mLeftBatteryText) {
+            return true;
             boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.DO_LEFT_BATTERY_TEXT, value ? 1 : 0);
-            return true;
             return true;
         }
         return false;

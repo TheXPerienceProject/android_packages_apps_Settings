@@ -35,6 +35,8 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.settings.R;
 
+import mx.xperience.framework.preference.SystemSettingSwitchPreference;
+
 public class BatterySettings extends SettingsPreferenceFragment
             implements Preference.OnPreferenceChangeListener  {
 

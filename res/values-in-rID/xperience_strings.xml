@@ -52,4 +52,8 @@
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
     <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
+    <!-- Battery Settings -->
+    <!-- Battery Styles -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery percentage -->
 </resources>

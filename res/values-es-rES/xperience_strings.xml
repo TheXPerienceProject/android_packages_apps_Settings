@@ -52,4 +52,27 @@
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Evitar el encendido accidental</string>
     <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
+    <!-- Battery Settings -->
+    <string name="battery_settings_title">Ajustes de Batería</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Estilos de batería</string>
+    <string name="battery_style_category_summary">Seleccionar estilos de icono de batería</string>
+    <string name="battery_percent_title">Porcentaje de batería</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Estilo de la batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical (por defecto)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Icono horizontal Derecha</string>
+    <string name="status_bar_battery_style_icon_landscape">Icono horizontal Izquierda</string>
+    <string name="status_bar_battery_style_circle">Circular</string>
+    <string name="status_bar_battery_style_dotted_circle">Circular (Punteado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Relleno)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Al lado del icono</string>
+    <string name="left_battery_text_title">Texto de batería a la izquierda</string>
+    <string name="left_battery_text_summary">Ponga el texto de la batería a la izquierda del icono de la batería</string>
 </resources>

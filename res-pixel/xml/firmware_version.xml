@@ -81,8 +81,7 @@
         android:summary="@string/summary_placeholder"
         android:title="@string/kernel_version"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"
-        settings:enableCopying="true" />
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController" />
 
     <!-- SELinux -->
     <Preference

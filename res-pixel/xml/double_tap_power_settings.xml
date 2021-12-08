@@ -12,7 +12,6 @@
 
     <SwitchPreference
         android:key="gesture_double_tap_power"
-        android:icon="@drawable/ic_camera_gest"        
         android:summary="@string/double_tap_power_for_camera_summary"
         android:title="@string/double_tap_power_for_camera_title"
         app:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController"

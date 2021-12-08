@@ -27,22 +27,19 @@
         settings:controller="com.google.android.settings.accessibility.HapticsStrengthCategoryPreferenceController">
 
         <SwitchPreference
-            android:key="ring_vibration_switch_preference"
-            android:icon="@drawable/ic_ring_vibration_preference_screen"            
+            android:key="ring_vibration_switch_preference"           
             android:title="@string/accessibility_ring_vibration_title"
             settings:controller="com.google.android.settings.accessibility.RingVibrationTogglePreferenceController"
             settings:keywords="@string/keywords_ring_vibration" />
 
         <SwitchPreference
-            android:key="notification_vibration_switch_preference"
-            android:icon="@drawable/ic_notification_vibration_preference_screen"             
+            android:key="notification_vibration_switch_preference"           
             android:title="@string/accessibility_notification_vibration_title"
             settings:controller="com.google.android.settings.accessibility.NotificationVibrationTogglePreferenceController"
             settings:keywords="@string/keywords_notification_vibration" />
 
         <SwitchPreference
-            android:key="touch_vibration_switch_preference"
-            android:icon="@drawable/ic_touch_vibration_preference_screen"             
+            android:key="touch_vibration_switch_preference"       
             android:title="@string/accessibility_touch_vibration_title"
             settings:controller="com.google.android.settings.accessibility.HapticFeedbackTogglePreferenceController"
             settings:keywords="@string/keywords_touch_vibration" />

@@ -98,12 +98,7 @@
         android:dialogLayout="@layout/private_dns_mode_dialog"
         android:dialogTitle="@string/select_private_dns_configuration_dialog_title"
         android:key="private_dns_settings"
-<<<<<<< HEAD:res/xml/network_provider_internet.xml
-        android:title="@string/select_private_dns_configuration_title"
-        android:icon="@drawable/ic_settings_private_dns"
-=======
         android:negativeButtonText="@android:string/cancel"
->>>>>>> c7af9455cc (Port changes from SettingsGoogle):res-pixel/xml/network_provider_internet.xml
         android:order="20"
         android:positiveButtonText="@string/save"
         android:title="@string/select_private_dns_configuration_title" />

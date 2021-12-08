@@ -13,7 +13,6 @@
 
     <SwitchPreference
         android:key="gesture_swipe_down_fingerprint"
-        android:icon="@drawable/ic_swipe_down"        
         android:summary="@string/fingerprint_swipe_for_notifications_summary"
         android:title="@string/fingerprint_swipe_for_notifications_title"
         app:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController"

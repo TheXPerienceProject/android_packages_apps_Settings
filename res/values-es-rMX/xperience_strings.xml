@@ -75,4 +75,11 @@
     <string name="status_bar_battery_percentage_text_next">Al lado del icono</string>
     <string name="left_battery_text_title">Texto de batería a la izquierda</string>
     <string name="left_battery_text_summary">Ponga el texto de la batería a la izquierda del icono de la batería</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Salud de la batería</string>
+    <string name="battery_health_summary">Monitorea la salud de la batería de su dispositivo</string>
+    <string name="current_battery_capacity">Capacidad actual de la batería</string>
+    <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
+    <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
+    <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
 </resources>

@@ -53,7 +53,27 @@
     <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
     <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Setelan Baterai</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Gaya Baterai</string>
+    <string name="battery_style_category_summary">Pilih gaya ikon baterai</string>
+    <string name="battery_percent_title">Persentase baterai</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon tegak (standar)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon lanskap R</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon lanskap L</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_dotted_circle">Lingkaran (Putus-putus)</string>
+    <string name="status_bar_battery_style_filled_circle">Lingkaran (Terisi)</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+    <string name="status_bar_battery_percentage_default">Tersembunyi (bawaan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <string name="left_battery_text_title">Teks baterai kiri</string>
+    <string name="left_battery_text_summary">Letakkan teks baterai di sebelah kiri ikon baterai</string>
+    <!-- Battery health -->
 </resources>

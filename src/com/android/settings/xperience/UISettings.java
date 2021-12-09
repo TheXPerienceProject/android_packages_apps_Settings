@@ -48,6 +48,8 @@ import android.util.Log;
 import com.android.settings.xperience.CustomSeekBarPreference;
 import mx.xperience.framework.preference.SystemSettingSwitchPreference;
 
+import com.android.settings.xperience.SmartPixels;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;

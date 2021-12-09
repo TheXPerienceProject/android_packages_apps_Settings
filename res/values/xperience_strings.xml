@@ -179,6 +179,10 @@
     <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
     <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+
     <!-- UI -->
     <string name="xperience_ui_title">XPerience ui</string>
     <string name="ui_custom">UI and game customizations</string>

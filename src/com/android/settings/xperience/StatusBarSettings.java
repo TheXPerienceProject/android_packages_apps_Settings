@@ -45,7 +45,7 @@ import com.android.settings.Utils;
 import android.util.Log;
 
 import com.android.settings.xperience.CustomSeekBarPreference;
-import com.android.settings.xperience.SystemSettingSwitchPreference;
+import mx.xperience.framework.preference.SystemSettingSwitchPreference;
 
 import java.util.List;
 import java.util.ArrayList;

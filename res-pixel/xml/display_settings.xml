@@ -187,5 +187,12 @@
 			android:title="@string/statusbar_custom"
 			android:fragment="com.android.settings.xperience.StatusBarSettings" />
 
+        <!-- Font style -->
+        <ListPreference
+            android:key="android.theme.customization.font"
+            android:icon="@drawable/ic_font"
+            android:title="@string/theme_customization_font_title"/>
+
+
 		</PreferenceCategory>
 </PreferenceScreen>

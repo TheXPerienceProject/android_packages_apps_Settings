@@ -70,11 +70,17 @@
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.android.settings.xperience.IconShapes" />
 
-            <Preference
+        <Preference
             android:key="android.theme.customization.style"
             android:title="@string/theme_customization_ui_style_title"
             android:summary="@string/theme_customization_ui_style_summary"
             android:fragment="com.android.settings.xperience.UIStyles"/>
+
+        <mx.xperience.framework.preference.SystemSettingSwitchPreference
+            android:key="statusbar_colored_icons"
+            android:title="@string/statusbar_colored_icons_title"
+            android:summary="@string/statusbar_colored_icons_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 

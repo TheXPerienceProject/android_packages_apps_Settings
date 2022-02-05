@@ -239,4 +239,14 @@
         android:fragment="com.android.settings.notification.SoundWorkSettings"
         android:order="100"
         settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
+
+    <PreferenceCategory
+        android:title="@string/volume_dialog_category">
+
+        <mx.xperience.framework.preference.SystemSettingSwitchPreference
+            android:key="app_volume"
+            android:title="@string/app_volume_title"
+            android:summary="@string/app_volume_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -102,6 +102,7 @@ android_library {
         "lottie",
         "mx.xperience.framework",
         "SettingsGoogle-lib",
+        "faceunlock_framework",
     ],
 
     libs: [

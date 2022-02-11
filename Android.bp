@@ -117,6 +117,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
         "SystemUIUnfoldLib",
+        "faceunlock_framework",
         "mx.xperience.framework",
         "vendor.xperience.fastcharge-V1.0-java",
         "SettingsLibMainSwitchPreference",

@@ -120,6 +120,7 @@ android_library {
         "mx.xperience.framework",
         "vendor.xperience.fastcharge-V1.0-java",
         "SettingsLibMainSwitchPreference",
+        "faceunlock_framework",
     ],
 
     libs: [

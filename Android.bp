@@ -76,7 +76,10 @@ android_library {
     ],
 
     srcs: ["src/**/*.java", "src/**/*.kt"],
-
+    resource_dirs: [
+        "res",
+        "res-xpe",
+    ],
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
         "androidx.slice_slice-builders",

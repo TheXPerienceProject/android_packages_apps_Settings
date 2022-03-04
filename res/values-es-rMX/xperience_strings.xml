@@ -102,4 +102,7 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN o contraseña</string>
+    <!-- Volume button music control -->
+    <!-- Adaptive Playback -->
+    <!-- Torch Power button gestures -->
 </resources>

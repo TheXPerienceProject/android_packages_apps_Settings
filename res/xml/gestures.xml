@@ -123,7 +123,7 @@
         android:fragment="com.android.settings.gestures.AdaptivePlaybackGestureSettings"
         settings:controller="com.android.settings.gestures.AdaptivePlaybackParentPreferenceController" />
 
-	<PreferenceScreen
+	<Preference
 	    android:key="statusbar_xpe"
 		android:title="@string/button_custom"
 		android:fragment="com.android.settings.xperience.ButtonSettings" />

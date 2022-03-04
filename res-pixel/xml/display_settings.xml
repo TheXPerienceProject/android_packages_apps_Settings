@@ -182,7 +182,7 @@
 	    android:key="statusbar_xpe_category"
 		android:title="@string/xperience_statusbar">
 
-		<PreferenceScreen
+		<Preference
 		    android:key="statusbar_xpe"
 			android:title="@string/statusbar_custom"
 			android:fragment="com.android.settings.xperience.StatusBarSettings" />

@@ -15,30 +15,93 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Vô hiệu hoá</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Phiên bản XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Tên mã là XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Kênh</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Thiết bị</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Các nền tảng</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Tổng RAM</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
+    <string name="battery_saver_refresh_rate_title">Giảm tốc độ làm mới</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Thay đổi nhà cung cấp để sao lưu</string>
+    <string name="backup_transport_title">Chọn nhà cung cấp để sao lưu</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Thanh trạng thái</string>
+    <string name="statusbar_custom">Tùy chỉnh thanh trạng thái</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_summary">Hiện biểu tượng lưu lượng mạng trên thanh trạng thái</string>
+    <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn tốc độ mạng (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Ngăn chặn tình cờ bật màn hình</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
     <!-- Battery Settings -->
+    <string name="battery_settings_title">Thiết lập Pin</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Kiểu pin</string>
+    <string name="battery_style_category_summary">Chọn kiểu biểu tượng pin</string>
+    <string name="battery_percent_title">Phần trăm pin</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Kiểu thanh pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Biểu tượng nằm ngang R</string>
+    <string name="status_bar_battery_style_icon_landscape">Biểu tượng nằm ngang L</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
+    <string name="status_bar_battery_style_text">Chữ</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
+    <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
+    <string name="left_battery_text_title">Bên trái pin kiểu chữ</string>
+    <string name="left_battery_text_summary">Đặt văn bản pin ở bên trái của biểu tượng pin</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Tình trạng pin</string>
+    <string name="battery_health_summary">Theo dõi tình trạng pin của thiết bị</string>
+    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
+    <string name="current_battery_capacity_summary">Dung lượng pin hiện tại được đo bằng kernel</string>
+    <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
+    <string name="designed_battery_capacity_summary">Dung lượng pin tiêu chuẩn từ nhà sản xuất</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Phông chữ</string>
+    <string name="theme_customization_icon_pack_title">Gói biểu tượng</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Biểu tượng di động cỡ nhỏ</string>
+    <string name="use_old_mobiletype_summary">Hiển thị biểu tượng loại di động trên đầu chỉ báo tín hiệu</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Thông tin sạc màn hình khoá</string>
+    <string name="lockscreen_battery_info_summary">Hiển thị điện áp, dòng sạc và nhiệt độ pin trên màn hình khoá khi đang sạc</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Mở khoá nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập đúng PIN/mật khẩu</string>
     <!-- Volume button music control -->
     <!-- Adaptive Playback -->
     <!-- Torch Power button gestures -->

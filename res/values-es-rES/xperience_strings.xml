@@ -131,4 +131,37 @@
     <string name="torch_power_button_gesture_lp">Pulsación prolongada del botón de encendido</string>
     <string name="xperience_gestures">Gesto del botón</string>
     <string name="button_custom">Gesto de encender linterna</string>
+    <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Mostrar 4G en lugar de LTE</string>
+    <string name="show_fourg_icon_summary">Reemplazar el indicador LTE por 4G</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Mostrar información de la CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Superposición de pantalla que muestra la información actual de la CPU</string>
+    <!-- Lock screen visualizer -->
+    <string name="enable_visualizer">Activar visualizador</string>
+    <string name="lockscreen_visualizer_title">Visualizador</string>
+    <string name="lockscreen_visualizer_enable">Visualizador de Música</string>
+    <string name="lockscreen_visualizer_enable_summary">Mostrar barras de visualización mientras se reproduce música</string>
+    <string name="lockscreen_autocolor_title">Color automático</string>
+    <string name="lockscreen_autocolor_summary">Sincronizar color con el fondo de la pantalla de bloqueo</string>
+    <string name="lockscreen_autocolor_lavalamp">Requiere desactivar la lámpara de lava</string>
+    <string name="lockscreen_lavalamp_title">Lámpara de lava</string>
+    <string name="lockscreen_lavalamp_summary">Usa una animación de mezcla de color de lámpara de lava suave</string>
+    <string name="lockscreen_lavalamp_speed_title">Intervalo de mezcla de color</string>
+    <string name="lockscreen_solid_lines_category">Líneas sólidas</string>
+    <string name="lockscreen_solid_units_count_title">Conteo de líneas</string>
+    <string name="lockscreen_solid_fudge_factor_title">Nivel de cordura</string>
+    <string name="lockscreen_solid_units_opacity_title">Opacidad de líneas</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Etiqueta de Operador</string>
+    <string name="carrier_label_settings_summary">Personalizar la etiqueta del operador</string>
+    <string name="custom_carrier_label_title">Nombre de operador personalizado</string>
+    <string name="custom_carrier_label_explain">Introduzca una etiqueta personalizada. Deje en blanco para utilizar su nombre de red</string>
+    <string name="custom_carrier_label_notset">Etiqueta personalizada actualmente no establecida</string>
+    <string name="show_carrier_title">Ubicación de la etiqueta del operador</string>
+    <string name="show_carrier_disabled">Deshabilitado</string>
+    <string name="show_carrier_keyguard">Pantalla de bloqueo</string>
+    <string name="show_carrier_statusbar">Barra de estado</string>
+    <string name="show_carrier_enabled">Ambas</string>
 </resources>

@@ -41,10 +41,8 @@
     <!-- Quick unlock -->
     <!-- Volume button music control -->
     <!-- Adaptive Playback -->
+    <!-- Face Unlock -->
     <!-- Torch Power button gestures -->
     <!-- Show LTE/4G switch -->
-    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <!-- Lock screen visualizer -->
     <!-- Custom carrier label and position -->
 </resources>

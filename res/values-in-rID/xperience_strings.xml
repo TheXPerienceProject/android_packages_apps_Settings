@@ -103,11 +103,54 @@
     <string name="unlock_quick_unlock_control_title">Buka cepat</string>
     <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN/kata sandi yang dimasukkan benar</string>
     <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
+    <string name="adaptive_playback_enabled">Gunakan Pemutaran Adaptif</string>
+    <string name="adaptive_playback_disabled_summary">Nonaktif</string>
+    <string name="adaptive_playback_intro_text">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
+    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
+    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Aktif (30 detik)</string>
+    <string name="adaptive_playback_timeout_1_min">1 menit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Aktif (1 menit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 menit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Aktif (2 menit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
     <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Tombol senter saat layar mati</string>
+    <string name="torch_power_button_gesture_none">Nonaktif</string>
+    <string name="torch_power_button_gesture_dt">Ketuk dua kali tombol daya (respon ketukan tunggal lebih lambat), Menonaktifkan ketukan daya ganda untuk kamera.</string>
+    <string name="torch_power_button_gesture_dt_toast">Gestur jalan pintas ke kamera telah dinonaktifkan</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama tombol daya</string>
+    <string name="xperience_gestures">Gestur Tombol</string>
+    <string name="button_custom">Gestur lampu senter</string>
     <!-- Show LTE/4G switch -->
-    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <!-- Lock screen visualizer -->
+    <string name="show_fourg_icon_title">Tampilkan 4G daripada LTE</string>
+    <string name="show_fourg_icon_summary">Ganti indikator bilah status LTE dengan 4G</string>
     <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Label operator</string>
+    <string name="carrier_label_settings_summary">Kustomisasi label operator</string>
+    <string name="custom_carrier_label_title">Nama operator kustom</string>
+    <string name="custom_carrier_label_explain">Masukkan label kustom. Biarkan kosong untuk menggunakan nama jaringan Anda</string>
+    <string name="custom_carrier_label_notset">Saat ini kustom label belum ditentukan</string>
+    <string name="show_carrier_title">Lokasi label operator</string>
+    <string name="show_carrier_disabled">Nonaktif</string>
+    <string name="show_carrier_keyguard">Layar kunci</string>
+    <string name="show_carrier_statusbar">Bilah status</string>
+    <string name="show_carrier_enabled">Keduanya</string>
 </resources>

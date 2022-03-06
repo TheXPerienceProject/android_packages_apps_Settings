@@ -123,6 +123,14 @@
     <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina el escaneo facial existente y crea uno nuevo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer escaneo facial</string>
+    <string name="face_redo_confirm_btn">Rehacer</string>
+    <string name="face_redo_warning_msg">¿Desea eliminar el escaneo facial actual y crear uno nuevo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Activar linterna con la pantalla apagada</string>
     <string name="torch_power_button_gesture_none">Desactivado</string>
@@ -134,25 +142,6 @@
     <!-- Show LTE/4G switch -->
     <string name="show_fourg_icon_title">Mostrar 4G en lugar de LTE</string>
     <string name="show_fourg_icon_summary">Reemplazar el indicador LTE por 4G</string>
-    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Mostrar información de la CPU</string>
-    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Superposición de pantalla que muestra la información actual de la CPU</string>
-    <!-- Lock screen visualizer -->
-    <string name="enable_visualizer">Activar visualizador</string>
-    <string name="lockscreen_visualizer_title">Visualizador</string>
-    <string name="lockscreen_visualizer_enable">Visualizador de Música</string>
-    <string name="lockscreen_visualizer_enable_summary">Mostrar barras de visualización mientras se reproduce música</string>
-    <string name="lockscreen_autocolor_title">Color automático</string>
-    <string name="lockscreen_autocolor_summary">Sincronizar color con el fondo de la pantalla de bloqueo</string>
-    <string name="lockscreen_autocolor_lavalamp">Requiere desactivar la lámpara de lava</string>
-    <string name="lockscreen_lavalamp_title">Lámpara de lava</string>
-    <string name="lockscreen_lavalamp_summary">Usa una animación de mezcla de color de lámpara de lava suave</string>
-    <string name="lockscreen_lavalamp_speed_title">Intervalo de mezcla de color</string>
-    <string name="lockscreen_solid_lines_category">Líneas sólidas</string>
-    <string name="lockscreen_solid_units_count_title">Conteo de líneas</string>
-    <string name="lockscreen_solid_fudge_factor_title">Nivel de cordura</string>
-    <string name="lockscreen_solid_units_opacity_title">Opacidad de líneas</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Etiqueta de Operador</string>
     <string name="carrier_label_settings_summary">Personalizar la etiqueta del operador</string>

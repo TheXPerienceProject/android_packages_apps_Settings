@@ -492,7 +492,7 @@ public class SettingsGateway {
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.ShadeSettingsActivity.class.getName(),
             Settings.RainbowActivity.class.getName(),
-            Settings.SleepModeActivity.class.getName()
+            Settings.SleepModeActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
     };
 }

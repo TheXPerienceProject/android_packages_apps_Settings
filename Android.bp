@@ -126,6 +126,17 @@ android_library {
         "androidx.appsearch_appsearch-builtin-types",
         "com.android.extensions.appfunctions.impl",
         "device-state-schema",
+        "androidx.navigation_navigation-common-ktx",
+        "androidx.navigation_navigation-fragment-ktx",
+        "androidx.navigation_navigation-runtime-ktx",
+        "androidx.navigation_navigation-ui-ktx",
+        "kotlin-stdlib",
+        "SystemUISharedLib",
+        "androidx.fragment_fragment",
+        "androidx.fragment_fragment-ktx",
+        "androidx.preference_preference-ktx",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
     ],
 
     plugins: [

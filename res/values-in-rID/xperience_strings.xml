@@ -153,4 +153,8 @@
     <string name="show_carrier_keyguard">Layar kunci</string>
     <string name="show_carrier_statusbar">Bilah status</string>
     <string name="show_carrier_enabled">Keduanya</string>
+    <!-- Navbar options -->
+    <!-- Per-app volume -->
+    <!-- Immersive Navigation -->
+    <!-- Gesture bar length -->
 </resources>

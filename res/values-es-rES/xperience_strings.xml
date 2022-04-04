@@ -153,4 +153,16 @@
     <string name="show_carrier_keyguard">Pantalla de bloqueo</string>
     <string name="show_carrier_statusbar">Barra de estado</string>
     <string name="show_carrier_enabled">Ambas</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir diseño de la barra de navegación</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">Volumen de aplicación</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de navegación</string>
+    <string name="immersive_navigation_title">Navegación inmersiva</string>
+    <string name="immersive_navigation_summary">Ocultar la píldora de gestos y el relleno de barra de navegación.</string>
+    <!-- Gesture bar length -->
+    <string name="gesture_navbar_length_preference_title">Tamaño de la barra de gestos</string>
+    <string name="gesture_navbar_length_preference_short_label">Corto</string>
+    <string name="gesture_navbar_length_preference_long_label">Largo</string>
 </resources>

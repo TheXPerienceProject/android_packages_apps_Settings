@@ -65,5 +65,11 @@
             android:summary="@string/reticker_colored_summary"
             android:defaultValue="false" />
 
+        <mx.xperience.framework.preference.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="reticker_landscape_only"
+            android:title="@string/reticker_landscape_only_title"
+            android:summary="@string/reticker_landscape_only_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>

@@ -51,7 +51,6 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase implements
 
     private FingerprintEnrollSidecar mSidecar;
     private boolean mNextClicked;
-    private boolean mCanAssumeSidefps;
     private boolean mCanAssumeUdfps;
     private boolean mCanAssumeSidefps;
 

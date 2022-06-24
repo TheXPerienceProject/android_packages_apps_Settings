@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2020 RevengeOS
+ * Copyright (C) 2022 The XPerience Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,10 +49,12 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
 
-    private static final String FILENAME_BATTERY_DESIGN_CAPACITY =
+    private static String FILENAME_BATTERY_DESIGN_CAPACITY =
             "/sys/class/power_supply/bms/charge_full_design";
-    private static final String FILENAME_BATTERY_CURRENT_CAPACITY =
+    private static String FILENAME_BATTERY_CURRENT_CAPACITY =
             "/sys/class/power_supply/bms/charge_full";
+
+    final String KernelVersion = System.getProperty("os.version");
 
     PowerGaugePreference mCurrentBatteryCapacity;
     PowerGaugePreference mDesignedBatteryCapacity;
@@ -61,6 +64,11 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.battery_health);
+
+        if (KernelVersion.contains("5.4")) {
+            FILENAME_BATTERY_DESIGN_CAPACITY = "/sys/class/power_supply/battery/charge_full_design";
+            FILENAME_BATTERY_CURRENT_CAPACITY = "/sys/class/power_supply/battery/charge_full";
+        }
 
         mCurrentBatteryCapacity = (PowerGaugePreference) findPreference(
                 KEY_CURRENT_BATTERY_CAPACITY);

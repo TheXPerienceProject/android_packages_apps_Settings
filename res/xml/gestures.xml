@@ -105,8 +105,4 @@
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="false" />
 
-	<Preference
-	    android:key="statusbar_xpe"
-		android:title="@string/button_custom"
-		android:fragment="com.android.settings.xperience.ButtonSettings" />
 </PreferenceScreen>

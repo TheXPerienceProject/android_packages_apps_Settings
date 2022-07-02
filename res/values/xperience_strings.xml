@@ -31,7 +31,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">XPerience Version</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.org/</string>
+    <string name="xperience_firmware_uri" translatable="false">https://s900114664.onlinehome.mx</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->

@@ -18,24 +18,53 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Auriculares guardados</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Cambiar proveedor de la copia de seguridad</string>
+    <string name="backup_transport_title">Seleccionar proveedor de la copia de seguridad</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Deshabilitado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio (Enforcing)</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versión de XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Código XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal de actualización</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Dispositivo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">RAM total</string>
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carga rápida</string>
+    <string name="fast_charging_summary">Desactivar para reducir el calor producido por el dispositivo mientras se carga o para extender la esperanza de vida de la batería</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuración como Superusuario</string>
     <string name="adb_enable_summary_root">Permite ejecutar la depuración de Android como superusuario</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localice el sensor de huella digital en la parte delantera de su tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localiza el lector de huellas digitales en la parte frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localiza el sensor de huellas dactilares en la parte trasera de tu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localiza el lector de huellas en la parte trasera de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localiza el sensor de huellas en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localiza el lector de huellas en el lateral de la tableta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localiza el lector de huellas en el lateral del dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localiza el sensor de huellas en la parte lateral de tu teléfono.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toca el sensor de huellas frontal de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toca el sensor de huellas frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toca el sensor de huellas trasero de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toca el sensor de huellas trasero de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toca el sensor en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toca el sensor de huellas lateral de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toca el sensor de huellas lateral de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toca el sensor de huellas lateral de tu teléfono.</string>
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Huella en pantalla apagada</string>
     <string name="screen_off_fod_summary">Mantiene la detección de huella en pantalla cuando la pantalla esté apagada</string>

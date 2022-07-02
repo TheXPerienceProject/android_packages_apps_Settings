@@ -16,30 +16,106 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Ubah penyedia cadangan</string>
+    <string name="backup_transport_title">Pilih penyedia cadangan</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Nonaktif</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versi XPerience</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Nama Kode XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Saluran</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Perangkat</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Pengisian Cepat</string>
+    <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan oleh perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debugging Root</string>
+    <string name="adb_enable_summary_root">Izinkan menjalankan debugging Android sebagai root</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Temukan sensor sidik jari di bagian depan tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Temukan sensor sidik jari di bagian depan perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Temukan sensor sidik jari di bagian belakang tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Temukan sensor sidik jari di bagian belakang perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Temukan lokasi sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Temukan sensor sidik jari di bagian samping tablet Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Temukan sensor sidik jari di bagian samping perangkat Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Sentuh sensor di bagian depan tablet Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Sentuh sensor di bagian depan perangkat Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Sentuh sensor di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Sentuh sensor di bagian belakang tablet Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Sentuh sensor di bagian belakang perangkat Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Sentuh sensor di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Sentuh sensor di bagian samping tablet Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Sentuh sensor di bagian samping perangkat Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Sentuh sensor di bagian samping ponsel Anda.</string>
     <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">FOD layar mati</string>
+    <string name="screen_off_fod_summary">Tetap aktifkan FOD saat layar mati</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Pengelola ikon</string>
+    <string name="icon_manager_summary">Kontrol tampilan ikon bilah status</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Bilah status</string>
+    <string name="statusbar_custom">Kustomisasi bilah status</string>
+    <string name="network_traffic_state_title">Lalu lintas jaringan</string>
+    <string name="network_traffic_state_summary">Tampilkan aktivitas jaringan di bilah status</string>
+    <string name="network_traffic_autohide_threshold_title">Otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
+    <string name="network_traffic_hidearrow">Sembunyikan tanda panah</string>
+    <string name="network_traffic_hidearrow_summary">Sembunyikan panah indikator lalu lintas jaringan</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Kesehatan Baterai</string>
+    <string name="battery_health_summary">Pantau kesehatan baterai perangkat Anda</string>
+    <string name="current_battery_capacity">Kapasitas baterai saat ini</string>
+    <string name="current_battery_capacity_summary">Kapasitas baterai saat ini diukur oleh kernel</string>
+    <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
+    <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Bilah navigasi</string>
+    <string name="immersive_navigation_title">Navigasi Immersive</string>
+    <string name="immersive_navigation_summary">Sembunyikan pil gestur dan lapisan bilah navigasi.</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Kecepatan refresh minimal</string>
+    <string name="max_refresh_rate_title">Kecepatan refresh maksimal</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap untuk tangkapan layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk tangkapan layar</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <string name="xperience_gestures">Gestur Tombol</string>
+    <string name="button_custom">Gestur lampu senter</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Tampilkan 4G daripada LTE</string>
+    <string name="show_fourg_icon_summary">Ganti indikator LTE dengan 4G</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Tipe ikon seluler kecil</string>
+    <string name="use_old_mobiletype_summary">Tampilkan tipe ikon seluler di atas indikator sinyal</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Buka cepat</string>
+    <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN/kata sandi yang dimasukkan benar</string>
 </resources>

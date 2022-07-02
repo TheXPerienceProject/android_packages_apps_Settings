@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2011-2022 The XPerience Project
+<!--
+     Copyright (C) 2022 The XPerience Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,20 +15,31 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Backup Transport selection settings menu and activity title -->
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About to show Device name -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <!-- Refresh rate -->
     <!-- FastCharge feature -->
     <!-- Android debugging as root -->
-    <!-- Face Unlock -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Screen off FOD -->
+    <!-- Global Actions -->
+    <!-- Status bar Icon Manager -->
+    <!-- Statusbar net monitor -->
+    <!-- Battery health -->
+    <!-- Immersive Navigation -->
+    <!-- Refresh rate -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Face Unlock -->
+    <!-- Show LTE/4G switch -->
+    <!-- Old mobile type icons -->
+    <!-- Quick unlock -->
 </resources>

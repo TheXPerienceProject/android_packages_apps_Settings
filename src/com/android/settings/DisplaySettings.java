@@ -18,6 +18,7 @@ package com.android.settings;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.preference.ListPreference;
@@ -72,6 +73,8 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
         boolean mSmartPixelsSupported = getResources().getBoolean(

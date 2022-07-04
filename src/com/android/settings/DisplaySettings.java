@@ -51,10 +51,6 @@ import java.util.List;
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
 
-    private static final String SMART_PIXELS = "smart_pixels";
-
-    private Preference mSmartPixels;
-
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.DISPLAY;
@@ -74,17 +70,6 @@ public class DisplaySettings extends DashboardFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
-        boolean mSmartPixelsSupported = getResources().getBoolean(
-                com.android.internal.R.bool.config_supportSmartPixels);
-        if (!mSmartPixelsSupported)
-            prefScreen.removePreference(mSmartPixels);
-    }
-
-    public static void reset(Context mContext) {
-        SmartPixels.reset(mContext);
     }
 
     @Override

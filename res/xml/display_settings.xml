@@ -188,13 +188,6 @@
             android:defaultValue="true"
             settings:controller="com.android.settings.security.UdfpsGesturePreferenceController" />
 
-    <!-- Smart Pixels -->
-     <Preference
-        android:key="smart_pixels" 
-        android:title="@string/smart_pixels_title" 
-        android:summary="@string/smart_pixels_summary"
-        android:fragment="com.android.settings.xperience.SmartPixels" />
-
     </PreferenceCategory>
 	<PreferenceCategory
 	    android:key="statusbar_xpe_category"
@@ -204,6 +197,16 @@
 		    android:key="statusbar_xpe"
 			android:title="@string/statusbar_custom"
 			android:fragment="com.android.settings.xperience.StatusBarSettings" />
+
+		</PreferenceCategory>
+	<PreferenceCategory
+	    android:key="ui_xpe_category"
+		android:title="@string/xperience_ui_title">
+
+		<Preference
+		    android:key="ui_xpe"
+			android:title="@string/ui_custom"
+			android:fragment="com.android.settings.xperience.UISettings" />
 
 		</PreferenceCategory>
 </PreferenceScreen>

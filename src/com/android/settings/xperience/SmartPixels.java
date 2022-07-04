@@ -15,24 +15,22 @@
  */
 
 package com.android.settings.xperience;
-
 import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.UserHandle;
-import android.provider.Settings;
-
+import android.os.PowerManager;
 import androidx.preference.*;
+import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-import com.android.settings.xperience.SystemSettingSwitchPreference;
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import mx.xperience.framework.preference.SystemSettingSwitchPreference;
+
+import com.android.internal.logging.nano.MetricsProto;
 
 public class SmartPixels extends SettingsPreferenceFragment {
 

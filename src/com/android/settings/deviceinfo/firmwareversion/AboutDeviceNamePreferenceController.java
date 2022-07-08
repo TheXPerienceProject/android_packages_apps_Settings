@@ -29,6 +29,8 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
 
     private static final String KEY_DEVICE_NAME_PROP = "ro.product.device";
     private static final String KEY_DEVICE_MODEL_PROP = "ro.product.marketname";
+    private static final String KEY_DEVICE_DISPLAY_SERIES = "ro.product.product.device"; //oplus or others?
+    private static final String KEY_DEVICE_DISPLAY_MODEL = "ro.product.product.model"; // oplus or others?
 
     public AboutDeviceNamePreferenceController(Context context, String key) {
         super(context, key);
@@ -43,8 +45,13 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
     public CharSequence getSummary() {
 	String deviceName = SystemProperties.get(KEY_DEVICE_NAME_PROP);
 	String deviceModel =  SystemProperties.get(KEY_DEVICE_MODEL_PROP);
+	String deviceNameOplus = SystemProperties.get(KEY_DEVICE_DISPLAY_SERIES);
+	String deviceModelOplus = SystemProperties.get(KEY_DEVICE_DISPLAY_MODEL);
+
 	if (!deviceName.isEmpty() && !deviceModel.isEmpty())
 	    return deviceName + " (" + deviceModel + ")";
+	else if (!deviceNameOplus.isEmpty() && !deviceModelOplus.isEmpty())
+	    return deviceNameOplus + " (" + deviceModelOplus + ")";
 	else
             return mContext.getString(R.string.unknown);
     }

@@ -26,4 +26,12 @@
         android:summary="@string/smart_pixels_summary"
         android:fragment="com.android.settings.xperience.SmartPixels" />
 
+    <!-- Screen off animations -->
+    <mx.xperience.framework.preference.SystemSettingListPreference
+        android:key="screen_off_animation"
+        android:title="@string/screen_off_animation_title"
+        android:dialogTitle="@string/screen_off_animation_title"
+        android:entries="@array/screen_off_animation_entries"
+        android:entryValues="@array/screen_off_animation_values"
+        android:defaultValue="1" />
 </PreferenceScreen>

@@ -116,9 +116,46 @@
     <string name="use_old_mobiletype_title">Tipe ikon seluler kecil</string>
     <string name="use_old_mobiletype_summary">Tampilkan tipe ikon seluler di atas indikator sinyal</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Piksel Cerdas adalah fitur hemat daya. Bergantung pada berapa banyak piksel yang Anda putuskan untuk dimatikan, Anda dapat melihat peningkatan dalam masa pakai baterai. Perhatikan bahwa dalam beberapa kasus dapat mengakibatkan area yang tidak responsif pada layar sentuh</string>
+    <string name="smart_pixels_title">Piksel Cerdas</string>
+    <string name="smart_pixels_summary">Menghemat baterai dengan mematikan beberapa piksel</string>
+    <string name="smart_pixels_enable_title">Aktifkan Piksel Cerdas</string>
+    <string name="smart_pixels_enable_summary">Mematikan beberapa piksel untuk mengurangi konsumsi daya</string>
+    <string name="smart_pixels_on_power_save_title">Aktifkan otomatis pada penghemat baterai</string>
+    <string name="smart_pixels_on_power_save_summary">Aktifkan Piksel Cerdas saat penghemat baterai diaktifkan</string>
+    <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
+    <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
+    <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan sering menggeser piksel</string>
+    <string name="custom_timeout_summary_never">Jangan pernah</string>
+    <string name="custom_timeout_summary_15secs">15 detik</string>
+    <string name="custom_timeout_summary_30secs">30 detik</string>
+    <string name="custom_timeout_summary_1min">1 menit</string>
+    <string name="custom_timeout_summary_2mins">2 menit</string>
+    <string name="custom_timeout_summary_5mins">5 menit</string>
+    <string name="custom_timeout_summary_10mins">10 menit</string>
+    <string name="custom_timeout_summary_20mins">20 menit</string>
+    <string name="custom_timeout_summary_30mins">30 menit</string>
+    <string name="custom_timeout_summary_1hour">1 jam</string>
+    <string name="custom_timeout_summary_2hours">2 jam</string>
+    <string name="custom_timeout_summary_4hours">4 jam</string>
+    <string name="custom_timeout_summary_8hours">8 jam</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animasi layar mati</string>
+    <string name="screen_off_animation_default">Bawaan</string>
+    <string name="screen_off_animation_scale">Skala</string>
     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Ruang Game</string>
+    <string name="gaming_mode_summary">Fitur ekstra untuk pengalaman bermain game yang impresif</string>
     <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Tampilkan pintasan Dasbor Game dalam game</string>
+    <string name="game_dashboard_always_on_title">Dasbor Game</string>
+    <string name="game_dashboard_dnd_rule_name">Bermain Game</string>
+    <string name="game_dashboard_dnd_summary">Hanya dapatkan notifikasi dari orang dan aplikasi penting saat bermain game</string>
+    <string name="game_dashboard_dnd_title">Jangan Ganggu untuk game</string>
     <!-- Game Space -->
+    <string name="game_space_title">Ruang Game</string>
+    <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
     <!-- UI -->
+    <string name="xperience_ui_title">Antarmuka XPerience</string>
+    <string name="ui_custom">Kustomisasi antarmuka dan game</string>
 </resources>

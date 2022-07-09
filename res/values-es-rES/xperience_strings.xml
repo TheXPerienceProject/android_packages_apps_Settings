@@ -115,7 +115,47 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Usar antiguos iconos de datos móviles</string>
     <string name="use_old_mobiletype_summary">Muestra el icono del tipo de señal en la parte superior del indicador de señal</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN o contraseña</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Píxeles inteligentes es una característica de ahorro de energía. Dependiendo de cuántos píxeles decidas desactivar, podrías ver mejoras en la vida útil de la batería. Ten en cuenta que en algunos casos puede resultar en zonas no receptivas en la pantalla táctil</string>
+    <string name="smart_pixels_title">Píxeles inteligentes</string>
+    <string name="smart_pixels_summary">Ahorra batería apagando píxeles</string>
+    <string name="smart_pixels_enable_title">Habilitar píxeles inteligentes</string>
+    <string name="smart_pixels_enable_summary">Apagar píxeles para reducir el consumo de energía</string>
+    <string name="smart_pixels_on_power_save_title">Activar automáticamente en modo ahorro de batería</string>
+    <string name="smart_pixels_on_power_save_summary">Habilitar Píxeles Inteligentes cuando el ahorro de batería esté habilitado</string>
+    <string name="smart_pixels_percent">Porcentaje de píxeles a desactivar</string>
+    <string name="smart_pixels_shift_title">Protección ante el quemado de pantalla</string>
+    <string name="smart_pixels_shift_summary">Previene el quemado de la pantalla en dispositivos con tecnología OLED alternando píxeles de vez en cuando</string>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_15secs">15 segundos</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_20mins">20 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 horas</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animación al apagar pantalla</string>
+    <string name="screen_off_animation_default">Predeterminado</string>
+    <string name="screen_off_animation_scale">Escalado</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Espacio de juegos</string>
+    <string name="gaming_mode_summary">Características adicionales para una experiencia de juego inmersiva</string>
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Mostrar atajo del modo juego en los juegos</string>
+    <string name="game_dashboard_always_on_title">Modo Juego</string>
+    <string name="game_dashboard_dnd_rule_name">Gaming</string>
+    <string name="game_dashboard_dnd_summary">Solo recibir notificaciones de personas y aplicaciones importantes al jugar</string>
+    <string name="game_dashboard_dnd_title">No molestar (DND) en juegos</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Espacio de juego</string>
+    <string name="game_space_summary">Mejora tu experiencia de juego</string>
+    <!-- UI -->
+    <string name="xperience_ui_title">Interfaz de usuario XPerience</string>
+    <string name="ui_custom">Personalizaciones de interfaz de usuario y juego</string>
 </resources>

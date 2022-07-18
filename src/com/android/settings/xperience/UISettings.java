@@ -41,6 +41,8 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.android.internal.util.ArrayUtils;
+import com.android.internal.util.xperience.XPerienceUtils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import android.util.Log;
@@ -60,8 +62,10 @@ public class UISettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String SMART_PIXELS = "smart_pixels";
+    private static final String SCREEN_OFF_FOD = "screen_off_udfps_enabled";
 
     private Preference mSmartPixels;
+    private Preference mScreenOffFod;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -72,10 +76,21 @@ public class UISettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
+        mScreenOffFod = (Preference) prefScreen.findPreference(SCREEN_OFF_FOD);
+
         boolean mSmartPixelsSupported = getResources().getBoolean(
                 com.android.internal.R.bool.config_supportSmartPixels);
-        if (!mSmartPixelsSupported)
+
+        int[] mScreenOffFodSupported = getResources().getIntArray(
+                com.android.internal.R.array.config_udfps_sensor_props);
+
+        if (!mSmartPixelsSupported) {
             prefScreen.removePreference(mSmartPixels);
+        }
+
+        if (ArrayUtils.isEmpty(mScreenOffFodSupported)){
+            prefScreen.removePreference(mScreenOffFod);
+        }
     }
 
     public static void reset(Context mContext) {

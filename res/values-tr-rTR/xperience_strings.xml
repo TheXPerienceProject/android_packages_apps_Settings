@@ -17,34 +17,104 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Yedekleme sağlayıcısını değiştir</string>
+    <string name="backup_transport_title">Yedekleme sağlayıcısını seçin</string>
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience™ Sürümü</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience™ Cihaz kod adı</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
+    <string name="about_device_name">Cihaz</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Hızlı şarj</string>
+    <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Kök Hata Ayıklama</string>
+    <string name="adb_enable_summary_root">Android hata ayıklamasını root olarak çalıştırmaya izin ver</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
     <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Kapalı ekranda parmak izi</string>
+    <string name="screen_off_fod_summary">Ekran kapalıyken parmak izini açık tutun</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
     <!-- Status bar Icon Manager -->
     <!-- Statusbar net monitor -->
     <!-- Battery health -->
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Gezinme çubuğu</string>
+    <string name="immersive_navigation_title">Tam ekran gezinme</string>
     <!-- Refresh rate -->
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Üç parmak hareketi</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
     <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi ile açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıkken</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="xperience_gestures">Gezinme</string>
+    <string name="button_custom">Güç tuşu hareketi</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
+    <string name="show_fourg_icon_summary">LTE göstergesini 4G ile değiştirir</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Küçük mobil ağ simgesi</string>
+    <string name="use_old_mobiletype_summary">Mobil ağ simgesini sinyal göstergesinin üstünde göster</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe iyileşme görebilirsiniz.</string>
+    <string name="smart_pixels_shift_title">Yanma koruması</string>
+    <string name="smart_pixels_shift_summary">Amoled cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
+    <string name="custom_timeout_summary_never">Hiçbir zaman</string>
+    <string name="custom_timeout_summary_15secs">15 saniye</string>
+    <string name="custom_timeout_summary_30secs">30 Saniye</string>
+    <string name="custom_timeout_summary_1min">1 dakika</string>
+    <string name="custom_timeout_summary_2mins">2 dakika</string>
+    <string name="custom_timeout_summary_5mins">5 dakika</string>
+    <string name="custom_timeout_summary_10mins">10 dakika</string>
+    <string name="custom_timeout_summary_20mins">20 dakika</string>
+    <string name="custom_timeout_summary_30mins">30 dakika</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 Saat</string>
+    <string name="custom_timeout_summary_8hours">8 Saat</string>
     <!-- Screen Off animation -->
     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Oyun alanı</string>
+    <string name="gaming_mode_summary">Tam ekran oyun deneyimi için ekstra özellikler</string>
     <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Oyunlarda Oyun Menüsü kısayolunu göster</string>
+    <string name="game_dashboard_always_on_title">Oyunlar Kontrol Paneli</string>
+    <string name="game_dashboard_dnd_rule_name">Oyun</string>
+    <string name="game_dashboard_dnd_summary">Oyun oynarken yalnızca önemli kişilerden ve uygulamalardan haberdar olun</string>
+    <string name="game_dashboard_dnd_title">Oyunlar için Rahatsız Etme</string>
     <!-- Game Space -->
+    <string name="game_space_title">Oyun alanı</string>
+    <string name="game_space_summary">Oyun deneyiminizi iyileştirin</string>
     <!-- UI -->
+    <string name="xperience_ui_title">XPerience Arayüzü</string>
+    <string name="ui_custom">Kullanıcı arayüzü ve tema özelleştirmeleri</string>
 </resources>

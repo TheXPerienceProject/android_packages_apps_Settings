@@ -16,33 +16,93 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Những tai nghe đã lưu</string>
     <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Thay đổi nhà cung cấp để sao lưu</string>
+    <string name="backup_transport_title">Chọn nhà cung cấp để sao lưu</string>
     <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Vô hiệu hoá</string>
+    <string name="selinux_status_permissive">Phân quyền</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Phiên bản XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Tên mã là XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Kênh</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Thiết bị</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Các nền tảng</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Tổng RAM</string>
     <!-- FastCharge feature -->
     <!-- Android debugging as root -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Screen off FOD -->
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Quản lí biểu tượng</string>
+    <string name="icon_manager_summary">Điều chỉnh các biểu tượng trên thanh trạng thái</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Thanh trạng thái</string>
+    <string name="statusbar_custom">Tùy chỉnh thanh trạng thái</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_summary">Hiện biểu tượng lưu lượng mạng trên thanh trạng thái</string>
+    <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn tốc độ mạng (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Tình trạng pin</string>
+    <string name="battery_health_summary">Theo dõi tình trạng pin của thiết bị</string>
+    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
+    <string name="current_battery_capacity_summary">Dung lượng pin hiện tại được đo bằng kernel</string>
+    <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
+    <string name="designed_battery_capacity_summary">Dung lượng pin tiêu chuẩn từ nhà sản xuất</string>
     <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Thanh điều hướng</string>
+    <string name="immersive_navigation_title">Kích hoạt điều hướng thực tại ảo</string>
+    <string name="immersive_navigation_summary">Ẩn thanh điều hướng bên dưới.</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Đi tới</string>
+    <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
+    <string name="face_unlock_method_title">Cho phép từ màn hình khóa</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
+    <string name="xperience_gestures">Các nút và cử chỉ</string>
+    <string name="button_custom">Cử chỉ flash nút nguồn</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Hiện 4G thay cho LTE</string>
+    <string name="show_fourg_icon_summary">Thay thế chỉ báo LTE bằng 4G</string>
     <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Biểu tượng di động cỡ nhỏ</string>
+    <string name="use_old_mobiletype_summary">Hiển thị biểu tượng loại di động trên đầu chỉ báo tín hiệu</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Điểm ảnh thông minh</string>
+    <string name="smart_pixels_summary">Tiết kiệm pin bằng cách tắt các điểm ảnh phụ</string>
+    <string name="smart_pixels_enable_title">Bật Điểm ảnh thông minh</string>
+    <string name="smart_pixels_enable_summary">Tắt các điểm ảnh để giảm tiêu thụ pin</string>
+    <string name="smart_pixels_on_power_save_title">Tự động bật cùng trình tiết kiệm pin</string>
+    <string name="smart_pixels_on_power_save_summary">Tự động bật Điểm ảnh thông minh khi trình tiết kiệm pin được bật</string>
+    <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Hiệu ứng tắt màn hình</string>
+    <string name="screen_off_animation_default">Mặc định</string>
+    <string name="screen_off_animation_scale">Co giãn</string>
     <!-- Gaming mode -->
     <!-- Game -->
     <!-- Game Space -->

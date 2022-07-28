@@ -16,33 +16,73 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auricolari Salvati</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <!-- SELinux Status -->
+    <string name="selinux_status">Stato di SELinux</string>
+    <string name="selinux_status_disabled">Disabilitato</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Applicare</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canale</string>
     <!-- About to show Device name -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Piattaforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM Totale</string>
     <!-- FastCharge feature -->
     <!-- Android debugging as root -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Screen off FOD -->
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gestore icone</string>
+    <string name="icon_manager_summary">Controlla la visibilità delle icone della barra di stato</string>
     <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra di stato</string>
+    <string name="statusbar_custom">Personalizzazioni della barra di stato</string>
+    <string name="network_traffic_state_title">Traffico di rete</string>
+    <string name="network_traffic_state_summary">Mostra l\'attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nascondi frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore del traffico di rete</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Salute della batteria</string>
+    <string name="battery_health_summary">Monitora la salute della batteria del tuo dispositivo</string>
+    <string name="current_battery_capacity">Capacità corrente della batteria</string>
+    <string name="current_battery_capacity_summary">La capacità corrente della batteria misurata dal kernel</string>
+    <string name="designed_battery_capacity">Capacità designata della batteria</string>
+    <string name="designed_battery_capacity_summary">La capacità della batteria designata dal produttore</string>
     <!-- Immersive Navigation -->
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frequenza d\'aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza d\'aggiornamento massima</string>
     <!-- Three-fingers-swipe to screenshot -->
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi scansione del viso esistente e creane una nuova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione viso</string>
+    <string name="face_redo_confirm_btn">Ripeti</string>
+    <string name="face_redo_warning_msg">Desideri rimuovere la scansione del viso esistente e crearne una nuova?</string>
     <!-- Show LTE/4G switch -->
     <!-- Old mobile type icons -->
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixel</string>
+    <string name="smart_pixels_summary">Risparmia batteria spegnendo i pixel aggiuntivi</string>
+    <string name="smart_pixels_enable_title">Abilita Smart Pixel</string>
+    <string name="smart_pixels_enable_summary">Spegni i pixel per ridurre il consumo energetico</string>
+    <string name="smart_pixels_on_power_save_title">Abilita automaticamente con risparmio energetico</string>
+    <string name="smart_pixels_on_power_save_summary">Abilita Smart pixel quando il risparmio energetico è abilitato</string>
+    <string name="smart_pixels_percent">Percentuale di pixel da disabilitare</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animazione di spegnimento schermo</string>
+    <string name="screen_off_animation_default">Predefinito</string>
+    <string name="screen_off_animation_scale">Scala</string>
     <!-- Gaming mode -->
     <!-- Game -->
     <!-- Game Space -->

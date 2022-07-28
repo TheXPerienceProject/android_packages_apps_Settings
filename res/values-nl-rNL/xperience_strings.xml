@@ -34,6 +34,9 @@
     <!-- Global Actions -->
     <!-- Status bar Icon Manager -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netwerkverkeer</string>
+    <string name="network_traffic_state_summary">Netwerkactiviteit weergeven in statusbalk</string>
+    <string name="network_traffic_autohide_threshold_title">Drempel voor netwerkactiviteit (KB/s)</string>
     <!-- Battery health -->
     <!-- Immersive Navigation -->
     <!-- Refresh rate -->

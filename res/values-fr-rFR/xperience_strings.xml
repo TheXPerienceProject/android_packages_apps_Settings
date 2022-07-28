@@ -34,6 +34,9 @@
     <!-- Global Actions -->
     <!-- Status bar Icon Manager -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Débit réseau</string>
+    <string name="network_traffic_state_summary">Afficher l\'activité réseau dans la barre d\'état</string>
+    <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
     <!-- Battery health -->
     <!-- Immersive Navigation -->
     <!-- Refresh rate -->

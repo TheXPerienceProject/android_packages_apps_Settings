@@ -18,6 +18,10 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Backup Transport selection settings menu and activity title -->
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux ステータス</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
@@ -25,7 +29,9 @@
     <!-- About to show Device name -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">プラットフォーム</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">合計RAM</string>
     <!-- FastCharge feature -->
     <!-- Android debugging as root -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
@@ -34,6 +40,9 @@
     <!-- Global Actions -->
     <!-- Status bar Icon Manager -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">ネットワーク通信量</string>
+    <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
+    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
     <!-- Battery health -->
     <!-- Immersive Navigation -->
     <!-- Refresh rate -->
@@ -43,6 +52,9 @@
     <!-- Old mobile type icons -->
     <!-- Smart Pixels -->
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">画面オフ時のアニメーション</string>
+    <string name="screen_off_animation_default">既定</string>
+    <string name="screen_off_animation_scale">縮小</string>
     <!-- Gaming mode -->
     <!-- Game -->
     <!-- Game Space -->

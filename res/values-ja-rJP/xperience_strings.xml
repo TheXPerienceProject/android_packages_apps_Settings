@@ -59,4 +59,14 @@
     <!-- Game -->
     <!-- Game Space -->
     <!-- UI -->
+    <!-- DC Dimming -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_icon_portrait">縦</string>
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_text">テキスト</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_default">非表示</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
 </resources>

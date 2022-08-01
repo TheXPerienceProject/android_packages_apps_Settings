@@ -87,4 +87,15 @@
     <!-- Game -->
     <!-- Game Space -->
     <!-- UI -->
+    <!-- DC Dimming -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Stile della batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosto</string>
+    <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosto</string>
+    <string name="status_bar_battery_percentage_text_inside">Nell\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Vicino all\'icona</string>
 </resources>

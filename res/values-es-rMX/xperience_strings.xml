@@ -158,4 +158,33 @@
     <!-- UI -->
     <string name="xperience_ui_title">Interfaz de usuario XPerience</string>
     <string name="ui_custom">Personalizaciones de interfaz de usuario y juego</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Ajuste de Brillo alternativo [DC-Diming]</string>
+    <string name="dc_dimming_info">Reduce la tensión de los ojos en condiciones de poca luz al minimizar el parpadeo de la pantalla. Puede resultar en una menor calidad de imagen y una mala producción de color, o un mayor consumo de energía.</string>
+    <string name="dc_dimming_main_switch_title">Usar Dimming DC</string>
+    <string name="dc_dimming_auto_mode_title">Programar</string>
+    <string name="dc_dimming_mode_brightness">Activar cuando el brillo está por debajo del límite establecido</string>
+    <string name="dc_dimming_mode_full">Dependiente del tiempo y brillo</string>
+    <string name="dc_dimming_brightness_title">Nivel de luminosidad</string>
+    <string name="dc_dimming_brightness_summary">Sólo activar DC Dimming cuando el brillo promedio esté por debajo del límite establecido</string>
+    <string name="dc_dimming_restore_auto_mode">Restablecer modo automático</string>
+    <string name="dc_dimming_off_auto_mode_auto">Se encenderá automáticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Se desactivará automáticamente</string>
+    <string name="keywords_display_dc_dimming">atenuación dc, parpadeo, ojo, cansancio</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
+    <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
 </resources>

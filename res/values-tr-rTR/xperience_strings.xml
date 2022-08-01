@@ -117,4 +117,6 @@
     <!-- UI -->
     <string name="xperience_ui_title">XPerience Arayüzü</string>
     <string name="ui_custom">Kullanıcı arayüzü ve tema özelleştirmeleri</string>
+    <!-- DC Dimming -->
+    <!-- Battery Styles -->
 </resources>

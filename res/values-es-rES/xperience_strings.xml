@@ -175,7 +175,7 @@
     <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
     <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
     <string name="status_bar_battery_style_title">Estilo de batería</string>
-    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícono vertical</string>
     <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
     <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
     <string name="status_bar_battery_style_circle">Circulo</string>

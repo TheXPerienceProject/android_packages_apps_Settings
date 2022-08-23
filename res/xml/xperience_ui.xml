@@ -79,6 +79,13 @@
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.android.settings.xperience.IconShapes" />
+
+            <Preference
+            android:key="android.theme.customization.style"
+            android:title="@string/theme_customization_ui_style_title"
+            android:summary="@string/theme_customization_ui_style_summary"
+            android:fragment="com.android.settings.xperience.UIStyles"/>
+
     </PreferenceCategory>
 
         <Preference
@@ -87,4 +94,5 @@
             android:summary="@string/icon_manager_summary">
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
+
 </PreferenceScreen>

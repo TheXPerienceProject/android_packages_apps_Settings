@@ -221,4 +221,9 @@
     <string name="top_level_security" translatable="false">@string/security_settings_title</string>
     <string name="top_level_accounts">Accounts</string>
     <string name="top_level_others">Others</string>
+
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+
 </resources>

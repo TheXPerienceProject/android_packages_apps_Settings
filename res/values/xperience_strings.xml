@@ -254,4 +254,8 @@
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <string name="ring_volume_unlinked_option_title">Ring volume</string>
 
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+
 </resources>

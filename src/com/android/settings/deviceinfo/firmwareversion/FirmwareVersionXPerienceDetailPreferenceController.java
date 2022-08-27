@@ -34,7 +34,6 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
-import com.android.settings.slices.Sliceable;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
@@ -62,16 +61,6 @@ public class FirmwareVersionXPerienceDetailPreferenceController extends BasePref
     @Override
     public int getAvailabilityStatus() {
         return AVAILABLE;
-    }
-
-    @Override
-    public boolean useDynamicSliceSummary() {
-        return true;
-    }
-
-    @Override
-    public boolean isSliceable() {
-        return true;
     }
 
     @Override
@@ -139,9 +128,4 @@ public class FirmwareVersionXPerienceDetailPreferenceController extends BasePref
                 mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
     }
 
-    @Override
-    public void copy() {
-        Sliceable.setCopyContent(mContext, getSummary(),
-                mContext.getText(R.string.xperience_firmware_version));
-    }
 }

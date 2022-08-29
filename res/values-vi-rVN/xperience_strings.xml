@@ -44,4 +44,10 @@
     <string name="current_battery_capacity_summary">Dung lượng pin hiện tại được đo bằng kernel</string>
     <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
     <string name="designed_battery_capacity_summary">Dung lượng pin tiêu chuẩn từ nhà sản xuất</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
+    <string name="battery_saver_refresh_rate_title">Giảm tốc độ làm mới</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
 </resources>

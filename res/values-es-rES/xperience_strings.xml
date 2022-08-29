@@ -48,4 +48,11 @@
     <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
     <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
     <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar información</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
+    <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
+    <string name="battery_saver_refresh_rate_summary">Usar velocidad de refresco de la pantalla de 60 Hz para ahorrar energía cuando el Ahorro de batería está encendido</string>
 </resources>

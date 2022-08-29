@@ -39,4 +39,10 @@
     <string name="current_battery_capacity_summary">La capacità corrente della batteria misurata dal kernel</string>
     <string name="designed_battery_capacity">Capacità designata della batteria</string>
     <string name="designed_battery_capacity_summary">La capacità della batteria designata dal produttore</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frequenza d\'aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza d\'aggiornamento massima</string>
+    <string name="battery_saver_refresh_rate_title">Riduci la frequenza d\'aggiornamento</string>
+    <string name="battery_saver_refresh_rate_summary">Usa la frequenza d\'aggiornamento dello schermo a 60 Hz per risparmiare energia quando il Risparmio Energetico è attivo</string>
 </resources>

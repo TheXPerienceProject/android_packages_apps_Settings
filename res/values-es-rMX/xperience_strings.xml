@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The XPerience Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desactivado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versión de XPerience™</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Código XPerience™</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
+    <!-- About to show Device name -->
+    <string name="about_device_name">Dispositivo</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Ajuste de Brillo alternativo [DC-Diming]</string>
+    <string name="dc_dimming_info">Reduce la tensión de los ojos en condiciones de poca luz al minimizar el parpadeo de la pantalla. Puede resultar en una menor calidad de imagen y una mala producción de color, o un mayor consumo de energía.</string>
+    <string name="dc_dimming_main_switch_title">Usar Dimming DC</string>
+    <string name="keywords_display_dc_dimming">atenuación de dc, anti-parpadeo, anti-fatiga visual</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carga rápida</string>
+    <string name="fast_charging_summary">Desactivar para reducir el calor producido por el dispositivo mientras se carga o para extender la esperanza de vida de la batería</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Salud de la batería</string>
+    <string name="battery_health_summary">Monitorea la salud de la batería de su dispositivo</string>
+    <string name="current_battery_capacity">Capacidad actual de la batería</string>
+    <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
+    <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
+    <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
+</resources>

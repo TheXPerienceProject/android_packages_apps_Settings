@@ -39,4 +39,10 @@
     <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
     <string name="designed_battery_capacity">Заявленная емкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
 </resources>

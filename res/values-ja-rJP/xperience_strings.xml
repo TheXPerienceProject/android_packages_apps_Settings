@@ -32,4 +32,6 @@
     <!-- DC Dimming -->
     <!-- FastCharge feature -->
     <!-- Battery health -->
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Refresh rate -->
 </resources>

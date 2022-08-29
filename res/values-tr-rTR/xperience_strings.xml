@@ -31,4 +31,6 @@
     <string name="fast_charging_title">Hızlı şarj</string>
     <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
     <!-- Battery health -->
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Refresh rate -->
 </resources>

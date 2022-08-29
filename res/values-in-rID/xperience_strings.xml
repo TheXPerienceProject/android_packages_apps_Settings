@@ -44,4 +44,10 @@
     <string name="current_battery_capacity_summary">Kapasitas baterai saat ini diukur oleh kernel</string>
     <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
     <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Kecepatan refresh minimal</string>
+    <string name="max_refresh_rate_title">Kecepatan refresh maksimal</string>
+    <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
+    <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
 </resources>

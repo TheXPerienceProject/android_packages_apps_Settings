@@ -287,4 +287,5 @@
 
     <!-- aptX Settings -->
     <string name="connected_device_codec_preference">Qualcomm® aptX™ Codec preferences</string>
+
 </resources>

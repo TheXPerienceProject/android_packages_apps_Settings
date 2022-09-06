@@ -64,4 +64,9 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+
 </resources>

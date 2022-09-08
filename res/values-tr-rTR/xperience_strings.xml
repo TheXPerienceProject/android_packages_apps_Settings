@@ -33,4 +33,30 @@
     <!-- Battery health -->
     <!-- String for removal of sensitive info on about, depending on tap -->
     <!-- Refresh rate -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Üç parmak hareketi</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
+    <!-- Incall vibrate options -->
 </resources>

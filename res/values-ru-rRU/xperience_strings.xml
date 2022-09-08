@@ -45,4 +45,10 @@
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
     <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
     <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Incall vibrate options -->
 </resources>

@@ -50,4 +50,31 @@
     <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
     <string name="battery_saver_refresh_rate_title">Giảm tốc độ làm mới</string>
     <string name="battery_saver_refresh_rate_summary">Sử dụng màn hình 60 Hz để tiết kiệm pin khi bật Trình tiết kiệm pin</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vị trí cảm biến vân tay trên mặt trước máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Tìm cảm biến vân tay đằng trước thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Định vị cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Xác định vị trí cảm biến vân tay ở mặt trước thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vị trí cảm biến vân tay ở mặt sau thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Xác định cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Xác định vị trí của cảm biến vân tay ở bên cạnh máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Xác định cảm biến vân tay ở bên cạnh thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Chạm vào cảm biến ở mặt trước máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Chạm vào cảm biến ở mặt trước thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Chạm vào cảm biến ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Chạm vào cảm biến ở mặt sau máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Chạm vào cảm biến ở mặt sau thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Chạm vào cảm biến ở mặt bên của máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Chạm vào cảm biến ở bên cạnh thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Chạm vào cảm biến ở mặt bên của điện thoại.</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
+    <!-- Incall vibrate options -->
 </resources>

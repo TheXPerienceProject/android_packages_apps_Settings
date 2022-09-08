@@ -32,4 +32,9 @@
     <!-- Battery health -->
     <!-- String for removal of sensitive info on about, depending on tap -->
     <!-- Refresh rate -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Global Actions -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Incall vibrate options -->
 </resources>

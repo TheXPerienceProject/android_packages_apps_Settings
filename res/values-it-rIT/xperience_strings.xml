@@ -45,4 +45,10 @@
     <string name="max_refresh_rate_title">Frequenza d\'aggiornamento massima</string>
     <string name="battery_saver_refresh_rate_title">Riduci la frequenza d\'aggiornamento</string>
     <string name="battery_saver_refresh_rate_summary">Usa la frequenza d\'aggiornamento dello schermo a 60 Hz per risparmiare energia quando il Risparmio Energetico è attivo</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Incall vibrate options -->
 </resources>

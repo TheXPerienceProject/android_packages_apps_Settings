@@ -114,19 +114,19 @@
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <string name="theme_customization_category">Theming</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Icon shape</string>
     <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize headline and body fonts. -->
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_font_summary">Set system font style</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize the system wide icon pack. -->
     <string name="theme_customization_icon_pack_title">Icon pack</string>
     <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
-    <!-- Custom Signal bar icons -->
+    <!-- custom Signal bar icons -->
     <string name="theme_customization_signal_icon_title">Signal icon style</string>
     <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
-    <!-- Custom Wi-Fi bar icons -->
+    <!-- custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
     <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
 
@@ -141,5 +141,12 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">High touch polling rate</string>
     <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+
+    <!-- Double Tap to wake/sleep -->
+    <string name="double_tap_gesture_category">Tap to wake / sleep</string>
+    <string name="double_tap_gesture_title">Enable tap gesture</string>
+    <string name="double_tap_gesture_summary">Double-tap on the screen to wake or sleep device</string>
+    <string name="disable_in_landscape_title">Disable in landscape</string>
+    <string name="disable_in_landscape_summary">Prevent mistouch while in landscape mode</string>
 
 </resources>

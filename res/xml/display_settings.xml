@@ -227,4 +227,5 @@
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.android.settings.xperience.IconShapes" />
+    </PreferenceCategory>
 </PreferenceScreen>

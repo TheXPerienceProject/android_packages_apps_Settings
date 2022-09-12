@@ -69,7 +69,7 @@ import java.util.Arrays;
 import org.json.JSONObject;
 import org.json.JSONException;
 
-public class StatusBarIcons extends SettingsPreferenceFragment {
+public class StatusbarIcons extends SettingsPreferenceFragment {
 
     private RecyclerView mRecyclerView;
     private ThemeUtils mThemeUtils;

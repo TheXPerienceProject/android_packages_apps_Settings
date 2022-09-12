@@ -179,11 +179,6 @@
             android:title="@string/lift_to_wake_title"/>
 
         <SwitchPreference
-            android:key="tap_to_wake"
-            android:title="@string/tap_to_wake"
-            android:summary="@string/tap_to_wake_summary"/>
-
-        <SwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"
@@ -241,5 +236,21 @@
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.android.settings.xperience.IconShapes" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/double_tap_gesture_category">
+
+        <mx.xperience.framework.preference.SwitchPreference
+            android:key="tap_to_wake"
+            android:summary="@string/double_tap_gesture_summary"
+            android:title="@string/double_tap_gesture_title" />
+
+        <mx.xperience.framework.preference.SystemSettingSwitchPreference
+            android:key="double_tap_no_landscape"
+            android:summary="@string/disable_in_landscape_summary"
+            android:title="@string/disable_in_landscape_title"
+            android:dependency="tap_to_wake" />
+
     </PreferenceCategory>
 </PreferenceScreen>

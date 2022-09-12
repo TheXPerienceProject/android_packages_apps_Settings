@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.android.settings.custom.touch;
+package com.android.settings.xperience.touch;
 
 import android.content.Context;
 import com.android.internal.xpe.hardware.LineageHardwareManager;

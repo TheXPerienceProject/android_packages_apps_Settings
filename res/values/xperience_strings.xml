@@ -122,13 +122,13 @@
     <string name="theme_customization_font_summary">Set system font style</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <string name="theme_customization_icon_pack_title">Icon pack</string>
-    <string name="theme_customization_icon_pack_summary">Set xperience icon pack style</string>
-    <!-- xperience Signal bar icons -->
+    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
+    <!-- custom Signal bar icons -->
     <string name="theme_customization_signal_icon_title">Signal icon style</string>
-    <string name="theme_customization_signal_icon_summary">Set xperience signal icon style</string>
-    <!-- xperience Wi-Fi bar icons -->
+    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+    <!-- custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
-    <string name="theme_customization_wifi_icon_summary">Set xperience wifi icon style</string>
+    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
 
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>

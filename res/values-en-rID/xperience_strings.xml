@@ -41,9 +41,13 @@
     <!-- Screen Off animation -->
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
-    <!-- Custom Signal bar icons -->
-    <!-- Custom Wi-Fi bar icons -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize the system wide icon pack. -->
+    <!-- xperience Signal bar icons -->
+    <!-- xperience Wi-Fi bar icons -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Double Tap to wake/sleep -->
 </resources>

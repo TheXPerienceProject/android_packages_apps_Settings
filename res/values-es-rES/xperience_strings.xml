@@ -96,21 +96,21 @@
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <string name="theme_customization_category">Tematización</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Forma del icono</string>
     <string name="theme_customization_icon_shape_summary">Establecer el estilo de la forma del icono del sistema</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
     <string name="theme_customization_font_title">Titular / Tipo de letra del cuerpo</string>
     <string name="theme_customization_font_summary">Establecer el estilo de la fuente del sistema</string>
-    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to xperienceize the system wide icon pack. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <string name="theme_customization_icon_pack_title">Paquete de iconos</string>
     <string name="theme_customization_icon_pack_summary">Establecer un estilo de paquete de iconos personalizado</string>
-    <!-- xperience Signal bar icons -->
+    <!-- custom Signal bar icons -->
     <string name="theme_customization_signal_icon_title">Estilo del icono de la señal</string>
-    <string name="theme_customization_signal_icon_summary">Personalizar icono de red móvil</string>
-    <!-- xperience Wi-Fi bar icons -->
+    <string name="theme_customization_signal_icon_summary">Establecer un estilo de icono de señal personalizado</string>
+    <!-- custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">Estilo de icono WiFi</string>
-    <string name="theme_customization_wifi_icon_summary">Personalizar icono de WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Establecer un estilo de icono wifi personalizado</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Alta sensibilidad al tacto</string>
     <string name="high_touch_sensitivity_summary">Aumentar la sensibilidad de la pantalla táctil para poder utilizarla con guantes</string>

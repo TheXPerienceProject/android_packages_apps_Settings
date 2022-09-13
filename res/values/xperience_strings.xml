@@ -169,6 +169,10 @@
     <string name="gaming_mode_title">Game space</string>
     <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+
     <!-- Game -->
     <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
     <string name="game_dashboard_always_on_title">Game Dashboard</string>

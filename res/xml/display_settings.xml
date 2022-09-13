@@ -254,4 +254,15 @@
             android:title="@string/double_tap_gesture_title" />
 
     </PreferenceCategory>
+
+	<PreferenceCategory
+	    android:key="ui_xpe_category"
+		android:title="@string/xperience_ui_title">
+
+		<Preference
+		    android:key="ui_xpe"
+			android:title="@string/ui_custom"
+			android:fragment="com.android.settings.xperience.UISettings" />
+
+		</PreferenceCategory>
 </PreferenceScreen>

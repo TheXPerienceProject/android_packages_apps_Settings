@@ -241,16 +241,10 @@
     <PreferenceCategory
         android:title="@string/double_tap_gesture_category">
 
-        <SwitchPreference
+        <mx.xperience.framework.preference.SwitchPreference
             android:key="tap_to_wake"
             android:summary="@string/double_tap_gesture_summary"
             android:title="@string/double_tap_gesture_title" />
-
-        <mx.xperience.framework.preference.SystemSettingSwitchPreference
-            android:key="double_tap_no_landscape"
-            android:summary="@string/disable_in_landscape_summary"
-            android:title="@string/disable_in_landscape_title"
-            android:dependency="tap_to_wake" />
 
     </PreferenceCategory>
 </PreferenceScreen>

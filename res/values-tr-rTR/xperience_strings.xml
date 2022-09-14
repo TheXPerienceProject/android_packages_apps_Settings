@@ -74,4 +74,26 @@
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
     <!-- Double Tap to wake/sleep -->
+    <!-- Per-app volume control -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_enabled">Uyarlanabilir oynatma etkin</string>
+    <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
+    <!-- Status bar Icon Manager -->
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Oyun alanı</string>
+    <string name="gaming_mode_summary">Tam ekran oyun deneyimi için ekstra özellikler</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Oyun alanı</string>
+    <string name="game_space_summary">Oyun deneyiminizi iyileştirin</string>
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Oyunlarda Oyun Menüsü kısayolunu göster</string>
+    <string name="game_dashboard_always_on_title">Oyunlar Kontrol Paneli</string>
+    <string name="game_dashboard_dnd_rule_name">Oyun</string>
+    <string name="game_dashboard_dnd_summary">Oyun oynarken yalnızca önemli kişilerden ve uygulamalardan haberdar olun</string>
+    <string name="game_dashboard_dnd_title">Oyunlar için Rahatsız Etme</string>
+    <!-- UI -->
+    <string name="xperience_ui_title">XPerience Arayüzü</string>
+    <string name="ui_custom">Kullanıcı arayüzü ve tema özelleştirmeleri</string>
+    <!-- Battery Styles -->
 </resources>

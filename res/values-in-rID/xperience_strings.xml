@@ -104,4 +104,57 @@
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
     <!-- Double Tap to wake/sleep -->
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume aplikasi</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_enabled">Gunakan Pemutaran Adaptif</string>
+    <string name="adaptive_playback_disabled_summary">Tidak aktif</string>
+    <string name="adaptive_playback_intro_text">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
+    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
+    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Hidup (30 detik)</string>
+    <string name="adaptive_playback_timeout_1_min">1 menit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Hidup (1 menit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 menit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Hidup (2 menit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Hidup (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 menit)</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Pengelola ikon</string>
+    <string name="icon_manager_summary">Kontrol visibilitas ikon bilah status</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Ruang Game</string>
+    <string name="gaming_mode_summary">Fitur ekstra untuk pengalaman bermain game yang impresif</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Ruang Game</string>
+    <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Tampilkan pintasan Dasbor Game dalam game</string>
+    <string name="game_dashboard_always_on_title">Dasbor Game</string>
+    <string name="game_dashboard_dnd_rule_name">Bermain Game</string>
+    <string name="game_dashboard_dnd_summary">Hanya dapatkan notifikasi dari orang dan aplikasi penting saat bermain game</string>
+    <string name="game_dashboard_dnd_title">Jangan Ganggu untuk game</string>
+    <!-- UI -->
+    <string name="xperience_ui_title">Antarmuka XPerience</string>
+    <string name="ui_custom">Kustomisasi antarmuka dan game</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indikator baterai bilah status</string>
+    <string name="battery_percent_summary">Konfigurasi ikon dan gaya teks untuk indikator baterai bilah status</string>
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_dotted_circle">Lingkaran bertitik</string>
+    <string name="status_bar_battery_style_filled_circle">Lingkaran berisi</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
+    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+    <string name="status_bar_battery_percentage_default">Tersembunyi</string>
+    <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
 </resources>

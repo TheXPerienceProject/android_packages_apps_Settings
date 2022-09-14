@@ -46,4 +46,20 @@
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
     <!-- Double Tap to wake/sleep -->
+    <!-- Per-app volume control -->
+    <!-- Adaptive Playback -->
+    <!-- Status bar Icon Manager -->
+    <!-- Gaming mode -->
+    <!-- Game Space -->
+    <!-- Game -->
+    <!-- UI -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_icon_portrait">Pictogramă portret</string>
+    <string name="status_bar_battery_style_circle">Cerc</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ascuns</string>
+    <string name="status_bar_battery_percentage_title">Procentaj baterie</string>
+    <string name="status_bar_battery_percentage_default">Ascuns</string>
+    <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
+    <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
 </resources>

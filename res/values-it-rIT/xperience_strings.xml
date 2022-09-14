@@ -67,4 +67,37 @@
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
     <!-- Double Tap to wake/sleep -->
+    <!-- Per-app volume control -->
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
+    <string name="adaptive_playback_timeout_none">Nessun timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">Acceso (nessun timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Acceso (30 secondi)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Acceso (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuti</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Acceso (2 minuti)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuti</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Acceso (5 minuti)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuti</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Acceso (10 minuti)</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gestore icone</string>
+    <string name="icon_manager_summary">Controlla la visibilità delle icone della barra di stato</string>
+    <!-- Gaming mode -->
+    <!-- Game Space -->
+    <!-- Game -->
+    <!-- UI -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Stile della batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosto</string>
+    <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosto</string>
+    <string name="status_bar_battery_percentage_text_inside">Nell\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Vicino all\'icona</string>
 </resources>

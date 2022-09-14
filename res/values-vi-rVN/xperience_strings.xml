@@ -95,4 +95,51 @@
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
     <!-- Double Tap to wake/sleep -->
+    <!-- Per-app volume control -->
+    <string name="app_volume">Âm thanh ứng dụng</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_enabled">Sử dụng phát lại thích ứng</string>
+    <string name="adaptive_playback_disabled_summary">Tắt</string>
+    <string name="adaptive_playback_intro_text">Phát nhạc thích ứng tự động dừng phát đa phương tiện khi tắt âm lượng và tự động phát đa phương tiện khi âm lượng được khôi phục lại theo thời gian đặt trước.</string>
+    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ của</string>
+    <string name="adaptive_playback_timeout_none">Không có thời gian chờ</string>
+    <string name="adaptive_playback_timeout_none_summary">Bật (không có thời gian chờ)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 giây</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Bật (30 giây)</string>
+    <string name="adaptive_playback_timeout_1_min">1 phút</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Bật (1 phút)</string>
+    <string name="adaptive_playback_timeout_2_min">2 phút</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Bật (2 phút)</string>
+    <string name="adaptive_playback_timeout_5_min">5 phút</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Bật (5 phút)</string>
+    <string name="adaptive_playback_timeout_10_min">10 phút</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Quản lí biểu tượng</string>
+    <string name="icon_manager_summary">Điều chỉnh các biểu tượng trên thanh trạng thái</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Không gian trò chơi</string>
+    <string name="gaming_mode_summary">Các tính năng bổ sung cho trải nghiệm chơi game nhập vai</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Không gian trò chơi</string>
+    <string name="game_space_summary">Cải thiện trải nghiệm chơi game</string>
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Hiển thị lối tắt Bảng điều khiển trò chơi trong trò chơi</string>
+    <string name="game_dashboard_always_on_title">Trang tổng quan trò chơi</string>
+    <string name="game_dashboard_dnd_rule_name">Game</string>
+    <string name="game_dashboard_dnd_summary">Chỉ những người và ứng dụng quan trọng nhận được thông báo khi chơi trò chơi</string>
+    <string name="game_dashboard_dnd_title">Không làm phiền cho trò chơi</string>
+    <!-- UI -->
+    <string name="xperience_ui_title">Cập nhật XPerience</string>
+    <string name="ui_custom">Tùy chỉnh thanh trạng thái</string>
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Kiểu thanh pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng đứng</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_text">Chữ</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
+    <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
 </resources>

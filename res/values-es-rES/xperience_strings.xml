@@ -126,4 +126,61 @@
     <string name="double_tap_gesture_summary">Pulsa dos veces en la pantalla para despertar o dormir el dispositivo</string>
     <string name="disable_in_landscape_title">Desactivar en el modo horizontal</string>
     <string name="disable_in_landscape_summary">Evitar el toque erróneo en modo horizontal</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volumen de aplicación</string>
+    <string name="app_volume_title">Control de volumen por aplicación</string>
+    <string name="app_volume_summary">Permite establecer diferentes niveles de volumen para cada aplicación</string>
+    <string name="volume_dialog_category">Diálogo de volumen</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reproducción adaptable</string>
+    <string name="adaptive_playback_enabled">Usar reproducción adaptativa</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_intro_text">La reproducción adaptativa detiene automáticamente la reproducción cuando el volumen se silencia y se reanudará automáticamente si el volumen se restablece dentro del tiempo establecido.</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Administrador de iconos</string>
+    <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Espacio de juegos</string>
+    <string name="gaming_mode_summary">Características adicionales para una experiencia de juego inmersiva</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Espacio de juego</string>
+    <string name="game_space_summary">Mejora tu experiencia de juego</string>
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Mostrar atajo del modo juego en los juegos</string>
+    <string name="game_dashboard_always_on_title">Modo Juego</string>
+    <string name="game_dashboard_dnd_rule_name">Gaming</string>
+    <string name="game_dashboard_dnd_summary">Solo recibir notificaciones de personas y aplicaciones importantes al jugar</string>
+    <string name="game_dashboard_dnd_title">No molestar (DND) en juegos</string>
+    <!-- UI -->
+    <string name="xperience_ui_title">Interfaz de usuario XPerience</string>
+    <string name="ui_custom">Personalizaciones de interfaz de usuario y juego</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
+    <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
 </resources>

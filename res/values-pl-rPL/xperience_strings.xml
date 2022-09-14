@@ -46,4 +46,20 @@
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
     <!-- Double Tap to wake/sleep -->
+    <!-- Per-app volume control -->
+    <!-- Adaptive Playback -->
+    <!-- Status bar Icon Manager -->
+    <!-- Gaming mode -->
+    <!-- Game Space -->
+    <!-- Game -->
+    <!-- UI -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_icon_portrait">Ikona pionowo</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Ukryte</string>
+    <string name="status_bar_battery_percentage_title">Procenty baterii na pasku statusu</string>
+    <string name="status_bar_battery_percentage_default">Ukryte</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
 </resources>

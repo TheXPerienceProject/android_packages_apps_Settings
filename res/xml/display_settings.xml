@@ -204,6 +204,16 @@
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/double_tap_gesture_category">
+
+        <mx.xperience.framework.preference.SwitchPreference
+            android:key="tap_to_wake"
+            android:summary="@string/double_tap_gesture_summary"
+            android:title="@string/double_tap_gesture_title" />
+
+    </PreferenceCategory>
+
 	<PreferenceCategory
 	    android:key="ui_xpe_category"
 		android:title="@string/xperience_ui_title">

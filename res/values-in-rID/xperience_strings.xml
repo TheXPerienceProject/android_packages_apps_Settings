@@ -88,25 +88,51 @@
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
+    <string name="proximity_wake_summary">Periksa sensor jarak sebelum layar bangun dari gestur Bangun Ketuk Dua Kali</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animasi layar mati</string>
     <string name="screen_off_animation_default">Bawaan</string>
     <string name="screen_off_animation_scale">Skala</string>
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Tema</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Bentuk ikon</string>
+    <string name="theme_customization_icon_shape_summary">Setel gaya bentuk ikon sistem</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Font Judul/Isi</string>
+    <string name="theme_customization_font_summary">Setel gaya font sistem</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <string name="theme_customization_icon_pack_title">Paket ikon</string>
+    <string name="theme_customization_icon_pack_summary">Setel gaya paket ikon kustom</string>
     <!-- custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Gaya ikon sinyal</string>
+    <string name="theme_customization_signal_icon_summary">Setel gaya ikon sinyal kustom</string>
     <!-- custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Gaya ikon WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Setel gaya ikon wifi kustom</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Sensitivitas sentuh tinggi</string>
+    <string name="high_touch_sensitivity_summary">Meningkatkan kepekaan layar sentuh sehingga dapat digunakan saat mengenakan sarung tangan</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Layar sentuh melayang</string>
+    <string name="touchscreen_hovering_summary">Mengizinkan Anda mengambangkan jari di atas layar seperti menggunakan mouse dalam penjelajah browser, desktop jarak jauh, dll</string>
     <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tingkat polling sentuh tinggi</string>
+    <string name="high_touch_polling_rate_summary">Tingkatkan tingkat polling layar sentuh</string>
     <!-- Double Tap to wake/sleep -->
+    <string name="double_tap_gesture_category">Ketuk untuk bangun/tidur</string>
+    <string name="double_tap_gesture_title">Aktifkan gestur ketuk</string>
+    <string name="double_tap_gesture_summary">Ketuk dua kali pada layar untuk membangunkan atau menidurkan perangkat</string>
+    <string name="disable_in_landscape_title">Nonaktifkan pada lanskap</string>
+    <string name="disable_in_landscape_summary">Cegah salah sentuh saat dalam mode lanskap</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Volume aplikasi</string>
+    <string name="app_volume_title">Kontrol volume per-aplikasi</string>
+    <string name="app_volume_summary">Memungkinkan untuk menetapkan level volume yang berbeda untuk setiap aplikasi</string>
+    <string name="volume_dialog_category">Dialog volume</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
     <string name="adaptive_playback_enabled">Gunakan Pemutaran Adaptif</string>
     <string name="adaptive_playback_disabled_summary">Tidak aktif</string>
     <string name="adaptive_playback_intro_text">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
@@ -157,4 +183,7 @@
     <string name="status_bar_battery_percentage_default">Tersembunyi</string>
     <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Volume dering</string>
+    <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
 </resources>

@@ -100,4 +100,6 @@
     <string name="status_bar_battery_percentage_default">Nascosto</string>
     <string name="status_bar_battery_percentage_text_inside">Nell\'icona</string>
     <string name="status_bar_battery_percentage_text_next">Vicino all\'icona</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
 </resources>

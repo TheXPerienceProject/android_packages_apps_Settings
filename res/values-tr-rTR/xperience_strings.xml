@@ -96,4 +96,5 @@
     <string name="xperience_ui_title">XPerience Arayüzü</string>
     <string name="ui_custom">Kullanıcı arayüzü ve tema özelleştirmeleri</string>
     <!-- Battery Styles -->
+    <!-- Volume link notification -->
 </resources>

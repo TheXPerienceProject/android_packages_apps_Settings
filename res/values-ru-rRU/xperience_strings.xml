@@ -100,4 +100,6 @@
     <string name="status_bar_battery_percentage_default">Не показывать</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
     <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
 </resources>

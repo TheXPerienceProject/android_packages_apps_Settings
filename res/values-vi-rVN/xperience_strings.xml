@@ -142,4 +142,6 @@
     <string name="status_bar_battery_percentage_default">Ẩn</string>
     <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
     <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
 </resources>

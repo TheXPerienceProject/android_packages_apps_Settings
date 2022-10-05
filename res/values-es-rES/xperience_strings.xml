@@ -183,4 +183,7 @@
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Volumen de timbre</string>
+    <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
 </resources>

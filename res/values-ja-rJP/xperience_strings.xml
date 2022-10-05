@@ -30,33 +30,65 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">合計RAM</string>
     <!-- DC Dimming -->
+    <string name="keywords_display_dc_dimming">DC調光、アンチフリッカー、眼精疲労</string>
     <!-- FastCharge feature -->
     <!-- Battery health -->
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">タップして情報を表示</string>
     <!-- Refresh rate -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Global Actions -->
     <!-- Three-fingers-swipe to screenshot -->
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">インコール振動オプション</string>
+    <string name="incall_vibrate_connect_title">接続時にバイブレーション</string>
+    <string name="incall_vibrate_call_wait_title">着信時にバイブレーション</string>
+    <string name="incall_vibrate_disconnect_title">切断時のバイブレーション</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_summary">Double Tap 2 Wakeジェスチャーから画面を起動する前に、近接センサーをチェックします。</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">画面オフ時のアニメーション</string>
     <string name="screen_off_animation_default">既定</string>
     <string name="screen_off_animation_scale">縮小</string>
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">テーマ</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">アイコンの形状</string>
+    <string name="theme_customization_icon_shape_summary">システムアイコンの形状を設定する</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">ヘッドライン／ボディフォント</string>
+    <string name="theme_customization_font_summary">システムフォントスタイルの設定</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_summary">カスタムアイコンパックスタイルの設定</string>
     <!-- custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">信号のアイコンスタイル</string>
+    <string name="theme_customization_signal_icon_summary">カスタムシグナルアイコンのスタイルを設定する</string>
     <!-- custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">WiFiアイコン風</string>
+    <string name="theme_customization_wifi_icon_summary">カスタムWi-Fiアイコンのスタイルを設定する</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高いタッチ感度</string>
+    <string name="high_touch_sensitivity_summary">タッチパネルの感度を上げ、手袋をしたままでも使えるようにする</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">タッチスクリーンのホバリング</string>
+    <string name="touchscreen_hovering_summary">ウェブブラウザーやリモートデスクトップなどで、画面をマウスのようにホバーできるようにする。</string>
     <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高いタッチポーリングレート</string>
+    <string name="high_touch_polling_rate_summary">タッチスクリーンのポーリングレート向上</string>
     <!-- Double Tap to wake/sleep -->
+    <string name="double_tap_gesture_category">タップでスリープ／ウェイク</string>
+    <string name="double_tap_gesture_title">タップジェスチャーを有効にする</string>
+    <string name="double_tap_gesture_summary">画面をダブルタップしてスリープ／スリープ解除</string>
+    <string name="disable_in_landscape_title">ランドスケープでは無効</string>
+    <string name="disable_in_landscape_summary">ランドスケープモードでの誤操作防止</string>
     <!-- Per-app volume control -->
+    <string name="app_volume_title">アプリごとの音量調整</string>
+    <string name="app_volume_summary">アプリごとに異なる音量レベルを設定可能</string>
+    <string name="volume_dialog_category">ボリュームダイアログ</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">アダプティブ・プレイバック</string>
     <!-- Status bar Icon Manager -->
     <!-- Gaming mode -->
     <!-- Game Space -->
@@ -71,4 +103,6 @@
     <string name="status_bar_battery_percentage_default">非表示</string>
     <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
     <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">着信音量</string>
 </resources>

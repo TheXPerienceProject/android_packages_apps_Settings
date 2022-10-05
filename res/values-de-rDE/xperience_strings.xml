@@ -62,4 +62,5 @@
     <string name="status_bar_battery_percentage_default">Ausgeblendet</string>
     <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
     <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
+    <!-- Volume link notification -->
 </resources>

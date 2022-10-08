@@ -47,6 +47,7 @@ public class NetworkProviderCallsSmsController extends AbstractPreferenceControl
     private static final String KEY = "calls_and_sms";
     private static final String RTL_MARK = "\u200F";
 
+    private PreferenceScreen mPreferenceScreen;
     private UserManager mUserManager;
     private SubscriptionManager mSubscriptionManager;
     private SubscriptionsChangeListener mSubscriptionsChangeListener;
@@ -86,6 +87,7 @@ public class NetworkProviderCallsSmsController extends AbstractPreferenceControl
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
+        mPreferenceScreen = screen;
         mPreference = screen.findPreference(getPreferenceKey());
     }
 
@@ -176,15 +178,12 @@ public class NetworkProviderCallsSmsController extends AbstractPreferenceControl
         }
         refreshSummary(mPreference);
         mPreference.setOnPreferenceClickListener(null);
-        mPreference.setFragment(null);
+        mPreference.setFragment(NetworkProviderCallsSmsFragment.class.getCanonicalName());
 
-        final List<SubscriptionInfo> subs = SubscriptionUtil.getActiveSubscriptions(
-                mSubscriptionManager);
-        if (subs.isEmpty()) {
-            mPreference.setEnabled(false);
+        if (isAvailable()) {
+            mPreferenceScreen.addPreference(mPreference);
         } else {
-            mPreference.setEnabled(true);
-            mPreference.setFragment(NetworkProviderCallsSmsFragment.class.getCanonicalName());
+            mPreferenceScreen.removePreference(mPreference);
         }
     }
 

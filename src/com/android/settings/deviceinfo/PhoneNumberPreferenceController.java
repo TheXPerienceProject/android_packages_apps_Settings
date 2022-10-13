@@ -39,18 +39,9 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.DeviceInfoUtils;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
-import static android.content.Context.CLIPBOARD_SERVICE;
-import static androidx.lifecycle.Lifecycle.Event;
-
-public class PhoneNumberPreferenceController extends BasePreferenceController
-        implements LifecycleObserver {
-    private static final String TAG = PhoneNumberPreferenceController.class.getSimpleName();
-    // This delay is used to make sure telephony framework has enough time to parse
-    // the phone number from the IMS registration indication message.
-    private static final long DELAY_MILLIS = 500L;
+public class PhoneNumberPreferenceController extends BasePreferenceController {
 
     private static final String KEY_PHONE_NUMBER = "phone_number";
     private static final String KEY_PREFERENCE_CATEGORY = "basic_info_category";
@@ -58,40 +49,25 @@ public class PhoneNumberPreferenceController extends BasePreferenceController
     private final TelephonyManager mTelephonyManager;
     private final SubscriptionManager mSubscriptionManager;
     private final List<Preference> mPreferenceList = new ArrayList<>();
-    private HashMap<Integer, ImsConnector> mImsConnectorMap = new HashMap<>();
-    private int mPhoneCount;
-    private Handler mHandler;
-
-    private final ImsMmTelManager.RegistrationCallback mImsRegistrationCallback =
-            new ImsMmTelManager.RegistrationCallback() {
-                @Override
-                public void onRegistered(int imsTransportType) {
-                    Log.d(TAG, "onRegistered: imsTransportType=" + imsTransportType);
-                    if (mHandler.hasMessagesOrCallbacks()) {
-                        Log.d(TAG, "onRegistered: optimize to remove unhandled runnables");
-                        mHandler.removeCallbacksAndMessages(null);
-                    }
-                    mHandler.postDelayed(() -> updateState(null), DELAY_MILLIS);
-                }
-            };
+    private boolean mTapped = false;
 
     public PhoneNumberPreferenceController(Context context, String key) {
         super(context, key);
         mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
         mSubscriptionManager = mContext.getSystemService(SubscriptionManager.class);
-        mPhoneCount = mTelephonyManager.getPhoneCount();
-        mHandler = new Handler(Looper.getMainLooper());
-        initImsConnectors();
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return mTelephonyManager.isVoiceCapable() ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return getFirstPhoneNumber();
+        if (mContext.getResources().getBoolean(R.bool.configShowDeviceSensitiveInfo) && mTapped) {
+            return getFirstPhoneNumber();
+        }
+        return mContext.getString(R.string.device_info_protected_single_press);
     }
 
     @Override
@@ -125,6 +101,18 @@ public class PhoneNumberPreferenceController extends BasePreferenceController
 
     @Override
     public boolean useDynamicSliceSummary() {
+        return mTapped;
+    }
+
+    @Override
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        final int simSlotNumber = mPreferenceList.indexOf(preference);
+        if (simSlotNumber == -1) {
+            return false;
+        }
+        mTapped = true;
+        final Preference simStatusPreference = mPreferenceList.get(simSlotNumber);
+        simStatusPreference.setSummary(getPhoneNumber(simSlotNumber));
         return true;
     }
 
@@ -145,7 +133,10 @@ public class PhoneNumberPreferenceController extends BasePreferenceController
             return mContext.getText(R.string.device_info_default);
         }
 
-        return getFormattedPhoneNumber(subscriptionInfo);
+        if (mContext.getResources().getBoolean(R.bool.configShowDeviceSensitiveInfo) || mTapped) {
+            return getFormattedPhoneNumber(subscriptionInfo);
+        }
+        return mContext.getString(R.string.device_info_protected_single_press);
     }
 
     private CharSequence getPreferenceTitle(int simSlot) {
@@ -179,68 +170,5 @@ public class PhoneNumberPreferenceController extends BasePreferenceController
     @VisibleForTesting
     protected Preference createNewPreference(Context context) {
         return new PhoneNumberSummaryPreference(context);
-    }
-
-    public void init(Lifecycle lifecycle) {
-        if (null != lifecycle) {
-            lifecycle.addObserver(this);
-        } else {
-            Log.e(TAG, "init: lifecycle is null, invalid param");
-        }
-    }
-
-    @OnLifecycleEvent(Event.ON_RESUME)
-    public void onResume() {
-        connect();
-    }
-
-    @OnLifecycleEvent(Event.ON_PAUSE)
-    public void onPause() {
-        disconnect();
-        mHandler.removeCallbacksAndMessages(null);
-    }
-
-    private void initImsConnectors() {
-        for (int slotId = 0; slotId < mPhoneCount; slotId++) {
-            ImsConnector imsConnector = new ImsConnector(mContext, slotId,
-                    mImsRegistrationCallback);
-            mImsConnectorMap.put(Integer.valueOf(slotId), imsConnector);
-        }
-    }
-
-    private void connect() {
-        if (mImsConnectorMap.isEmpty()) {
-            Log.e(TAG, "connect: need init ims connectors");
-            return;
-        }
-
-        int size = mImsConnectorMap.size();
-        for (int index = 0; index < size; index++) {
-            ImsConnector connector = mImsConnectorMap.get(Integer.valueOf(index));
-            if (null != connector) {
-                connector.connect();
-            }
-        }
-    }
-
-    private void disconnect() {
-        if (mImsConnectorMap.isEmpty()) {
-            Log.d(TAG, "disconnect: need do nothing");
-            return;
-        }
-
-        int size = mImsConnectorMap.size();
-        for (int index = 0; index < size; index++) {
-            ImsConnector connector = mImsConnectorMap.get(Integer.valueOf(index));
-            if (null != connector) {
-                connector.disconnect();
-            }
-        }
-    }
-
-    @Override
-    protected void finalize() throws Throwable {
-        mImsConnectorMap.clear();
-        super.finalize();
     }
 }

@@ -67,11 +67,6 @@
     public <init>(android.content.Context, android.net.Uri);
 }
 
-# Keep ImsConnector members for FeatureConnector.Listener<ImsManager>
--keep class com.android.settings.deviceinfo.ImsConnector {
-    *;
-}
-
 # Keep WM Jetpack classes and callbacks
 -keep class androidx.window.extensions.** { *; }
 -dontwarn androidx.window.extensions.**

@@ -144,4 +144,13 @@
     <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Thanh trạng thái</string>
+    <string name="statusbar_custom">Tùy chỉnh thanh trạng thái</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_summary">Hiện biểu tượng lưu lượng mạng trên thanh trạng thái</string>
+    <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn tốc độ mạng (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
+    <!-- Notch: Full screen apps -->
 </resources>

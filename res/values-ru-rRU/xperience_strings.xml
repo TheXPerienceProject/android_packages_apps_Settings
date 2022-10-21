@@ -102,4 +102,13 @@
     <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Строка состояния</string>
+    <string name="statusbar_custom">Настройки строки состояния</string>
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic_state_summary">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Автоматическое скрытие индикатора сетевого трафика (KB/s)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
+    <!-- Notch: Full screen apps -->
 </resources>

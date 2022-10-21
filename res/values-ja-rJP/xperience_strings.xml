@@ -105,4 +105,9 @@
     <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
     <!-- Volume link notification -->
     <string name="ring_only_volume_option_title">着信音量</string>
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">ネットワーク通信量</string>
+    <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
+    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
+    <!-- Notch: Full screen apps -->
 </resources>

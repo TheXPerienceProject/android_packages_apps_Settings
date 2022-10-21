@@ -102,4 +102,13 @@
     <string name="status_bar_battery_percentage_text_next">Vicino all\'icona</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra di stato</string>
+    <string name="statusbar_custom">Personalizzazioni della barra di stato</string>
+    <string name="network_traffic_state_title">Traffico di rete</string>
+    <string name="network_traffic_state_summary">Mostra l\'attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nascondi frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore del traffico di rete</string>
+    <!-- Notch: Full screen apps -->
 </resources>

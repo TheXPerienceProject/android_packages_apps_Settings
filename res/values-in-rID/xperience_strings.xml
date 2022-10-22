@@ -195,4 +195,8 @@
     <string name="network_traffic_hidearrow">Sembunyikan panah</string>
     <string name="network_traffic_hidearrow_summary">Sembunyikan panah indikator lalu lintas jaringan</string>
     <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Bilah navigasi</string>
+    <string name="immersive_navigation_summary">Sembunyikan pil gestur dan lapisan bilah navigasi.</string>
+    <!-- Torch Power button gestures -->
 </resources>

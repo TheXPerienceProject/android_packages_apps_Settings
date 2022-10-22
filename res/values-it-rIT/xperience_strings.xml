@@ -111,4 +111,6 @@
     <string name="network_traffic_hidearrow">Nascondi frecce</string>
     <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore del traffico di rete</string>
     <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <!-- Torch Power button gestures -->
 </resources>

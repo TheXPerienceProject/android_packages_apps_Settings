@@ -153,4 +153,8 @@
     <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
     <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
     <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Thanh điều hướng</string>
+    <string name="immersive_navigation_summary">Ẩn thanh điều hướng bên dưới.</string>
+    <!-- Torch Power button gestures -->
 </resources>

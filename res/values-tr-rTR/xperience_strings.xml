@@ -99,4 +99,7 @@
     <!-- Volume link notification -->
     <!-- Statusbar net monitor -->
     <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Gezinme çubuğu</string>
+    <!-- Torch Power button gestures -->
 </resources>

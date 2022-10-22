@@ -199,4 +199,13 @@
     <string name="display_cutout_force_fullscreen_summary">Forzar a las aplicaciones a ignorar el espacio del notch</string>
     <string name="display_cutout_force_fullscreen_no_apps">Sin aplicaciones</string>
     <string name="display_cutout_force_fullscreen_restart_app">Por favor, reinicie la aplicación para aplicar los cambios.</string>
+    <string name="search">Búsqueda</string>
+    <string name="search_apps">Buscar aplicaciones</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de navegación</string>
+    <string name="immersive_navigation_title">Navegación inmersiva</string>
+    <string name="immersive_navigation_summary">Ocultar la píldora de gestos y el relleno de barra de navegación.</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Linterna rápida</string>
+    <string name="power_button_torch_summary">Cuando la pantalla está apagada, una pulsación prolongada del botón de encendido habilita la linterna</string>
 </resources>

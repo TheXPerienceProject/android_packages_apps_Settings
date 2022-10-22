@@ -110,4 +110,6 @@
     <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
     <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
     <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <!-- Torch Power button gestures -->
 </resources>

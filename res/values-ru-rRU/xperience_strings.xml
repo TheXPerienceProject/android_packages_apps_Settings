@@ -111,4 +111,6 @@
     <string name="network_traffic_hidearrow">Скрыть стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
     <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <!-- Torch Power button gestures -->
 </resources>

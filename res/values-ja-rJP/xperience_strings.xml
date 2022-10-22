@@ -110,6 +110,15 @@
     <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
     <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
     <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">フルスクリーンアプリ</string>
+    <string name="display_cutout_force_fullscreen_summary">アプリがノッチスペースを無視するように強制する</string>
+    <string name="display_cutout_force_fullscreen_no_apps">アプリはありません</string>
+    <string name="display_cutout_force_fullscreen_restart_app">変更を適用するには、アプリケーションを再起動してください。</string>
+    <string name="search">検索</string>
+    <string name="search_apps">アプリを検索</string>
     <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">イマーシブ・ナビゲーション</string>
     <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">クイックトーチ</string>
+    <string name="power_button_torch_summary">画面消灯時、電源ボタン長押しでトーチが使えるようになります</string>
 </resources>

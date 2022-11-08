@@ -79,7 +79,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     private boolean mA11yTutorialDialogShown = false;
 
-    private static final String NAV_MODE_IMMERSIVE_OVERLAY = "co.aospa.overlay.systemui.immnav.gestural";
+    private static final String NAV_MODE_IMMERSIVE_OVERLAY = "mx.xperience.overlay.systemui.immnav.gestural";
 
     private IOverlayManager mOverlayManager;
 

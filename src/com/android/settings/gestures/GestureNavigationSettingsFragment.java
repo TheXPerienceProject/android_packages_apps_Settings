@@ -57,7 +57,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
     private static final String IMMERSIVE_NAV_KEY = "immersive_navigation";
 
-    private static final String NAV_MODE_IMMERSIVE_OVERLAY = "co.aospa.overlay.systemui.immnav.gestural";
+    private static final String NAV_MODE_IMMERSIVE_OVERLAY = "mx.xperience.overlay.systemui.immnav.gestural";
 
     private IOverlayManager mOverlayService;
 

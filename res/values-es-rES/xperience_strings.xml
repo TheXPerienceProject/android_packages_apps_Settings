@@ -208,4 +208,7 @@
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Linterna rápida</string>
     <string name="power_button_torch_summary">Cuando la pantalla está apagada, una pulsación prolongada del botón de encendido habilita la linterna</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Utilizar el tema negro</string>
+    <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
 </resources>

@@ -208,4 +208,5 @@
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Obor cepat</string>
     <string name="power_button_torch_summary">Saat layar mati, menekan lama tombol daya akan mengaktifkan senter</string>
+    <!-- Black theme -->
 </resources>

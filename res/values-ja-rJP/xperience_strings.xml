@@ -121,4 +121,5 @@
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">クイックトーチ</string>
     <string name="power_button_torch_summary">画面消灯時、電源ボタン長押しでトーチが使えるようになります</string>
+    <!-- Black theme -->
 </resources>

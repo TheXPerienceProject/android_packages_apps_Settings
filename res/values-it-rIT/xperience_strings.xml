@@ -114,4 +114,9 @@
     <!-- Immersive Navigation -->
     <!-- Torch Power button gestures -->
     <!-- Black theme -->
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi scansione del viso esistente e creane una nuova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione viso</string>
+    <string name="face_redo_confirm_btn">Ripeti</string>
+    <string name="face_redo_warning_msg">Desideri rimuovere la scansione del viso esistente e crearne una nuova?</string>
 </resources>

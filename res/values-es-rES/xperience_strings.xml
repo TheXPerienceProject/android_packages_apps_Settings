@@ -219,4 +219,15 @@
     <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Pulse -->
+    <string name="ambient_light_category">Iluminación Edge (Bordes)</string>
+    <string name="keywords_pulse_ambient_light_display">notificación, notificaciones, borde, luz, color, color</string>
+    <string name="pulse_ambient_light_text">La iluminación de los bordes hace que tu pantalla brille cuando recibes una notificación. Esto hace que sea más fácil de averiguar cuando se recibe un pulso mientras el teléfono está en modo de dormitar.</string>
+    <string name="pulse_ambient_light_title">Iluminación del borde</string>
+    <string name="pulse_ambient_light_enable">Usar iluminación del borde</string>
+    <string name="pulse_ambient_light_summary">Ilumina los bordes de la pantalla al recibir una notificación</string>
+    <string name="ambient_notification_light_accent_title">Color de acento del sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Color de notificación</string>
+    <string name="pulse_ambient_light_color">Al pulsar, usar</string>
+    <string name="notification_screen_title">Notificaciones</string>
 </resources>

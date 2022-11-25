@@ -219,4 +219,9 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">Когда экран включён</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
+    <!-- Pulse -->
+    <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомления</string>
+    <string name="ambient_notification_light_accent_title">Цвет акцента системы</string>
+    <string name="ambient_notification_light_color_automatic_title">Цвет уведомлений</string>
+    <string name="pulse_ambient_light_color">При пульсации, использовать</string>
 </resources>

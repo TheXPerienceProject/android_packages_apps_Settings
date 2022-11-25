@@ -166,4 +166,9 @@
     <string name="face_unlock_method_title">Cho phép từ màn hình khóa</string>
     <string name="face_unlock_method_default">Khi màn hình được bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
+    <!-- Pulse -->
+    <string name="pulse_ambient_light_summary">Làm sáng các cạnh bên của màn hình trên thông báo đẩy</string>
+    <string name="ambient_notification_light_accent_title">Dùng màu hệ thống</string>
+    <string name="ambient_notification_light_color_automatic_title">Màu thông báo</string>
+    <string name="pulse_ambient_light_color">Trong khi sóng nhạc</string>
 </resources>

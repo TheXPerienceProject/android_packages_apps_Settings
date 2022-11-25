@@ -219,4 +219,9 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi ile açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıkken</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Pulse -->
+    <string name="pulse_ambient_light_summary">Bildirim geldiğinde ortam ekranın yan kenarlarını aydınlat</string>
+    <string name="ambient_notification_light_accent_title">Sistem vurgu rengi</string>
+    <string name="ambient_notification_light_color_automatic_title">Bildirim rengi</string>
+    <string name="pulse_ambient_light_color">Bildirimi haber verirken kullan</string>
 </resources>

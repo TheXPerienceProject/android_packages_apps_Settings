@@ -119,4 +119,9 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione viso</string>
     <string name="face_redo_confirm_btn">Ripeti</string>
     <string name="face_redo_warning_msg">Desideri rimuovere la scansione del viso esistente e crearne una nuova?</string>
+    <!-- Pulse -->
+    <string name="pulse_ambient_light_summary">Illumina i bordi laterali dello schermo sulla notifica pulse</string>
+    <string name="ambient_notification_light_accent_title">Colore secondario di sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Colore della notifica</string>
+    <string name="pulse_ambient_light_color">Quando lampeggia, usa</string>
 </resources>

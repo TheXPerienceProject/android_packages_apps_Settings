@@ -289,4 +289,8 @@
     <string name="battery_protection_reset_stats_title">Reset battery statistics</string>
     <string name="battery_protection_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="battery_protection_intro_text">To protect the battery and prevent it from degrading (Limits the battery charge to 80% (can be changed from the settings above))</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
 </resources>

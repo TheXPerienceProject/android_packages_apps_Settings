@@ -230,4 +230,7 @@
     <string name="ambient_notification_light_color_automatic_title">Color de notificación</string>
     <string name="pulse_ambient_light_color">Al pulsar, usar</string>
     <string name="notification_screen_title">Notificaciones</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ícono 4G</string>
+    <string name="show_fourg_icon_summary">Mostrar icono de 4G en el icono de señal en lugar de LTE</string>
 </resources>

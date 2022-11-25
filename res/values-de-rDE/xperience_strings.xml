@@ -96,4 +96,5 @@
     <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
     <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
     <!-- Pulse -->
+    <!-- 4G icon -->
 </resources>

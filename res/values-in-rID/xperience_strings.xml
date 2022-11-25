@@ -224,4 +224,5 @@
     <string name="ambient_notification_light_accent_title">Warna aksen sistem</string>
     <string name="ambient_notification_light_color_automatic_title">Warna Notifikasi</string>
     <string name="pulse_ambient_light_color">Saat menyala, gunakan</string>
+    <!-- 4G icon -->
 </resources>

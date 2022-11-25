@@ -224,4 +224,5 @@
     <string name="ambient_notification_light_accent_title">Sistem vurgu rengi</string>
     <string name="ambient_notification_light_color_automatic_title">Bildirim rengi</string>
     <string name="pulse_ambient_light_color">Bildirimi haber verirken kullan</string>
+    <!-- 4G icon -->
 </resources>

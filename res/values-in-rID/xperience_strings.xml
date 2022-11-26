@@ -206,7 +206,7 @@
     <string name="immersive_navigation_title">Navigasi Immersive</string>
     <string name="immersive_navigation_summary">Sembunyikan pil gestur dan lapisan bilah navigasi.</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Obor cepat</string>
+    <string name="power_button_torch_title">Senter cepat</string>
     <string name="power_button_torch_summary">Saat layar mati, menekan lama tombol daya akan mengaktifkan senter</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Gunakan tema gelap</string>
@@ -220,9 +220,17 @@
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
     <!-- Pulse -->
+    <string name="ambient_light_category">Pencahayaan tepi layar</string>
+    <string name="keywords_pulse_ambient_light_display">notifikasi, pemberitahuan, tepi, cahaya, warna</string>
+    <string name="pulse_ambient_light_text">Pencahayaan tepi layar membuat layar Anda bersinar saat Anda menerima notifikasi. Ini memudahkan untuk mengetahui kapan Anda mendapatkan notifikasi saat ponsel dalam mode tidur.</string>
+    <string name="pulse_ambient_light_title">Pencahayaan tepi layar</string>
+    <string name="pulse_ambient_light_enable">Gunakan pencahayaan tepi layar</string>
     <string name="pulse_ambient_light_summary">Nyalakan cahaya di sisi pinggir layar saat ada notifikasi</string>
     <string name="ambient_notification_light_accent_title">Warna aksen sistem</string>
     <string name="ambient_notification_light_color_automatic_title">Warna Notifikasi</string>
     <string name="pulse_ambient_light_color">Saat menyala, gunakan</string>
+    <string name="notification_screen_title">Notifikasi</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ikon 4G</string>
+    <string name="show_fourg_icon_summary">Tampilkan ikon 4G dalam ikon sinyal, bukan LTE</string>
 </resources>

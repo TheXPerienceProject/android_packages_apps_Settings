@@ -220,9 +220,17 @@
     <string name="face_unlock_method_default">Когда экран включён</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
     <!-- Pulse -->
+    <string name="ambient_light_category">Подсветка краёв экрана</string>
+    <string name="keywords_pulse_ambient_light_display">уведомления, края, свет, цвета</string>
+    <string name="pulse_ambient_light_text">Подсветка краев экрана включается, когда вы получаете уведомление. Это облегчает определение того, когда вы получаете уведомление, пока телефон находится в режиме ожидания.</string>
+    <string name="pulse_ambient_light_title">Подсветка краёв экрана</string>
+    <string name="pulse_ambient_light_enable">Включить подсветку краев экрана</string>
     <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомления</string>
     <string name="ambient_notification_light_accent_title">Цвет акцента системы</string>
     <string name="ambient_notification_light_color_automatic_title">Цвет уведомлений</string>
     <string name="pulse_ambient_light_color">При пульсации, использовать</string>
+    <string name="notification_screen_title">Уведомления</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Отображать значок 4G вместо LTE</string>
 </resources>

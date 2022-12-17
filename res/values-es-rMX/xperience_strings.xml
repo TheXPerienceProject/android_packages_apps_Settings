@@ -233,4 +233,11 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ícono 4G</string>
     <string name="show_fourg_icon_summary">Mostrar icono de 4G en el icono de señal en lugar de LTE</string>
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker\nRequiere reiniciar SystemUI</string>
+    <string name="reticker_summary">¡Reemplaza las notificaciones con una versión rediseñada de la información mostrada! \nDelgada y menos invasiva que la notificación estándar</string>
+    <string name="reticker_colored_title">Usar fondo de color de la aplicación</string>
+    <string name="reticker_colored_summary">Colorear el fondo de la notificación con el color principal de la aplicación</string>
+    <string name="reticker_landscape_only_title">Solo horizontal</string>
+    <string name="reticker_landscape_only_summary">Solo activar reTicker cuando el dispositivo está en modo horizontal</string>
 </resources>

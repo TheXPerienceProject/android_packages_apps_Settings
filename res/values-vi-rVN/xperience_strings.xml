@@ -172,4 +172,5 @@
     <string name="ambient_notification_light_color_automatic_title">Màu thông báo</string>
     <string name="pulse_ambient_light_color">Trong khi sóng nhạc</string>
     <!-- 4G icon -->
+    <!-- reTicker -->
 </resources>

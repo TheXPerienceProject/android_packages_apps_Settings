@@ -28,7 +28,7 @@ import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.settings.fuelgauge.PowerGaugePreference;
+import com.android.settings.fuelgauge.batteryusage.PowerGaugePreference;
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;

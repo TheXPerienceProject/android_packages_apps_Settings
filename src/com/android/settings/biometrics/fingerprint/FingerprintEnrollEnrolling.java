@@ -1060,7 +1060,8 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             final boolean isFrontFacingFps = getResources().getBoolean(
                     R.bool.config_is_front_facing_fps);
-            final String fpsLocation = getString(isFrontFacingFps
+            final String fpsLocation = getString(sCanAssumeSfps
+                    ? R.string.fingerprint_enroll_touch_dialog_message_side : isFrontFacingFps
                             ? R.string.fingerprint_enroll_touch_dialog_message_front
                             : R.string.fingerprint_enroll_touch_dialog_message_rear);
 

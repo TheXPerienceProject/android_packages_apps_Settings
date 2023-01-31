@@ -279,8 +279,4 @@
     <string name="reticker_landscape_only_title">Landscape only</string>
     <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
 
-    <!-- Screen off FOD -->
-    <string name="screen_off_fod_title">Screen off FOD</string>
-    <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
-
 </resources>

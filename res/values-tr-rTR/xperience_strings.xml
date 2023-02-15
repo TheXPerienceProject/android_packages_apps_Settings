@@ -62,9 +62,6 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arka tarafındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arka tarafındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki parmak izi sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki parmak izi sensöre dokunun.</string>
@@ -234,4 +231,9 @@
     <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
     <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
     <!-- reTicker -->
+    <string name="reticker_colored_title">Uygulama rengine göre arkaplan</string>
+    <string name="reticker_colored_summary">ReTicker arkaplan rengini uygulamanın ana rengine göre değiştir</string>
+    <string name="reticker_landscape_only_title">Sadece yatay</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
 </resources>

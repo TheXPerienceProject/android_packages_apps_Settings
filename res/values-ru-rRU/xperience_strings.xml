@@ -62,9 +62,6 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на обратной стороне вашего планшета.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите сканер отпечатков пальцев на задней поверхности вашего устройства.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите сканер отпечатков на задней поверхности телефона.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Найдите сканер отпечатков пальцев на боковой грани вашего планшета.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Найдите сканер отпечатков пальцев на боковой грани вашего устройства.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Найдите сканер отпечатков на боковой части телефона.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Коснитесь сенсора на передней поверхности вашего планшета.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Коснитесь сенсора на передней поверхности вашего устройства.</string>
@@ -234,4 +231,6 @@
     <string name="show_fourg_icon_title">Значок 4G</string>
     <string name="show_fourg_icon_summary">Отображать значок 4G вместо LTE</string>
     <!-- reTicker -->
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
 </resources>

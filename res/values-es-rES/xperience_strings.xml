@@ -62,9 +62,6 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localiza el sensor de huellas dactilares en la parte trasera de tu tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localiza el lector de huellas en la parte trasera de tu dispositivo.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localiza el sensor de huellas en la parte trasera de tu teléfono.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localiza el lector de huellas en el lateral de la tableta.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localiza el lector de huellas en el lateral del dispositivo.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localiza el sensor de huellas en la parte lateral de tu teléfono.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toca el sensor de huellas frontal de tu tablet.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toca el sensor de huellas frontal de tu dispositivo.</string>
@@ -240,4 +237,7 @@
     <string name="reticker_colored_summary">Colorear el fondo de la notificación con el color principal de la aplicación</string>
     <string name="reticker_landscape_only_title">Solo horizontal</string>
     <string name="reticker_landscape_only_summary">Solo activar reTicker cuando el dispositivo está en modo horizontal</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir diseño de la barra de navegación</string>
+    <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
 </resources>

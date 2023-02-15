@@ -57,9 +57,6 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Xác định vị trí cảm biến vân tay ở mặt trước thiết bị của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vị trí cảm biến vân tay ở mặt sau thiết bị của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Xác định cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Xác định vị trí của cảm biến vân tay ở bên cạnh máy tính bảng của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Xác định cảm biến vân tay ở bên cạnh thiết bị của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Chạm vào cảm biến ở mặt trước máy tính bảng của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Chạm vào cảm biến ở mặt trước thiết bị của bạn.</string>
@@ -173,4 +170,6 @@
     <string name="pulse_ambient_light_color">Trong khi sóng nhạc</string>
     <!-- 4G icon -->
     <!-- reTicker -->
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
 </resources>

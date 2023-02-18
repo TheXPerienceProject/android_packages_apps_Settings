@@ -122,9 +122,26 @@
     <string name="power_button_torch_title">クイックトーチ</string>
     <string name="power_button_torch_summary">画面消灯時、電源ボタン長押しでトーチが使えるようになります</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">ブラックテーマを使用</string>
+    <string name="system_black_theme_summary">背景色を強制的に黒にする</string>
     <!-- Face Unlock -->
     <!-- Pulse -->
+    <string name="ambient_light_category">エッジ照明</string>
+    <string name="keywords_pulse_ambient_light_display">通知、通知、エッジ、ライト、カラー、カラー</string>
+    <string name="pulse_ambient_light_text">エッジライトは通知を受信した時に画面を光らせます。これにより端末が Doze モードの間でパルスを受け取った時に簡単に把握することができます。</string>
+    <string name="pulse_ambient_light_title">エッジ照明</string>
+    <string name="pulse_ambient_light_enable">エッジライトの使用</string>
+    <string name="notification_screen_title">通知</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4Gアイコン</string>
+    <string name="show_fourg_icon_summary">LTE の代わりに 4G アイコンを表示する</string>
     <!-- reTicker -->
+    <string name="reticker_title">reTicker\nSystemUIを再起動する必要があります。</string>
+    <string name="reticker_summary">通知をデザイン変更されたティッカーに置き換える。\n標準の通知よりもスリムで邪魔にならないデザインです。</string>
+    <string name="reticker_colored_title">アプリに色付きの背景を使用</string>
+    <string name="reticker_colored_summary">ReTicker の背景の色を通知アプリのメインの色で置き換えます</string>
+    <string name="reticker_landscape_only_title">風景のみ</string>
+    <string name="reticker_landscape_only_summary">端末がランドスケープモードの場合にのみ再ティッカーを有効にする</string>
     <!-- Navbar options -->
+    <string name="navbar_invert_info">ナビゲーションバーの「戻る」ボタンと「戻る」ボタンを入れ替える</string>
 </resources>

@@ -239,4 +239,5 @@
     <string name="reticker_landscape_only_summary">Hanya aktifkan reTicker saat perangkat dalam mode lanskap</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
+    <string name="navbar_invert_info">Tukar posisi tombol \"Kembali\" dan tombol \"Terbaru\" di bilah navigasi</string>
 </resources>

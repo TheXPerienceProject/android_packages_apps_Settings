@@ -22,6 +22,7 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import android.widget.ImageView;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -32,6 +33,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import mx.xperience.framework.preference.CustomSeekBarPreference;
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * Settings screen for Smart charging
  */
@@ -62,6 +64,7 @@ public class BatteryProtectionSettings extends DashboardFragment implements OnPr
         mBatteryProtectionResumeLevel.setValue(currentResumeLevel);
         mBatteryProtectionResumeLevel.setOnPreferenceChangeListener(this);
     }
+
     @Override
     protected String getLogTag() {
         return TAG;

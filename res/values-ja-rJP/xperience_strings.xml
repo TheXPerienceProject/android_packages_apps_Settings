@@ -144,4 +144,9 @@
     <string name="reticker_landscape_only_summary">端末がランドスケープモードの場合にのみ再ティッカーを有効にする</string>
     <!-- Navbar options -->
     <string name="navbar_invert_info">ナビゲーションバーの「戻る」ボタンと「戻る」ボタンを入れ替える</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Battery Protection-->
 </resources>

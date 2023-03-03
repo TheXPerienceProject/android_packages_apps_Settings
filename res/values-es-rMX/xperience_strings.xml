@@ -240,4 +240,22 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invertir diseño de la barra de navegación</string>
     <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Balance de color</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Intensidad de rojo</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Intensidad de verde</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Intensidad de azul</string>
+    <string name="keywords_color_balance">color, balance de colores, corrección de color, rojo, verde, azul, pantalla LiveDisplay</string>
+    <!-- Battery Protection-->
+    <string name="battery_protection_title">Protección de Batería</string>
+    <string name="battery_protection_summary">Limita la carga de la batería para extender la vida útil de la batería</string>
+    <string name="battery_protection_master_switch_title">Usar protección de batería</string>
+    <string name="battery_protection_level_title">Nivel de batería para detener la carga</string>
+    <string name="battery_protection_resume_level_title">Nivel de batería para empezar a cargar</string>
+    <string name="battery_protection_reset_stats_title">Reiniciar las estadísticas de la batería</string>
+    <string name="battery_protection_reset_stats_summary">Reiniciar las estadísticas de batería después de alcanzar un porcentaje de batería definido por el usuario</string>
+    <string name="battery_protection_intro_text">Para proteger la batería y evitar que se degrade (Limita la carga de la batería al 80% (se puede cambiar desde los ajustes anteriores))</string>
 </resources>

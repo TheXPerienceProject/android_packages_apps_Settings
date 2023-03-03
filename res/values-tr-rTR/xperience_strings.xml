@@ -231,11 +231,15 @@
     <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
     <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
     <!-- reTicker -->
+    <string name="reticker_title">reTicker\nSystemUI\'nin yeniden başlatılmasını gerektirir</string>
+    <string name="reticker_summary">Bildirimlerinizi, bildirim çubuğu yazılarının yeniden tasarlanmış haliyle değiştirin!\nStandart bildirimlerden daha zarif ve daha az dikkat dağıtıcıdır</string>
     <string name="reticker_colored_title">Uygulama rengine göre arkaplan</string>
     <string name="reticker_colored_summary">ReTicker arkaplan rengini uygulamanın ana rengine göre değiştir</string>
     <string name="reticker_landscape_only_title">Sadece yatay</string>
+    <string name="reticker_landscape_only_summary">ReTicker\'ı yalnızca cihaz yatay moddayken etkinleştirin</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
+    <string name="navbar_invert_info">Gezinme çubuğundaki \"Geri\" ve \"Son Kullanılanlar\" düğmelerini değiştirin</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
     <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->

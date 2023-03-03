@@ -279,4 +279,14 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+
+    <!-- Battery Protection-->
+    <string name="battery_protection_title">Battery Protection</string>
+    <string name="battery_protection_summary">Set maximum charging level</string>
+    <string name="battery_protection_master_switch_title">Use Battery Protection</string>
+    <string name="battery_protection_level_title">Stop trigger level</string>
+    <string name="battery_protection_resume_level_title">Start trigger level</string>
+    <string name="battery_protection_reset_stats_title">Reset battery statistics</string>
+    <string name="battery_protection_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="battery_protection_intro_text">Battery Protection allows you to set maximum charging level to extend the lifespan of your battery</string>
 </resources>

@@ -52,6 +52,12 @@
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
 
     <Preference
+        android:fragment="com.android.settings.fuelgauge.smartcharging.BatteryProtectionSettings"
+        android:key="battery_protection_key"
+        android:title="@string/battery_protection_title"
+        android:summary="@string/battery_protection_summary" />
+
+    <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
         android:key="smart_battery_manager"
         android:title="@string/smart_battery_manager_title"

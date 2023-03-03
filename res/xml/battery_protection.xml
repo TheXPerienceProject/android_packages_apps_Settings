@@ -20,13 +20,11 @@
     android:key="battery_protection_screen"
     android:title="@string/battery_protection_title">
 
-    <ImageView
-        android:id="@+id/smart_charge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_xpe_battery_protection"
-        />
+    <!-- XPerience logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="xperience_battery_protection"
+        android:layout="@layout/xperience_battery_protection"
+        android:selectable="false"/>
 
     <com.android.settingslib.widget.TopIntroPreference
         android:key="battery_battery_protection_intro_text"

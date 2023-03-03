@@ -29,4 +29,6 @@
     <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
+    <!-- Battery Protection -->
+    <bool name="config_supportBatteryProtection">false</bool>
 </resources>

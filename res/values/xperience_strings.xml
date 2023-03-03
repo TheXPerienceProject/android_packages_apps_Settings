@@ -282,11 +282,11 @@
 
     <!-- Battery Protection-->
     <string name="battery_protection_title">Battery Protection</string>
-    <string name="battery_protection_summary">Set maximum charging level</string>
+    <string name="battery_protection_summary">Limits the battery charge to extend the lifespan of your battery</string>
     <string name="battery_protection_master_switch_title">Use Battery Protection</string>
-    <string name="battery_protection_level_title">Stop trigger level</string>
-    <string name="battery_protection_resume_level_title">Start trigger level</string>
+    <string name="battery_protection_level_title">Battery level to stop charging</string>
+    <string name="battery_protection_resume_level_title">Battery level to start charging</string>
     <string name="battery_protection_reset_stats_title">Reset battery statistics</string>
     <string name="battery_protection_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="battery_protection_intro_text">Battery Protection allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="battery_protection_intro_text">To protect the battery and prevent it from degrading (Limits the battery charge to 80% (can be changed from the settings above))</string>
 </resources>

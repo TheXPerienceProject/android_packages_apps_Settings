@@ -278,6 +278,17 @@ public class BatteryInfo {
         final long chargeTimeMs = stats.getChargeTimeRemainingMs();
         final int status = batteryBroadcast.getIntExtra(BatteryManager.EXTRA_STATUS,
                 BatteryManager.BATTERY_STATUS_UNKNOWN);
+        final boolean dashChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_DASH_CHARGER, false);
+        final boolean warpChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_WARP_CHARGER, false);
+        final boolean voocChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_VOOC_CHARGER, false);
+        final boolean turboPowerStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_TURBO_POWER, false);
+        final boolean miTurboChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_MI_TURBO_CHARGER, false);
+
         info.discharging = false;
         info.suggestionLabel = null;
         if (info.isOverheated && status != BatteryManager.BATTERY_STATUS_FULL) {
@@ -293,8 +304,25 @@ public class BatteryInfo {
                     false /* withSeconds */,
                     true /* collapseTimeUnit */);
             int resId = R.string.power_charging_duration;
-            info.remainingLabel = context.getString(
-                    R.string.power_remaining_charging_duration_only, timeString);
+            if (dashChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_dash_charging_duration_only, timeString);
+            } else if (warpChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_warp_charging_duration_only, timeString);
+            } else if (voocChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_vooc_charging_duration_only, timeString);
+            } else if (turboPowerStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_turbo_charging_duration_only, timeString);
+            } else if (miTurboChargeStatus) {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_mi_turbo_charge_duration_only, timeString);
+            } else {
+                info.remainingLabel = context.getString(
+                        R.string.power_remaining_charging_duration_only, timeString);
+            }
             info.chargeLabel = context.getString(resId, info.batteryPercentString, timeString);
         } else {
             final String chargeStatusLabel =

@@ -3,6 +3,8 @@ preserve_hierarchy: true
 files:
   - source: 'res/values/xperience_strings.xml'
     translation: '/%original_path%-%android_code%/%original_file_name%'
+  - source: 'res-xpe/values/xpe_strings.xml'
+    translation: '/%original_path%-%android_code%/%original_file_name%'
 languages_mapping: &anchor
       android_code:
         af: af

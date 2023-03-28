@@ -258,4 +258,28 @@
     <string name="battery_protection_reset_stats_title">Reiniciar las estadísticas de la batería</string>
     <string name="battery_protection_reset_stats_summary">Reiniciar las estadísticas de batería después de alcanzar un porcentaje de batería definido por el usuario</string>
     <string name="battery_protection_intro_text">Para proteger la batería y evitar que se degrade (Limita la carga de la batería al 80% (se puede cambiar desde los ajustes anteriores))</string>
+    <string name="xpe_dashboard_device">Acerca del teléfono</string>
+    <string name="xpe_dashboard_account">Cuenta</string>
+    <string name="xpe_dashboard_network">Internet</string>
+    <string name="xpe_dashboard_conectivity">Conectividad</string>
+    <string name="xpe_dashboard_display">Pantalla</string>
+    <string name="xpe_dashboard_battery">Batería</string>
+    <string name="xpe_dashboard_sound">Sonido</string>
+    <string name="xpe_dashboard_apps">Aplicaciones</string>
+    <string name="xpe_dashboard_notif">Notificaciones</string>
+    <string name="xpe_dashboard_storage">Almacenamiento</string>
+    <string name="xpe_dashboard_privacy">Privacidad</string>
+    <string name="xpe_dashboard_location">Ubicación</string>
+    <string name="xpe_dashboard_security">Seguridad</string>
+    <string name="xpe_dashboard_accessibility">Accesibilidad</string>
+    <string name="xpe_dashboard_system">Otros</string>
+    <string name="xpe_dashboard_support">Soporte</string>
+    <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">Actualizaciones del sistema</string>
+    <string name="xpe_updates_status_updated">No hay nuevas actualizaciones</string>
+    <string name="xpe_updates_status_new">Nueva actualización disponible</string>
+    <string name="top_level_connectivity">Conectividad</string>
+    <string name="top_level_personalize">Personalizar</string>
+    <string name="top_level_accounts">Cuentas</string>
+    <string name="top_level_others">Otros</string>
 </resources>

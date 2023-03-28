@@ -241,8 +241,22 @@
     <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
     <string name="navbar_invert_info">Tukar posisi tombol \"Kembali\" dan tombol \"Terbaru\" di bilah navigasi</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Keseimbangan warna</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Kepekatan merah</string>
     <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Kepekatan hijau</string>
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Kepekatan biru</string>
+    <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, LiveDisplay</string>
     <!-- Battery Protection-->
+    <string name="battery_protection_title">Perlindungan Baterai</string>
+    <string name="battery_protection_summary">Membatasi daya baterai untuk memperpanjang umur baterai Anda</string>
+    <string name="battery_protection_master_switch_title">Gunakan Perlindungan Baterai</string>
+    <string name="battery_protection_level_title">Tingkat baterai untuk menghentikan pengisian</string>
+    <string name="battery_protection_resume_level_title">Tingkat baterai untuk memulai pengisian</string>
+    <string name="battery_protection_reset_stats_title">Atur ulang statistik baterai</string>
+    <string name="battery_protection_reset_stats_summary">Atur ulang statistik baterai setelah mencapai batas pengisian</string>
+    <string name="battery_protection_intro_text">Untuk melindungi baterai dan mencegahnya dari penurunan (Batas daya baterai hingga 80% (dapat diubah dari setelan di atas))</string>
+    <!-- Dashboard categories -->
 </resources>

@@ -241,8 +241,22 @@
     <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
     <string name="navbar_invert_info">Gezinme çubuğundaki \"Geri\" ve \"Son Kullanılanlar\" düğmelerini değiştirin</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Renk dengesi</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Kırmızı yoğunluğu</string>
     <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
+    <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
     <!-- Battery Protection-->
+    <string name="battery_protection_title">Pil Koruması</string>
+    <string name="battery_protection_summary">Pilinizin ömrünü uzatmak için pil şarjını sınırlar</string>
+    <string name="battery_protection_master_switch_title">Pil Korumasını Kullanın</string>
+    <string name="battery_protection_level_title">Şarjı durdurmak için pil seviyesi</string>
+    <string name="battery_protection_resume_level_title">Şarj etmeye başlamak için pil seviyesi</string>
+    <string name="battery_protection_reset_stats_title">Pil istatistiklerini sıfırla</string>
+    <string name="battery_protection_reset_stats_summary">Kullanıcı tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırlayın</string>
+    <string name="battery_protection_intro_text">Pili korumak ve bozulmasını önlemek için (Pil şarjını %80 ile sınırlar (yukarıdaki ayarlardan değiştirilebilir))</string>
+    <!-- Dashboard categories -->
 </resources>

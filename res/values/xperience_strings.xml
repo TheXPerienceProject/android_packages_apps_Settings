@@ -216,6 +216,10 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
+    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
+
     <string name="xpe_dashboard_device">About phone</string>
     <string name="xpe_dashboard_account">Account</string>
     <string name="xpe_dashboard_network">Internet</string>
@@ -243,8 +247,4 @@
     <string name="top_level_security" translatable="false">@string/security_settings_title</string>
     <string name="top_level_accounts">Accounts</string>
     <string name="top_level_others">Others</string>
-
-    <!-- Custom Fonts -->
-    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
-    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
 </resources>

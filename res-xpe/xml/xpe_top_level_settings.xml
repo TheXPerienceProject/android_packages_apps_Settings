@@ -164,7 +164,7 @@
         android:key="top_level_security"
         android:order="-95"
         android:title="@string/security_settings_title"
-        settings:layout="@layout/xpe_dashboard_preference_middle"
+        settings:layout="@layout/xpe_dashboard_preference_top"
         android:summary="@string/security_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_security"
         settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>

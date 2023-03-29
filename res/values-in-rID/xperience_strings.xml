@@ -259,4 +259,5 @@
     <string name="battery_protection_reset_stats_summary">Atur ulang statistik baterai setelah mencapai batas pengisian</string>
     <string name="battery_protection_intro_text">Untuk melindungi baterai dan mencegahnya dari penurunan (Batas daya baterai hingga 80% (dapat diubah dari setelan di atas))</string>
     <!-- Dashboard categories -->
+    <!-- Hotspot extras -->
 </resources>

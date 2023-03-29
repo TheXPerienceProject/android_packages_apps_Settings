@@ -282,4 +282,7 @@
     <string name="top_level_personalize">Personalizar</string>
     <string name="top_level_accounts">Cuentas</string>
     <string name="top_level_others">Otros</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que los clientes del punto de acceso utilicen las conexiones VPN de este dispositivo\u2019 para la conectividad ascendente</string>
 </resources>

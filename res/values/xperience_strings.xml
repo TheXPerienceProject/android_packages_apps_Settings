@@ -343,4 +343,8 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Colored icons</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in status bar</string>
 </resources>

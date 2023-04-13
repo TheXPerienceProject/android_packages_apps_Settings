@@ -51,6 +51,12 @@
             android:fragment="com.android.settings.xperience.FontsPicker" />
 
         <Preference
+            android:key="android.theme.customization.lockscreen_clock_font"
+            android:title="@string/theme_customization_lock_clock_title"
+            android:summary="@string/theme_customization_lock_clock_summary"
+            android:fragment="com.android.settings.xperience.LockClockFonts" />
+
+        <Preference
             android:key="android.theme.customization.icon_pack"
             android:title="@string/theme_customization_icon_pack_title"
             android:summary="@string/theme_customization_icon_pack_summary"

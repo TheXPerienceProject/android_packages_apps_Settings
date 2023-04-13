@@ -258,6 +258,33 @@
     <string name="battery_protection_reset_stats_title">Pil istatistiklerini sıfırla</string>
     <string name="battery_protection_reset_stats_summary">Kullanıcı tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırlayın</string>
     <string name="battery_protection_intro_text">Pili korumak ve bozulmasını önlemek için (Pil şarjını %80 ile sınırlar (yukarıdaki ayarlardan değiştirilebilir))</string>
+    <string name="xpe_dashboard_device">Telefon hakkında</string>
+    <string name="xpe_dashboard_account">Hesabım</string>
+    <string name="xpe_dashboard_network">İnternet</string>
+    <string name="xpe_dashboard_conectivity">Bağlantı</string>
+    <string name="xpe_dashboard_display">Ekran</string>
+    <string name="xpe_dashboard_battery">Batarya</string>
+    <string name="xpe_dashboard_sound">Ses</string>
+    <string name="xpe_dashboard_apps">Uygulamalar</string>
+    <string name="xpe_dashboard_notif">Bildirimler</string>
+    <string name="xpe_dashboard_storage">Depolama</string>
+    <string name="xpe_dashboard_privacy">Gizlilik</string>
+    <string name="xpe_dashboard_location">Konum</string>
+    <string name="xpe_dashboard_security">Güvenlik</string>
+    <string name="xpe_dashboard_accessibility">Erişilebilirlik</string>
+    <string name="xpe_dashboard_system">Diğer</string>
+    <string name="xpe_dashboard_support">Destek</string>
     <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">Sistem güncellemeleri</string>
+    <string name="xpe_updates_status_updated">Yeni güncelleme yok</string>
+    <string name="xpe_updates_status_new">Yeni güncelleme var</string>
+    <string name="top_level_connectivity">Bağlantı</string>
+    <string name="top_level_personalize">Kişiselleştirme</string>
+    <string name="top_level_accounts">Hesaplar</string>
+    <string name="top_level_others">Diğerleri</string>
     <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
 </resources>

@@ -171,6 +171,15 @@
     <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
     <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
     <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Ícono horizontal estilo A (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Ícono horizontal estilo A (Izquierda)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Ícono horizontal estilo B (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Ícono horizontal estilo B (Izquierda)</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Vertical Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Horizontal Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Vertical iOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Horizontal Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Cápsula horizontal</string>
     <string name="status_bar_battery_style_circle">Circulo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
     <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
@@ -285,4 +294,22 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que los clientes del punto de acceso utilicen las conexiones VPN de este dispositivo\u2019 para la conectividad ascendente</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Iconos coloreados</string>
+    <string name="statusbar_colored_icons_summary">Usar iconos de aplicación para las notificaciones en la barra de estado</string>
+    <string name="animations">Animaciones</string>
+    <!-- Power menu Animations -->
+    <string name="power_menu_animation_title">Animación de menú de apagado</string>
+    <string name="power_menu_animation_dialog_title">Seleccione la animación del menú de apagado</string>
+    <string name="power_menu_animation_aosp">AOSP (predeterminada)</string>
+    <string name="power_menu_animation_bottom">Inferior</string>
+    <string name="power_menu_animation_top">Superior</string>
+    <string name="power_menu_animation_xylon">Vuelo</string>
+    <string name="power_menu_animation_slide">Deslizar</string>
+    <string name="power_menu_animation_turn">Girar</string>
+    <string name="power_menu_animation_fly">Resplandor</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Traslúcida (desde la parte superior)</string>
+    <string name="power_menu_animation_translucent_bottom">Translúcido (desde la parte inferior)</string>
+    <string name="power_menu_animation_rotate">Rotar</string>
 </resources>

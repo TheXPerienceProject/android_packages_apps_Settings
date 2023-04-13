@@ -287,4 +287,5 @@
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
+    <!-- Custom Fonts -->
 </resources>

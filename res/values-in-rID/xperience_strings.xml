@@ -258,8 +258,34 @@
     <string name="battery_protection_reset_stats_title">Atur ulang statistik baterai</string>
     <string name="battery_protection_reset_stats_summary">Atur ulang statistik baterai setelah mencapai batas pengisian</string>
     <string name="battery_protection_intro_text">Untuk melindungi baterai dan mencegahnya dari penurunan (Batas daya baterai hingga 80% (dapat diubah dari setelan di atas))</string>
+    <string name="xpe_dashboard_device">Tentang ponsel</string>
+    <string name="xpe_dashboard_account">Akun</string>
+    <string name="xpe_dashboard_network">Internet</string>
+    <string name="xpe_dashboard_conectivity">Konektivitas</string>
+    <string name="xpe_dashboard_display">Tampilan</string>
+    <string name="xpe_dashboard_battery">Baterai</string>
+    <string name="xpe_dashboard_sound">Suara</string>
+    <string name="xpe_dashboard_apps">Aplikasi</string>
+    <string name="xpe_dashboard_notif">Notifikasi</string>
+    <string name="xpe_dashboard_storage">Penyimpanan</string>
+    <string name="xpe_dashboard_privacy">Privasi</string>
+    <string name="xpe_dashboard_location">Lokasi</string>
+    <string name="xpe_dashboard_security">Keamanan</string>
+    <string name="xpe_dashboard_accessibility">Aksesibilitas</string>
+    <string name="xpe_dashboard_system">Lainnya</string>
+    <string name="xpe_dashboard_support">Dukungan</string>
     <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">Pembaruan sistem</string>
+    <string name="xpe_updates_status_updated">Tidak ada pembaruan</string>
+    <string name="xpe_updates_status_new">Pembaruan baru tersedia</string>
+    <string name="top_level_connectivity">Konektivitas</string>
+    <string name="top_level_personalize">Personalisasi</string>
+    <string name="top_level_accounts">Akun</string>
+    <string name="top_level_others">Lainnya</string>
     <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
     <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
+    <!-- Custom Fonts -->
 </resources>

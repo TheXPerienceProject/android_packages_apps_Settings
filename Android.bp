@@ -120,6 +120,7 @@ android_library {
         "vendor.xperience.fastcharge-V1.0-java",
         "SettingsLibMainSwitchPreference",
         "Settings-change-ids",
+        "SystemUIUnfoldLib",
     ],
 
     libs: [

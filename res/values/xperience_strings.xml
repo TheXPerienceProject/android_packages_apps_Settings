@@ -220,10 +220,6 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
-    <!-- Volume link notification -->
-    <string name="ring_only_volume_option_title">Ring volume</string>
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
-
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Statusbar</string>
     <string name="statusbar_custom">Statusbar customizations</string>

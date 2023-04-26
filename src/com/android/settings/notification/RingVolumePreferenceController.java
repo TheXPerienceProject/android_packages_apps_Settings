@@ -43,7 +43,7 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
     private static final String KEY_RING_VOLUME = "ring_volume";
 
     private Vibrator mVibrator;
-    private int mRingerMode = -1;
+    protected int mRingerMode = -1;
     private ComponentName mSuppressor;
     private final RingReceiver mReceiver = new RingReceiver();
     private final H mHandler = new H();

@@ -293,18 +293,6 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
-    <!-- Pulse -->
-    <string name="ambient_light_category">Edge lighting</string>
-    <string name="keywords_pulse_ambient_light_display">notification, notifications, edge, light, colour, color</string>
-    <string name="pulse_ambient_light_text">Edge lighting makes your screen glow when you receive a notification. This makes it easier to figure when you get a pulse while the phone is doze mode.</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_enable">Use Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="ambient_notification_light_accent_title">System accent color</string>
-    <string name="ambient_notification_light_color_automatic_title">Notification color</string>
-    <string name="pulse_ambient_light_color">When pulsing, use</string>
-    <string name="notification_screen_title">Notifications</string>
-
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>

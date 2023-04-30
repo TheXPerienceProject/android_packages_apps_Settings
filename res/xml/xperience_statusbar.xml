@@ -40,4 +40,9 @@
          android:summary="@string/show_fourg_icon_summary"
          android:defaultValue="true"/>
 
+    <mx.xperience.framework.preference.SystemSettingSwitchPreference
+        android:key="statusbar_notif_count"
+        android:title="@string/status_bar_notif_count_title"
+        android:summary="@string/status_bar_notif_count_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>

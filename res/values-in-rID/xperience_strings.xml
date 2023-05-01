@@ -81,14 +81,14 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Usap untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
+    <string name="proximity_wake_summary">Periksa sensor jarak sebelum layar bangun dari gestur Bangun Ketuk Dua Kali</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
     <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
     <string name="incall_vibrate_call_wait_title">Bergetar menunggu panggilan</string>
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
-    <string name="proximity_wake_summary">Periksa sensor jarak sebelum layar bangun dari gestur Bangun Ketuk Dua Kali</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animasi layar mati</string>
     <string name="screen_off_animation_default">Bawaan</string>
@@ -120,12 +120,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Tingkat polling sentuh tinggi</string>
     <string name="high_touch_polling_rate_summary">Tingkatkan tingkat polling layar sentuh</string>
-    <!-- Double Tap to wake/sleep -->
-    <string name="double_tap_gesture_category">Ketuk untuk bangun/tidur</string>
-    <string name="double_tap_gesture_title">Aktifkan gestur ketuk</string>
-    <string name="double_tap_gesture_summary">Ketuk dua kali pada layar untuk membangunkan atau menidurkan perangkat</string>
-    <string name="disable_in_landscape_title">Nonaktifkan pada lanskap</string>
-    <string name="disable_in_landscape_summary">Cegah salah sentuh saat dalam mode lanskap</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Volume aplikasi</string>
     <string name="app_volume_title">Kontrol volume per-aplikasi</string>
@@ -183,7 +177,94 @@
     <string name="status_bar_battery_percentage_default">Tersembunyi</string>
     <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <!-- Custom Fonts -->
+    <string name="xpe_dashboard_device">Tentang ponsel</string>
+    <string name="xpe_dashboard_account">Akun</string>
+    <string name="xpe_dashboard_network">Internet</string>
+    <string name="xpe_dashboard_conectivity">Konektivitas</string>
+    <string name="xpe_dashboard_display">Tampilan</string>
+    <string name="xpe_dashboard_battery">Baterai</string>
+    <string name="xpe_dashboard_sound">Suara</string>
+    <string name="xpe_dashboard_apps">Aplikasi</string>
+    <string name="xpe_dashboard_notif">Notifikasi</string>
+    <string name="xpe_dashboard_storage">Penyimpanan</string>
+    <string name="xpe_dashboard_privacy">Privasi</string>
+    <string name="xpe_dashboard_location">Lokasi</string>
+    <string name="xpe_dashboard_security">Keamanan</string>
+    <string name="xpe_dashboard_accessibility">Aksesibilitas</string>
+    <string name="xpe_dashboard_system">Lainnya</string>
+    <string name="xpe_dashboard_support">Dukungan</string>
+    <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">Pembaruan sistem</string>
+    <string name="xpe_updates_status_updated">Tidak ada pembaruan</string>
+    <string name="xpe_updates_status_new">Pembaruan baru tersedia</string>
+    <string name="top_level_connectivity">Konektivitas</string>
+    <string name="top_level_personalize">Personalisasi</string>
+    <string name="top_level_accounts">Akun</string>
+    <string name="top_level_others">Lainnya</string>
     <!-- Volume link notification -->
-    <string name="ring_only_volume_option_title">Volume dering</string>
     <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <!-- UI styles -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Bilah status</string>
+    <string name="statusbar_custom">Kustomisasi bilah status</string>
+    <string name="network_traffic_state_title">Lalu lintas jaringan</string>
+    <string name="network_traffic_state_summary">Tampilkan aktivitas jaringan di bilah status</string>
+    <string name="network_traffic_autohide_threshold_title">Otomatis menyembunyikan aktivitas jaringan (KB/s)</string>
+    <string name="network_traffic_hidearrow">Sembunyikan panah</string>
+    <string name="network_traffic_hidearrow_summary">Sembunyikan panah indikator lalu lintas jaringan</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
+    <string name="display_cutout_force_fullscreen_no_apps">Tidak ada aplikasi</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Harap mulai ulang aplikasi untuk menerapkan perubahan.</string>
+    <string name="search">Cari</string>
+    <string name="search_apps">Cari aplikasi</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Bilah navigasi</string>
+    <string name="immersive_navigation_title">Navigasi Immersive</string>
+    <string name="immersive_navigation_summary">Sembunyikan pil gestur dan lapisan bilah navigasi.</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Senter cepat</string>
+    <string name="power_button_torch_summary">Saat layar mati, menekan lama tombol daya akan mengaktifkan senter</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
+    <string name="navbar_invert_info">Tukar posisi tombol \"Kembali\" dan tombol \"Terbaru\" di bilah navigasi</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Keseimbangan warna</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Kepekatan merah</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Kepekatan hijau</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Kepekatan biru</string>
+    <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, LiveDisplay</string>
+    <!-- Battery Protection-->
+    <string name="battery_protection_title">Perlindungan Baterai</string>
+    <string name="battery_protection_summary">Membatasi daya baterai untuk memperpanjang umur baterai Anda</string>
+    <string name="battery_protection_master_switch_title">Gunakan Perlindungan Baterai</string>
+    <string name="battery_protection_level_title">Tingkat baterai untuk menghentikan pengisian</string>
+    <string name="battery_protection_resume_level_title">Tingkat baterai untuk memulai pengisian</string>
+    <string name="battery_protection_reset_stats_title">Atur ulang statistik baterai</string>
+    <string name="battery_protection_reset_stats_summary">Atur ulang statistik baterai setelah mencapai batas pengisian</string>
+    <string name="battery_protection_intro_text">Untuk melindungi baterai dan mencegahnya dari penurunan (Batas daya baterai hingga 80% (dapat diubah dari setelan di atas))</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ikon 4G</string>
+    <string name="show_fourg_icon_summary">Tampilkan ikon 4G dalam ikon sinyal, bukan LTE</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
+    <!-- Notification count -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>

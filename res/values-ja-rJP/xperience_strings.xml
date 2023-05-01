@@ -40,13 +40,13 @@
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Global Actions -->
     <!-- Three-fingers-swipe to screenshot -->
+    <!-- Proximity wake -->
+    <string name="proximity_wake_summary">Double Tap 2 Wakeジェスチャーから画面を起動する前に、近接センサーをチェックします。</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">インコール振動オプション</string>
     <string name="incall_vibrate_connect_title">接続時にバイブレーション</string>
     <string name="incall_vibrate_call_wait_title">着信時にバイブレーション</string>
     <string name="incall_vibrate_disconnect_title">切断時のバイブレーション</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_summary">Double Tap 2 Wakeジェスチャーから画面を起動する前に、近接センサーをチェックします。</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">画面オフ時のアニメーション</string>
     <string name="screen_off_animation_default">既定</string>
@@ -77,12 +77,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">高いタッチポーリングレート</string>
     <string name="high_touch_polling_rate_summary">タッチスクリーンのポーリングレート向上</string>
-    <!-- Double Tap to wake/sleep -->
-    <string name="double_tap_gesture_category">タップでスリープ／ウェイク</string>
-    <string name="double_tap_gesture_title">タップジェスチャーを有効にする</string>
-    <string name="double_tap_gesture_summary">画面をダブルタップしてスリープ／スリープ解除</string>
-    <string name="disable_in_landscape_title">ランドスケープでは無効</string>
-    <string name="disable_in_landscape_summary">ランドスケープモードでの誤操作防止</string>
     <!-- Per-app volume control -->
     <string name="app_volume_title">アプリごとの音量調整</string>
     <string name="app_volume_summary">アプリごとに異なる音量レベルを設定可能</string>
@@ -103,6 +97,82 @@
     <string name="status_bar_battery_percentage_default">非表示</string>
     <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
     <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">ロックスクリーン用時計フォント</string>
+    <string name="theme_customization_lock_clock_summary">LSクロックのフォントスタイルを設定する</string>
+    <string name="xpe_dashboard_device">デバイスについて</string>
+    <string name="xpe_dashboard_account">アカウント</string>
+    <string name="xpe_dashboard_network">インターネット</string>
+    <string name="xpe_dashboard_conectivity">コネクティビティ</string>
+    <string name="xpe_dashboard_display">ディスプレイ</string>
+    <string name="xpe_dashboard_battery">バッテリー</string>
+    <string name="xpe_dashboard_sound">サウンド</string>
+    <string name="xpe_dashboard_apps">アプリ</string>
+    <string name="xpe_dashboard_notif">通知</string>
+    <string name="xpe_dashboard_storage">ストレージ</string>
+    <string name="xpe_dashboard_privacy">プライバシー</string>
+    <string name="xpe_dashboard_location">所在地</string>
+    <string name="xpe_dashboard_security">セキュリティ</string>
+    <string name="xpe_dashboard_accessibility">アクセシビリティ</string>
+    <string name="xpe_dashboard_system">その他</string>
+    <string name="xpe_dashboard_support">サポート</string>
+    <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">システムアップデート</string>
+    <string name="xpe_updates_status_updated">アップデートはありません</string>
+    <string name="xpe_updates_status_new">新しいアップデートが利用可能</string>
+    <string name="top_level_connectivity">コネクティビティ</string>
+    <string name="top_level_personalize">パーソナライズ</string>
+    <string name="top_level_accounts">アカウント</string>
+    <string name="top_level_others">その他</string>
     <!-- Volume link notification -->
-    <string name="ring_only_volume_option_title">着信音量</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">リングボリューム</string>
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">UIスタイル</string>
+    <string name="theme_customization_ui_style_summary">インターフェイスにカスタムスタイルを設定する</string>
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">ネットワーク通信量</string>
+    <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
+    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">フルスクリーンアプリ</string>
+    <string name="display_cutout_force_fullscreen_summary">アプリがノッチスペースを無視するように強制する</string>
+    <string name="display_cutout_force_fullscreen_no_apps">アプリはありません</string>
+    <string name="display_cutout_force_fullscreen_restart_app">変更を適用するには、アプリケーションを再起動してください。</string>
+    <string name="search">検索</string>
+    <string name="search_apps">アプリを検索</string>
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">イマーシブ・ナビゲーション</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">クイックトーチ</string>
+    <string name="power_button_torch_summary">画面消灯時、電源ボタン長押しでトーチが使えるようになります</string>
+    <!-- Face Unlock -->
+    <!-- Navbar options -->
+    <string name="navbar_invert_info">ナビゲーションバーの「戻る」ボタンと「戻る」ボタンを入れ替える</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">カラーバランス</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">赤の強度</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">グリーン強度</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">ブルーストレングス</string>
+    <string name="keywords_color_balance">カラー、カラーバランス、カラーコレクション、レッド、グリーン、ブルー、LiveDisplay</string>
+    <!-- Battery Protection-->
+    <string name="battery_protection_title">バッテリー保護</string>
+    <string name="battery_protection_summary">バッテリーの充電を制限して、バッテリーの寿命を延ばす</string>
+    <string name="battery_protection_master_switch_title">バッテリープロテクトを使用する</string>
+    <string name="battery_protection_level_title">充電を停止するバッテリーレベル</string>
+    <string name="battery_protection_resume_level_title">充電を開始するバッテリーレベル</string>
+    <string name="battery_protection_reset_stats_title">バッテリーの統計情報をリセットする</string>
+    <string name="battery_protection_reset_stats_summary">ユーザー定義の充電レベルに達した後、バッテリーの統計情報をリセットします。</string>
+    <string name="battery_protection_intro_text">バッテリーを保護し、劣化を防ぐ（バッテリーの充電量を80％に制限する（上記設定から変更可）</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4Gアイコン</string>
+    <string name="show_fourg_icon_summary">LTE の代わりに 4G アイコンを表示する</string>
+    <!-- Hotspot extras -->
+    <!-- Notification count -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>

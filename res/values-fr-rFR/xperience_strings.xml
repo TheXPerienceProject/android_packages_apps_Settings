@@ -32,8 +32,8 @@
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Global Actions -->
     <!-- Three-fingers-swipe to screenshot -->
-    <!-- Incall vibrate options -->
     <!-- Proximity wake -->
+    <!-- Incall vibrate options -->
     <!-- Screen Off animation -->
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
@@ -45,7 +45,6 @@
     <!-- High touch sensitivity -->
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
-    <!-- Double Tap to wake/sleep -->
     <!-- Per-app volume control -->
     <!-- Adaptive Playback -->
     <!-- Status bar Icon Manager -->
@@ -54,5 +53,29 @@
     <!-- Game -->
     <!-- UI -->
     <!-- Battery Styles -->
+    <!-- Custom Fonts -->
+    <!-- Dashboard categories -->
     <!-- Volume link notification -->
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <!-- UI styles -->
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Débit réseau</string>
+    <string name="network_traffic_state_summary">Afficher l\'activité réseau dans la barre d\'état</string>
+    <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <!-- Torch Power button gestures -->
+    <!-- Face Unlock -->
+    <!-- Navbar options -->
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Battery Protection-->
+    <!-- 4G icon -->
+    <!-- Hotspot extras -->
+    <!-- Notification count -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>

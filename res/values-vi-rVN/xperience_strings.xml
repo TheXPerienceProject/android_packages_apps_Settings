@@ -76,9 +76,9 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
     <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
-    <!-- Incall vibrate options -->
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Ngăn chặn tình cờ bật màn hình</string>
+    <!-- Incall vibrate options -->
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Hiệu ứng tắt màn hình</string>
     <string name="screen_off_animation_default">Mặc định</string>
@@ -94,7 +94,6 @@
     <!-- High touch sensitivity -->
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
-    <!-- Double Tap to wake/sleep -->
     <!-- Per-app volume control -->
     <string name="app_volume">Âm thanh ứng dụng</string>
     <!-- Adaptive Playback -->
@@ -142,6 +141,44 @@
     <string name="status_bar_battery_percentage_default">Ẩn</string>
     <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng</string>
     <string name="status_bar_battery_percentage_text_next">Kế bên biểu tượng</string>
+    <!-- Custom Fonts -->
+    <!-- Dashboard categories -->
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <!-- UI styles -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Thanh trạng thái</string>
+    <string name="statusbar_custom">Tùy chỉnh thanh trạng thái</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_summary">Hiện biểu tượng lưu lượng mạng trên thanh trạng thái</string>
+    <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn tốc độ mạng (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Thanh điều hướng</string>
+    <string name="immersive_navigation_summary">Ẩn thanh điều hướng bên dưới.</string>
+    <!-- Torch Power button gestures -->
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Đi tới</string>
+    <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
+    <string name="face_unlock_method_title">Cho phép từ màn hình khóa</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Battery Protection-->
+    <!-- 4G icon -->
+    <!-- Hotspot extras -->
+    <!-- Notification count -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>

@@ -50,8 +50,8 @@
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <!-- Incall vibrate options -->
     <!-- Proximity wake -->
+    <!-- Incall vibrate options -->
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animazione di spegnimento schermo</string>
     <string name="screen_off_animation_default">Predefinito</string>
@@ -66,7 +66,6 @@
     <!-- High touch sensitivity -->
     <!-- Touchscreen hovering -->
     <!-- High touch polling rate -->
-    <!-- Double Tap to wake/sleep -->
     <!-- Per-app volume control -->
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_disabled_summary">Off</string>
@@ -100,6 +99,38 @@
     <string name="status_bar_battery_percentage_default">Nascosto</string>
     <string name="status_bar_battery_percentage_text_inside">Nell\'icona</string>
     <string name="status_bar_battery_percentage_text_next">Vicino all\'icona</string>
+    <!-- Custom Fonts -->
+    <!-- Dashboard categories -->
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <!-- UI styles -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra di stato</string>
+    <string name="statusbar_custom">Personalizzazioni della barra di stato</string>
+    <string name="network_traffic_state_title">Traffico di rete</string>
+    <string name="network_traffic_state_summary">Mostra l\'attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nascondi frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore del traffico di rete</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Immersive Navigation -->
+    <!-- Torch Power button gestures -->
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi scansione del viso esistente e creane una nuova</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione viso</string>
+    <string name="face_redo_confirm_btn">Ripeti</string>
+    <string name="face_redo_warning_msg">Desideri rimuovere la scansione del viso esistente e crearne una nuova?</string>
+    <!-- Navbar options -->
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Battery Protection-->
+    <!-- 4G icon -->
+    <!-- Hotspot extras -->
+    <!-- Notification count -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>

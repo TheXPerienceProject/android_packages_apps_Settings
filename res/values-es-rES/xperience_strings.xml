@@ -81,14 +81,14 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Desliza para captura de pantalla</string>
     <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evitar el encendido accidental</string>
+    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla con el gesto de Doble toque para encender pantalla</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opciones de vibración durante la llamada</string>
     <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar con la llamada en espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Evitar el encendido accidental</string>
-    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla con el gesto de Doble toque para encender pantalla</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animación de apagado de pantalla</string>
     <string name="screen_off_animation_default">Predeterminado</string>
@@ -120,12 +120,6 @@
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Tasa alta de muestreo táctil</string>
     <string name="high_touch_polling_rate_summary">Aumentar la tasa de muestreo táctil</string>
-    <!-- Double Tap to wake/sleep -->
-    <string name="double_tap_gesture_category">Toca para despertar/dormir</string>
-    <string name="double_tap_gesture_title">Activar gesto de toque</string>
-    <string name="double_tap_gesture_summary">Pulsa dos veces en la pantalla para despertar o dormir el dispositivo</string>
-    <string name="disable_in_landscape_title">Desactivar en el modo horizontal</string>
-    <string name="disable_in_landscape_summary">Evitar el toque erróneo en modo horizontal</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Volumen de aplicación</string>
     <string name="app_volume_title">Control de volumen por aplicación</string>
@@ -174,6 +168,15 @@
     <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
     <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
     <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Ícono horizontal estilo A (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Ícono horizontal estilo A (Izquierda)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Ícono horizontal estilo B (Derecha)</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Ícono horizontal estilo B (Izquierda)</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Vertical Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Horizontal Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Vertical iOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Horizontal Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Cápsula horizontal</string>
     <string name="status_bar_battery_style_circle">Circulo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
     <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
@@ -183,7 +186,119 @@
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Estilo de reloj en pantalla de bloqueo</string>
+    <string name="theme_customization_lock_clock_summary">Establecer estilo de fuente en el reloj de pantalla de bloqueo</string>
+    <string name="xpe_dashboard_device">Acerca del teléfono</string>
+    <string name="xpe_dashboard_account">Cuenta</string>
+    <string name="xpe_dashboard_network">Internet</string>
+    <string name="xpe_dashboard_conectivity">Conectividad</string>
+    <string name="xpe_dashboard_display">Pantalla</string>
+    <string name="xpe_dashboard_battery">Batería</string>
+    <string name="xpe_dashboard_sound">Sonido</string>
+    <string name="xpe_dashboard_apps">Aplicaciones</string>
+    <string name="xpe_dashboard_notif">Notificaciones</string>
+    <string name="xpe_dashboard_storage">Almacenamiento</string>
+    <string name="xpe_dashboard_privacy">Privacidad</string>
+    <string name="xpe_dashboard_location">Ubicación</string>
+    <string name="xpe_dashboard_security">Seguridad</string>
+    <string name="xpe_dashboard_accessibility">Accesibilidad</string>
+    <string name="xpe_dashboard_system">Otros</string>
+    <string name="xpe_dashboard_support">Soporte</string>
+    <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">Actualizaciones del sistema</string>
+    <string name="xpe_updates_status_updated">No hay nuevas actualizaciones</string>
+    <string name="xpe_updates_status_new">Nueva actualización disponible</string>
+    <string name="top_level_connectivity">Conectividad</string>
+    <string name="top_level_personalize">Personalizar</string>
+    <string name="top_level_accounts">Cuentas</string>
+    <string name="top_level_others">Otros</string>
     <!-- Volume link notification -->
-    <string name="ring_only_volume_option_title">Volumen de timbre</string>
     <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">Volumen de timbre</string>
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Estilo de la Interfaz</string>
+    <string name="theme_customization_ui_style_summary">Establece un estilo personalizado para tu interfaz</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra de estado</string>
+    <string name="statusbar_custom">Personalizaciones de la barra de estado</string>
+    <string name="network_traffic_state_title">Tráfico de red</string>
+    <string name="network_traffic_state_summary">Mostrar velocidad de la red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Oculta las flechas de actividad del monitor</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones a pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar a las aplicaciones a ignorar el espacio del notch</string>
+    <string name="display_cutout_force_fullscreen_no_apps">Sin aplicaciones</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Por favor, reinicie la aplicación para aplicar los cambios.</string>
+    <string name="search">Búsqueda</string>
+    <string name="search_apps">Buscar aplicaciones</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Barra de navegación</string>
+    <string name="immersive_navigation_title">Navegación inmersiva</string>
+    <string name="immersive_navigation_summary">Ocultar la píldora de gestos y el relleno de barra de navegación.</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Linterna rápida</string>
+    <string name="power_button_torch_summary">Cuando la pantalla está apagada, una pulsación prolongada del botón de encendido habilita la linterna</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina el escaneo facial existente y crea uno nuevo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer escaneo facial</string>
+    <string name="face_redo_confirm_btn">Rehacer</string>
+    <string name="face_redo_warning_msg">¿Desea eliminar el escaneo facial actual y crear uno nuevo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir diseño de la barra de navegación</string>
+    <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Balance de color</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Intensidad de rojo</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Intensidad de verde</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Intensidad de azul</string>
+    <string name="keywords_color_balance">color, balance de colores, corrección de color, rojo, verde, azul, pantalla LiveDisplay</string>
+    <!-- Battery Protection-->
+    <string name="battery_protection_title">Protección de Batería</string>
+    <string name="battery_protection_summary">Limita la carga de la batería para extender la vida útil de la batería</string>
+    <string name="battery_protection_master_switch_title">Usar protección de batería</string>
+    <string name="battery_protection_level_title">Nivel de batería para detener la carga</string>
+    <string name="battery_protection_resume_level_title">Nivel de batería para empezar a cargar</string>
+    <string name="battery_protection_reset_stats_title">Reiniciar las estadísticas de la batería</string>
+    <string name="battery_protection_reset_stats_summary">Reiniciar las estadísticas de batería después de alcanzar un porcentaje de batería definido por el usuario</string>
+    <string name="battery_protection_intro_text">Para proteger la batería y evitar que se degrade (Limita la carga de la batería al 80% (se puede cambiar desde los ajustes anteriores))</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ícono 4G</string>
+    <string name="show_fourg_icon_summary">Mostrar icono de 4G en el icono de señal en lugar de LTE</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que los clientes del punto de acceso utilicen las conexiones VPN de este dispositivo\u2019 para la conectividad ascendente</string>
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Contador de notificaciones</string>
+    <string name="status_bar_notif_count_summary">Muestra el número de notificaciones pendientes</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Iconos coloreados</string>
+    <string name="statusbar_colored_icons_summary">Usar iconos de aplicación adecuados para los iconos de notificación en la barra de estado</string>
+    <string name="animations">Animaciones</string>
+    <!-- Power menu Animations -->
+    <string name="power_menu_animation_title">Animación de menú de apagado</string>
+    <string name="power_menu_animation_dialog_title">Seleccione la animación del menú de apagado</string>
+    <string name="power_menu_animation_aosp">AOSP (predeterminada)</string>
+    <string name="power_menu_animation_bottom">Inferior</string>
+    <string name="power_menu_animation_top">Superior</string>
+    <string name="power_menu_animation_xylon">Vuelo</string>
+    <string name="power_menu_animation_slide">Deslizar</string>
+    <string name="power_menu_animation_turn">Girar</string>
+    <string name="power_menu_animation_fly">Resplandor</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Traslúcida (desde la parte superior)</string>
+    <string name="power_menu_animation_translucent_bottom">Translúcido (desde la parte inferior)</string>
+    <string name="power_menu_animation_rotate">Rotar</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Transparencia del fondo</string>
+    <string name="qs_transparency_summary">Establecer el nivel de transparencia para el fondo de los ajustes rápidos</string>
 </resources>

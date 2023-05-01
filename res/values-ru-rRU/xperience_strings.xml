@@ -20,18 +20,27 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Версия XPerience</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Кодовое имя XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Канал</string>
     <!-- About to show Device name -->
+    <string name="about_device_name">Устройство</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Всего ОЗУ</string>
     <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Уменьшает напряжение глаз в низком освещении путем минимизации мерцания экрана. Может привести к снижению качества изображения и плохим цветам или к более высокому энергопотреблению.</string>
+    <string name="dc_dimming_main_switch_title">Использовать DC Dimming</string>
+    <string name="keywords_display_dc_dimming">DC dimming, защита глаз от мерцания</string>
     <!-- FastCharge feature -->
+    <string name="fast_charging_title">Быстрая зарядка</string>
+    <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или, чтобы продлить срок службы аккумулятора</string>
     <!-- Battery health -->
     <string name="battery_health_title">Состояние батареи</string>
     <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
@@ -40,36 +49,87 @@
     <string name="designed_battery_capacity">Заявленная емкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
     <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
     <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на задней поверхности телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на лицевой стороне телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на обратной стороне вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите сканер отпечатков пальцев на задней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите сканер отпечатков на задней поверхности телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Найдите сканер отпечатков пальцев на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Найдите сканер отпечатков пальцев на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Найдите сканер отпечатков на боковой части телефона.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Коснитесь сенсора на передней поверхности вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Коснитесь сенсора на передней поверхности вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Коснитесь сенсора на передней поверхности вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Коснитесь датчика на обратной стороне вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Коснитесь датчика на обратной стороне вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Коснитесь датчика на обратной стороне вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Коснитесь датчика на боковой грани вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Коснитесь датчика на боковой грани вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Коснитесь сенсора на боковой грани вашего телефона.</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Включить меню расширенной перезагрузки</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры для рекавери (режима восстановления) и загрузчика в меню кнопки питания</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <!-- Incall vibrate options -->
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Предотвращение случайного включения экрана</string>
+    <string name="proximity_wake_summary">Проверить датчик приближения перед пробуждением экрана двойным нажатием</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Параметры вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрация при соединении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Анимация выключения экрана</string>
     <string name="screen_off_animation_default">По умолчанию</string>
     <string name="screen_off_animation_scale">Маштабирование</string>
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Темы</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Форма значка</string>
+    <string name="theme_customization_icon_shape_summary">Установка стиля системной иконки</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <string name="theme_customization_font_summary">Установить стиль шрифта системы</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Набор значков</string>
+    <string name="theme_customization_icon_pack_summary">Установить пользовательский пакет иконок</string>
     <!-- custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Стиль значка сигнала</string>
+    <string name="theme_customization_signal_icon_summary">Установить пользовательский стиль значка сигнала</string>
     <!-- custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Стиль значка WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Установить пользовательский стиль значка WiFi</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Высокая чувствительность касания</string>
+    <string name="high_touch_sensitivity_summary">Увеличить чувствительность экрана для использования в перчатках</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Управление сенсорным экраном</string>
+    <string name="touchscreen_hovering_summary">Позволяет вам навести экран как мышь в веб-браузерах, удаленных настольных компьютерах и т.д.</string>
     <!-- High touch polling rate -->
-    <!-- Double Tap to wake/sleep -->
+    <string name="high_touch_polling_rate_title">Высокая частота сенсора</string>
+    <string name="high_touch_polling_rate_summary">Увеличить частоту опроса сенсорным экраном</string>
     <!-- Per-app volume control -->
+    <string name="app_volume">Громкость приложений</string>
+    <string name="app_volume_title">Регулировка громкости для каждого приложения</string>
+    <string name="app_volume_summary">Позволяет устанавливать разные уровни громкости для каждого приложения</string>
+    <string name="volume_dialog_category">Панель громкости</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>
     <string name="adaptive_playback_disabled_summary">Выключено</string>
+    <string name="adaptive_playback_intro_text">Автоматически приостанавливает воспроизведение медиа при отключении громкости и автоматически возобновляет его при увеличении громкости в течение заданного времени.</string>
     <string name="adaptive_playback_timeout_title">Использовать таймаут</string>
     <string name="adaptive_playback_timeout_none">Отсутствие времени ожидания</string>
     <string name="adaptive_playback_timeout_none_summary">Вкл (без паузы)</string>
@@ -87,19 +147,85 @@
     <string name="icon_manager_title">Менеджер иконок</string>
     <string name="icon_manager_summary">Управление видимостью значков в строке состояния</string>
     <!-- Gaming mode -->
+    <string name="gaming_mode_title">Игровое пространство</string>
+    <string name="gaming_mode_summary">Дополнительные возможности для полноценного погружения в игру</string>
     <!-- Game Space -->
+    <string name="game_space_title">Игровое пространство</string>
+    <string name="game_space_summary">Помогает улучшить свой игровой опыт</string>
     <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Показывать ярлык игровой панели в играх</string>
+    <string name="game_dashboard_always_on_title">Игровая панель</string>
+    <string name="game_dashboard_dnd_rule_name">Игровой</string>
+    <string name="game_dashboard_dnd_summary">Получать уведомления только от избранных контактов и приложений в играх</string>
+    <string name="game_dashboard_dnd_title">Режим \"Не беспокоить\" в играх</string>
     <!-- UI -->
+    <string name="xperience_ui_title">Пользовательский интерфейс XPerience</string>
+    <string name="ui_custom">Пользовательский интерфейс и настройки игры</string>
     <!-- Battery Styles -->
+    <string name="battery_percent_title">Индикатор батареи в строке состояния</string>
+    <string name="battery_percent_summary">Настройте стиль значка и текста для индикатора батареи в строке состояния</string>
     <string name="status_bar_battery_style_title">Стиль значка батареи</string>
     <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Горизонтальный значок (справа)</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок (слева)</string>
     <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (Заполненный)</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Не показывать</string>
     <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
     <string name="status_bar_battery_percentage_default">Не показывать</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
     <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <!-- Custom Fonts -->
+    <!-- Dashboard categories -->
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <!-- UI styles -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Строка состояния</string>
+    <string name="statusbar_custom">Настройки строки состояния</string>
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic_state_summary">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Автоматическое скрытие индикатора сетевого трафика (KB/s)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Ингорирование выреза выбранными приложениями</string>
+    <string name="display_cutout_force_fullscreen_no_apps">Нет приложений</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Пожалуйста, перезапустите приложение, чтобы применить изменения.</string>
+    <string name="search">Поиск</string>
+    <string name="search_apps">Поиск приложений</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Панель навигации</string>
+    <string name="immersive_navigation_title">Полноэкранная навигация</string>
+    <string name="immersive_navigation_summary">Скрыть полоску жестов и отступ панели навигации.</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие кнопки питания включит фонарик</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующий снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий снимок лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включён</string>
+    <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <!-- Battery Protection-->
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Отображать значок 4G вместо LTE</string>
+    <!-- Hotspot extras -->
+    <!-- Notification count -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>

@@ -15,24 +15,46 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
+    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
+    <string name="selinux_status_permissive">Permissive (Serbest)</string>
+    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">XPerience™ Sürümü</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">XPerience™ Cihaz kod adı</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Kanal</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Cihaz</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Toplam RAM</string>
     <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Karartma</string>
+    <string name="dc_dimming_info">Düşük ışık koşullarında ekran titremesini en aza indirerek göz yorgunluğunu azaltır. Görüntü kalitesinin düşmesine, düşük renk üretimine veya daha yüksek güç tüketimine neden olabilir.</string>
+    <string name="dc_dimming_main_switch_title">DC Karartma kullan</string>
+    <string name="keywords_display_dc_dimming">dc karartma, anti, titreme, göz, zorlanma</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Hızlı şarj</string>
     <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
     <!-- Battery health -->
+    <string name="battery_health_title">Pil sağlığı</string>
+    <string name="battery_health_summary">Cihazınızın pil sağlığını izleyin</string>
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="current_battery_capacity_summary">Çekirdek tarafından ölçülen mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
+    <string name="designed_battery_capacity_summary">Üretici tarafından tasarlanan pil kapasitesi</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Bilgileri göstermek için dokunun</string>
     <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
+    <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
+    <string name="battery_saver_refresh_rate_summary">Pil tasarrufu açıkken güç tasarrufu yapmak için 60 Hz ekran yenileme hızını kullanın</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin ön tarafında bulunan parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın ön tarafında bulunan parmak izi sensörünü bulun.</string>
@@ -54,32 +76,76 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki parmak izi sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Gelişmiş yeniden başlatmayı etkinleştir</string>
     <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Üç parmak hareketi</string>
     <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızla aşağı kaydırın</string>
-    <!-- Incall vibrate options -->
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Çift dokunuş hareketiyle ekranı uyandırmadan önce yakınlık sensörünü kontrol edin</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Çağrı titreşimi</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titre</string>
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
+    <string name="screen_off_animation_default">Varsayılan</string>
+    <string name="screen_off_animation_scale">Ölçeklendir</string>
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Tema</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Simge şekli</string>
+    <string name="theme_customization_icon_shape_summary">Sistem simge şeklini ayarlayın</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Başlık / Gövde yazı tipi</string>
+    <string name="theme_customization_font_summary">Sistem yazı tipi stili ayarlayın</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <string name="theme_customization_icon_pack_title">Simge paketi</string>
+    <string name="theme_customization_icon_pack_summary">Özel simge paketi stili ayarlayın</string>
     <!-- custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Sinyal simgesi stili</string>
+    <string name="theme_customization_signal_icon_summary">Özel sinyal simgesi stili ayarlayın</string>
     <!-- custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">WiFi simge stili</string>
+    <string name="theme_customization_wifi_icon_summary">Özel wifi simge stili ayarlayın</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Yüksek dokunma hassasiyeti</string>
+    <string name="high_touch_sensitivity_summary">Dokunmatik ekran hassasiyetini artırır, böylece eldiven giyerken kullanılabilir</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Temassız gezinme</string>
+    <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
     <!-- High touch polling rate -->
-    <!-- Double Tap to wake/sleep -->
+    <string name="high_touch_polling_rate_title">Yüksek dokunma yoklama oranı</string>
+    <string name="high_touch_polling_rate_summary">Dokunmatik ekran yoklama oranını artırın</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
+    <string name="volume_dialog_category">Ses paneli</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
     <string name="adaptive_playback_enabled">Uyarlanabilir oynatma etkin</string>
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
     <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 dakika)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
     <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Simge yöneticisi</string>
+    <string name="icon_manager_summary">Durum çubuğu simgelerinin görünürlüğünü kontrol edin</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Oyun alanı</string>
     <string name="gaming_mode_summary">Tam ekran oyun deneyimi için ekstra özellikler</string>
@@ -96,5 +162,109 @@
     <string name="xperience_ui_title">XPerience Arayüzü</string>
     <string name="ui_custom">Kullanıcı arayüzü ve tema özelleştirmeleri</string>
     <!-- Battery Styles -->
+    <string name="battery_percent_title">Durum çubuğu pil göstergesi</string>
+    <string name="battery_percent_summary">Durum çubuğu pil göstergesi için simge ve metin stillerini yapılandırın</string>
+    <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
+    <string name="status_bar_battery_style_icon_landscape">Yatay simge (Sol)</string>
+    <string name="status_bar_battery_style_circle">Çember</string>
+    <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
+    <string name="status_bar_battery_style_filled_circle">Dolu daire</string>
+    <string name="status_bar_battery_style_text">Yazı</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli</string>
+    <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
+    <!-- Custom Fonts -->
+    <string name="xpe_dashboard_device">Telefon hakkında</string>
+    <string name="xpe_dashboard_account">Hesabım</string>
+    <string name="xpe_dashboard_network">İnternet</string>
+    <string name="xpe_dashboard_conectivity">Bağlantı</string>
+    <string name="xpe_dashboard_display">Ekran</string>
+    <string name="xpe_dashboard_battery">Batarya</string>
+    <string name="xpe_dashboard_sound">Ses</string>
+    <string name="xpe_dashboard_apps">Uygulamalar</string>
+    <string name="xpe_dashboard_notif">Bildirimler</string>
+    <string name="xpe_dashboard_storage">Depolama</string>
+    <string name="xpe_dashboard_privacy">Gizlilik</string>
+    <string name="xpe_dashboard_location">Konum</string>
+    <string name="xpe_dashboard_security">Güvenlik</string>
+    <string name="xpe_dashboard_accessibility">Erişilebilirlik</string>
+    <string name="xpe_dashboard_system">Diğer</string>
+    <string name="xpe_dashboard_support">Destek</string>
+    <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">Sistem güncellemeleri</string>
+    <string name="xpe_updates_status_updated">Yeni güncelleme yok</string>
+    <string name="xpe_updates_status_new">Yeni güncelleme var</string>
+    <string name="top_level_connectivity">Bağlantı</string>
+    <string name="top_level_personalize">Kişiselleştirme</string>
+    <string name="top_level_accounts">Hesaplar</string>
+    <string name="top_level_others">Diğerleri</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil sesi &amp; bildirim sesini bağla</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <!-- UI styles -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Durum çubuğu</string>
+    <string name="statusbar_custom">Durum çubuğu özelleştirmeleri</string>
+    <string name="network_traffic_state_title">Ağ trafiği</string>
+    <string name="network_traffic_state_summary">Durum çubuğunda ağ etkinliğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
+    <string name="network_traffic_hidearrow">Okları Gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorlanır</string>
+    <string name="display_cutout_force_fullscreen_no_apps">Uygulama yok</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Değişiklikleri uygulamak için lütfen uygulamayı yeniden başlatın.</string>
+    <string name="search">Ara</string>
+    <string name="search_apps">Uygulamalar ara</string>
+    <!-- Immersive Navigation -->
+    <string name="gesture_navbar_category_title">Gezinme çubuğu</string>
+    <string name="immersive_navigation_title">Tam Ekran Görünümü</string>
+    <string name="immersive_navigation_summary">Gezinme çubuğunu ve boşluğunu gizle.</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Hızlı fener</string>
+    <string name="power_button_torch_summary">Ekran kapalıyken güç tuşuna uzun süreli basıldığında el feneri etkinleştirilir</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yinele</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi ile açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıkken</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
+    <string name="navbar_invert_info">Gezinme çubuğundaki \"Geri\" ve \"Son Kullanılanlar\" düğmelerini değiştirin</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Renk dengesi</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Kırmızı yoğunluğu</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
+    <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
+    <!-- Battery Protection-->
+    <string name="battery_protection_title">Pil Koruması</string>
+    <string name="battery_protection_summary">Pilinizin ömrünü uzatmak için pil şarjını sınırlar</string>
+    <string name="battery_protection_master_switch_title">Pil Korumasını Kullanın</string>
+    <string name="battery_protection_level_title">Şarjı durdurmak için pil seviyesi</string>
+    <string name="battery_protection_resume_level_title">Şarj etmeye başlamak için pil seviyesi</string>
+    <string name="battery_protection_reset_stats_title">Pil istatistiklerini sıfırla</string>
+    <string name="battery_protection_reset_stats_summary">Kullanıcı tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırlayın</string>
+    <string name="battery_protection_intro_text">Pili korumak ve bozulmasını önlemek için (Pil şarjını %80 ile sınırlar (yukarıdaki ayarlardan değiştirilebilir))</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
+    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <!-- Notification count -->
+    <!-- Statusbar colored icons -->
+    <!-- Power menu Animations -->
+    <!-- QS Transparency -->
 </resources>

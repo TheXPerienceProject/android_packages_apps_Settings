@@ -352,4 +352,8 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
+
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Turn off 5G</string>
+    <string name="battery_saver_5g_summary">Disable 5G to save power when Battery Saver is on</string>
 </resources>

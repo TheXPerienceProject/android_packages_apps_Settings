@@ -225,7 +225,8 @@
     <string name="show_fourg_icon_summary">Отображать значок 4G вместо LTE</string>
     <!-- Hotspot extras -->
     <!-- Notification count -->
-    <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
     <!-- QS Transparency -->
+    <!-- Black theme -->
+    <!-- Disable 5G in battery saver -->
 </resources>

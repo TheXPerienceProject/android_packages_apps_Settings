@@ -172,7 +172,8 @@
     <string name="show_fourg_icon_summary">LTE の代わりに 4G アイコンを表示する</string>
     <!-- Hotspot extras -->
     <!-- Notification count -->
-    <!-- Statusbar colored icons -->
     <!-- Power menu Animations -->
     <!-- QS Transparency -->
+    <!-- Black theme -->
+    <!-- Disable 5G in battery saver -->
 </resources>

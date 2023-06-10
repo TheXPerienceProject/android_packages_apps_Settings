@@ -168,6 +168,15 @@
     <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
     <string name="status_bar_battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
     <string name="status_bar_battery_style_icon_landscape">Yatay simge (Sol)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Sağ yatay stil A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Yatay L Stil A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Yatay R Stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Yatay L Stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Dikey Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Sadece yatay</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Dikey IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Yatay Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Yatay Kapsül</string>
     <string name="status_bar_battery_style_circle">Çember</string>
     <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
     <string name="status_bar_battery_style_filled_circle">Dolu daire</string>
@@ -178,6 +187,8 @@
     <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
     <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
     <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Kilit Ekranı saat yazı tipi</string>
+    <string name="theme_customization_lock_clock_summary">Kilit ekranı saat yazı tipi stilini ayarlayın</string>
     <string name="xpe_dashboard_device">Telefon hakkında</string>
     <string name="xpe_dashboard_account">Hesabım</string>
     <string name="xpe_dashboard_network">İnternet</string>
@@ -205,7 +216,10 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi &amp; bildirim sesini bağla</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">Zil sesi</string>
     <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Arayüz stili</string>
+    <string name="theme_customization_ui_style_summary">Arayüzünüz için özel stil belirleyin</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Durum çubuğu</string>
     <string name="statusbar_custom">Durum çubuğu özelleştirmeleri</string>
@@ -264,7 +278,14 @@
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Notification count -->
-    <!-- Statusbar colored icons -->
+    <string name="status_bar_notif_count_title">Bildirim sayısı</string>
+    <string name="status_bar_notif_count_summary">Bekleyen bildirim sayısını göster</string>
+    <string name="animations">Animasyonlar</string>
     <!-- Power menu Animations -->
+    <string name="power_menu_animation_title">Güç menüsü animasyonu</string>
+    <string name="power_menu_animation_dialog_title">Güç menüsü animasyonunu seçin</string>
+    <string name="power_menu_animation_aosp">AOSP (varsayılan)</string>
     <!-- QS Transparency -->
+    <!-- Black theme -->
+    <!-- Disable 5G in battery saver -->
 </resources>

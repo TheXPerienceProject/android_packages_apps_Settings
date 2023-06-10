@@ -168,6 +168,15 @@
     <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
     <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
     <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Mendatar kanan Gaya A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Mendatar kiri Gaya A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Mendatar kanan Gaya B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Mendatar kiri Gaya B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Mendatar Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Mendatar Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Mendatar Capsule</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
     <string name="status_bar_battery_style_dotted_circle">Lingkaran bertitik</string>
     <string name="status_bar_battery_style_filled_circle">Lingkaran berisi</string>
@@ -178,6 +187,8 @@
     <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
     <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Font jam layar kunci</string>
+    <string name="theme_customization_lock_clock_summary">Setel gaya font jam layar kunci</string>
     <string name="xpe_dashboard_device">Tentang ponsel</string>
     <string name="xpe_dashboard_account">Akun</string>
     <string name="xpe_dashboard_network">Internet</string>
@@ -205,7 +216,10 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">Volume dering</string>
     <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Gaya Antarmuka Pengguna</string>
+    <string name="theme_customization_ui_style_summary">Setel gaya kustom untuk antarmuka Anda</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Bilah status</string>
     <string name="statusbar_custom">Kustomisasi bilah status</string>
@@ -264,7 +278,26 @@
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
     <!-- Notification count -->
-    <!-- Statusbar colored icons -->
+    <string name="status_bar_notif_count_title">Jumlah notifikasi</string>
+    <string name="status_bar_notif_count_summary">Tampilkan jumlah notifikasi yang tertunda</string>
+    <string name="animations">Animasi</string>
     <!-- Power menu Animations -->
+    <string name="power_menu_animation_title">Animasi menu daya</string>
+    <string name="power_menu_animation_dialog_title">Pilih animasi menu daya</string>
+    <string name="power_menu_animation_aosp">AOSP (default)</string>
+    <string name="power_menu_animation_bottom">Bawah</string>
+    <string name="power_menu_animation_top">Atas</string>
+    <string name="power_menu_animation_xylon">Terbang</string>
+    <string name="power_menu_animation_slide">Geser</string>
+    <string name="power_menu_animation_turn">Belok</string>
+    <string name="power_menu_animation_fly">Menyala</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Tembus (atas)</string>
+    <string name="power_menu_animation_translucent_bottom">Tembus (bawah)</string>
+    <string name="power_menu_animation_rotate">Memutar</string>
     <!-- QS Transparency -->
+    <string name="qs_transparency_title">Transparansi Setelan Cepat</string>
+    <string name="qs_transparency_summary">Setel tingkat transparansi untuk latar belakang Setelan Cepat</string>
+    <!-- Black theme -->
+    <!-- Disable 5G in battery saver -->
 </resources>

@@ -280,9 +280,6 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Contador de notificaciones</string>
     <string name="status_bar_notif_count_summary">Muestra el número de notificaciones pendientes</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Iconos coloreados</string>
-    <string name="statusbar_colored_icons_summary">Usar iconos de aplicación adecuados para los iconos de notificación en la barra de estado</string>
     <string name="animations">Animaciones</string>
     <!-- Power menu Animations -->
     <string name="power_menu_animation_title">Animación de menú de apagado</string>
@@ -301,4 +298,10 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Transparencia del fondo</string>
     <string name="qs_transparency_summary">Establecer el nivel de transparencia para el fondo de los ajustes rápidos</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema negro</string>
+    <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Apagar 5G</string>
+    <string name="battery_saver_5g_summary">Deshabilita 5G para ahorrar energía cuando el Ahorro de Batería está activado</string>
 </resources>

@@ -299,5 +299,13 @@
     <string name="qs_transparency_title">Transparansi Setelan Cepat</string>
     <string name="qs_transparency_summary">Setel tingkat transparansi untuk latar belakang Setelan Cepat</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">Gunakan tema hitam</string>
+    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
     <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Nonaktifkan 5G</string>
+    <string name="battery_saver_5g_summary">Nonaktifkan 5G untuk menghemat daya saat Penghemat Baterai aktif</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
 </resources>

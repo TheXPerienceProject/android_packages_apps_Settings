@@ -304,4 +304,12 @@
     <!-- Disable 5G in battery saver -->
     <string name="battery_saver_5g_title">Apagar 5G</string>
     <string name="battery_saver_5g_summary">Deshabilita 5G para ahorrar energía cuando el Ahorro de Batería está activado</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Pulsación larga en el sensor de huella para desbloquear el teléfono</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Pulsación larga en el sensor de huella digital para desbloquear la tableta</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Pulsación larga en el sensor de huella para desbloquear el dispositivo</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Para despertar la pantalla y desbloquear, mantén pulsado el sensor de huella digital bajo pantalla.</string>
 </resources>

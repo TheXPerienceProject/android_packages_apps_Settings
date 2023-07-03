@@ -31,16 +31,6 @@
     </Preference>
 
     <PreferenceCategory
-        android:title="@string/double_tap_gesture_category">
-
-        <mx.xperience.framework.preference.SwitchPreference
-            android:key="tap_to_wake"
-            android:summary="@string/double_tap_gesture_summary"
-            android:title="@string/double_tap_gesture_title" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category">
 

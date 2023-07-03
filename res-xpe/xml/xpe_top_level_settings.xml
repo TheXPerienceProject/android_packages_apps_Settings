@@ -23,7 +23,7 @@
 
     <Preference
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
-        android:icon="@drawable/ic_phone_info"
+        android:icon="@drawable/ic_settings_about_device"
         android:key="top_level_about_device"
         android:order="-205"
         android:title="@string/about_settings"

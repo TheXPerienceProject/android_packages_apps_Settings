@@ -88,15 +88,6 @@
     <!-- Game Space -->
     <!-- Game -->
     <!-- UI -->
-    <!-- Battery Styles -->
-    <string name="status_bar_battery_style_icon_portrait">縦</string>
-    <string name="status_bar_battery_style_circle">円</string>
-    <string name="status_bar_battery_style_text">テキスト</string>
-    <string name="status_bar_battery_style_hidden">非表示</string>
-    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
-    <string name="status_bar_battery_percentage_default">非表示</string>
-    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
-    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">ロックスクリーン用時計フォント</string>
     <string name="theme_customization_lock_clock_summary">LSクロックのフォントスタイルを設定する</string>
@@ -124,9 +115,6 @@
     <string name="top_level_personalize">パーソナライズ</string>
     <string name="top_level_accounts">アカウント</string>
     <string name="top_level_others">その他</string>
-    <!-- Volume link notification -->
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">リングボリューム</string>
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">UIスタイル</string>
     <string name="theme_customization_ui_style_summary">インターフェイスにカスタムスタイルを設定する</string>
@@ -147,6 +135,7 @@
     <string name="power_button_torch_title">クイックトーチ</string>
     <string name="power_button_torch_summary">画面消灯時、電源ボタン長押しでトーチが使えるようになります</string>
     <!-- Face Unlock -->
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <string name="navbar_invert_info">ナビゲーションバーの「戻る」ボタンと「戻る」ボタンを入れ替える</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->

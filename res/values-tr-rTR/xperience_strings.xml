@@ -161,31 +161,6 @@
     <!-- UI -->
     <string name="xperience_ui_title">XPerience Arayüzü</string>
     <string name="ui_custom">Kullanıcı arayüzü ve tema özelleştirmeleri</string>
-    <!-- Battery Styles -->
-    <string name="battery_percent_title">Durum çubuğu pil göstergesi</string>
-    <string name="battery_percent_summary">Durum çubuğu pil göstergesi için simge ve metin stillerini yapılandırın</string>
-    <string name="status_bar_battery_style_title">Pil stili</string>
-    <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
-    <string name="status_bar_battery_style_icon_landscape">Yatay simge (Sol)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Sağ yatay stil A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Yatay L Stil A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Yatay R Stil B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Yatay L Stil B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Dikey Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Sadece yatay</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Dikey IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Yatay Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Yatay Kapsül</string>
-    <string name="status_bar_battery_style_circle">Çember</string>
-    <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
-    <string name="status_bar_battery_style_filled_circle">Dolu daire</string>
-    <string name="status_bar_battery_style_text">Yazı</string>
-    <string name="status_bar_battery_style_hidden">Gizli</string>
-    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
-    <string name="status_bar_battery_percentage_default">Gizli</string>
-    <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
-    <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Kilit Ekranı saat yazı tipi</string>
     <string name="theme_customization_lock_clock_summary">Kilit ekranı saat yazı tipi stilini ayarlayın</string>
@@ -213,10 +188,6 @@
     <string name="top_level_personalize">Kişiselleştirme</string>
     <string name="top_level_accounts">Hesaplar</string>
     <string name="top_level_others">Diğerleri</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Zil sesi &amp; bildirim sesini bağla</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Zil sesi</string>
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">Arayüz stili</string>
     <string name="theme_customization_ui_style_summary">Arayüzünüz için özel stil belirleyin</string>
@@ -250,6 +221,7 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi ile açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıkken</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
     <string name="navbar_invert_info">Gezinme çubuğundaki \"Geri\" ve \"Son Kullanılanlar\" düğmelerini değiştirin</string>
@@ -285,11 +257,31 @@
     <string name="power_menu_animation_title">Güç menüsü animasyonu</string>
     <string name="power_menu_animation_dialog_title">Güç menüsü animasyonunu seçin</string>
     <string name="power_menu_animation_aosp">AOSP (varsayılan)</string>
+    <string name="power_menu_animation_bottom">Alt</string>
+    <string name="power_menu_animation_top">Üst</string>
+    <string name="power_menu_animation_xylon">Uçarak</string>
+    <string name="power_menu_animation_slide">Kaydırmak</string>
+    <string name="power_menu_animation_turn">Dönerek</string>
+    <string name="power_menu_animation_fly">Parıltı</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Şeffaf (üst)</string>
+    <string name="power_menu_animation_translucent_bottom">Şeffaf (alt)</string>
+    <string name="power_menu_animation_rotate">Döndür</string>
     <!-- QS Transparency -->
+    <string name="qs_transparency_title">Arka plan saydamlığı</string>
+    <string name="qs_transparency_summary">Hızlı ayarlar arka planı için şeffaflık seviyesi ayarla</string>
     <!-- Black theme -->
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
     <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">5G\'yi kapat</string>
+    <string name="battery_saver_5g_summary">Pil Tasarrufu açıkken güç tasarrufu için 5G\'yi devre dışı bırakın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
 </resources>

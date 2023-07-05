@@ -161,27 +161,8 @@
     <!-- UI -->
     <string name="xperience_ui_title">Пользовательский интерфейс XPerience</string>
     <string name="ui_custom">Пользовательский интерфейс и настройки игры</string>
-    <!-- Battery Styles -->
-    <string name="battery_percent_title">Индикатор батареи в строке состояния</string>
-    <string name="battery_percent_summary">Настройте стиль значка и текста для индикатора батареи в строке состояния</string>
-    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
-    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Горизонтальный значок (справа)</string>
-    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок (слева)</string>
-    <string name="status_bar_battery_style_circle">Круг</string>
-    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
-    <string name="status_bar_battery_style_filled_circle">Круг (Заполненный)</string>
-    <string name="status_bar_battery_style_text">Текст</string>
-    <string name="status_bar_battery_style_hidden">Не показывать</string>
-    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
-    <string name="status_bar_battery_percentage_default">Не показывать</string>
-    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
-    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
     <!-- Custom Fonts -->
     <!-- Dashboard categories -->
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Связать громкость рингтона &amp; и уведомлений</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <!-- UI styles -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Строка состояния</string>
@@ -213,6 +194,7 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">Когда экран включён</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->

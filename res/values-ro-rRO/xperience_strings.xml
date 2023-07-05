@@ -52,25 +52,15 @@
     <!-- Game Space -->
     <!-- Game -->
     <!-- UI -->
-    <!-- Battery Styles -->
-    <string name="status_bar_battery_style_icon_portrait">Pictogramă portret</string>
-    <string name="status_bar_battery_style_circle">Cerc</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Ascuns</string>
-    <string name="status_bar_battery_percentage_title">Procentaj baterie</string>
-    <string name="status_bar_battery_percentage_default">Ascuns</string>
-    <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
-    <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
     <!-- Custom Fonts -->
     <!-- Dashboard categories -->
-    <!-- Volume link notification -->
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <!-- UI styles -->
     <!-- Statusbar net monitor -->
     <!-- Notch: Full screen apps -->
     <!-- Immersive Navigation -->
     <!-- Torch Power button gestures -->
     <!-- Face Unlock -->
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->

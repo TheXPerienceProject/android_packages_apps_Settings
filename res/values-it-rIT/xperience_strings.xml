@@ -89,21 +89,8 @@
     <!-- Game Space -->
     <!-- Game -->
     <!-- UI -->
-    <!-- Battery Styles -->
-    <string name="status_bar_battery_style_title">Stile della batteria</string>
-    <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
-    <string name="status_bar_battery_style_circle">Cerchio</string>
-    <string name="status_bar_battery_style_text">Testo</string>
-    <string name="status_bar_battery_style_hidden">Nascosto</string>
-    <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
-    <string name="status_bar_battery_percentage_default">Nascosto</string>
-    <string name="status_bar_battery_percentage_text_inside">Nell\'icona</string>
-    <string name="status_bar_battery_percentage_text_next">Vicino all\'icona</string>
     <!-- Custom Fonts -->
     <!-- Dashboard categories -->
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <!-- UI styles -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Barra di stato</string>
@@ -121,6 +108,7 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">Ripeti scansione viso</string>
     <string name="face_redo_confirm_btn">Ripeti</string>
     <string name="face_redo_warning_msg">Desideri rimuovere la scansione del viso esistente e crearne una nuova?</string>
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->

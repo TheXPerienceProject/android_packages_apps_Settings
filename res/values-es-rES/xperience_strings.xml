@@ -161,31 +161,6 @@
     <!-- UI -->
     <string name="xperience_ui_title">Interfaz de usuario XPerience</string>
     <string name="ui_custom">Personalizaciones de interfaz de usuario y juego</string>
-    <!-- Battery Styles -->
-    <string name="battery_percent_title">Indicador de batería de la barra de estado</string>
-    <string name="battery_percent_summary">Configurar los iconos y estilos de texto para el indicador de batería de la barra de estado</string>
-    <string name="status_bar_battery_style_title">Estilo de batería</string>
-    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
-    <string name="status_bar_battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Ícono horizontal estilo A (Derecha)</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Ícono horizontal estilo A (Izquierda)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Ícono horizontal estilo B (Derecha)</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Ícono horizontal estilo B (Izquierda)</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Vertical Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Horizontal Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Vertical iOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Horizontal Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Cápsula horizontal</string>
-    <string name="status_bar_battery_style_circle">Circulo</string>
-    <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
-    <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
-    <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Oculto</string>
-    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
-    <string name="status_bar_battery_percentage_default">Oculto</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
-    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Estilo de reloj en pantalla de bloqueo</string>
     <string name="theme_customization_lock_clock_summary">Establecer estilo de fuente en el reloj de pantalla de bloqueo</string>
@@ -213,10 +188,6 @@
     <string name="top_level_personalize">Personalizar</string>
     <string name="top_level_accounts">Cuentas</string>
     <string name="top_level_others">Otros</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Vincular tono &amp; volumen de notificaciones</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Volumen de timbre</string>
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">Estilo de la Interfaz</string>
     <string name="theme_customization_ui_style_summary">Establece un estilo personalizado para tu interfaz</string>
@@ -250,6 +221,10 @@
     <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Toca el lector de huellas para desbloquear</string>
+    <string name="fingerprint_wake_unlock_touch">Detectar eventos mientras la pantalla esté apagada</string>
+    <string name="fingerprint_wake_unlock_press">Solo detecta los eventos una vez que la pantalla esté encendida</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invertir diseño de la barra de navegación</string>
     <string name="navbar_invert_info">Esto cambiará los botones \"Atrás\" y \"Recientes\" en la barra de navegación</string>

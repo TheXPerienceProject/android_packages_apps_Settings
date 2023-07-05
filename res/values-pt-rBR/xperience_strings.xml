@@ -52,25 +52,15 @@
     <!-- Game Space -->
     <!-- Game -->
     <!-- UI -->
-    <!-- Battery Styles -->
-    <string name="status_bar_battery_style_icon_portrait">Ícone em retrato</string>
-    <string name="status_bar_battery_style_circle">Círculo</string>
-    <string name="status_bar_battery_style_text">Texto</string>
-    <string name="status_bar_battery_style_hidden">Oculto</string>
-    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
-    <string name="status_bar_battery_percentage_default">Oculto</string>
-    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
-    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
     <!-- Custom Fonts -->
     <!-- Dashboard categories -->
-    <!-- Volume link notification -->
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <!-- UI styles -->
     <!-- Statusbar net monitor -->
     <!-- Notch: Full screen apps -->
     <!-- Immersive Navigation -->
     <!-- Torch Power button gestures -->
     <!-- Face Unlock -->
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->

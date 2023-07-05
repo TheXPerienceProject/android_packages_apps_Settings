@@ -161,31 +161,6 @@
     <!-- UI -->
     <string name="xperience_ui_title">Antarmuka XPerience</string>
     <string name="ui_custom">Kustomisasi antarmuka dan game</string>
-    <!-- Battery Styles -->
-    <string name="battery_percent_title">Indikator baterai bilah status</string>
-    <string name="battery_percent_summary">Konfigurasi ikon dan gaya teks untuk indikator baterai bilah status</string>
-    <string name="status_bar_battery_style_title">Gaya Baterai</string>
-    <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
-    <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Mendatar kanan Gaya A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Mendatar kiri Gaya A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Mendatar kanan Gaya B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Mendatar kiri Gaya B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Mendatar Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Mendatar Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Mendatar Capsule</string>
-    <string name="status_bar_battery_style_circle">Lingkaran</string>
-    <string name="status_bar_battery_style_dotted_circle">Lingkaran bertitik</string>
-    <string name="status_bar_battery_style_filled_circle">Lingkaran berisi</string>
-    <string name="status_bar_battery_style_text">Teks</string>
-    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
-    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
-    <string name="status_bar_battery_percentage_default">Tersembunyi</string>
-    <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
-    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Font jam layar kunci</string>
     <string name="theme_customization_lock_clock_summary">Setel gaya font jam layar kunci</string>
@@ -213,10 +188,6 @@
     <string name="top_level_personalize">Personalisasi</string>
     <string name="top_level_accounts">Akun</string>
     <string name="top_level_others">Lainnya</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan volume nada dering &amp; notifikasi</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Volume dering</string>
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">Gaya Antarmuka Pengguna</string>
     <string name="theme_customization_ui_style_summary">Setel gaya kustom untuk antarmuka Anda</string>
@@ -250,6 +221,7 @@
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
     <string name="navbar_invert_info">Tukar posisi tombol \"Kembali\" dan tombol \"Terbaru\" di bilah navigasi</string>
@@ -305,7 +277,11 @@
     <string name="battery_saver_5g_title">Nonaktifkan 5G</string>
     <string name="battery_saver_5g_summary">Nonaktifkan 5G untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Tekan lama pada sensor sidik jari untuk membuka kunci ponsel</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tekan lama pada sensor sidik jari untuk membuka kunci tablet</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Tekan lama pada sensor sidik jari untuk membuka kunci perangkat</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Untuk mengaktifkan layar dan membuka kunci, tekan lama sensor sidik jari di bawah layar.</string>
 </resources>

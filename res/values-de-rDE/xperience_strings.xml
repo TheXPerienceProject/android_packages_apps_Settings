@@ -74,19 +74,8 @@
     <!-- Game Space -->
     <!-- Game -->
     <!-- UI -->
-    <!-- Battery Styles -->
-    <string name="status_bar_battery_style_icon_portrait">Symbol (Hochformat)</string>
-    <string name="status_bar_battery_style_circle">Kreissymbol</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
-    <string name="status_bar_battery_percentage_title">Akkustand in Prozent</string>
-    <string name="status_bar_battery_percentage_default">Ausgeblendet</string>
-    <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
-    <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
     <!-- Custom Fonts -->
     <!-- Dashboard categories -->
-    <!-- Volume link notification -->
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <!-- UI styles -->
     <!-- Statusbar net monitor -->
     <!-- Notch: Full screen apps -->
@@ -97,6 +86,7 @@
     <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
     <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
     <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Layouts der Navigationsleiste umkehren</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->

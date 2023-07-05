@@ -52,11 +52,8 @@
     <!-- Game Space -->
     <!-- Game -->
     <!-- UI -->
-    <!-- Battery Styles -->
     <!-- Custom Fonts -->
     <!-- Dashboard categories -->
-    <!-- Volume link notification -->
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <!-- UI styles -->
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Débit réseau</string>
@@ -66,6 +63,7 @@
     <!-- Immersive Navigation -->
     <!-- Torch Power button gestures -->
     <!-- Face Unlock -->
+    <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->

@@ -318,10 +318,6 @@
     <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
     <string name="power_menu_animation_rotate">Rotate</string>
 
-   <!-- QS Transparency -->
-    <string name="qs_transparency_title">Background transparency</string>
-    <string name="qs_transparency_summary">Set transparency level for QS background</string>
-
     <!-- Black theme -->
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>

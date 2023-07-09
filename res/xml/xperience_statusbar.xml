@@ -66,5 +66,11 @@
         android:summary="@string/show_cpu_info_summary" 
         android:defaultValue="false" />
 
+    <mx.xperience.framework.preference.SystemSettingSwitchPreference
+        android:key="statusbar_colored_icons"
+        android:title="@string/statusbar_colored_icons_title"
+        android:summary="@string/statusbar_colored_icons_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>

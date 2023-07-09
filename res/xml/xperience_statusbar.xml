@@ -60,5 +60,11 @@
         android:persistent="false"
         android:defaultValue="0" />
 
+    <mx.xperience.framework.preference.SecureSettingSwitchPreference
+        android:key="show_cpu_overlay"
+        android:title="@string/show_cpu_info"
+        android:summary="@string/show_cpu_info_summary" 
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>

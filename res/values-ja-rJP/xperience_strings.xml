@@ -162,11 +162,20 @@
     <!-- Hotspot extras -->
     <!-- Notification count -->
     <!-- Power menu Animations -->
-    <!-- QS Transparency -->
     <!-- Black theme -->
     <!-- Disable 5G in battery saver -->
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Statusbar colored icons -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_icon_portrait">縦</string>
+    <string name="status_bar_battery_style_circle">円</string>
+    <string name="status_bar_battery_style_text">テキスト</string>
+    <string name="status_bar_battery_style_hidden">非表示</string>
+    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_default">非表示</string>
+    <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
+    <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
 </resources>

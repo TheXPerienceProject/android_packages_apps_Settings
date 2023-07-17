@@ -71,11 +71,20 @@
     <!-- Hotspot extras -->
     <!-- Notification count -->
     <!-- Power menu Animations -->
-    <!-- QS Transparency -->
     <!-- Black theme -->
     <!-- Disable 5G in battery saver -->
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Statusbar colored icons -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_icon_portrait">Ikona pionowo</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Ukryte</string>
+    <string name="status_bar_battery_percentage_title">Procenty baterii na pasku statusu</string>
+    <string name="status_bar_battery_percentage_default">Ukryte</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
 </resources>

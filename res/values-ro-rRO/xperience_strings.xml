@@ -71,11 +71,20 @@
     <!-- Hotspot extras -->
     <!-- Notification count -->
     <!-- Power menu Animations -->
-    <!-- QS Transparency -->
     <!-- Black theme -->
     <!-- Disable 5G in battery saver -->
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Statusbar colored icons -->
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_icon_portrait">Pictogramă portret</string>
+    <string name="status_bar_battery_style_circle">Cerc</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ascuns</string>
+    <string name="status_bar_battery_percentage_title">Procentaj baterie</string>
+    <string name="status_bar_battery_percentage_default">Ascuns</string>
+    <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
+    <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
 </resources>

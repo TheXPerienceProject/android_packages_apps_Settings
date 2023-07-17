@@ -267,9 +267,6 @@
     <string name="power_menu_animation_translucent_top">Tembus (atas)</string>
     <string name="power_menu_animation_translucent_bottom">Tembus (bawah)</string>
     <string name="power_menu_animation_rotate">Memutar</string>
-    <!-- QS Transparency -->
-    <string name="qs_transparency_title">Transparansi Setelan Cepat</string>
-    <string name="qs_transparency_summary">Setel tingkat transparansi untuk latar belakang Setelan Cepat</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Gunakan tema hitam</string>
     <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
@@ -284,4 +281,21 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Tekan lama pada sensor sidik jari untuk membuka kunci perangkat</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Untuk mengaktifkan layar dan membuka kunci, tekan lama sensor sidik jari di bawah layar.</string>
+    <!-- Statusbar colored icons -->
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indikator baterai bilah status</string>
+    <string name="battery_percent_summary">Konfigurasi ikon dan gaya teks untuk indikator baterai bilah status</string>
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_dotted_circle">Lingkaran bertitik</string>
+    <string name="status_bar_battery_style_filled_circle">Lingkaran berisi</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
+    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+    <string name="status_bar_battery_percentage_default">Tersembunyi</string>
+    <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
 </resources>

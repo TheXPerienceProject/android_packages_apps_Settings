@@ -24,28 +24,53 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <!-- DC Dimming -->
+    <string name="keywords_display_dc_dimming">防闪烁 防止 闪烁 眼睛 疲劳</string>
     <!-- FastCharge feature -->
     <!-- Battery health -->
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">点击以显示信息</string>
     <!-- Refresh rate -->
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Global Actions -->
     <!-- Three-fingers-swipe to screenshot -->
     <!-- Proximity wake -->
+    <string name="proximity_wake_summary">在双击唤醒屏幕之前检查距离传感器</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时震动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Screen Off animation -->
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">主题</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">图标形状</string>
+    <string name="theme_customization_icon_shape_summary">设置系统图标形状样式</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">标题/正文字体</string>
+    <string name="theme_customization_font_summary">设置系统字体样式</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_summary">自定义图标包样式</string>
     <!-- custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">信号图标样式</string>
+    <string name="theme_customization_signal_icon_summary">自定义信号图标样式</string>
     <!-- custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">WiFi 图标样式</string>
+    <string name="theme_customization_wifi_icon_summary">自定义 WiFi 图标样式</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
+    <string name="high_touch_sensitivity_summary">手套模式</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">悬浮操作</string>
+    <string name="touchscreen_hovering_summary">允许您把手指悬停在屏幕上作为浏览器、远程桌面等的鼠标指针</string>
     <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高触控采样率</string>
+    <string name="high_touch_polling_rate_summary">提高触控采样率</string>
     <!-- Per-app volume control -->
+    <string name="app_volume_title">应用独立音量控制</string>
+    <string name="app_volume_summary">允许为每个应用设置不同的音量大小</string>
     <!-- Adaptive Playback -->
     <!-- Status bar Icon Manager -->
     <!-- Gaming mode -->
@@ -71,11 +96,12 @@
     <!-- Hotspot extras -->
     <!-- Notification count -->
     <!-- Power menu Animations -->
-    <!-- QS Transparency -->
     <!-- Black theme -->
     <!-- Disable 5G in battery saver -->
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Statusbar colored icons -->
+    <!-- Battery Styles -->
 </resources>

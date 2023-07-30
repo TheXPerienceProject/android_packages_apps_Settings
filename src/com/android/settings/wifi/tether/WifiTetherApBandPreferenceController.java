@@ -21,6 +21,8 @@ import static com.android.settings.AllInOneTetherSettings.DEDUP_POSTFIX;
 import android.content.Context;
 import android.content.res.Resources;
 import android.net.wifi.SoftApConfiguration;
+import static android.net.wifi.ScanResult.WIFI_BAND_6_GHZ;
+import static android.net.wifi.WifiAvailableChannel.OP_MODE_SAP;
 import android.util.FeatureFlagUtils;
 import android.util.Log;
 
@@ -204,6 +206,7 @@ public class WifiTetherApBandPreferenceController extends WifiTetherBasePreferen
 
     private boolean is6GhzBandSupported() {
         return mWifiManager.is6GHzBandSupported();
+
     }
 
     public int getBandIndex() {

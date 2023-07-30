@@ -285,6 +285,8 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
     <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Renkli simgeler</string>
+    <string name="statusbar_colored_icons_summary">Durum çubuğundaki bildirim simgeleri için uygun uygulama simgelerini kullanın</string>
     <!-- Battery Styles -->
     <string name="battery_percent_title">Durum çubuğu pil göstergesi</string>
     <string name="battery_percent_summary">Durum çubuğu pil göstergesi için simge ve metin stillerini yapılandırın</string>
@@ -303,6 +305,8 @@
     <string name="status_bar_battery_style_icon_landscape_buddy">Yatay Kapsül</string>
     <string name="status_bar_battery_style_icon_landscape_ios15">Yatay iOS 15</string>
     <string name="status_bar_battery_style_icon_landscape_ios16">Yatay iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Origami</string>
+    <string name="status_bar_battery_style_icon_landscape_miui_pill">MIUI pill</string>
     <string name="status_bar_battery_style_circle">Çember</string>
     <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
     <string name="status_bar_battery_style_filled_circle">Dolu daire</string>

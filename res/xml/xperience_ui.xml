@@ -90,7 +90,7 @@
 			android:title="@string/statusbar_custom"
 			android:fragment="com.android.settings.xperience.StatusBarSettings" />
 
-    <PreferenceCategory
+<!--    <PreferenceCategory
         android:key="udfps_category"
         android:title="@string/udfps_category">
 
@@ -106,5 +106,5 @@
             android:summary="@string/udfps_recog_animation_effect_summary"
             android:fragment="com.android.settings.xperience.UdfpsAnimation"/>
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 </PreferenceScreen>

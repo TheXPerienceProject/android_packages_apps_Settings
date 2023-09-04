@@ -41,6 +41,7 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.android.internal.util.xpe.xperienceUtils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import android.util.Log;
@@ -57,6 +58,7 @@ import java.util.Collections;
 public class UISettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private Context mContext;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -65,6 +67,13 @@ public class UISettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.xperience_ui);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        boolean udfpsResPkgInstalled = xperienceUtils.isPackageInstalled(getContext(),
+                "mx.xperience.udfps.resources");
+        PreferenceCategory udfps = (PreferenceCategory) prefScreen.findPreference("udfps_category");
+        if (!udfpsResPkgInstalled) {
+            prefScreen.removePreference(udfps);
+        }
 
     }
 

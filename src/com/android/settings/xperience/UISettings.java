@@ -68,12 +68,12 @@ public class UISettings extends SettingsPreferenceFragment implements
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        boolean udfpsResPkgInstalled = xperienceUtils.isPackageInstalled(getContext(),
+        /*boolean udfpsResPkgInstalled = xperienceUtils.isPackageInstalled(getContext(),
                 "mx.xperience.udfps.resources");
         PreferenceCategory udfps = (PreferenceCategory) prefScreen.findPreference("udfps_category");
         if (!udfpsResPkgInstalled) {
             prefScreen.removePreference(udfps);
-        }
+        }*/
 
     }
 

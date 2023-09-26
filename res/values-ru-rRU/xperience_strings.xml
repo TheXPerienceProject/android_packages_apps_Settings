@@ -162,8 +162,35 @@
     <string name="xperience_ui_title">Пользовательский интерфейс XPerience</string>
     <string name="ui_custom">Пользовательский интерфейс и настройки игры</string>
     <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Шрифт часов на экране блокировки</string>
+    <string name="theme_customization_lock_clock_summary">Установить стиль шрифта часов экрана блокировки</string>
+    <string name="xpe_dashboard_device">Об устройстве</string>
+    <string name="xpe_dashboard_account">Аккаунт</string>
+    <string name="xpe_dashboard_network">Интернет</string>
+    <string name="xpe_dashboard_conectivity">Подключение</string>
+    <string name="xpe_dashboard_display">Дисплей</string>
+    <string name="xpe_dashboard_battery">Батарея</string>
+    <string name="xpe_dashboard_sound">Звук</string>
+    <string name="xpe_dashboard_apps">Приложения</string>
+    <string name="xpe_dashboard_notif">Уведомления</string>
+    <string name="xpe_dashboard_storage">Хранилище</string>
+    <string name="xpe_dashboard_privacy">Конфиденциальность</string>
+    <string name="xpe_dashboard_location">Местоположение</string>
+    <string name="xpe_dashboard_security">Безопасность</string>
+    <string name="xpe_dashboard_accessibility">Специальные возможности</string>
+    <string name="xpe_dashboard_system">Другое</string>
+    <string name="xpe_dashboard_support">Поддержка</string>
     <!-- Dashboard categories -->
+    <string name="xpe_dashboard_updates">Обновления системы</string>
+    <string name="xpe_updates_status_updated">Обновлений не найдено</string>
+    <string name="xpe_updates_status_new">Доступно обновление</string>
+    <string name="top_level_connectivity">Подключение</string>
+    <string name="top_level_personalize">Персонализация</string>
+    <string name="top_level_accounts">Аккаунты</string>
+    <string name="top_level_others">Другие</string>
     <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Стиль интерфейса</string>
+    <string name="theme_customization_ui_style_summary">Установить пользовательский стиль интерфейса</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Строка состояния</string>
     <string name="statusbar_custom">Настройки строки состояния</string>
@@ -195,17 +222,36 @@
     <string name="face_unlock_method_default">Когда экран включён</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
     <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Коснитесь сканера отпечатков для разблокировки</string>
+    <string name="fingerprint_wake_unlock_touch">Прослушивает события при выключенном экране</string>
+    <string name="fingerprint_wake_unlock_press">Считывать только после включения экрана</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать ракладку панели навигации</string>
+    <string name="navbar_invert_info">Поменять местами кнопки \"Назад\" и \"Недавние\" на панели навигации</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Цветовой баланс</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Интенсивность красного</string>
     <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Интенсивность зеленого</string>
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Интенсивность синего</string>
+    <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зелёный, синий, LiveDisplay</string>
     <!-- Battery Protection-->
+    <string name="battery_protection_title">Защита батареи</string>
+    <string name="battery_protection_summary">Ограничивает заряд батареи для увеличения срока ее службы</string>
+    <string name="battery_protection_master_switch_title">Использовать защиту батареи</string>
+    <string name="battery_protection_level_title">Уровень заряда батареи для прекращения зарядки</string>
+    <string name="battery_protection_resume_level_title">Уровень заряда батареи для начала зарядки</string>
+    <string name="battery_protection_reset_stats_title">Сбросить статистику батареи</string>
+    <string name="battery_protection_reset_stats_summary">Сброс статистики батареи после достижения выбранного пользователем уровня зарядки</string>
+    <string name="battery_protection_intro_text">Для защиты аккумулятора и предотвращения его деградации (Ограничивает заряд аккумулятора до 80% (можно изменить в настройках выше))</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Значок 4G</string>
     <string name="show_fourg_icon_summary">Отображать значок 4G вместо LTE</string>
     <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа при подключении использовать VPN-соединения этого устройства</string>
     <!-- Notification count -->
     <!-- Power menu Animations -->
     <!-- Black theme -->

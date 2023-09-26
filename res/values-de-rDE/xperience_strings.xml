@@ -26,6 +26,7 @@
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Gesamter Arbeitsspeicher</string>
     <!-- DC Dimming -->
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Schnelles Laden</string>
@@ -53,6 +54,8 @@
     <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
     <!-- Incall vibrate options -->
     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Bildschirm-aus Animation</string>
+    <string name="screen_off_animation_scale">Skalierung</string>
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
@@ -78,6 +81,8 @@
     <!-- Dashboard categories -->
     <!-- UI styles -->
     <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netzwerkaktivität</string>
+    <string name="network_traffic_state_summary">Zeige Netzwerkaktivität in Statusleiste</string>
     <!-- Notch: Full screen apps -->
     <!-- Immersive Navigation -->
     <string name="gesture_navbar_category_title">Navigationsleiste</string>

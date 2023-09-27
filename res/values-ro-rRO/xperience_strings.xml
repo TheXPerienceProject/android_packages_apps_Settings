@@ -87,4 +87,7 @@
     <string name="status_bar_battery_percentage_default">Ascuns</string>
     <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
     <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
+    <!--udfps-->
+    <!-- Udfps animations -->
+    <!-- Udfps icon picker -->
 </resources>

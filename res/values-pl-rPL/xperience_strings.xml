@@ -87,4 +87,7 @@
     <string name="status_bar_battery_percentage_default">Ukryte</string>
     <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
     <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
+    <!--udfps-->
+    <!-- Udfps animations -->
+    <!-- Udfps icon picker -->
 </resources>

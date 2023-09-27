@@ -16,10 +16,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Version de XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Nom de code XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
+    <string name="about_device_name">Appareil</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
@@ -31,8 +34,12 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu d\'alimentation</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Glisser pour prendre une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Balayez vers le bas avec trois doigts pour prendre une capture d’écran</string>
     <!-- Proximity wake -->
+    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
     <!-- Incall vibrate options -->
     <!-- Screen Off animation -->
     <!-- Themes customization -->
@@ -40,6 +47,7 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Pack d\'icônes</string>
     <!-- custom Signal bar icons -->
     <!-- custom Wi-Fi bar icons -->
     <!-- High touch sensitivity -->
@@ -47,6 +55,8 @@
     <!-- High touch polling rate -->
     <!-- Per-app volume control -->
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_enabled">Utiliser la lecture adaptative</string>
+    <string name="adaptive_playback_intro_text">Mettre automatiquement les médias en pause lorsque le volume est éteint et reprendre automatiquement lorsque le volume est restauré dans le délai défini.</string>
     <!-- Status bar Icon Manager -->
     <!-- Gaming mode -->
     <!-- Game Space -->
@@ -63,6 +73,9 @@
     <!-- Immersive Navigation -->
     <!-- Torch Power button gestures -->
     <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
     <!-- Fingerprint wake-and-unlock -->
     <!-- Navbar options -->
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
@@ -82,4 +95,7 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <!-- Statusbar colored icons -->
     <!-- Battery Styles -->
+    <!--udfps-->
+    <!-- Udfps animations -->
+    <!-- Udfps icon picker -->
 </resources>

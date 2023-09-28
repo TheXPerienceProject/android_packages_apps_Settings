@@ -322,10 +322,6 @@
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
 
-    <!-- Disable 5G in battery saver -->
-    <string name="battery_saver_5g_title">Turn off 5G</string>
-    <string name="battery_saver_5g_summary">Disable 5G to save power when Battery Saver is on</string>
-
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->

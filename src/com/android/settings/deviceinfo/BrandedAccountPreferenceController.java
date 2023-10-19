@@ -31,6 +31,8 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.overlay.FeatureFactory;
 
+import com.android.settings.network.SubscriptionUtil;
+
 public class BrandedAccountPreferenceController extends BasePreferenceController {
     private final AccountFeatureProvider mAccountFeatureProvider;
     private Account[] mAccounts;
@@ -62,13 +64,14 @@ public class BrandedAccountPreferenceController extends BasePreferenceController
             return;
         }
 
-        if (mAccounts.length == 1) {
-            accountPreference.setSummary(mAccounts[0].name);
+        accountPreference.setSummary(mAccounts[0].name);
+        if (!SubscriptionUtil.isSimHardwareVisible(mContext)) {
+            accountPreference.setLayoutResource(R.layout.top_level_preference_bottom_card);
         } else {
-            accountPreference.setSummary(getAccountSummary(mAccounts.length));
-        }
-    }
+            accountPreference.setLayoutResource(R.layout.top_level_preference_middle_card);
+    	}
 
+    }
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {

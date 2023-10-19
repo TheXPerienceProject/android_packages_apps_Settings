@@ -36,6 +36,9 @@ public class DataSaverPreference extends Preference implements DataSaverBackend.
         return Flags.catalyst() && Flags.catalystRestrictBackgroundParentEntry();
     }
 
+    private void init(Context context, AttributeSet attrs) {
+    }
+
     @Override
     public void onAttached() {
         super.onAttached();

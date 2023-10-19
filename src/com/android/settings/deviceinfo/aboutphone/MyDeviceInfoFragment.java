@@ -27,7 +27,14 @@ import android.os.Bundle;
 import android.os.UserManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.Toast;
+
+import androidx.cardview.widget.CardView;
+
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -35,12 +42,10 @@ import androidx.annotation.Nullable;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
-import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FeedbackPreferenceController;
-import com.android.settings.deviceinfo.IpAddressPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
 import com.android.settings.deviceinfo.PhoneNumberPreferenceController;
 import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
@@ -72,6 +77,8 @@ import android.content.IntentFilter;
 
 import com.android.internal.telephony.IccCardConstants;
 import com.android.internal.telephony.TelephonyIntents;
+
+import com.android.settings.preferences.ui.mtxInfoPreferenceController;
 
 @SearchIndexable
 public class MyDeviceInfoFragment extends DashboardFragment
@@ -167,9 +174,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
                 fragment.getLifecycle();
         final SlotSimStatus slotSimStatus = new SlotSimStatus(context, executor, lifecycleObject);
 
-        controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
-        controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
         controllers.add(new RegulatoryInfoPreferenceController(context));
         controllers.add(new SafetyInfoPreferenceController(context));
         controllers.add(new ManualPreferenceController(context));
@@ -178,6 +183,8 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new UptimePreferenceController(context, lifecycle));
         controllers.add(new SoftwareVersionPreferenceController(context));
         controllers.add(new StorageSizePreferenceController(context));
+//        controllers.add(new UpdatePreferenceController(context));
+        controllers.add(new mtxInfoPreferenceController(context));
 
         Consumer<String> imeiInfoList = imeiKey -> {
             ImeiInfoPreferenceController imeiRecord =
@@ -253,6 +260,19 @@ public class MyDeviceInfoFragment extends DashboardFragment
                 .newInstance(context, this, headerView)
                 .setButtonActions(EntityHeaderController.ActionType.ACTION_NONE,
                         EntityHeaderController.ActionType.ACTION_NONE);
+
+        ImageView updaterImageView = headerView.findViewById(R.id.updater);
+
+        updaterImageView.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            // Create an Intent to open the desired activity
+            Intent intent = new Intent("mx.xperience.updater.ACTION_SHOW_UPDATES");
+            intent.setPackage("mx.xperience.updater");
+            startActivity(intent);
+            Toast.makeText(getActivity(), "Has hecho clic en la imagen", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         // TODO: There may be an avatar setting action we can use here.
         final int iconId = bundle.getInt("icon_id", 0);

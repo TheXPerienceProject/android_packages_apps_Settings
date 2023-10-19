@@ -39,10 +39,41 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Channel</string>
 
+    <!-- About to show Device name -->
+    <string name="homepage_widget_battery_percent">percent</string>
+    <string name="homepage_widget_battery_charge">Charging</string>
+    <string name="homepage_widget_battery_discharge">Discharging</string>
+    <string name="homepage_widget_battery_title">Battery</string>
+    <string name="homepage_widget_storage_title">Storage</string>
+    <string name="default_user">User</string>
+    <string name="top_level_settings_title">Settings</string>
+    <string name="search_button_text_title">Search</string>
+    <string name="firmware_name_text" translatable="false">XPerience</string>
+    <string name="firmware_build_type_title">Build type</string>
+    <string name="firmware_build_summary_title">By maintainer</string>
+    <string name="build_is_official_title">#official</string>
+    <string name="build_is_community_title" translatable="false">#homebrew</string>
+    <string name="maintainer_summary">by %s</string>
+    <string name="unknown_maintainer">by someone</string>
+    <string name="about_xperience_device">Device</string>
+    <string name="device_info_security_patch">Security update</string>
+    <string name="device_info_platform_version" translatable="false">15 | fifteen | Vanilla Ice Cream</string>
+    <string name="device_desc_category_title">Device Banner</string>
+    <string name="device_info_hw">Hardware info</string>
+
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">Edit Device Name</string>
+    <string name="edit_text_hint">Enter new device name</string>
+    <string name="build_status">Build Status</string>
+    <string name="hardware_info">Hardware</string>
+    <string name="device_info_battery">Battery</string>
+    <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_resolution">Resolution</string>
+    <string name="device_info_storage">Storage</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
-    <string name="soc_model">SoC-Modell</string>
+    <string name="soc_model">SoC-Model</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
 
@@ -58,7 +89,7 @@
     <string name="display_rotation_270_title">270 degrees</string>
 
     <!--Unicorn power-->
-    <string name="xperience_title">Rainbow Unicorn</string>
+    <string name="xperience_title" translatable="false">Rainbow Unicorn</string>
     <string name="xperience_summary">Custom settings of XPerience</string>
 
     <!-- One shot automatic brightness -->
@@ -69,7 +100,7 @@
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
 
-    <!-- DerpFest Updater -->
+    <!-- XPerience Updater -->
     <string name="update_settings_title">XPerience Updater</string>
     <string name="update_settings_summary">Check for the latest version of XPerience</string>
     <string name="update_package" translatable="false">mx.xperience.updater</string>

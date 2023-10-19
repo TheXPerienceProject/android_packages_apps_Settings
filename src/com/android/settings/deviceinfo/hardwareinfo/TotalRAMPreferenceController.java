@@ -21,6 +21,7 @@ import android.content.Context;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
+import com.android.settings.slices.Sliceable;
 
 import java.text.DecimalFormat;
 
@@ -37,23 +38,38 @@ public class TotalRAMPreferenceController extends BasePreferenceController {
     }
 
     @Override
+    public boolean useDynamicSliceSummary() {
+        return true;
+    }
+    @Override
+    public boolean isSliceable() {
+        return true;
+    }
+
+    @Override
     public CharSequence getSummary() {
-        ActivityManager actManager = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
-        ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
-        actManager.getMemoryInfo(memInfo);
-        DecimalFormat ramDecimalForm = new DecimalFormat("#.#");
-        long totRam = memInfo.totalMem;
-        double kb = (double)totRam / 1024.0;
-        double mb = (double)totRam / 1048576.0;
-        double gb = (double)totRam / 1073741824.0;
-        String ramString = "";
-        if (gb > 1) {
-            ramString = ramDecimalForm.format(gb).concat(" GB");
-        } else if (mb > 1) {
-            ramString = ramDecimalForm.format(mb).concat(" MB");
-        } else {
-            ramString = ramDecimalForm.format(kb).concat(" KB");
-        }
-        return ramString;
+    ActivityManager actManager = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
+    ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
+    actManager.getMemoryInfo(memInfo);
+    long totRam = memInfo.totalMem;
+    double gb = (double) totRam / 1073741824.0;
+    String aproxRam;
+    if (gb > 0 && gb <= 2) {
+        aproxRam = "2";
+    } else if (gb <= 3) {
+        aproxRam = "3";
+    } else if (gb <= 4) {
+        aproxRam = "4";
+    } else if (gb <= 6) {
+        aproxRam = "6";
+    } else if (gb <= 8) {
+        aproxRam = "8";
+    } else if (gb <= 12) {
+        aproxRam = "12";
+    } else {
+        aproxRam = "12+";
+    }
+    String actualRam = aproxRam.concat(" GB");
+    return actualRam;
     }
 }

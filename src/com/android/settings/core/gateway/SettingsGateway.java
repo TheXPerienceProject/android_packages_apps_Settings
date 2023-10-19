@@ -449,5 +449,7 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.RainbowActivity.class.getName(),
+            Settings.FirmwareVersionActivity.class.getName(),
+            Settings.WallpaperSettingsActivity.class.getName(),
     };
 }

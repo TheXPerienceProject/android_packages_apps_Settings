@@ -97,6 +97,9 @@ class SimEidPreferenceController(context: Context, preferenceKey: String) :
             preference.title = title
             preference.dialogTitle = title
             updateDialog()
+	    preference.setLayoutResource(R.layout.top_level_preference_middle_card)
+	    preference.setIcon(R.drawable.ic_sim_card_download)
+
         }
     }
 

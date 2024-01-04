@@ -201,16 +201,11 @@ public class WifiTetherApBandPreferenceController extends WifiTetherBasePreferen
     }
 
     private boolean is5GhzBandSupported() {
-        if (!m5GHzSupported || mCountryCode == null) {
-            return false;
-        }
-        return true;
+
+	return mWifiManager.is5GHzBandSupported();
     }
 
     private boolean is6GhzBandSupported() {
-        if (!m6GHzSupported || mCountryCode == null ) {
-            return false;
-        }
         try {
             if (mWifiManager.getAllowedChannels(WIFI_BAND_6_GHZ, OP_MODE_SAP).isEmpty()) {
                 return false;
@@ -222,7 +217,7 @@ public class WifiTetherApBandPreferenceController extends WifiTetherBasePreferen
             Log.e(TAG, "6Ghz Band Not Supported ");
             return false;
         }
-        return true;
+	return mWifiManager.is6GHzBandSupported();
     }
 
     public int getBandIndex() {

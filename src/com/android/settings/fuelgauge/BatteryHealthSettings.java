@@ -74,8 +74,8 @@ public class BatteryHealthSettings extends SettingsPreferenceFragment implements
                 KEY_CURRENT_BATTERY_CAPACITY);
         mDesignedBatteryCapacity = (PowerGaugePreference) findPreference(
                 KEY_DESIGNED_BATTERY_CAPACITY);
-        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
-        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
+        mCurrentBatteryCapacity.setPercentage(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
+        mDesignedBatteryCapacity.setPercentage(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
     }
 
     @Override

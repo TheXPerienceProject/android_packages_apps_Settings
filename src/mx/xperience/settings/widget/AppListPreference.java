@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.voltage.settings.widget;
+package mx.xperience.settings.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

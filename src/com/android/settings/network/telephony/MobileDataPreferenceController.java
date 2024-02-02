@@ -54,6 +54,8 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.mobile.dataservice.MobileNetworkInfoEntity;
 import com.android.settingslib.mobile.dataservice.SubscriptionInfoEntity;
 
+import com.google.android.setupcompat.util.WizardManagerHelper;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -154,6 +156,14 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
     @Override
     public boolean setChecked(boolean isChecked) {
         mNeedDialog = isDialogNeeded();
+
+        // If we are still provisioning we need to allow enabling mobile data first.
+        // By default it is not allowed to use mobile network during provisioning so
+        // we need to allow it.
+        if (!WizardManagerHelper.isDeviceProvisioned(mContext)) {
+            Settings.Global.putInt(mContext.getContentResolver(),
+                    Settings.Global.DEVICE_PROVISIONING_MOBILE_DATA_ENABLED, isChecked ? 1 : 0);
+        }
 
         if (!mNeedDialog) {
             // Update data directly if we don't need dialog

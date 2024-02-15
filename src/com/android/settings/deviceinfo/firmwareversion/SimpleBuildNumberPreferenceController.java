@@ -18,11 +18,15 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.Build;
+import android.os.SystemProperties;
 import android.text.BidiFormatter;
 
+import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
 public class SimpleBuildNumberPreferenceController extends BasePreferenceController {
+
+    private static final String KEY_XPERIENCE_VERSION_PROP = "ro.build.id";
 
     public SimpleBuildNumberPreferenceController(Context context,
             String preferenceKey) {
@@ -36,6 +40,7 @@ public class SimpleBuildNumberPreferenceController extends BasePreferenceControl
 
     @Override
     public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+        return SystemProperties.get(KEY_XPERIENCE_VERSION_PROP,
+                mContext.getString(R.string.unknown));
     }
 }

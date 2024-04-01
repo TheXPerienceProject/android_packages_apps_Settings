@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The XPerience Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключено</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Версия XPerience</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Кодовое имя XPerience</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Канал</string>
+    <!-- About to show Device name -->
+    <string name="about_device_name">Устройство</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего ОЗУ</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Состояние батареи</string>
+    <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
+    <string name="designed_battery_capacity">Заявленная емкость батареи</string>
+    <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
+    <!-- Ambient wake toggles -->
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Уменьшает напряжение глаз в низком освещении путем минимизации мерцания экрана. Может привести к снижению качества изображения и плохим цветам или к более высокому энергопотреблению.</string>
+    <string name="dc_dimming_main_switch_title">Использовать DC Dimming</string>
+    <string name="keywords_display_dc_dimming">DC dimming, защита глаз от мерцания</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для создания скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами для создания скриншота</string>
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">Цветовой баланс</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">Интенсивность красного</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">Интенсивность зеленого</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">Интенсивность синего</string>
+    <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зелёный, синий, LiveDisplay</string>
+    <!-- Display settings screen, increased touch polling rate settings title -->
+    <!-- Display settings screen, increased touch polling rate settings summary -->
+</resources>

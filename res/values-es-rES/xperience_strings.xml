@@ -41,17 +41,25 @@
     <string name="designed_battery_capacity">Capacidad teórica de la batería</string>
     <string name="designed_battery_capacity_summary">Capacidad de batería indicada por el fabricante</string>
     <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar pantalla ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar Pantalla Ambiente en lugar de despertar completamente la pantalla</string>
+    <string name="gesture_wake_ambient">Mostrar pantalla ambiente</string>
+    <string name="gesture_wake">Despertar por completo</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">Ajuste de Brillo alternativo [DC-Diming]</string>
     <string name="dc_dimming_info">Reduce la tensión de los ojos en condiciones de poca luz al minimizar el parpadeo de la pantalla. Puede resultar en una menor calidad de imagen y una mala producción de color, o un mayor consumo de energía.</string>
     <string name="dc_dimming_main_switch_title">Usar Dimming DC</string>
     <string name="keywords_display_dc_dimming">atenuación de dc, anti-parpadeo, anti-fatiga visual</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Huella siempre activa</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear con la pantalla apagada.\nActivarlo puede causar encendidos accidentales.</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Desliza para captura de pantalla</string>
     <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Alternar entre modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Activado (alternar entre modos)</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Balance de color</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -62,5 +70,7 @@
     <string name="color_mode_balance_blue">Intensidad de azul</string>
     <string name="keywords_color_balance">color, balance de colores, corrección de color, rojo, verde, azul, pantalla LiveDisplay</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Tasa de muestreo táctil alta</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Aumenta la sensibilidad en la pantalla para disminuir la latencia</string>
 </resources>

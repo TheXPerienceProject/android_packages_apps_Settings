@@ -63,4 +63,13 @@
     <string name="keywords_color_balance">szín, színegyensúly, színjavítás, színkorrekció, vörös, zöld, kék, LiveDisplay</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Fekete téma használata</string>
+    <string name="system_black_theme_summary">Erőlteti a fekete háttérszíneket</string>
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_summary">A képernyő oldalsó széleit világítsa meg az értesítés villogó jelzése</string>
+    <string name="ambient_notification_light_accent_title">Rendszertéma-kiemelőszín</string>
+    <string name="ambient_notification_light_color_automatic_title">Értesítési szín</string>
+    <string name="pulse_ambient_light_color">Pulzáláskor használja</string>
+    <!-- Auto pin confirm -->
 </resources>

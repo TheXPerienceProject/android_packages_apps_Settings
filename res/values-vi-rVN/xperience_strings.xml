@@ -54,4 +54,11 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <!-- Display settings screen, increased touch polling rate settings title -->
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <!-- Black theme -->
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_summary">Làm sáng các cạnh bên của màn hình trên thông báo đẩy</string>
+    <string name="ambient_notification_light_accent_title">Dùng màu hệ thống</string>
+    <string name="ambient_notification_light_color_automatic_title">Màu thông báo</string>
+    <string name="pulse_ambient_light_color">Trong khi sóng nhạc</string>
+    <!-- Auto pin confirm -->
 </resources>

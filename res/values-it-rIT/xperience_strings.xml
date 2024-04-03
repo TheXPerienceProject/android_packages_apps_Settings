@@ -49,4 +49,11 @@
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
     <!-- Display settings screen, increased touch polling rate settings title -->
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <!-- Black theme -->
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_summary">Illumina i bordi laterali dello schermo sulla notifica pulse</string>
+    <string name="ambient_notification_light_accent_title">Colore secondario di sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Colore della notifica</string>
+    <string name="pulse_ambient_light_color">Quando lampeggia, usa</string>
+    <!-- Auto pin confirm -->
 </resources>

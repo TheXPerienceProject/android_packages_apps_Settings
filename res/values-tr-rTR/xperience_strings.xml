@@ -63,4 +63,13 @@
     <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_summary">Bildirim geldiğinde ortam ekranın yan kenarlarını aydınlat</string>
+    <string name="ambient_notification_light_accent_title">Sistem vurgu rengi</string>
+    <string name="ambient_notification_light_color_automatic_title">Bildirim rengi</string>
+    <string name="pulse_ambient_light_color">Bildirimi haber verirken kullan</string>
+    <!-- Auto pin confirm -->
 </resources>

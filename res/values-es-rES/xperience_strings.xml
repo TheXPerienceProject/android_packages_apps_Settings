@@ -73,4 +73,17 @@
     <string name="touch_polling_title">Tasa de muestreo táctil alta</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
     <string name="touch_polling_summary">Aumenta la sensibilidad en la pantalla para disminuir la latencia</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema negro</string>
+    <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
+    <!-- Horizon Light -->
+    <string name="keywords_pulse_ambient_light_display">notificación, notificaciones, borde, luz, color, color</string>
+    <string name="pulse_ambient_light_text">La iluminación de los bordes hace que tu pantalla brille cuando recibes una notificación. Esto hace que sea más fácil de averiguar cuando se recibe un pulso mientras el teléfono está en modo de dormitar.</string>
+    <string name="pulse_ambient_light_title">Iluminación Edge (Bordes)</string>
+    <string name="pulse_ambient_light_summary">Ilumina los bordes de la pantalla al recibir una notificación</string>
+    <string name="ambient_notification_light_accent_title">Color de acento del sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Color de notificación</string>
+    <string name="pulse_ambient_light_color">Al pulsar, usar</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquea automáticamente si introduces el PIN correcto. Esta opción es un poco menos segura que presionar Intro para confirmar.</string>
 </resources>

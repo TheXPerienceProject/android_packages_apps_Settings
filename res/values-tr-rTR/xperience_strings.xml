@@ -28,6 +28,7 @@
     <string name="build_channel">Kanal</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Cihaz</string>
+    <!-- Device Info screen -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -72,4 +73,5 @@
     <string name="ambient_notification_light_color_automatic_title">Bildirim rengi</string>
     <string name="pulse_ambient_light_color">Bildirimi haber verirken kullan</string>
     <!-- Auto pin confirm -->
+    <!-- Screen resolution -->
 </resources>

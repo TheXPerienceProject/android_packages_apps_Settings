@@ -28,6 +28,32 @@
     <string name="build_channel">Canal</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Dispositivo</string>
+    <string name="homepage_widget_battery_percent">porcentaje</string>
+    <string name="homepage_widget_battery_charge">Cargando</string>
+    <string name="homepage_widget_battery_discharge">Descargándose</string>
+    <string name="homepage_widget_battery_title">Batería</string>
+    <string name="homepage_widget_storage_title">Almacenamiento</string>
+    <string name="default_user">Usuario</string>
+    <string name="top_level_settings_title">Configuración</string>
+    <string name="search_button_text_title">Búscar</string>
+    <string name="firmware_build_type_title">Tipo de build</string>
+    <string name="firmware_build_summary_title">Por mantenedor</string>
+    <string name="build_is_official_title">#oficial</string>
+    <string name="device_desc_category_title">Banner del dispositivo</string>
+    <string name="device_info_hw">Información de Hardware</string>
+    <string name="maintainer_summary">Por %s</string>
+    <string name="unknown_maintainer">Desconocido</string>
+    <string name="about_xperience_device">Dispositivo</string>
+    <string name="device_info_security_patch">Actualización de seguridad</string>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">Editar nombre del dispositivo</string>
+    <string name="edit_text_hint">Introducir nuevo nombre de dispositivo</string>
+    <string name="build_status">Estado de la compilación</string>
+    <string name="hardware_info">Hardware</string>
+    <string name="device_info_battery">Batería</string>
+    <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_resolution">Resolución</string>
+    <string name="device_info_storage">Almacenamiento</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -86,4 +112,6 @@
     <string name="pulse_ambient_light_color">Al pulsar, usar</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquea automáticamente si introduces el PIN correcto. Esta opción es un poco menos segura que presionar Intro para confirmar.</string>
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Resolución de pantalla personalizada</string>
 </resources>

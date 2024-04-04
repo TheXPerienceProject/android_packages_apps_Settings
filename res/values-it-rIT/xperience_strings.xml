@@ -25,6 +25,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canale</string>
     <!-- About to show Device name -->
+    <!-- Device Info screen -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Piattaforma</string>
@@ -56,4 +57,5 @@
     <string name="ambient_notification_light_color_automatic_title">Colore della notifica</string>
     <string name="pulse_ambient_light_color">Quando lampeggia, usa</string>
     <!-- Auto pin confirm -->
+    <!-- Screen resolution -->
 </resources>

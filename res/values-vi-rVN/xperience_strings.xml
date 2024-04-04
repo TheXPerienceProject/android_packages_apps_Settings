@@ -28,6 +28,7 @@
     <string name="build_channel">Kênh</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Thiết bị</string>
+    <!-- Device Info screen -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Các nền tảng</string>
@@ -61,4 +62,5 @@
     <string name="ambient_notification_light_color_automatic_title">Màu thông báo</string>
     <string name="pulse_ambient_light_color">Trong khi sóng nhạc</string>
     <!-- Auto pin confirm -->
+    <!-- Screen resolution -->
 </resources>

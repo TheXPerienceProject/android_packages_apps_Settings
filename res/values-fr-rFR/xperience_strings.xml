@@ -23,6 +23,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <!-- About to show Device name -->
     <string name="about_device_name">Appareil</string>
+    <!-- Device Info screen -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
@@ -44,4 +45,5 @@
     <!-- Black theme -->
     <!-- Horizon Light -->
     <!-- Auto pin confirm -->
+    <!-- Screen resolution -->
 </resources>

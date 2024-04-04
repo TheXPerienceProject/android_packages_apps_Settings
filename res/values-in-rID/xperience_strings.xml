@@ -28,6 +28,7 @@
     <string name="build_channel">Saluran</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Perangkat</string>
+    <!-- Device Info screen -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -72,4 +73,5 @@
     <string name="ambient_notification_light_color_automatic_title">Warna Notifikasi</string>
     <string name="pulse_ambient_light_color">Saat menyala, gunakan</string>
     <!-- Auto pin confirm -->
+    <!-- Screen resolution -->
 </resources>

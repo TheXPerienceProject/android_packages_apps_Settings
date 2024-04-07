@@ -74,4 +74,8 @@
     <string name="pulse_ambient_light_color">Bildirimi haber verirken kullan</string>
     <!-- Auto pin confirm -->
     <!-- Screen resolution -->
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
 </resources>

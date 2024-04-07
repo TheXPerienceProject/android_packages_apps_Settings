@@ -74,4 +74,10 @@
     <string name="pulse_ambient_light_color">Pulzáláskor használja</string>
     <!-- Auto pin confirm -->
     <!-- Screen resolution -->
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">A Recovery és Bootloader opciók megjelenítése a kikapcsoló menüben</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
+    <string name="udfps_icon_picker_title">Ujjlenyomat-ikonválasztó</string>
+    <string name="udfps_icon_picker_summary">Válassza ki az önnek legjobban tetsző ujjlenyomat-ikont</string>
 </resources>

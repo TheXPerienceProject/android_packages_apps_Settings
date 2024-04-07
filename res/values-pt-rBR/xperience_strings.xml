@@ -74,4 +74,8 @@
     <string name="pulse_ambient_light_color">Durante o pulso, usar</string>
     <!-- Auto pin confirm -->
     <!-- Screen resolution -->
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recovery e bootloader no menu de energia</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
 </resources>

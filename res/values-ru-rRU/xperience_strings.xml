@@ -72,4 +72,8 @@
     <string name="pulse_ambient_light_color">При пульсации, использовать</string>
     <!-- Auto pin confirm -->
     <!-- Screen resolution -->
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_summary">Показать параметры для рекавери (режима восстановления) и загрузчика в меню кнопки питания</string>
+    <!-- UDFPS Recog Animation -->
+    <!-- UDFPS animation -->
 </resources>

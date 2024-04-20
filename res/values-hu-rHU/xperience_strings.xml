@@ -26,6 +26,7 @@
     <string name="xperience_build_code">XPerience™-kódnév</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Csatorna</string>
+    <!-- About phone CLO revision [CHAR LIMIT=100] -->
     <!-- About to show Device name -->
     <string name="about_device_name">Készülék</string>
     <!-- Device Info screen -->
@@ -80,4 +81,11 @@
     <!-- UDFPS animation -->
     <string name="udfps_icon_picker_title">Ujjlenyomat-ikonválasztó</string>
     <string name="udfps_icon_picker_summary">Válassza ki az önnek legjobban tetsző ujjlenyomat-ikont</string>
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
 </resources>

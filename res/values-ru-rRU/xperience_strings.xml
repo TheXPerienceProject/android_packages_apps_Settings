@@ -26,6 +26,7 @@
     <string name="xperience_build_code">Кодовое имя XPerience</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Канал</string>
+    <!-- About phone CLO revision [CHAR LIMIT=100] -->
     <!-- About to show Device name -->
     <string name="about_device_name">Устройство</string>
     <!-- Device Info screen -->
@@ -76,4 +77,11 @@
     <string name="global_actions_advanced_reboot_summary">Показать параметры для рекавери (режима восстановления) и загрузчика в меню кнопки питания</string>
     <!-- UDFPS Recog Animation -->
     <!-- UDFPS animation -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
 </resources>

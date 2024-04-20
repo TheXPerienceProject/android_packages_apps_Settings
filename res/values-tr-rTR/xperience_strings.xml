@@ -26,6 +26,7 @@
     <string name="xperience_build_code">XPerience™ Cihaz kod adı</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Kanal</string>
+    <!-- About phone CLO revision [CHAR LIMIT=100] -->
     <!-- About to show Device name -->
     <string name="about_device_name">Cihaz</string>
     <!-- Device Info screen -->
@@ -78,4 +79,11 @@
     <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
     <!-- UDFPS Recog Animation -->
     <!-- UDFPS animation -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
 </resources>

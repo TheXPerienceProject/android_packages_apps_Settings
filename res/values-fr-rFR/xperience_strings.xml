@@ -21,6 +21,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">Nom de code XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About phone CLO revision [CHAR LIMIT=100] -->
     <!-- About to show Device name -->
     <string name="about_device_name">Appareil</string>
     <!-- Device Info screen -->
@@ -50,4 +51,11 @@
     <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu d\'alimentation</string>
     <!-- UDFPS Recog Animation -->
     <!-- UDFPS animation -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
 </resources>

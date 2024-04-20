@@ -26,6 +26,9 @@
     <string name="xperience_build_code">Código XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal</string>
+    <!-- About phone CLO revision [CHAR LIMIT=100] -->
+    <string name="clo_revision">Revisión CLO</string>
+    <string name="clo_sys_vend">Systema | Vendor</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Dispositivo</string>
     <string name="homepage_widget_battery_percent">porcentaje</string>
@@ -127,4 +130,32 @@
     <string name="udfps_animation_summary">Elige tu animación favorita</string>
     <string name="udfps_icon_picker_title">Selector de iconos UDFPS</string>
     <string name="udfps_icon_picker_summary">Elige tu icono de huella digital favorito</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Tecnología</string>
+    <string name="battery_technology_not_available">@string/batery_cycle_count_no_disponible</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Salud</string>
+    <string name="battery_health_good">Buena</string>
+    <string name="battery_health_overheat">Sobrecalentada</string>
+    <string name="battery_health_dead">Muerta</string>
+    <string name="battery_health_over_voltage">Sobre voltaje</string>
+    <string name="battery_health_unspecified_failure">Fallo no especificado</string>
+    <string name="battery_health_cold">Frio</string>
+    <string name="battery_health_unknown">Desconocido</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatura</string>
+    <string name="battery_temperature_not_available">@string/batery_cycle_count_no_disponible</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltaje</string>
+    <string name="battery_voltage_not_available">@string/batery_cycle_count_no_disponible</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Capacidad de diseño</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/batery_cycle_count_no_disponible</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Capacidad máxima</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/batery_cycle_count_no_disponible</string>
 </resources>

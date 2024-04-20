@@ -26,6 +26,7 @@
     <string name="xperience_build_code">Tên mã là XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Kênh</string>
+    <!-- About phone CLO revision [CHAR LIMIT=100] -->
     <!-- About to show Device name -->
     <string name="about_device_name">Thiết bị</string>
     <!-- Device Info screen -->
@@ -67,4 +68,11 @@
     <string name="global_actions_advanced_reboot_summary">Hiển thị các tuỳ chọn cho recovery và bootloader trong menu nguồn</string>
     <!-- UDFPS Recog Animation -->
     <!-- UDFPS animation -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
 </resources>

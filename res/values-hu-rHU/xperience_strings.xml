@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The XPerience Project
+     Copyright (C) 2022-2024 The XPerience Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -88,4 +89,27 @@
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
     <!-- Battery Info: Maximum Capacity -->
+    <!-- Smart 5G -->
+    <!-- Refresh rate -->
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Ikonkezelő</string>
+    <string name="icon_manager_summary">Az állapotsori ikonoláthatóság beállítása</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_disabled_summary">Kikapcsol</string>
+    <string name="adaptive_playback_intro_text">Hangerőnémításkor automatikusan leállítja a lejátszást és a beállított időn belül automatikusan újra is indítja, ha a némítás megszűnik.</string>
+    <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
+    <string name="adaptive_playback_timeout_none">Nincs időtúllépés</string>
+    <string name="adaptive_playback_timeout_none_summary">Be (nincs időtúllépés)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
+    <!-- Charging control settings -->
+    <string name="reset">Visszaállítás</string>
 </resources>

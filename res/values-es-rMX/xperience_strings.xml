@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The XPerience Project
+     Copyright (C) 2022-2024 The XPerience Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -153,4 +154,51 @@
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Capacidad máxima</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G inteligente</string>
+    <string name="smart_5g_summary">Cambia automáticamente entre 5G y 4G para reducir el consumo de batería</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Frecuencia de actualización</string>
+    <string name="refresh_rate_vrr_title">Frecuencia de actualización variable</string>
+    <string name="refresh_rate_vrr_summary">Bajar automáticamente la velocidad de actualización cuando la pantalla está inactiva, para ahorrar energía.</string>
+    <string name="refresh_rate_footer">Una mayor tasa de actualización hace que la pantalla sea más suave, pero aumenta el consumo de energía.</string>
+    <string name="keywords_refresh_rate">actualizacion, tasa, suave, 60hz, 90hz, 120hz, 144hz</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Administrador de iconos</string>
+    <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
+    <string name="adaptive_playback_enabled">Usar pausa inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_intro_text">La reproducción adaptativa detiene automáticamente la reproducción cuando el volumen se silencia y se reanudará automáticamente si el volumen se restablece dentro del tiempo establecido.</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Control de carga</string>
+    <string name="charging_control_summary">Personaliza el horario de carga y los límites para tu dispositivo</string>
+    <string name="charging_control_enable_title">Activar el control de la carga</string>
+    <string name="charging_control_mode_title">Modo de carga</string>
+    <string name="charging_control_mode_auto_title">Programa automático</string>
+    <string name="charging_control_mode_auto_summary">Determina automáticamente cuándo comenzar a cargar según las alarmas configuradas</string>
+    <string name="charging_control_mode_custom_title">Horario personalizado</string>
+    <string name="charging_control_mode_custom_summary">Establece un tiempo objetivo hasta la carga completa</string>
+    <string name="charging_control_mode_limit_title">Limitar la carga</string>
+    <string name="charging_control_mode_limit_summary">Limitar la carga a un determinado porcentaje</string>
+    <string name="charging_control_start_time_title">Hora de inicio</string>
+    <string name="charging_control_start_time_summary">El control de carga se activa cuando empiezas a cargar después de %s</string>
+    <string name="charging_control_target_time_title">Tiempo objetivo hasta la carga completa</string>
+    <string name="charging_control_target_time_summary">La batería estará completamente cargada en %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <string name="reset">Restablecer</string>
 </resources>

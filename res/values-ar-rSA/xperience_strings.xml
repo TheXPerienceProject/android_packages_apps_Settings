@@ -26,7 +26,6 @@
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <!-- Battery health -->
     <!-- Ambient wake toggles -->
     <!-- DC Dimming -->
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
@@ -58,4 +57,13 @@
     <!-- Status bar Icon Manager -->
     <!-- Adaptive Playback -->
     <!-- Charging control settings -->
+    <!-- One shot automatic brightness -->
+    <!-- App lock -->
+    <!-- Themes customization -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <!-- Custom Signal bar icons -->
+    <!-- Custom Wi-Fi bar icons -->
 </resources>

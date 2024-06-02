@@ -36,13 +36,6 @@
     <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Всего ОЗУ</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Состояние батареи</string>
-    <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
-    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
-    <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
-    <string name="designed_battery_capacity">Заявленная емкость батареи</string>
-    <string name="designed_battery_capacity_summary">Ёмкость батареи, заявленная производителем</string>
     <!-- Ambient wake toggles -->
     <!-- DC Dimming -->
     <string name="dc_dimming_title">DC Dimming</string>
@@ -108,4 +101,24 @@
     <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
     <!-- Charging control settings -->
     <string name="reset">Сброс</string>
+    <!-- One shot automatic brightness -->
+    <!-- App lock -->
+    <!-- Themes customization -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Темы</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Форма значка</string>
+    <string name="theme_customization_icon_shape_summary">Установка стиля системной иконки</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <string name="theme_customization_font_summary">Установить стиль шрифта системы</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Набор значков</string>
+    <string name="theme_customization_icon_pack_summary">Установить пользовательский пакет иконок</string>
+    <!-- Custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Стиль значка сигнала</string>
+    <string name="theme_customization_signal_icon_summary">Установить пользовательский стиль значка сигнала</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Стиль значка WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Установить пользовательский стиль значка WiFi</string>
 </resources>

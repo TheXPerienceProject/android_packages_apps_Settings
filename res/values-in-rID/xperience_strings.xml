@@ -36,13 +36,6 @@
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Kesehatan Baterai</string>
-    <string name="battery_health_summary">Pantau kesehatan baterai perangkat Anda</string>
-    <string name="current_battery_capacity">Kapasitas baterai saat ini</string>
-    <string name="current_battery_capacity_summary">Kapasitas baterai saat ini diukur oleh kernel</string>
-    <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
-    <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
     <!-- Ambient wake toggles -->
     <!-- DC Dimming -->
     <string name="dc_dimming_title">Peredupan DC</string>
@@ -110,4 +103,24 @@
     <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 menit)</string>
     <!-- Charging control settings -->
     <string name="reset">Setel ulang</string>
+    <!-- One shot automatic brightness -->
+    <!-- App lock -->
+    <!-- Themes customization -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Tema</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Bentuk ikon</string>
+    <string name="theme_customization_icon_shape_summary">Setel gaya bentuk ikon sistem</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Font Judul/Isi</string>
+    <string name="theme_customization_font_summary">Setel gaya font sistem</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Paket ikon</string>
+    <string name="theme_customization_icon_pack_summary">Setel gaya paket ikon kustom</string>
+    <!-- Custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Gaya ikon sinyal</string>
+    <string name="theme_customization_signal_icon_summary">Setel gaya ikon sinyal kustom</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Gaya ikon WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Setel gaya ikon wifi kustom</string>
 </resources>

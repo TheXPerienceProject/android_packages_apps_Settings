@@ -33,13 +33,6 @@
     <string name="platform_revision">Piattaforma</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">RAM Totale</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Salute della batteria</string>
-    <string name="battery_health_summary">Monitora la salute della batteria del tuo dispositivo</string>
-    <string name="current_battery_capacity">Capacità corrente della batteria</string>
-    <string name="current_battery_capacity_summary">La capacità corrente della batteria misurata dal kernel</string>
-    <string name="designed_battery_capacity">Capacità designata della batteria</string>
-    <string name="designed_battery_capacity_summary">La capacità della batteria designata dal produttore</string>
     <!-- Ambient wake toggles -->
     <!-- DC Dimming -->
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
@@ -92,4 +85,13 @@
     <string name="adaptive_playback_timeout_10_min_summary">Acceso (10 minuti)</string>
     <!-- Charging control settings -->
     <string name="reset">Ripristina</string>
+    <!-- One shot automatic brightness -->
+    <!-- App lock -->
+    <!-- Themes customization -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <!-- Custom Signal bar icons -->
+    <!-- Custom Wi-Fi bar icons -->
 </resources>

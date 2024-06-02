@@ -36,13 +36,6 @@
     <string name="platform_revision">Các nền tảng</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Tổng RAM</string>
-    <!-- Battery health -->
-    <string name="battery_health_title">Tình trạng pin</string>
-    <string name="battery_health_summary">Theo dõi tình trạng pin của thiết bị</string>
-    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
-    <string name="current_battery_capacity_summary">Dung lượng pin hiện tại được đo bằng kernel</string>
-    <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
-    <string name="designed_battery_capacity_summary">Dung lượng pin tiêu chuẩn từ nhà sản xuất</string>
     <!-- Ambient wake toggles -->
     <!-- DC Dimming -->
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
@@ -99,4 +92,14 @@
     <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
     <!-- Charging control settings -->
     <string name="reset">Đặt lại</string>
+    <!-- One shot automatic brightness -->
+    <!-- App lock -->
+    <!-- Themes customization -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Gói biểu tượng</string>
+    <!-- Custom Signal bar icons -->
+    <!-- Custom Wi-Fi bar icons -->
 </resources>

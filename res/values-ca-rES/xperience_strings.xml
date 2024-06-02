@@ -66,4 +66,7 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <!-- Custom Signal bar icons -->
     <!-- Custom Wi-Fi bar icons -->
+    <!-- Custom Fonts -->
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
 </resources>

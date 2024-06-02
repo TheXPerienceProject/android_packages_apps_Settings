@@ -246,4 +246,18 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">Estilo de icono WiFi</string>
     <string name="theme_customization_wifi_icon_summary">Establecer un estilo de icono wifi personalizado</string>
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Estilo de reloj en pantalla de bloqueo</string>
+    <string name="theme_customization_lock_clock_summary">Establecer estilo de fuente en el reloj de pantalla de bloqueo</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Iconos coloreados</string>
+    <string name="statusbar_colored_icons_summary">Utilizar iconos de aplicación adecuados para los iconos de notificación en la barra de estado</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra de estado</string>
+    <string name="statusbar_custom">Personalizaciones de la barra de estado</string>
+    <string name="network_traffic_state_title">Tráfico de red</string>
+    <string name="network_traffic_state_summary">Mostrar velocidad de la red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ocultar flechas</string>
+    <string name="network_traffic_hidearrow_summary">Oculta las flechas de actividad del monitor</string>
 </resources>

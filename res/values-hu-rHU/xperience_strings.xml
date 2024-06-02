@@ -125,4 +125,17 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">WiFi-jelerősség-stílus</string>
     <string name="theme_customization_wifi_icon_summary">Egyéni Wi-Fi-ikonstílus állítható be</string>
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">A záróképernyő-óra betűtípusa</string>
+    <string name="theme_customization_lock_clock_summary">Beállíthatja az óra betűtípusát</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Színes ikonok</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Állapotsor</string>
+    <string name="statusbar_custom">Az Állapotsor személyre szabása</string>
+    <string name="network_traffic_state_title">Hálózati forgalom</string>
+    <string name="network_traffic_state_summary">A hálózati aktivitás megjelenítése az állapotsoron</string>
+    <string name="network_traffic_autohide_threshold_title">A hálózati forgalom automatikus elrejtésének határértéke (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
+    <string name="network_traffic_hidearrow_summary">Hálózati forgalmat jelző nyilak elrejtése</string>
 </resources>

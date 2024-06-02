@@ -123,4 +123,17 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">WiFi simge stili</string>
     <string name="theme_customization_wifi_icon_summary">Özel wifi simge stili ayarlayın</string>
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Kilit Ekranı saat yazı tipi</string>
+    <string name="theme_customization_lock_clock_summary">Kilit ekranı saat yazı tipi stilini ayarlayın</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Renkli simgeler</string>
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Durum çubuğu</string>
+    <string name="statusbar_custom">Durum çubuğu özelleştirmeleri</string>
+    <string name="network_traffic_state_title">Ağ trafiği</string>
+    <string name="network_traffic_state_summary">Durum çubuğunda ağ etkinliğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
+    <string name="network_traffic_hidearrow">Okları Gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
 </resources>

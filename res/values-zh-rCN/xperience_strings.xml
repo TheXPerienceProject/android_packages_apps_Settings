@@ -77,4 +77,7 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">WiFi 图标样式</string>
     <string name="theme_customization_wifi_icon_summary">自定义 WiFi 图标样式</string>
+    <!-- Custom Fonts -->
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
 </resources>

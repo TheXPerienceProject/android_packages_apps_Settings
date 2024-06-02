@@ -66,4 +66,10 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <!-- Custom Signal bar icons -->
     <!-- Custom Wi-Fi bar icons -->
+    <!-- Custom Fonts -->
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netwerkverkeer</string>
+    <string name="network_traffic_state_summary">Netwerkactiviteit weergeven in statusbalk</string>
+    <string name="network_traffic_autohide_threshold_title">Drempel voor netwerkactiviteit (KB/s)</string>
 </resources>

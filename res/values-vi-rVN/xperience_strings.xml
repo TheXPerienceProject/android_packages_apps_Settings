@@ -102,4 +102,14 @@
     <string name="theme_customization_icon_pack_title">Gói biểu tượng</string>
     <!-- Custom Signal bar icons -->
     <!-- Custom Wi-Fi bar icons -->
+    <!-- Custom Fonts -->
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Thanh trạng thái</string>
+    <string name="statusbar_custom">Tùy chỉnh thanh trạng thái</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_summary">Hiện biểu tượng lưu lượng mạng trên thanh trạng thái</string>
+    <string name="network_traffic_autohide_threshold_title">Ngưỡng tự động ẩn tốc độ mạng (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
+    <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
 </resources>

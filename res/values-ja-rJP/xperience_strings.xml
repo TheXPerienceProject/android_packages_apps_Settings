@@ -89,4 +89,12 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">WiFiアイコン風</string>
     <string name="theme_customization_wifi_icon_summary">カスタムWi-Fiアイコンのスタイルを設定する</string>
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">ロックスクリーン用時計フォント</string>
+    <string name="theme_customization_lock_clock_summary">LSクロックのフォントスタイルを設定する</string>
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">ネットワーク通信量</string>
+    <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>
+    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
 </resources>

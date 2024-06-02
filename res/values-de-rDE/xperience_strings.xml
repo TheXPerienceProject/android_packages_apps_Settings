@@ -75,4 +75,9 @@
     <string name="theme_customization_icon_pack_title">Icon-Paket</string>
     <!-- Custom Signal bar icons -->
     <!-- Custom Wi-Fi bar icons -->
+    <!-- Custom Fonts -->
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Netzwerkaktivität</string>
+    <string name="network_traffic_state_summary">Zeige Netzwerkaktivität in Statusleiste</string>
 </resources>

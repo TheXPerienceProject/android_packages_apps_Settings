@@ -94,4 +94,14 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
     <!-- Custom Signal bar icons -->
     <!-- Custom Wi-Fi bar icons -->
+    <!-- Custom Fonts -->
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Barra di stato</string>
+    <string name="statusbar_custom">Personalizzazioni della barra di stato</string>
+    <string name="network_traffic_state_title">Traffico di rete</string>
+    <string name="network_traffic_state_summary">Mostra l\'attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nascondi frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore del traffico di rete</string>
 </resources>

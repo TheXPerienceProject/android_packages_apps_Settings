@@ -121,4 +121,16 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_wifi_icon_title">Стиль значка WiFi</string>
     <string name="theme_customization_wifi_icon_summary">Установить пользовательский стиль значка WiFi</string>
+    <!-- Custom Fonts -->
+    <string name="theme_customization_lock_clock_title">Шрифт часов на экране блокировки</string>
+    <string name="theme_customization_lock_clock_summary">Установить стиль шрифта часов экрана блокировки</string>
+    <!-- Statusbar colored icons -->
+    <!-- Statusbar net monitor -->
+    <string name="xperience_statusbar">Строка состояния</string>
+    <string name="statusbar_custom">Настройки строки состояния</string>
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic_state_summary">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Автоматическое скрытие индикатора сетевого трафика (KB/s)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки индикатора сетевого трафика</string>
 </resources>

@@ -67,7 +67,8 @@
     <!-- Custom Signal bar icons -->
     <!-- Custom Wi-Fi bar icons -->
     <!-- Custom Fonts -->
-    <!-- Statusbar colored icons -->
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Netwerkverkeer</string>
     <string name="network_traffic_state_summary">Netwerkactiviteit weergeven in statusbalk</string>

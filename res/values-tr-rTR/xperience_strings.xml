@@ -126,8 +126,8 @@
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Kilit Ekranı saat yazı tipi</string>
     <string name="theme_customization_lock_clock_summary">Kilit ekranı saat yazı tipi stilini ayarlayın</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Renkli simgeler</string>
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Durum çubuğu</string>
     <string name="statusbar_custom">Durum çubuğu özelleştirmeleri</string>

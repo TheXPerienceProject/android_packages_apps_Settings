@@ -92,7 +92,8 @@
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">ロックスクリーン用時計フォント</string>
     <string name="theme_customization_lock_clock_summary">LSクロックのフォントスタイルを設定する</string>
-    <!-- Statusbar colored icons -->
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">ネットワーク通信量</string>
     <string name="network_traffic_state_summary">ステータスバーに通信速度を表示する</string>

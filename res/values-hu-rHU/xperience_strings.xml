@@ -128,8 +128,8 @@
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">A záróképernyő-óra betűtípusa</string>
     <string name="theme_customization_lock_clock_summary">Beállíthatja az óra betűtípusát</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Színes ikonok</string>
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Állapotsor</string>
     <string name="statusbar_custom">Az Állapotsor személyre szabása</string>

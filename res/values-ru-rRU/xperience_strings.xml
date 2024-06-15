@@ -60,6 +60,8 @@
     <!-- Display settings screen, increased touch polling rate settings title -->
     <!-- Display settings screen, increased touch polling rate settings summary -->
     <!-- Black theme -->
+    <string name="system_black_theme_title">Использовать тёмную тему</string>
+    <string name="system_black_theme_summary">Принудительно использовать тёмный цвет для фона</string>
     <!-- Horizon Light -->
     <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомления</string>
     <string name="ambient_notification_light_accent_title">Цвет акцента системы</string>
@@ -124,7 +126,8 @@
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Шрифт часов на экране блокировки</string>
     <string name="theme_customization_lock_clock_summary">Установить стиль шрифта часов экрана блокировки</string>
-    <!-- Statusbar colored icons -->
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Строка состояния</string>
     <string name="statusbar_custom">Настройки строки состояния</string>

@@ -126,7 +126,8 @@
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Font jam layar kunci</string>
     <string name="theme_customization_lock_clock_summary">Setel gaya font jam layar kunci</string>
-    <!-- Statusbar colored icons -->
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Bilah status</string>
     <string name="statusbar_custom">Kustomisasi bilah status</string>

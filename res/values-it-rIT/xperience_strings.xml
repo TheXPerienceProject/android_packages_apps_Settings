@@ -95,7 +95,8 @@
     <!-- Custom Signal bar icons -->
     <!-- Custom Wi-Fi bar icons -->
     <!-- Custom Fonts -->
-    <!-- Statusbar colored icons -->
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Barra di stato</string>
     <string name="statusbar_custom">Personalizzazioni della barra di stato</string>

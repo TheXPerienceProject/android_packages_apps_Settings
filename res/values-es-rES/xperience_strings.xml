@@ -249,9 +249,11 @@
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Estilo de reloj en pantalla de bloqueo</string>
     <string name="theme_customization_lock_clock_summary">Establecer estilo de fuente en el reloj de pantalla de bloqueo</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Iconos coloreados</string>
-    <string name="statusbar_colored_icons_summary">Utilizar iconos de aplicación adecuados para los iconos de notificación en la barra de estado</string>
+    <!-- Custom Data icons -->
+    <string name="theme_customization_data_title">Estilo de icono de datos</string>
+    <string name="theme_customization_data_summary">Establecer estilo de icono de datos personalizado</string>
+    <!-- Custom Volte icons -->
+    <string name="theme_customization_volte_icon_title">Estilo del icono VoLTE</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Barra de estado</string>
     <string name="statusbar_custom">Personalizaciones de la barra de estado</string>

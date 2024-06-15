@@ -126,8 +126,8 @@
     <!-- Custom Fonts -->
     <string name="theme_customization_lock_clock_title">Fonte do relógio na tela de bloqueio</string>
     <string name="theme_customization_lock_clock_summary">Definir estilo de fonte do relógio na tela de bloqueio</string>
-    <!-- Statusbar colored icons -->
-    <string name="statusbar_colored_icons_title">Ícones coloridos</string>
+    <!-- Custom Data icons -->
+    <!-- Custom Volte icons -->
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Barra de status</string>
     <string name="statusbar_custom">Personalizações da Barra de status</string>

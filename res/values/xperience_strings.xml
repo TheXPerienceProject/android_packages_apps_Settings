@@ -299,7 +299,7 @@
     <string name="theme_customization_data_summary">Set custom data icon style</string>
     <!-- Custom Volte icons -->
     <string name="theme_customization_volte_icon_title">VoLTE icon style</string>
-    <string name="theme_customization_volte_icon_summary">Set custom VoLTE icon style</string>
+    <string name="theme_customization_volte_icon_summary">VoLTE icon style</string>
 
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Statusbar</string>

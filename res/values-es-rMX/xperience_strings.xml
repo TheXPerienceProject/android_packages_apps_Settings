@@ -254,6 +254,7 @@
     <string name="theme_customization_data_summary">Establecer estilo de icono de datos personalizado</string>
     <!-- Custom Volte icons -->
     <string name="theme_customization_volte_icon_title">Estilo del icono VoLTE</string>
+    <string name="theme_customization_volte_icon_summary">Establecer estilo de icono de VoLTE personalizado</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Barra de estado</string>
     <string name="statusbar_custom">Personalizaciones de la barra de estado</string>

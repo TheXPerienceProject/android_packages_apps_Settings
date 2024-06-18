@@ -81,4 +81,6 @@
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Netzwerkaktivität</string>
     <string name="network_traffic_state_summary">Zeige Netzwerkaktivität in Statusleiste</string>
+    <!-- Doze on charge -->
+    <!-- Hotspot extras -->
 </resources>

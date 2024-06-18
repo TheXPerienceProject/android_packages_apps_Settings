@@ -263,4 +263,10 @@
     <string name="network_traffic_autohide_threshold_title">Umbral mínimo de red para ocultarse (KB/s)</string>
     <string name="network_traffic_hidearrow">Ocultar flechas</string>
     <string name="network_traffic_hidearrow_summary">Oculta las flechas de actividad del monitor</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Pantalla ambiente mientras se carga</string>
+    <string name="doze_on_charge_summary">Mostrar siempre tiempo e información sólo cuando el dispositivo está conectado</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que los clientes del punto de acceso utilicen las conexiones VPN de este dispositivo\u2019 para la conectividad ascendente</string>
 </resources>

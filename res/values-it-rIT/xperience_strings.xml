@@ -105,4 +105,6 @@
     <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
     <string name="network_traffic_hidearrow">Nascondi frecce</string>
     <string name="network_traffic_hidearrow_summary">Nascondi le frecce dell\'indicatore del traffico di rete</string>
+    <!-- Doze on charge -->
+    <!-- Hotspot extras -->
 </resources>

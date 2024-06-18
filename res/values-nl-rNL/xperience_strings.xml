@@ -73,4 +73,6 @@
     <string name="network_traffic_state_title">Netwerkverkeer</string>
     <string name="network_traffic_state_summary">Netwerkactiviteit weergeven in statusbalk</string>
     <string name="network_traffic_autohide_threshold_title">Drempel voor netwerkactiviteit (KB/s)</string>
+    <!-- Doze on charge -->
+    <!-- Hotspot extras -->
 </resources>

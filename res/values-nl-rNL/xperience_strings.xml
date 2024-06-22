@@ -75,4 +75,6 @@
     <string name="network_traffic_autohide_threshold_title">Drempel voor netwerkactiviteit (KB/s)</string>
     <!-- Doze on charge -->
     <!-- Hotspot extras -->
+    <!-- Per-app volume control -->
+    <!-- Battery Styles -->
 </resources>

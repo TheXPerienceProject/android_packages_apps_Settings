@@ -269,4 +269,46 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que los clientes del punto de acceso utilicen las conexiones VPN de este dispositivo\u2019 para la conectividad ascendente</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volumen de aplicación</string>
+    <string name="app_volume_title">Control de volumen por aplicación</string>
+    <string name="app_volume_summary">Permite establecer diferentes niveles de volumen para cada aplicación</string>
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_category_title">Personaliza el diseño del icono de batería</string>
+    <string name="status_bar_battery_style_summary">Estilos de la batería de la barra de estado</string>
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="battery_options">Batería</string>
+    <string name="battery_style_title">Estilo de la batería</string>
+    <string name="battery_style_port">Vertical</string>
+    <string name="battery_style_icon_rlandscape">Ícono horizontal (Derecha)</string>
+    <string name="battery_style_icon_landscape">Ícono horizontal (Izquierda)</string>
+    <string name="battery_style_icon_landscape_origami">Origami</string>
+    <string name="battery_style_icon_landscape_miui_pill">MIUI</string>
+    <string name="battery_style_icon_rlandscape_style_a">Ícono horizontal estilo A (Derecha)</string>
+    <string name="battery_style_icon_landscape_style_a">Ícono horizontal estilo A (Izquierda)</string>
+    <string name="battery_style_icon_rlandscape_style_b">Ícono horizontal estilo B (Derecha)</string>
+    <string name="battery_style_icon_landscape_style_b">Ícono horizontal estilo B (Izquierda)</string>
+    <string name="battery_style_icon_landscape_pill">Vertical Mx</string>
+    <string name="battery_style_icon_landscape_line">Lorn</string>
+    <string name="battery_style_icon_landscape_musku">Vertical iOS</string>
+    <string name="battery_style_icon_landscape_signal">Horizontal Airoo</string>
+    <string name="battery_style_icon_landscape_buddy">Cápsula horizontal</string>
+    <string name="battery_style_icon_land_a">Simple</string>
+    <string name="battery_style_icon_land_b">NeNine</string>
+    <string name="battery_style_icon_land_c">ColorOS</string>
+    <string name="battery_style_icon_land_d">Love</string>
+    <string name="battery_style_icon_land_j">Strip</string>
+    <string name="battery_style_icon_land_m">iOS Outline</string>
+    <string name="battery_style_icon_land_n">Regla</string>
+    <string name="battery_style_icon_land_o">Windows</string>
+    <string name="battery_style_circle">Circular</string>
+    <string name="battery_style_dotted_circle">Circular (Punteado)</string>
+    <string name="battery_style_pa_circle">Círculo ParanoidAndroid</string>
+    <string name="battery_style_text">Texto</string>
+    <string name="battery_percent_title">Mostrar porcentaje</string>
+    <string name="battery_percent_summary">Mostrar siempre el porcentaje de batería con el icono</string>
+    <string name="battery_percent_inside_title">Mostrar porcentaje dentro</string>
+    <string name="battery_percent_inside_summary">Mostrar porcentaje dentro del icono</string>
+    <string name="show_battery_percent_charging_title">Mostrar porcentaje al cargar</string>
+    <string name="show_battery_percent_charging_summary">Forzar mostrar el porcentaje al lado del icono al cargar</string>
 </resources>

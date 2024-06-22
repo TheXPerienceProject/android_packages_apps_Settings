@@ -140,4 +140,10 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume aplikasi</string>
+    <string name="app_volume_title">Kontrol volume per-aplikasi</string>
+    <string name="app_volume_summary">Memungkinkan untuk menetapkan level volume yang berbeda untuk setiap aplikasi</string>
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
 </resources>

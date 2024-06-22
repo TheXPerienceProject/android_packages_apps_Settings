@@ -115,4 +115,8 @@
     <string name="network_traffic_hidearrow_summary">Ẩn mũi tên bên cạnh tốc độ mạng</string>
     <!-- Doze on charge -->
     <!-- Hotspot extras -->
+    <!-- Per-app volume control -->
+    <string name="app_volume">Âm thanh ứng dụng</string>
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Kiểu thanh pin</string>
 </resources>

@@ -100,4 +100,8 @@
     <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
     <!-- Doze on charge -->
     <!-- Hotspot extras -->
+    <!-- Per-app volume control -->
+    <string name="app_volume_title">アプリごとの音量調整</string>
+    <string name="app_volume_summary">アプリごとに異なる音量レベルを設定可能</string>
+    <!-- Battery Styles -->
 </resources>

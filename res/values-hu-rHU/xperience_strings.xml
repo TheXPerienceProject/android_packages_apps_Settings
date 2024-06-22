@@ -142,4 +142,10 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Kliensek VPN-használata</string>
     <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot-klienseknek, hogy a készülék VPN-kapcsolatait felfelé csatlakoztathassák</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Alkalmazás-hangerő</string>
+    <string name="app_volume_title">Alkalmazásonkénti hangerőszabályozás</string>
+    <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
+    <!-- Battery Styles -->
+    <string name="status_bar_battery_style_title">Akkustílus</string>
 </resources>

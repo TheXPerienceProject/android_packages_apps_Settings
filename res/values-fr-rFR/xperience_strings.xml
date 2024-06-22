@@ -83,4 +83,6 @@
     <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l\'activité réseau (KB/s)</string>
     <!-- Doze on charge -->
     <!-- Hotspot extras -->
+    <!-- Per-app volume control -->
+    <!-- Battery Styles -->
 </resources>

@@ -83,4 +83,7 @@
     <string name="network_traffic_state_summary">Zeige Netzwerkaktivität in Statusleiste</string>
     <!-- Doze on charge -->
     <!-- Hotspot extras -->
+    <!-- Per-app volume control -->
+    <string name="app_volume">App-Lautstärke</string>
+    <!-- Battery Styles -->
 </resources>

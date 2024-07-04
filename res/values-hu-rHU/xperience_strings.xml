@@ -148,4 +148,5 @@
     <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Akkustílus</string>
+    <!-- X-Reality Engine -->
 </resources>

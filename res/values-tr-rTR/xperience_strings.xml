@@ -218,4 +218,5 @@
     <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Pil stili</string>
+    <!-- X-Reality Engine -->
 </resources>

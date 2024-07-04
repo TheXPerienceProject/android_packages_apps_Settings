@@ -207,4 +207,5 @@
     <string name="app_volume_title">应用独立音量控制</string>
     <string name="app_volume_summary">允许为每个应用设置不同的音量大小</string>
     <!-- Battery Styles -->
+    <!-- X-Reality Engine -->
 </resources>

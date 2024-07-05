@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2019 The XPerience Project
+<!-- Copyright (C) 2015 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,15 +14,8 @@
      limitations under the License.
 -->
 
-<resources>
-    <!-- Fingerprint -->
-    <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
-
-    <!-- Cards -->
-    <dimen name="voltage_dashboard_padding">16dp</dimen>
-    <dimen name="voltage_top_icn">42dp</dimen>
-    <dimen name="voltage_top_icn_max">52.5dp</dimen>
-    <dimen name="voltage_dashboard_margin_list">16dip</dimen>
-    <dimen name="voltage_pref_vert">5.5dp</dimen>
-    <dimen name="voltage_card_radius">32dp</dimen>
-</resources>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+          android:alpha="0.25"
+          android:color="@android:color/system_accent2_700" />
+</selector>

@@ -146,5 +146,5 @@
     <string name="app_volume_summary">Позволяет устанавливать разные уровни громкости для каждого приложения</string>
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Стиль значка батареи</string>
-    <!-- X-Reality Engine -->
+    <!-- Reality Display Engine -->
 </resources>

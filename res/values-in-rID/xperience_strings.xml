@@ -146,5 +146,5 @@
     <string name="app_volume_summary">Memungkinkan untuk menetapkan level volume yang berbeda untuk setiap aplikasi</string>
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
-    <!-- X-Reality Engine -->
+    <!-- Reality Display Engine -->
 </resources>

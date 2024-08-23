@@ -28,26 +28,61 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Csatorna</string>
     <!-- About phone CLO revision [CHAR LIMIT=100] -->
+    <string name="clo_revision">CLO-felülvizsgálat</string>
+    <string name="clo_sys_vend">Rendszer | Gyártói</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Készülék</string>
+    <string name="homepage_widget_battery_percent">százalék</string>
+    <string name="homepage_widget_battery_charge">Töltés</string>
+    <string name="homepage_widget_battery_discharge">Nincs töltés</string>
+    <string name="homepage_widget_battery_title">Akku</string>
+    <string name="homepage_widget_storage_title">Tárhely</string>
+    <string name="default_user">Felhasználó</string>
+    <string name="top_level_settings_title">Beállítások</string>
+    <string name="search_button_text_title">Keresés</string>
+    <string name="firmware_build_type_title">Kiadás-típus</string>
+    <string name="firmware_build_summary_title">A felelőstől</string>
+    <string name="build_is_official_title">#hivatalos</string>
+    <string name="device_desc_category_title">Készülék-szalagcím</string>
+    <string name="device_info_hw">Hardveradatok</string>
+    <string name="maintainer_summary">felelős: %s</string>
+    <string name="unknown_maintainer">Ismeretlentől</string>
+    <string name="about_xperience_device">Készülék</string>
+    <string name="device_info_security_patch">Biztonsági frissítés</string>
     <!-- Device Info screen -->
+    <string name="edit_device_name_title">A készüléknév átírása</string>
+    <string name="edit_text_hint">Írja be a készülék nevét</string>
+    <string name="build_status">Kiadási állapot</string>
+    <string name="hardware_info">Hardver</string>
+    <string name="device_info_battery">Akku</string>
+    <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_resolution">Felbontás</string>
+    <string name="device_info_storage">Tárhely</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Az összes RAM</string>
     <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Környezeti kijelző</string>
+    <string name="doze_gesture_ambient_summary">A képernyő teljes felébresztése helyett a \'Környezeti kijelző\' megjelenítése</string>
+    <string name="gesture_wake_ambient">Csak a \'Környezeti\'</string>
+    <string name="gesture_wake">Teljes képernyőébresztés</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">DC-kiegyenlítés</string>
     <string name="dc_dimming_info">Csökkenti a szem megerőltetését gyenge fényviszonyok mellett a képernyővillogás csökkentésével. Rossz képminőséget és gyenge színeket vagy magasabb akkufogyasztást okozhat.</string>
     <string name="dc_dimming_main_switch_title">A DC-kiegyenlítés használata</string>
     <string name="keywords_display_dc_dimming">DC-kiegyenlítés, vibrálás, szem, megterhelés, mentesítés</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Állandóan bekapcsolt Ujjlenyomat</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Lehetővé teszi a feloldást kikapcsolt képernyőn.\nAz engedélyezése kéretlen képernyő-ébresztést okozhat.</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Képernyőkép csúsztatással</string>
     <string name="three_finger_gesture_summary">Csúsztasson három ujjal lefelé képernyőkép készítéséhez</string>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
+    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Színegyensúly</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -58,36 +93,75 @@
     <string name="color_mode_balance_blue">Kék-erősség</string>
     <string name="keywords_color_balance">szín, színegyensúly, színjavítás, színkorrekció, vörös, zöld, kék, LiveDisplay</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Magas értékű képernyő-lekérdezés</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Képernyő-lekérdezés növelése a kisebb késleltetés érdekében</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Fekete téma használata</string>
     <string name="system_black_theme_summary">Erőlteti a fekete háttérszíneket</string>
     <!-- Horizon Light -->
+    <string name="keywords_pulse_ambient_light_display">értesítés, értesítések, él, fény, színek, szín</string>
+    <string name="pulse_ambient_light_text">Az élvilágítás hatására a képernyő világít, amikor értesítést kap. Ez jelzi, hogy mikor kap értesítést, miközben a telefon Doze-üzemmódban van.</string>
+    <string name="pulse_ambient_light_title">Élvilágítás</string>
     <string name="pulse_ambient_light_summary">A képernyő oldalsó széleit világítsa meg az értesítés villogó jelzése</string>
     <string name="ambient_notification_light_accent_title">Rendszertéma-kiemelőszín</string>
     <string name="ambient_notification_light_color_automatic_title">Értesítési szín</string>
     <string name="pulse_ambient_light_color">Pulzáláskor használja</string>
     <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Helyes PIN beírásakor automatikusan feloldódik. Ez kevésbé biztonságos, mint az Enter megérintése a megerősítéshez.</string>
     <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Egyéni képernyőfelbontás</string>
     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Speciális újraindítás</string>
     <string name="global_actions_advanced_reboot_summary">A Recovery és Bootloader opciók megjelenítése a kikapcsoló menüben</string>
     <!-- UDFPS Recog Animation -->
+    <string name="xperience_lockscreen_title">Képernyőzár</string>
+    <string name="udfps_settings_title">UDFPS-beállítások</string>
+    <string name="udfps_settings_summary">Az képernyőbe épített ujjlenyomat-szenzor testreszabási beállításai</string>
     <!-- UDFPS animation -->
+    <string name="enable">Engedélyezés</string>
+    <string name="udfps_animation_title">Ujjlenyomat-animációeffekt</string>
+    <string name="udfps_animation_summary">Válasszon egy animáció-effektust</string>
     <string name="udfps_icon_picker_title">Ujjlenyomat-ikonválasztó</string>
     <string name="udfps_icon_picker_summary">Válassza ki az önnek legjobban tetsző ujjlenyomat-ikont</string>
     <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technológia</string>
     <!-- Battery Info: Health -->
+    <string name="battery_health">Állapot</string>
+    <string name="battery_health_good">Jó</string>
+    <string name="battery_health_overheat">Túlmelegedett</string>
+    <string name="battery_health_dead">Tönkrement</string>
+    <string name="battery_health_over_voltage">Túltöltött</string>
+    <string name="battery_health_unspecified_failure">Nem meghatározható hiba</string>
+    <string name="battery_health_cold">Hideg</string>
+    <string name="battery_health_unknown">Ismeretlen</string>
     <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Hőmérséklet</string>
     <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Feszültség</string>
     <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">A kívánt kapacitás</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
     <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum kapacitás</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Smart 5G -->
+    <string name="smart_5g_title">Okos 5G</string>
+    <string name="smart_5g_summary">Az akkufogyasztás csökkentése érdekében automatikusan vált az 5G és a 4G között</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Frissítési gyakoriság</string>
+    <string name="refresh_rate_vrr_title">Variálható frissítési gyakoriság</string>
+    <string name="refresh_rate_vrr_summary">A takarékosság érdekében automatikusan csökkenti a frissítési értéket, amikor a kijelző tétlen.</string>
+    <string name="refresh_rate_footer">A nagyobb frissítési gyakoriság simábbá teszi a kijelző képét, de növeli az energiafogyasztást.</string>
+    <string name="keywords_refresh_rate">frissítés, érték, sima, 60hz, 90hz, 120hz, 144hz</string>
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Ikonkezelő</string>
     <string name="icon_manager_summary">Az állapotsori ikonoláthatóság beállítása</string>
     <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
+    <string name="adaptive_playback_enabled">Az \'Okos szüneteltetés\' használata</string>
     <string name="adaptive_playback_disabled_summary">Kikapcsol</string>
     <string name="adaptive_playback_intro_text">Hangerőnémításkor automatikusan leállítja a lejátszást és a beállított időn belül automatikusan újra is indítja, ha a némítás megszűnik.</string>
     <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
@@ -104,9 +178,56 @@
     <string name="adaptive_playback_timeout_10_min">10 perc</string>
     <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
     <!-- Charging control settings -->
+    <string name="charging_control_title">Kontrollált töltés</string>
+    <string name="charging_control_summary">Testreszabhatja akkumulátora töltési ütemezését és korlátait</string>
+    <string name="charging_control_enable_title">A kontrollált töltés bekapcsolása</string>
+    <string name="charging_control_mode_title">A töltés módja</string>
+    <string name="charging_control_mode_auto_title">Automatikus ütemezés</string>
+    <string name="charging_control_mode_auto_summary">A beállított ébresztők alapján automatikusan határozza meg, hogy mikor kezdődjön a töltés</string>
+    <string name="charging_control_mode_custom_title">Egyéni ütemezés</string>
+    <string name="charging_control_mode_custom_summary">Célidőt állíthat be a teljes feltöltéshez</string>
+    <string name="charging_control_mode_limit_title">Limitált töltés</string>
+    <string name="charging_control_mode_limit_summary">Egy bizonyos akkuszázalékhoz köti a töltést</string>
+    <string name="charging_control_start_time_title">Kezdési idő</string>
+    <string name="charging_control_start_time_summary">A kontroll aktiválódik amennyiben %s után kezdi a töltést</string>
+    <string name="charging_control_target_time_title">A teljes töltés célideje</string>
+    <string name="charging_control_target_time_summary">Az akkumulátor teljesen feltöltődik ekkorra: %1$s</string>
+    <string name="charging_control_limit_title">Limit</string>
     <string name="reset">Visszaállítás</string>
     <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
+    <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
     <!-- App lock -->
+    <string name="app_lock_title">Alkalmazás-zár</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Feloldás</string>
+    <string name="enable_debugging">A hibakeresés engedélyezése</string>
+    <string name="disable_debugging">A hibakeresés kikapcsolása</string>
+    <string name="app_lock_packages_title">Védett alkalmazások</string>
+    <string name="app_lock_packages_summary">Jelölje ki a biometrikus- vagy készülékhitelesítő-adatokkal védeni kívánt alkalmazásokat</string>
+    <string name="app_lock_timeout_title">Az automatikus lezárás időkorlátja</string>
+    <string name="app_lock_timeout_summary">Az az időtartam, amely után a feloldott alkalmazás a háttérben visszazár</string>
+    <string name="app_lock_notifications_title">Összezárt értesítések</string>
+    <string name="app_lock_notifications_summary">      A kiválasztott zárolt alkalmazások értesítései rejtettek és összecsukottak.
+      A lebegő értesítések automatikusan letiltódnak.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Előbb állítson be legalább egy védett alkalmazást</string>
+    <string name="app_lock_biometrics_allowed_title">Biometria-bekapcsolás a feloldáshoz</string>
+    <string name="app_lock_footer_text">A buborékok az időhatár letelte után automatikusan eltűnnek</string>
+    <string name="enable_protection">A védelem engedélyezése</string>
+    <string name="hide_from_launcher_title">Elrejtés a Launcherből</string>
+    <string name="hide_from_launcher_summary">Megakadályozza hogy egy alkalmazás látszódjon a Launcheren. A funkcióhoz újra kell indítani a Launchert.
+    </string>
+    <string name="app_lock_timeout_5sec">5 másodperc</string>
+    <string name="app_lock_timeout_10sec">10 másodperc</string>
+    <string name="app_lock_timeout_30sec">30 másodperc</string>
+    <string name="app_lock_timeout_1min">1 perc</string>
+    <string name="app_lock_timeout_5min">5 perc</string>
+    <string name="app_lock_timeout_10min">10 perc</string>
+    <string name="app_lock_timeout_30min">30 perc</string>
     <!-- Themes customization -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <string name="theme_customization_category">Témázás</string>
@@ -129,7 +250,11 @@
     <string name="theme_customization_lock_clock_title">A záróképernyő-óra betűtípusa</string>
     <string name="theme_customization_lock_clock_summary">Beállíthatja az óra betűtípusát</string>
     <!-- Custom Data icons -->
+    <string name="theme_customization_data_title">Adatforgalmi ikonstílus</string>
+    <string name="theme_customization_data_summary">Egyéni adatforgalmi ikonstílus állítható be</string>
     <!-- Custom Volte icons -->
+    <string name="theme_customization_volte_icon_title">A VoLTE ikon stílusa</string>
+    <string name="theme_customization_volte_icon_summary">Megváltoztatható az ikonstílus</string>
     <!-- Statusbar net monitor -->
     <string name="xperience_statusbar">Állapotsor</string>
     <string name="statusbar_custom">Az Állapotsor személyre szabása</string>
@@ -139,6 +264,8 @@
     <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
     <string name="network_traffic_hidearrow_summary">Hálózati forgalmat jelző nyilak elrejtése</string>
     <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
+    <string name="doze_on_charge_summary">Csak akkor mutasson időt és információt ha a készülék töltődik</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Kliensek VPN-használata</string>
     <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot-klienseknek, hogy a készülék VPN-kapcsolatait felfelé csatlakoztathassák</string>
@@ -147,6 +274,42 @@
     <string name="app_volume_title">Alkalmazásonkénti hangerőszabályozás</string>
     <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
     <!-- Battery Styles -->
+    <string name="status_bar_battery_category_title">Az Állapotsor akkujának átalakítása</string>
+    <string name="status_bar_battery_style_summary">Állapotsori akkustílusok</string>
     <string name="status_bar_battery_style_title">Akkustílus</string>
-    <!-- X-Reality Engine -->
+    <string name="battery_options">Akkumulátor</string>
+    <string name="battery_style_title">Akkustílus</string>
+    <string name="battery_style_port">Álló (Portré)</string>
+    <string name="battery_style_icon_rlandscape">Fekvő ikon (Jobb)</string>
+    <string name="battery_style_icon_landscape">Fekvő ikon (Bal)</string>
+    <string name="battery_style_icon_landscape_origami">Origami</string>
+    <string name="battery_style_icon_landscape_miui_pill">MIUI-kapszula</string>
+    <string name="battery_style_icon_rlandscape_style_a">Fekvő (jobb) A-stílus</string>
+    <string name="battery_style_icon_landscape_style_a">Fekvő (bal) A-stílus</string>
+    <string name="battery_style_icon_rlandscape_style_b">Fekvő (jobb) B-stílus</string>
+    <string name="battery_style_icon_landscape_style_b">Fekvő (bal) B-stílus</string>
+    <string name="battery_style_icon_landscape_pill">Álló (Portré) MX</string>
+    <string name="battery_style_icon_landscape_line">Lorn (fekvő)</string>
+    <string name="battery_style_icon_landscape_musku">Álló (Portré) iOS</string>
+    <string name="battery_style_icon_landscape_signal">Airoo (fekvő)</string>
+    <string name="battery_style_icon_landscape_buddy">Kapszula (fekvő)</string>
+    <string name="battery_style_icon_land_a">Szimpla (fekvő)</string>
+    <string name="battery_style_icon_land_b">NeNine (fekvő)</string>
+    <string name="battery_style_icon_land_c">ColorOS (fekvő)</string>
+    <string name="battery_style_icon_land_d">Szerelem (fekvő)</string>
+    <string name="battery_style_icon_land_j">Szerpentin (fekvő)</string>
+    <string name="battery_style_icon_land_m">iOS Körvonal (fekvő)</string>
+    <string name="battery_style_icon_land_n">Vonalzó (fekvő)</string>
+    <string name="battery_style_icon_land_o">Windows (fekvő)</string>
+    <string name="battery_style_circle">Kör</string>
+    <string name="battery_style_dotted_circle">Pontozott kör</string>
+    <string name="battery_style_pa_circle">PA-kör</string>
+    <string name="battery_style_text">Szöveg</string>
+    <string name="battery_percent_title">Százalék-kijelzés</string>
+    <string name="battery_percent_summary">Mindig ikonnal jelenítse meg az akkumulátor százalékát</string>
+    <string name="battery_percent_inside_title">Ikonon belül</string>
+    <string name="battery_percent_inside_summary">Százalék megjelenítése az ikonon belül</string>
+    <string name="show_battery_percent_charging_title">Százalék csak töltéskor</string>
+    <string name="show_battery_percent_charging_summary">Töltés közben mindenképp megjeleníti a százalék-értéket az ikon mellett</string>
+    <!-- Reality Display Engine -->
 </resources>

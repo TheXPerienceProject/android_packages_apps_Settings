@@ -110,5 +110,5 @@
     <!-- Per-app volume control -->
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Stile della batteria</string>
-    <!-- X-Reality Engine -->
+    <!-- Reality Display Engine -->
 </resources>

@@ -311,7 +311,10 @@
     <string name="battery_percent_inside_summary">Mostrar porcentaje dentro del icono</string>
     <string name="show_battery_percent_charging_title">Mostrar porcentaje al cargar</string>
     <string name="show_battery_percent_charging_summary">Forzar mostrar el porcentaje al lado del icono al cargar</string>
-    <!-- X-Reality Engine -->
-    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
-    <string name="x_reality_engine_mode_summary">Activar el modo de visualización inspirado en el motor bravia</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Motor de pantalla</string>
+    <string name="display_engine_mode_title">Motor Reality Display</string>
+    <string name="vivid_engine_mode_title">Pantalla vívida</string>
+    <string name="display_engine_default">Predeterminado</string>
+    <string name="display_engine_mode_footer_text">Inspirado en el motor Bravia/X-Reality de Sony, el Motor de Visualización incluye el modo Vivid para mejorar el brillo y la saturación del color, el modo triluminous lleno de tonos y matices del mundo real, tonos de piel ultrarrealistas y detalles increíbles para que puedas apreciar la intensidad de la realidad, y el modo X-Reality para mejorar los detalles y la precisión del color.</string>
 </resources>

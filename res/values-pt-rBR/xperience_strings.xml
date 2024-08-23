@@ -146,5 +146,5 @@
     <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Estilo da bateria</string>
-    <!-- X-Reality Engine -->
+    <!-- Reality Display Engine -->
 </resources>

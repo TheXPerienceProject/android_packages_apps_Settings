@@ -28,26 +28,61 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Saluran</string>
     <!-- About phone CLO revision [CHAR LIMIT=100] -->
+    <string name="clo_revision">Revisi CLO</string>
+    <string name="clo_sys_vend">Sistem | Vendor</string>
     <!-- About to show Device name -->
     <string name="about_device_name">Perangkat</string>
+    <string name="homepage_widget_battery_percent">persen</string>
+    <string name="homepage_widget_battery_charge">Mengisi</string>
+    <string name="homepage_widget_battery_discharge">Tidak mengisi</string>
+    <string name="homepage_widget_battery_title">Baterai</string>
+    <string name="homepage_widget_storage_title">Penyimpanan</string>
+    <string name="default_user">Pengguna</string>
+    <string name="top_level_settings_title">Setelan</string>
+    <string name="search_button_text_title">Cari</string>
+    <string name="firmware_build_type_title">Tipe pembuatan</string>
+    <string name="firmware_build_summary_title">Oleh pengelola</string>
+    <string name="build_is_official_title">#resmi</string>
+    <string name="device_desc_category_title">Spanduk Perangkat</string>
+    <string name="device_info_hw">Info perangkat keras</string>
+    <string name="maintainer_summary">oleh %s</string>
+    <string name="unknown_maintainer">oleh Tidak Diketahui</string>
+    <string name="about_xperience_device">Perangkat</string>
+    <string name="device_info_security_patch">Update keamanan</string>
     <!-- Device Info screen -->
+    <string name="edit_device_name_title">Edit Nama Perangkat</string>
+    <string name="edit_text_hint">Masukkan nama perangkat baru</string>
+    <string name="build_status">Status Pembuatan</string>
+    <string name="hardware_info">Perangkat</string>
+    <string name="device_info_battery">Baterai</string>
+    <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_resolution">Resolusi</string>
+    <string name="device_info_storage">Penyimpanan</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
     <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Tampilkan Ambien</string>
+    <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambien alih-alih sepenuhnya membangunkan layar</string>
+    <string name="gesture_wake_ambient">Tampilkan Ambien</string>
+    <string name="gesture_wake">Bangun sepenuhnya</string>
     <!-- DC Dimming -->
     <string name="dc_dimming_title">Peredupan DC</string>
     <string name="dc_dimming_info">Mengurangi ketegangan mata dalam kondisi cahaya rendah dengan meminimalkan kedipan layar. Dapat mengakibatkan penurunan kualitas gambar dan produksi warna yang buruk, atau konsumsi daya yang lebih tinggi.</string>
     <string name="dc_dimming_main_switch_title">Gunakan Peredupan DC</string>
     <string name="keywords_display_dc_dimming">peredupan dc, anti-kedip, ketegangan mata</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Sidik Jari Selalu Aktif</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Mengizinkan membuka kunci dengan layar mati.\nMengaktifkan ini dapat menyebabkan bangun tanpa disengaja.</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Usap untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Melalui mode siklus</string>
+    <string name="prevent_ringing_option_cycle_summary">Aktif (Melalui mode siklus)</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Keseimbangan warna</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -58,17 +93,24 @@
     <string name="color_mode_balance_blue">Kepekatan biru</string>
     <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, LiveDisplay</string>
     <!-- Display settings screen, increased touch polling rate settings title -->
+    <string name="touch_polling_title">Tingkat agresivitas sentuhan</string>
     <!-- Display settings screen, increased touch polling rate settings summary -->
+    <string name="touch_polling_summary">Meningkatkan agresivitas sentuhan layar, untuk menurunkan latency</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Gunakan tema hitam</string>
     <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
     <!-- Horizon Light -->
+    <string name="keywords_pulse_ambient_light_display">notifikasi, pemberitahuan, tepi, cahaya, warna</string>
+    <string name="pulse_ambient_light_text">Pencahayaan tepi layar membuat layar Anda bersinar saat Anda menerima notifikasi. Ini memudahkan untuk mengetahui kapan Anda mendapatkan notifikasi saat ponsel dalam mode tidur.</string>
+    <string name="pulse_ambient_light_title">Pencahayaan tepi layar</string>
     <string name="pulse_ambient_light_summary">Nyalakan cahaya di sisi pinggir layar saat ada notifikasi</string>
     <string name="ambient_notification_light_accent_title">Warna aksen sistem</string>
     <string name="ambient_notification_light_color_automatic_title">Warna Notifikasi</string>
     <string name="pulse_ambient_light_color">Saat menyala, gunakan</string>
     <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Buka kunci secara otomatis jika Anda memasukkan PIN yang benar. Ini sedikit kurang aman dibandingkan mengetuk Enter untuk mengonfirmasi.</string>
     <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Resolusi layar kustom</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode pemulihan dan bootloader di menu daya</string>
     <!-- UDFPS Recog Animation -->
@@ -147,4 +189,5 @@
     <!-- Battery Styles -->
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
     <!-- Reality Display Engine -->
+    <!-- Pocket judge -->
 </resources>

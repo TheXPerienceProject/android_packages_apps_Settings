@@ -317,4 +317,7 @@
     <string name="vivid_engine_mode_title">Pantalla vívida</string>
     <string name="display_engine_default">Predeterminado</string>
     <string name="display_engine_mode_footer_text">Inspirado en el motor Bravia/X-Reality de Sony, el Motor de Visualización incluye el modo Vivid para mejorar el brillo y la saturación del color, el modo triluminous lleno de tonos y matices del mundo real, tonos de piel ultrarrealistas y detalles increíbles para que puedas apreciar la intensidad de la realidad, y el modo X-Reality para mejorar los detalles y la precisión del color.</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
 </resources>

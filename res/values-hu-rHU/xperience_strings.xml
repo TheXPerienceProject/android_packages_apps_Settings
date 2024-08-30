@@ -318,4 +318,6 @@
     <string name="display_engine_default">Alapértelmezett</string>
     <string name="display_engine_mode_footer_text">A Sony Bravia/X-Reality motorja által inspirált megjelenítő-motor Vivid-móddal rendelkezik a fokozott fényerő és színtelítettség érdekében, valósághű tónusokkal és árnyalatokkal teli \"háromfényes\" mód, ultrarealisztikus bőrtónusok és hihetetlen részletek, így értékelni tudja a valóság intenzitását, és X-Reality-mód a jobb részlet- és színpontosság érdekében.</string>
     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Zsebérzékelés</string>
+    <string name="pocket_judge_summary">A képernyős és a gombok általi bevitelek blokkolása, amikor a készülék zsebben van</string>
 </resources>

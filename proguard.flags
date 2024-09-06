@@ -21,6 +21,8 @@
 }
 
 -keep class mx.xperience.rainbow.*
+-keep class mx.xperience.unicorn.*
+-keep class mx.xperience.unicorn.fragments.NetworkTrafficSettings { *; }
 
 # We want to keep methods in Activity that could be used in the XML attribute onClick.
 -keepclassmembers class com.android.settings*.** extends android.app.Activity {

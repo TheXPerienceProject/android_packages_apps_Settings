@@ -105,6 +105,8 @@ public class DisplaySettings extends DashboardFragment {
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
                     LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+                    Log.d(TAG, "Touch Polling Rate Supported? " + 
+                            hardware.isSupported(LineageHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE));
                     if (!hardware.isSupported(
                             LineageHardwareManager.FEATURE_HIGH_TOUCH_POLLING_RATE)) {
                         keys.add(KEY_HIGH_TOUCH_POLLING_RATE);

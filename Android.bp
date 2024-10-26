@@ -52,9 +52,9 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt",
-           "RainbowUnicorn/src/**/*.java",
-           "RainbowUnicorn/src/**/*.kt",
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
@@ -64,7 +64,6 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
-        "RainbowUnicorn/res",
     ],
     static_libs: [
         // External dependencies
@@ -112,11 +111,6 @@ android_library {
         "kotlinx-coroutines-core",
         "kotlinx-coroutines-android",
         "mx.xperience.framework",
-        "androidx.navigation_navigation-common-ktx",
-        "androidx.navigation_navigation-fragment-ktx",
-        "androidx.navigation_navigation-runtime-ktx",
-        "androidx.navigation_navigation-ui-ktx",
-        "kotlin-stdlib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
@@ -132,11 +126,6 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
-
-    optimize: {
-        proguard_flags_files: ["proguard.flags"],
-    },
-
 }
 
 platform_compat_config {

@@ -45,8 +45,4 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
 
-    <!--Powerhub-->
-    <string name="xperience_title">Rainbow Unicorn</string>
-    <string name="xperience_summary">Placeholder</string>
-
 </resources>

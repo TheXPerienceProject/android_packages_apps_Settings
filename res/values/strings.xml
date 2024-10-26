@@ -13609,7 +13609,4 @@
     <!-- url for learning more about bluetooth audio sharing -->
     <string name="help_url_audio_sharing" translatable="false"></string>
 
-    <string name="user_settings_send_censored_notifications_to_current">Send notifications to current user</string>
-    <string name="user_settings_send_censored_notifications_to_current_summary">Your lock screen notifications will be forwarded to the current user if you are active in the background. Only the user\'s name, the app\'s name, and the time received will be shown.</string>
-
 </resources>

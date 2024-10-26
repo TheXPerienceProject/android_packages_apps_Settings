@@ -92,13 +92,6 @@
                 "com.android.settings.sound.MediaControlsLockScreenPreferenceController" />
 
         <SwitchPreferenceCompat
-            android:key="privacy_auto_grant_OTHER_SENSORS_permission"
-            android:title="@string/auto_grant_OTHER_SENSORS_permission_title"
-            android:summaryOn="@string/auto_grant_OTHER_SENSORS_permission_summary_on"
-            android:summaryOff="@string/auto_grant_OTHER_SENSORS_permission_summary_off"
-            settings:boolSettingField="android.ext.settings.ExtSettings AUTO_GRANT_OTHER_SENSORS_PERMISSION"/>
-
-        <SwitchPreferenceCompat
             android:key="privacy_screenshot_timestamp_exif"
             android:title="@string/screenshot_timestamp_exif_title"
             android:summary="@string/screenshot_timestamp_exif_summary"

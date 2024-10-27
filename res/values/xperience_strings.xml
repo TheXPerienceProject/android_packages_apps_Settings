@@ -56,4 +56,9 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
+
+    <!--Unicorn power-->
+    <string name="xperience_title">Rainbow Unicorn</string>
+    <string name="xperience_summary">Custom settings of XPerience</string>
+
 </resources>

@@ -54,6 +54,8 @@ import com.android.settingslib.drawer.CategoryKey;
 
 import java.util.Map;
 
+import mx.xperience.unicorn.Rainbow;
+
 /**
  * A registry to keep track of which page hosts which category.
  */
@@ -138,6 +140,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_MEDIA_CONTROLS_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(PrivacyControlsFragment.class.getName(),
                 CategoryKey.CATEGORY_PRIVACY_CONTROLS);
+        PARENT_TO_CATEGORY_KEY_MAP.put(Rainbow.class.getName(),
+                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 

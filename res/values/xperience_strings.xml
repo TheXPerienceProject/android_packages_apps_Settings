@@ -141,4 +141,9 @@
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
     <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+
+    <!--Unicorn power-->
+    <string name="xperience_title">Rainbow Unicorn</string>
+    <string name="xperience_summary">Custom settings of XPerience</string>
+
 </resources>

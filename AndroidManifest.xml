@@ -6002,6 +6002,19 @@
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                 android:value="@string/menu_key_system"/>
         </activity>
+        <!-- RainbowUnicorn -->
+        <activity android:name=".Settings$RainbowActivity"
+                  android:label="@string/title"
+                  android:icon="@drawable/ic_homepage_xperience"
+                  android:parentActivityName="com.android.settings"
+                  android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="mx.xperience.unicorn.Rainbow" />
+            </activity>
 
         <activity
             android:name="Settings$AdaptiveConnectivitySettingsActivity"

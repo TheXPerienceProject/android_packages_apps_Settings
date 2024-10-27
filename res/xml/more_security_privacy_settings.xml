@@ -91,12 +91,6 @@
             settings:controller=
                 "com.android.settings.sound.MediaControlsLockScreenPreferenceController" />
 
-        <SwitchPreferenceCompat
-            android:key="privacy_screenshot_timestamp_exif"
-            android:title="@string/screenshot_timestamp_exif_title"
-            android:summary="@string/screenshot_timestamp_exif_summary"
-            settings:boolSettingField="android.ext.settings.ExtSettings SCREENSHOT_TIMESTAMP_EXIF"/>
-
         <!-- Allow software fallback for camera extensions -->
         <SwitchPreference
             android:key="privacy_camera_extensions_fallback"

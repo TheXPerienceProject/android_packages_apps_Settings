@@ -52,9 +52,9 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: [
-        "src/**/*.java",
-        "src/**/*.kt",
+    srcs: ["src/**/*.java", "src/**/*.kt",
+           "RainbowUnicorn/src/**/*.java",
+           "RainbowUnicorn/src/**/*.kt",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
@@ -64,6 +64,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "RainbowUnicorn/res",
     ],
     static_libs: [
         // External dependencies
@@ -116,6 +117,7 @@ android_library {
         "keyboard_flags_lib",
         "com_android_systemui_flags_lib",
         "settings_connectivity_flags_lib",
+        "mx.xperience.framework",
     ],
 
     plugins: [
@@ -145,6 +147,11 @@ android_library {
         "android.view.contentprotection.flags-aconfig",
         "keyboard_flags",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+
 }
 
 platform_compat_config {

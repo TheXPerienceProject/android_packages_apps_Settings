@@ -226,6 +226,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+import mx.xperience.unicorn.Rainbow;
 
 public class SettingsGateway {
 
@@ -441,6 +442,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             WifiTetherClientManager.class.getName(),
             LiveDisplaySettings.class.getName(),
+            Rainbow.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -489,5 +491,6 @@ public class SettingsGateway {
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.ShadeSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.RainbowActivity.class.getName(),
     };
 }

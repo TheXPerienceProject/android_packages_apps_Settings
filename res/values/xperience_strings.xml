@@ -254,4 +254,7 @@
     <string name="default_string">Default</string>
     <string name="disabled">Disabled</string>
 
+    <!--Unicorn power-->
+    <string name="xperience_title">Rainbow Unicorn</string>
+    <string name="xperience_summary">Custom settings of XPerience</string>
 </resources>

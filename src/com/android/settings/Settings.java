@@ -650,6 +650,8 @@ public class Settings extends SettingsActivity {
         }
     }
 
+    public static class RainbowActivity extends SettingsActivity {}
+
     /**
      * Activity for MediaControlsSettings
      */

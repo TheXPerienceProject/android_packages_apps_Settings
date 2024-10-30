@@ -24,9 +24,6 @@ package com.android.settings.network.telephony;
 import static android.telephony.ims.feature.ImsFeature.FEATURE_MMTEL;
 import static android.telephony.ims.stub.ImsRegistrationImplBase.REGISTRATION_TECH_CROSS_SIM;
 
-import static androidx.lifecycle.Lifecycle.Event.ON_START;
-import static androidx.lifecycle.Lifecycle.Event.ON_STOP;
-
 import android.content.Context;
 import android.os.RemoteException;
 import android.provider.Settings;
@@ -37,9 +34,10 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseBooleanArray;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.FragmentManager;
-import androidx.lifecycle.LifecycleObserver;
+import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.OnLifecycleEvent;
 import androidx.preference.Preference;
@@ -47,6 +45,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 
 import com.android.settings.R;
+import com.android.settings.datausage.DataUsageUtils;
 import com.android.settings.flags.Flags;
 import com.android.settings.network.MobileNetworkRepository;
 import com.android.settings.wifi.WifiPickerTrackerHelper;
@@ -63,7 +62,7 @@ import java.util.List;
  * Preference controller for "Mobile data"
  */
 public class MobileDataPreferenceController extends TelephonyTogglePreferenceController
-        implements LifecycleObserver, MobileNetworkRepository.MobileNetworkCallback {
+        implements DefaultLifecycleObserver, MobileNetworkRepository.MobileNetworkCallback {
 
     private static final String DIALOG_TAG = "MobileDataDialog";
     private static final String TAG = "MobileDataPreferenceController";
@@ -76,10 +75,10 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
     int mDialogType;
     @VisibleForTesting
     boolean mNeedDialog;
+    boolean mIsInSetupWizard;
 
     private WifiPickerTrackerHelper mWifiPickerTrackerHelper;
     protected MobileNetworkRepository mMobileNetworkRepository;
-    protected LifecycleOwner mLifecycleOwner;
     private List<SubscriptionInfoEntity> mSubscriptionInfoEntityList = new ArrayList<>();
     private List<MobileNetworkInfoEntity> mMobileNetworkInfoEntityList = new ArrayList<>();
     private int mDefaultSubId = SubscriptionManager.INVALID_SUBSCRIPTION_ID;
@@ -93,10 +92,10 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
     private SparseBooleanArray mIsImsRegisteredOnCiwlan;
 
     public MobileDataPreferenceController(Context context, String key, Lifecycle lifecycle,
-            LifecycleOwner lifecycleOwner, int subId) {
+            int subId, boolean isInSetupWizard) {
         this(context, key);
         mSubId = subId;
-        mLifecycleOwner = lifecycleOwner;
+        mIsInSetupWizard = isInSetupWizard;
         if (lifecycle != null) {
             lifecycle.addObserver(this);
         }
@@ -110,9 +109,13 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
 
     @Override
     public int getAvailabilityStatus(int subId) {
-        return subId != SubscriptionManager.INVALID_SUBSCRIPTION_ID
-                ? AVAILABLE
-                : AVAILABLE_UNSEARCHABLE;
+        if ((Flags.isDualSimOnboardingEnabled() && !mIsInSetupWizard)
+                || mSubscriptionManager.getActiveSubscriptionInfo(subId) == null
+                || !mSubscriptionManager.isUsableSubscriptionId(subId)
+                || !DataUsageUtils.hasMobileData(mContext)) {
+            return CONDITIONALLY_UNAVAILABLE;
+        }
+        return AVAILABLE;
     }
 
     @Override
@@ -121,9 +124,9 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
         mPreference = screen.findPreference(getPreferenceKey());
     }
 
-    @OnLifecycleEvent(ON_START)
-    public void onStart() {
-        mMobileNetworkRepository.addRegister(mLifecycleOwner, this, mSubId);
+    @Override
+    public void onResume(@NonNull LifecycleOwner owner) {
+        mMobileNetworkRepository.addRegister(owner, this, mSubId);
         mMobileNetworkRepository.updateEntity();
         if (mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
             // Register for nDDS sub events. What happens to the mobile data toggle in case
@@ -133,8 +136,8 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
         }
     }
 
-    @OnLifecycleEvent(ON_STOP)
-    public void onStop() {
+    @Override
+    public void onPause(@NonNull LifecycleOwner owner) {
         mMobileNetworkRepository.removeRegister(this);
         if (mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
             mDdsDataOptionStateTuner.unregister(mContext);
@@ -201,6 +204,7 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
             return;
         }
 
+        mPreference.setVisible(isAvailable());
         mPreference.setChecked(isChecked());
         if (mSubscriptionInfoEntity.isOpportunistic) {
             mPreference.setEnabled(false);

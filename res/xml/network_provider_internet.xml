@@ -88,7 +88,7 @@
         android:fragment="com.android.settings.vpn2.VpnSettings"
         android:key="vpn_settings"
         android:title="@string/vpn_settings_title"
-        android:icon="@drawable/ic_vpn_key"
+        android:icon="@drawable/ic_vpn"
         android:order="15"
         settings:userRestriction="no_config_vpn"
         settings:useAdminDisabledSummary="true" />

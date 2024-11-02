@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- device -->
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux ステータス</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">プラットフォーム</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">合計RAM</string>
+    <!-- Display : Rotation -->
+    <!--Unicorn power-->
+    <!-- One shot automatic brightness -->
+    <!-- Black theme -->
+</resources>

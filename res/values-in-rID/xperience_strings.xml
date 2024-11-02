@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- device -->
+    <string name="about_device_name">Perangkat</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Nonaktif</string>
+    <string name="selinux_status_permissive">Tidak Wajib</string>
+    <string name="selinux_status_enforcing">Wajib</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Temukan sensor sidik jari di bagian depan telepon Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Temukan sensor sidik jari di bagian samping perangkat Anda.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Sentuh sensor di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Sentuh sensor di bagian samping ponsel Anda.</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versi XPerience</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Nama Kode XPerience</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Saluran</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+    <!-- Display : Rotation -->
+    <!--Unicorn power-->
+    <!-- One shot automatic brightness -->
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Gunakan tema hitam</string>
+    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
+</resources>

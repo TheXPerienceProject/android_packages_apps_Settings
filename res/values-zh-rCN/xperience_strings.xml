@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- device -->
+    <!-- SELinux Status -->
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <!-- Display : Rotation -->
+    <!--Unicorn power-->
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">单次自动调节亮度</string>
+    <string name="auto_brightness_one_shot_summary">仅在点亮屏幕的那一刻调节一次亮度</string>
+    <!-- Black theme -->
+</resources>

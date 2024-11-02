@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- device -->
+    <string name="about_device_name">Dispositivo</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desactivado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Disponibilidad de optimización de la batería</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Advertencia: Esta opción puede no funcionar correctamente o provocar la pérdida de datos, por lo que no se recomienda!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Localiza el sensor de huellas en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Localiza el lector de huellas en el lateral del dispositivo.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Toca el sensor en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Toca el sensor de huellas lateral de tu teléfono.</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versión de XPerience™</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Código XPerience™</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <string name="soc_model">Modelo SoC</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Ajustes de rotación</string>
+    <string name="display_rotation_enabled">La rotación automática está activada</string>
+    <string name="display_rotation_disabled">La rotación automática está desactivada</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
+    <!--Unicorn power-->
+    <string name="xperience_title">Rainbow Unicorn</string>
+    <string name="xperience_summary">Ajustes personalizados de XPerience</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar el brillo automáticamente una sola vez</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema negro</string>
+    <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
+</resources>

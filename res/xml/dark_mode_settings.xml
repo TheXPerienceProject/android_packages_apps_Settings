@@ -35,11 +35,10 @@
         android:title="@string/dark_theme_main_switch_title"
         settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
 
-    <mx.xperience.framework.preference.SecureSettingSwitchPreference
-        android:key="system_black_theme"
+    <mx.xperience.framework.preference.OverlaySwitchPreference
+        android:key="com.android.system.theme.black"
         android:title="@string/system_black_theme_title"
-        android:summary="@string/system_black_theme_summary"
-        android:defaultValue="false" />
+        android:summary="@string/system_black_theme_summary" />
 
     <com.android.settingslib.widget.BannerMessagePreference
         android:key="dark_ui_location_off"

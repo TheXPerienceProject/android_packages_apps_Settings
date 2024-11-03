@@ -78,9 +78,4 @@ public class DisableAutomaticUpdatesPreferenceController extends
     public boolean isAvailable() {
         return false;
     }
-
-    @Override
-    public boolean isAvailable() {
-        return false;
-    }
 }

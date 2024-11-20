@@ -1618,6 +1618,7 @@
         <activity android:name=".Settings$MyDeviceInfoActivity"
                   android:label="@string/about_settings"
                   android:exported="true"
+                  android:screenOrientation="portrait"
                   android:icon="@drawable/ic_homepage_about">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.DEVICE_INFO_SETTINGS" />

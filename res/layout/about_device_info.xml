@@ -57,36 +57,45 @@ Copyright (C) The 2024 The XPerience Project
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:layout_centerInParent="true"
                 android:gravity="top">
 
                 <TextView
                     android:id="@+id/romVersion"
-                    android:text="XPerience"
-                    android:paddingTop="16dp"
+                    android:text="The XPerience Project"
+                    android:paddingTop="70dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fadingEdge="horizontal"
                     android:gravity="start"
                     android:scrollHorizontally="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
                     android:singleLine="true"
                     android:textColor="#FFFFFF"
-	            android:fontFamily="@*android:string/config_headlineFontFamily"
-                    android:textSize="22sp" />
+                    android:fontFamily="@*android:string/config_headlineFontFamily"
+                    android:textSize="22sp"
+                    android:layout_marginStart="90dp"
+                    />
 
                 <TextView
                     android:id="@+id/device_name_model"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:fadingEdge="horizontal"
-                    android:paddingTop="45dp"
-                    android:layout_marginLeft="1dp"
-                    android:gravity="start"
+                    android:paddingTop="25dp"
                     android:scrollHorizontally="true"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#FFFFFFFF"
                     android:fontFamily="@*android:string/config_headlineFontFamily"
-                    android:textSize="12sp" />
+                    android:textSize="14sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_marginStart="100dp"
+                    />
             </RelativeLayout>
 
 

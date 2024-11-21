@@ -33,7 +33,7 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">XPerience Version</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.org/</string>
+    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.klozz.dev/</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_build_code">XPerience Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
@@ -113,7 +113,7 @@
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
-    <string name="triluminous_display_mode_title">Triluminous Pro Display</string>
+    <string name="triluminous_display_mode_title">Triluminous Pro™ Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia Engine, the Display Engine offers multiple modes to enhance brightness, color saturation, detail, and color accuracy for an better visual experience.</string>

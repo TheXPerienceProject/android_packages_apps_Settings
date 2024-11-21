@@ -28,6 +28,8 @@
     <string name="xperience_build_code">Tên mã là XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Kênh</string>
+    <!-- About to show Device name -->
+    <!-- Device Info screen -->
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Các nền tảng</string>
@@ -37,4 +39,11 @@
     <!--Unicorn power-->
     <!-- One shot automatic brightness -->
     <!-- Black theme -->
+    <!-- XPerience Updater -->
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <!-- Reality Display Engine -->
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
 </resources>

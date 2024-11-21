@@ -30,6 +30,33 @@
     <string name="xperience_build_code">Código XPerience™</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Canal</string>
+    <!-- About to show Device name -->
+    <string name="homepage_widget_battery_percent">porcentaje</string>
+    <string name="homepage_widget_battery_charge">Cargando</string>
+    <string name="homepage_widget_battery_discharge">Descargándose</string>
+    <string name="homepage_widget_battery_title">Batería</string>
+    <string name="homepage_widget_storage_title">Almacenamiento</string>
+    <string name="default_user">Usuario</string>
+    <string name="top_level_settings_title">Configuración</string>
+    <string name="search_button_text_title">Búscar</string>
+    <string name="firmware_build_type_title">Tipo de build</string>
+    <string name="firmware_build_summary_title">Por mantenedor</string>
+    <string name="build_is_official_title">#oficial</string>
+    <string name="maintainer_summary">Por %s</string>
+    <string name="unknown_maintainer">por alguien</string>
+    <string name="about_xperience_device">Dispositivo</string>
+    <string name="device_info_security_patch">Actualización de seguridad</string>
+    <string name="device_desc_category_title">Banner del dispositivo</string>
+    <string name="device_info_hw">Información de Hardware</string>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">Editar nombre del dispositivo</string>
+    <string name="edit_text_hint">Introducir nuevo nombre de dispositivo</string>
+    <string name="build_status">Estado de la compilación</string>
+    <string name="hardware_info">Hardware</string>
+    <string name="device_info_battery">Batería</string>
+    <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_resolution">Resolución</string>
+    <string name="device_info_storage">Almacenamiento</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -47,7 +74,6 @@
     <string name="display_rotation_180_title">180 grados</string>
     <string name="display_rotation_270_title">270 grados</string>
     <!--Unicorn power-->
-    <string name="xperience_title">Rainbow Unicorn</string>
     <string name="xperience_summary">Ajustes personalizados de XPerience</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Ajustar el brillo automáticamente una sola vez</string>
@@ -55,4 +81,25 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Usar tema negro</string>
     <string name="system_black_theme_summary">Forzar los colores de fondo negro</string>
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">Actualizaciones de XPerience™</string>
+    <string name="update_settings_summary">Busca la última versión de XPerience™</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Idiomas, gestos, actualizaciones, tiempo, copia de seguridad</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Motor de pantalla</string>
+    <string name="display_engine_mode_title">Motor Reality Display</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Pantalla Triluminous Pro™</string>
+    <string name="vivid_engine_mode_title">Pantalla vívida</string>
+    <string name="display_engine_default">Predeterminado</string>
+    <string name="display_engine_mode_footer_text">Inspirado por el motor Bravia de Sony, el motor de visualización ofrece múltiples modos para mejorar el brillo, la saturación del color, los detalles y la precisión del color para una mejor experiencia visual.</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Pulsación larga en el sensor de huella para desbloquear el teléfono</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Pulsación larga en el sensor de huella digital para desbloquear la tableta</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Pulsación larga en el sensor de huella para desbloquear el dispositivo</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Para despertar la pantalla y desbloquear, mantén pulsado el sensor de huella digital bajo pantalla.</string>
 </resources>

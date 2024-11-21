@@ -12,7 +12,9 @@
     <string name="selinux_status_permissive">Engedélyezve</string>
     <string name="selinux_status_enforcing">Kényszerítve</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Akkuoptimalizálási lehetőségek</string>
     <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem ajánlott!</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
@@ -28,17 +30,69 @@
     <string name="xperience_build_code">XPerience™-kódnév</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Csatorna</string>
+    <!-- About to show Device name -->
+    <string name="homepage_widget_battery_percent">százalék</string>
+    <string name="homepage_widget_battery_charge">Töltés</string>
+    <string name="homepage_widget_battery_discharge">Nincs töltés</string>
+    <string name="homepage_widget_battery_title">Akku</string>
+    <string name="homepage_widget_storage_title">Tárhely</string>
+    <string name="default_user">Felhasználó</string>
+    <string name="top_level_settings_title">Beállítások</string>
+    <string name="search_button_text_title">Keresés</string>
+    <string name="firmware_build_type_title">Kiadás-típus</string>
+    <string name="firmware_build_summary_title">A felelőstől</string>
+    <string name="build_is_official_title">#hivatalos</string>
+    <string name="maintainer_summary">felelős: %s</string>
+    <string name="about_xperience_device">Készülék</string>
+    <string name="device_info_security_patch">Biztonsági frissítés</string>
+    <string name="device_desc_category_title">Készülék-szalagcím</string>
+    <string name="device_info_hw">Hardveradatok</string>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">A készüléknév átírása</string>
+    <string name="edit_text_hint">Írja be a készülék nevét</string>
+    <string name="build_status">Kiadási állapot</string>
+    <string name="hardware_info">Hardver</string>
+    <string name="device_info_battery">Akku</string>
+    <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_resolution">Felbontás</string>
+    <string name="device_info_storage">Tárhely</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Az összes RAM</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Forgatási beállítások</string>
+    <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
+    <string name="display_rotation_disabled">Az automatikus elforgatás letiltva</string>
+    <string name="display_rotation_unit">fok</string>
+    <string name="display_rotation_category_title">Forgatási módok</string>
+    <string name="display_rotation_0_title">0° fok</string>
+    <string name="display_rotation_90_title">90° fok</string>
+    <string name="display_rotation_180_title">180° fok</string>
+    <string name="display_rotation_270_title">270° fok</string>
     <!--Unicorn power-->
+    <string name="xperience_summary">Az XPerience egyéni beállításai</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
     <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Fekete téma használata</string>
     <string name="system_black_theme_summary">Erőlteti a fekete háttérszíneket</string>
+    <!-- XPerience Updater -->
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">A megjelenítés motorja</string>
+    <string name="display_engine_mode_title">Reality-mód</string>
+    <string name="x_reality_engine_mode_title">X-Reality motor</string>
+    <string name="vivid_engine_mode_title">Vivid-mód</string>
+    <string name="display_engine_default">Alapértelmezett</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Az ujjlenyomat-olvasó hosszannyomásával feloldható a telefon</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Az ujjlenyomat-olvasó hosszannyomásával feloldható a táblagép</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Az ujjlenyomat-olvasó hosszannyomásával feloldható a készülék</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">A képernyő feloldásához nyomja hosszan a képernyőbe épített ujjlenyomat-olvasót.</string>
 </resources>

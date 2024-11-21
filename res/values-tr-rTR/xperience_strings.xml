@@ -28,6 +28,32 @@
     <string name="xperience_build_code">XPerience™ Cihaz kod adı</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="build_channel">Kanal</string>
+    <!-- About to show Device name -->
+    <string name="homepage_widget_battery_percent">yüzde</string>
+    <string name="homepage_widget_battery_charge">Şarj oluyor</string>
+    <string name="homepage_widget_battery_discharge">Şarjı boşalıyor</string>
+    <string name="homepage_widget_battery_title">Batarya</string>
+    <string name="homepage_widget_storage_title">Depolama</string>
+    <string name="default_user">Kullanıcı</string>
+    <string name="top_level_settings_title">Ayarlar</string>
+    <string name="search_button_text_title">Ara</string>
+    <string name="firmware_build_type_title">Yapı türü</string>
+    <string name="firmware_build_summary_title">Geliştiren</string>
+    <string name="build_is_official_title">#official</string>
+    <string name="maintainer_summary">%s tarafından</string>
+    <string name="about_xperience_device">Cihaz</string>
+    <string name="device_info_security_patch">Güvenlik güncellemesi</string>
+    <string name="device_desc_category_title">Cihaz Banner\'ı</string>
+    <string name="device_info_hw">Donanım bilgisi</string>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">Cihaz Adını Düzenle</string>
+    <string name="edit_text_hint">Cihaz adını girin</string>
+    <string name="build_status">Yapım İşi Durumu</string>
+    <string name="hardware_info">Donanım</string>
+    <string name="device_info_battery">Batarya</string>
+    <string name="device_info_chipset">Yonga seti</string>
+    <string name="device_info_resolution">Çözünürlük</string>
+    <string name="device_info_storage">Depolama</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
@@ -39,4 +65,15 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Siyah temayı kullan</string>
     <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
+    <!-- XPerience Updater -->
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <!-- Reality Display Engine -->
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
 </resources>

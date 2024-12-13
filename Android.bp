@@ -135,6 +135,7 @@ android_library {
         "androidx.fragment_fragment",
         "androidx.fragment_fragment-ktx",
         "androidx.preference_preference-ktx",
+        "androidx.core_core-ktx",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
     ],

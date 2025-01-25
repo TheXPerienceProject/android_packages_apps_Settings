@@ -28,6 +28,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+// LINT.IfChange
 public class KernelVersionPreferenceController extends BasePreferenceController {
 
     private static final String KEY_KERNEL_VERSION = "kernel_version";
@@ -96,3 +97,4 @@ public class KernelVersionPreferenceController extends BasePreferenceController 
         }
     }
 }
+// LINT.ThenChange(KernelVersionPreference.kt)

@@ -328,7 +328,8 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             final boolean scrollNeeded = mIsEmbeddingActivityEnabled
                     && !TextUtils.equals(getString(DEFAULT_HIGHLIGHT_MENU_KEY), highlightMenuKey);
             showSuggestionFragment(scrollNeeded);
-            if (FeatureFlagUtils.isEnabled(this, FeatureFlags.CONTEXTUAL_HOME)) {
+            if (!Flags.updatedSuggestionCardAosp()
+                    && FeatureFlagUtils.isEnabled(this, FeatureFlags.CONTEXTUAL_HOME)) {
                 showFragment(() -> new ContextualCardsFragment(), R.id.contextual_cards_content);
                 ((FrameLayout) findViewById(R.id.main_content))
                         .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
@@ -499,7 +500,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
     private void showSuggestionFragment(boolean scrollNeeded) {
         final Class<? extends Fragment> fragmentClass = FeatureFactory.getFeatureFactory()
-                .getSuggestionFeatureProvider().getContextualSuggestionFragment();
+                .getSuggestionFeatureProvider().getSuggestionFragment();
         if (fragmentClass == null) {
             return;
         }

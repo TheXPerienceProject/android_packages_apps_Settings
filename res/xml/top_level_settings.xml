@@ -80,12 +80,12 @@
         android:summary="@string/notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_notifications"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_unicorn"
         android:title="@string/xperience_title"
         android:summary="@string/xperience_summary"
         android:icon="@drawable/ic_xperience_logo_menu"
-        android:order="-125"
+        android:order="-155"
         android:fragment="mx.xperience.unicorn.Rainbow"/>
 
     <com.android.settings.widget.RestrictedHomepagePreference

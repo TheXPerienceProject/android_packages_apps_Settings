@@ -288,31 +288,34 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
         AppBarLayout appBarLayout = findViewById(R.id.app_bar);
         final ExtendedFloatingActionButton fabSearch = findViewById(R.id.fabSearch);
+
         FeatureFactory.getFeatureFactory()
                 .getSearchFeatureProvider()
-                .initSearchToolbar(this /* activity */, (View) fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
+                .initSearchToolbar(this /* activity */, fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
 
         appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
             @Override
             public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                int totalScrollRange = appBarLayout.getTotalScrollRange();
+                if (fabSearch != null) { // Add the null check
+                    int totalScrollRange = appBarLayout.getTotalScrollRange();
 
-                if (Math.abs(verticalOffset) == totalScrollRange) {
-                    fabSearch.show();
-                    fabSearch.postOnAnimationDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            fabSearch.extend();
-                        }
-                    }, 100);
-                } else {
-                    fabSearch.shrink();
-                    fabSearch.postOnAnimationDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            fabSearch.hide();
-                        }
-                    }, 100);
+                    if (Math.abs(verticalOffset) == totalScrollRange) {
+                        fabSearch.show();
+                        fabSearch.postOnAnimationDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                fabSearch.extend();
+                            }
+                        }, 100);
+                    } else {
+                        fabSearch.shrink();
+                        fabSearch.postOnAnimationDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                fabSearch.hide();
+                            }
+                        }, 100);
+                    }
                 }
             }
         });

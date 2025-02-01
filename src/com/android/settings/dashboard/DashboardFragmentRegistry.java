@@ -138,7 +138,7 @@ public class DashboardFragmentRegistry {
         PARENT_TO_CATEGORY_KEY_MAP.put(MoreSecurityPrivacyFragment.class.getName(),
                 CategoryKey.CATEGORY_MORE_SECURITY_PRIVACY_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(Rainbow.class.getName(),
-                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
+                CategoryKey.CATEGORY_RAINBOW_UNICORN);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 

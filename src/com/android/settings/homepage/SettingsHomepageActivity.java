@@ -284,41 +284,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         mLoadedListeners = new ArraySet<>();
 
         // Homepage redesign start
-        // initSearchBarView();
-
-        AppBarLayout appBarLayout = findViewById(R.id.app_bar);
-        final ExtendedFloatingActionButton fabSearch = findViewById(R.id.fabSearch);
-
-        FeatureFactory.getFeatureFactory()
-                .getSearchFeatureProvider()
-                .initSearchToolbar(this /* activity */, fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
-
-        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
-            @Override
-            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                if (fabSearch != null) { // Add the null check
-                    int totalScrollRange = appBarLayout.getTotalScrollRange();
-
-                    if (Math.abs(verticalOffset) == totalScrollRange) {
-                        fabSearch.show();
-                        fabSearch.postOnAnimationDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                fabSearch.extend();
-                            }
-                        }, 100);
-                    } else {
-                        fabSearch.shrink();
-                        fabSearch.postOnAnimationDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                fabSearch.hide();
-                            }
-                        }, 100);
-                    }
-                }
-            }
-        });
+        initSearchBarView();
 
         getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
         mCategoryMixin = new CategoryMixin(this);
@@ -429,6 +395,16 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
         mIsRegularLayout = !mIsRegularLayout;
 
+        // Update search title padding
+        View searchTitle = findViewById(R.id.search_bar_title);
+        if (searchTitle != null) {
+            int paddingStart = getResources().getDimensionPixelSize(
+                    mIsRegularLayout
+                            ? R.dimen.search_bar_title_padding_start_regular_two_pane
+                            : R.dimen.search_bar_title_padding_start);
+            searchTitle.setPaddingRelative(paddingStart, 0, 0, 0);
+        }
+
         // Notify fragments
         getSupportFragmentManager().getFragments().forEach(fragment -> {
             if (fragment instanceof SplitLayoutListener) {
@@ -449,6 +425,27 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                     // passed down to descendant views.
                     return WindowInsetsCompat.CONSUMED;
                 });
+    }
+
+    private void initSearchBarView() {
+        if (Flags.homepageRevamp()) {
+            View toolbar = findViewById(R.id.search_action_bar);
+            FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
+                    .initSearchToolbar(this /* activity */, toolbar,
+                            SettingsEnums.SETTINGS_HOMEPAGE);
+        } else {
+            final Toolbar toolbar = findViewById(R.id.search_action_bar);
+            FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
+                    .initSearchToolbar(this /* activity */, toolbar,
+                            SettingsEnums.SETTINGS_HOMEPAGE);
+
+            if (mIsEmbeddingActivityEnabled) {
+                final Toolbar toolbarTwoPaneVersion = findViewById(R.id.search_action_bar_two_pane);
+                FeatureFactory.getFeatureFactory().getSearchFeatureProvider()
+                        .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
+                                SettingsEnums.SETTINGS_HOMEPAGE);
+            }
+        }
     }
 
     private void initAvatarView() {

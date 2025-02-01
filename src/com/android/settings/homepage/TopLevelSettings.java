@@ -259,7 +259,8 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             });
             final FragmentActivity activity = getActivity();
             if (activity != null) {
-                FeatureFactory.getFeatureFactory().getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
+                //FeatureFactory.getFeatureFactory().getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
+                  //FeatureFactory.getFeatureFactory().getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView,(View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
             }
         }
     }

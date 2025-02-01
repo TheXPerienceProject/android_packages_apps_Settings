@@ -138,10 +138,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     private SplitInfoCallback mCallback;
     private boolean mAllowUpdateSuggestion = true;
 
-    private Handler handler = new Handler();
-    private Runnable showFabRunnable;
-    private Runnable hideFabRunnable;
-
     /** A listener receiving homepage loaded events. */
     public interface HomepageLoadedListener {
         /** Called when the homepage is loaded. */
@@ -292,40 +288,31 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
         AppBarLayout appBarLayout = findViewById(R.id.app_bar);
         final ExtendedFloatingActionButton fabSearch = findViewById(R.id.fabSearch);
-        //FeatureFactory.getFeatureFactory()
-        //        .getSearchFeatureProvider()
-        //        .initSearchToolbar(this /* activity */, (View) fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
-
-        showFabRunnable = new Runnable() {
-            @Override
-            public void run() {
-                fabSearch.show();
-                fabSearch.extend();
-            }
-        };
-
-        hideFabRunnable = new Runnable() {
-            @Override
-            public void run() {
-                fabSearch.shrink();
-                fabSearch.hide();
-            }
-        };
+        FeatureFactory.getFeatureFactory()
+                .getSearchFeatureProvider()
+                .initSearchToolbar(this /* activity */, (View) fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
 
         appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
             @Override
             public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                if (appBarLayout == null || fabSearch == null) {
-                    return; // Handle null cases
-                }
+                int totalScrollRange = appBarLayout.getTotalScrollRange();
 
-                handler.removeCallbacks(showFabRunnable);
-                handler.removeCallbacks(hideFabRunnable);
-
-                if (Math.abs(verticalOffset) == appBarLayout.getTotalScrollRange()) {
-                    handler.postDelayed(showFabRunnable, 100); // Delay before showing
+                if (Math.abs(verticalOffset) == totalScrollRange) {
+                    fabSearch.show();
+                    fabSearch.postOnAnimationDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            fabSearch.extend();
+                        }
+                    }, 100);
                 } else {
-                    handler.postDelayed(hideFabRunnable, 100); // Delay before hiding
+                    fabSearch.shrink();
+                    fabSearch.postOnAnimationDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            fabSearch.hide();
+                        }
+                    }, 100);
                 }
             }
         });

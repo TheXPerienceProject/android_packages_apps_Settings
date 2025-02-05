@@ -13,11 +13,19 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-  -->
+-->
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/refresh_rate_title"
     android:key="refresh_rate"
-    settings:staticPreferenceLocation="append" />
+    settings:staticPreferenceLocation="append">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="screen_refresh_rate_illustration"
+        android:selectable="false"
+        settings:searchable="false"
+        settings:lottie_rawRes="@raw/display_refresh_rate" />
+
+</PreferenceScreen>

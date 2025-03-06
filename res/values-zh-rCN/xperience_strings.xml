@@ -56,4 +56,16 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
+    <string name="high_touch_sensitivity_summary">手套模式</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高触控采样率</string>
+    <string name="high_touch_polling_rate_summary">提高触控采样率</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">悬浮操作</string>
+    <string name="touchscreen_hovering_summary">允许您把手指悬停在屏幕上作为浏览器、远程桌面等的鼠标指针</string>
+    <!-- Pocket mode -->
+    <!-- Ongoing action chip -->
 </resources>

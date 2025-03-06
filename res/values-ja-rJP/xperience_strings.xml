@@ -36,4 +36,16 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高いタッチ感度</string>
+    <string name="high_touch_sensitivity_summary">タッチパネルの感度を上げ、手袋をしたままでも使えるようにする</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高いタッチポーリングレート</string>
+    <string name="high_touch_polling_rate_summary">タッチスクリーンのポーリングレート向上</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">タッチスクリーンのホバリング</string>
+    <string name="touchscreen_hovering_summary">ウェブブラウザーやリモートデスクトップなどで、画面をマウスのようにホバーできるようにする。</string>
+    <!-- Pocket mode -->
+    <!-- Ongoing action chip -->
 </resources>

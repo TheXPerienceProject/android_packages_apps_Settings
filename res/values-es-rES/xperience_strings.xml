@@ -90,7 +90,6 @@
     <string name="display_engine_category">Motor de pantalla</string>
     <string name="display_engine_mode_title">Motor Reality Display</string>
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
-    <string name="triluminous_display_mode_title">Pantalla Triluminous Pro™</string>
     <string name="vivid_engine_mode_title">Pantalla vívida</string>
     <string name="display_engine_default">Predeterminado</string>
     <string name="display_engine_mode_footer_text">Inspirado por el motor Bravia de Sony, el motor de visualización ofrece múltiples modos para mejorar el brillo, la saturación del color, los detalles y la precisión del color para una mejor experiencia visual.</string>
@@ -102,4 +101,20 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Pulsación larga en el sensor de huella para desbloquear el dispositivo</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Para despertar la pantalla y desbloquear, mantén pulsado el sensor de huella digital bajo pantalla.</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslizar para hacer captura de pantalla</string>
+    <string name="swipe_to_screenshot_gesture_summary">Desliza tres dedos por la pantalla para hacer una captura</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidad al tacto</string>
+    <string name="high_touch_sensitivity_summary">Aumentar la sensibilidad de la pantalla táctil para poder utilizarla con guantes</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tasa alta de muestreo táctil</string>
+    <string name="high_touch_polling_rate_summary">Aumentar la tasa de muestreo táctil</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pantalla táctil flotante</string>
+    <string name="touchscreen_hovering_summary">Te permitirá deslizar por la pantalla como un ratón en navegadores, escritorios remotos, etc</string>
+    <!-- Pocket mode -->
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
+    <!-- Ongoing action chip -->
 </resources>

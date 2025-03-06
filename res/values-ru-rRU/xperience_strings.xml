@@ -48,4 +48,18 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Провести для скриншота</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведите по экрану тремя пальцами вниз для создания скриншота</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Высокая чувствительность касания</string>
+    <string name="high_touch_sensitivity_summary">Увеличить чувствительность экрана для использования в перчатках</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Высокая частота сенсора</string>
+    <string name="high_touch_polling_rate_summary">Увеличить частоту опроса сенсорным экраном</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Управление сенсорным экраном</string>
+    <string name="touchscreen_hovering_summary">Позволяет вам навести экран как мышь в веб-браузерах, удаленных настольных компьютерах и т.д.</string>
+    <!-- Pocket mode -->
+    <!-- Ongoing action chip -->
 </resources>

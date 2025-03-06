@@ -95,4 +95,20 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Az ujjlenyomat-olvasó hosszannyomásával feloldható a készülék</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">A képernyő feloldásához nyomja hosszan a képernyőbe épített ujjlenyomat-olvasót.</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Képernyőkép csúsztatással</string>
+    <string name="swipe_to_screenshot_gesture_summary">Csúsztasson három ujjal képernyőkép készítéséhez</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Magas érintési érzékenység</string>
+    <string name="high_touch_sensitivity_summary">Érintőképernyő érzékenységének növelése, így kesztyű viselése esetén is használható</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Magas értékű képernyő-lekérdezés</string>
+    <string name="high_touch_polling_rate_summary">Az érintőképernyő lekérdezési értékének növelése</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Lebegő érintés</string>
+    <string name="touchscreen_hovering_summary">Engedélyezi a lebegéssel való vezérlést, mint egy egérrel a böngészőknél, távoli asztaloknál, stb.</string>
+    <!-- Pocket mode -->
+    <string name="pocket_judge_title">Zsebérzékelés</string>
+    <string name="pocket_judge_summary">A képernyős és a gombok általi bevitelek blokkolása, amikor a készülék zsebben van</string>
+    <!-- Ongoing action chip -->
 </resources>

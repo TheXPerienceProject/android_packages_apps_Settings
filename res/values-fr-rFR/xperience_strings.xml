@@ -33,4 +33,10 @@
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- High touch sensitivity -->
+    <!-- High touch polling rate -->
+    <!-- Touchscreen hovering -->
+    <!-- Pocket mode -->
+    <!-- Ongoing action chip -->
 </resources>

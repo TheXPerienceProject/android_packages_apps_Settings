@@ -55,6 +55,8 @@ android_library {
     srcs: ["src/**/*.java", "src/**/*.kt",
            "RainbowUnicorn/src/**/*.java",
            "RainbowUnicorn/src/**/*.kt",
+           "RainbowUnicorn/src/mx/xperience/unicorn/fragments/UdfpsIcons.java",
+           "RainbowUnicorn/src/mx/xperience/unicorn/fragments/UdfpsAnimations.java",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
@@ -121,6 +123,7 @@ android_library {
         "androidx.navigation_navigation-ui-ktx",
         "kotlin-stdlib",
         "keyboard_flags_lib",
+        "androidx.preference_preference",
     ],
 
     plugins: [

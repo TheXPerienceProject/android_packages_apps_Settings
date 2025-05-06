@@ -33,4 +33,7 @@
 
     <!-- Show DC Dim settings and schedule -->
     <bool name="config_showDcDimSettings" translatable="false">false</bool>
+
+    <!-- Show haptic styles -->
+    <bool name="config_supportHapticProfiles" translatable="false">false</bool>
 </resources>

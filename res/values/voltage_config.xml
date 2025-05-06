@@ -19,4 +19,7 @@
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">false</bool>
 
+    <!-- Show haptic styles -->
+    <bool name="config_supportHapticProfiles" translatable="false">false</bool>
+
 </resources>

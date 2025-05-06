@@ -36,4 +36,16 @@
         <item>1800000</item>
     </string-array>
 
+    <!-- Haptic Effect Styles -->
+    <string-array name="haptic_effect_style_entries" translatable="false">
+        <item>RichTap</item>
+        <item>Crisp</item>
+        <item>Gentle</item>
+    </string-array>
+
+    <string-array name="haptic_effect_style_values" translatable="false">
+        <item>richtap</item>
+        <item>crisp</item>
+        <item>gentle</item>
+    </string-array>
 </resources>

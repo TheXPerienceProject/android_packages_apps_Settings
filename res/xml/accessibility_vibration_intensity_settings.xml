@@ -65,6 +65,13 @@
         android:key="vibration_category_haptics"
         android:title="@string/accessibility_interactive_haptics_category_title">
 
+        <com.android.settings.accessibility.HapticStyleListPreference
+            android:key="haptic_style"
+            android:title="@string/haptic_effect_style_title"
+            android:entries="@array/haptic_effect_style_entries"
+            android:entryValues="@array/haptic_effect_style_values"
+            app:controller="com.android.settings.accessibility.HapticStylePreferenceController" />
+
         <com.android.settingslib.widget.SliderPreference
             android:key="haptic_feedback_intensity"
             android:title="@string/accessibility_touch_vibration_title"

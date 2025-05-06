@@ -26,4 +26,6 @@
         <item>com.android.localtransport/.LocalTransport</item>
     </string-array>
 
+    <!-- Show haptic styles -->
+    <bool name="config_supportHapticProfiles" translatable="false">false</bool>
 </resources>

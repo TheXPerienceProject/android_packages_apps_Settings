@@ -119,4 +119,7 @@
     <string name="custom_timeout_summary_10mins">10 minutes</string>
     <string name="custom_timeout_summary_30mins">30 minutes</string>
     <string name="custom_timeout_summary_1hour">1 hour</string>
+
+    <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">Haptic effect style</string>
 </resources>

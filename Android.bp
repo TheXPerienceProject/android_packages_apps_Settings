@@ -119,6 +119,8 @@ android_library {
         "com_android_systemui_flags_lib",
         "settings_connectivity_flags_lib",
         "mx.xperience.framework",
+        "colorpickerview",
+        "androidx.palette_palette",
     ],
 
     plugins: [
@@ -191,6 +193,11 @@ android_app {
 android_library_import {
     name: "contextualcards",
     aars: ["libs/contextualcards.aar"],
+}
+
+android_library_import {
+    name: "colorpickerview",
+    aars: ["libs/colorpickerview-release.aar"],
 }
 
 filegroup {

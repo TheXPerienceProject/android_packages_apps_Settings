@@ -68,6 +68,7 @@
     <string name="hardware_info">Hardware</string>
     <string name="device_info_battery">Battery</string>
     <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_chipset_default">Unknown chipset</string>
     <string name="device_info_resolution">Resolution</string>
     <string name="device_info_storage">Storage</string>
     <!-- Hardware info -->

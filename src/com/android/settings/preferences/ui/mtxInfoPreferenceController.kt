@@ -48,7 +48,7 @@ import androidx.fragment.app.FragmentTransaction
 class mtxInfoPreferenceController(context: Context) : AbstractPreferenceController(context) {
 
     private val defaultFallback = mContext.getString(R.string.device_info_default)
-
+    private val defaultFallbackChipset = mContext.getString(R.string.device_info_chipset_default)
 
     private fun getPropertyOrDefault(propName: String): String {
         return SystemProperties.get(propName, defaultFallback)
@@ -62,8 +62,40 @@ class mtxInfoPreferenceController(context: Context) : AbstractPreferenceControll
         return getPropertyOrDefault(PROP_XPERIENCE_BUILD_VERSION)
     }
 
-    private fun getXPerienceChipset(): String {
-        return getPropertyOrDefault(PROP_XPERIENCE_CHIPSET)
+    private fun getDetectedChipset(): String {
+        val manual = SystemProperties.get("ro.xpe.chipset", "")
+        if (manual.isNotBlank()) return manual
+
+        val sku = SystemProperties.get("ro.boot.product.vendor.sku", "").lowercase()
+
+        val skuToChipset = mapOf(
+            "lahaina" to "Snapdragon 888 / 888+",
+            "waipio" to "Snapdragon 8 Gen 1",
+            "taro" to "Snapdragon 8 Gen 1",
+            "cape" to "Snapdragon 8+ Gen 1",
+            "kalama" to "Snapdragon 8 Gen 2",
+            "pineapple" to "Snapdragon 8 Gen 3",
+            "kamala" to "Snapdragon 8 Gen 3 (OEM variant)",
+            "manitoba" to "Snapdragon 8 Gen 3 Elite",
+            "crow" to "Snapdragon 7+ Gen 2",
+            "lito" to "Snapdragon 765 / 768G",
+            "monaco" to "Snapdragon 7 Gen 1",
+            "austin" to "Snapdragon 7 Gen 3",
+            "tangor" to "Snapdragon 7 Gen 3 Elite",
+            "yupik" to "Snapdragon 778G",
+            "holi" to "Snapdragon 695",
+            "bengal" to "Snapdragon 460 / 662 / 678",
+            "trinket" to "Snapdragon 665 / 675",
+            "sunny" to "Snapdragon 860",
+            "shennron" to "MediaTek Dimensity 9000",
+            "parrot" to "Snapdragon 7s Gen 1",
+            "crowpro" to "Snapdragon 8s Gen 3",
+            "rhino" to "Snapdragon 6 Gen 1",
+            "rhinoelite" to "Snapdragon 6 Gen 1 Elite",
+            "katana" to "Snapdragon 6s Gen 3"
+        )
+
+        return skuToChipset[sku] ?: defaultFallbackChipset
     }
 
     private fun getXPerienceBattery(): String {
@@ -131,7 +163,7 @@ class mtxInfoPreferenceController(context: Context) : AbstractPreferenceControll
 //}
 
         hwInfoPreference.apply {
-            findViewById<TextView>(R.id.device_chipset).text = getXPerienceChipset()
+            findViewById<TextView>(R.id.device_chipset).text = getDetectedChipset()
             findViewById<TextView>(R.id.device_storage).text = DeviceInfoUtil.getTotalRam() + " | " + DeviceInfoUtil.getStorageTotal(mContext)
             findViewById<TextView>(R.id.device_battery_capacity).text = getXPerienceBattery()
             findViewById<TextView>(R.id.device_resolution).text =  getXPerienceResolution()

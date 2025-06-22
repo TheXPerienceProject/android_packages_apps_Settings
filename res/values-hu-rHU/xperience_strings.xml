@@ -120,4 +120,6 @@
     <!-- Ongoing action chip -->
     <string name="ongoing_action_chip_title">Műveletkijelzés</string>
     <string name="ongoing_action_chip_summary">Folyamatban lévő műveletek (például letöltések) kijelzésének megjelenítése az állapotsorban</string>
+    <!-- Navigation bar hint -->
+    <!-- Haptic Effect Style -->
 </resources>

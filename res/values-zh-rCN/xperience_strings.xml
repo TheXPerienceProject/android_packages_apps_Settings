@@ -68,4 +68,6 @@
     <string name="touchscreen_hovering_summary">允许您把手指悬停在屏幕上作为浏览器、远程桌面等的鼠标指针</string>
     <!-- Pocket mode -->
     <!-- Ongoing action chip -->
+    <!-- Navigation bar hint -->
+    <!-- Haptic Effect Style -->
 </resources>

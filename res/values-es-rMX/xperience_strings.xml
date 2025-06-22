@@ -55,6 +55,7 @@
     <string name="hardware_info">Hardware</string>
     <string name="device_info_battery">Batería</string>
     <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_chipset_default">Chipset desconocido</string>
     <string name="device_info_resolution">Resolución</string>
     <string name="device_info_storage">Almacenamiento</string>
     <!-- Hardware info -->
@@ -120,4 +121,10 @@
     <!-- Ongoing action chip -->
     <string name="ongoing_action_chip_title">Chip de acción en curso</string>
     <string name="ongoing_action_chip_summary">Muestra el indicador de progreso en la barra de estado para las acciones en curso, como las descargas</string>
+    <!-- Navigation bar hint -->
+    <string name="navbar_category">Barra de navegación</string>
+    <string name="hide_navbar_gesture_bar_title">Ocultar barra de gestos</string>
+    <string name="hide_navbar_gesture_bar_summary">Ocultar la barra de gestos en la parte inferior de la pantalla</string>
+    <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">Estilo de efecto háptico</string>
 </resources>

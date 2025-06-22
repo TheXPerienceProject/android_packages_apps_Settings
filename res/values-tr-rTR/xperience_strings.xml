@@ -12,7 +12,9 @@
     <string name="selinux_status_permissive">Permissive (Serbest)</string>
     <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Pil optimizasyonu kullanılabilirliği</string>
     <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabilir veya veri kaybına neden olabilir ve bu nedenle önerilmez!</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
@@ -41,6 +43,7 @@
     <string name="firmware_build_summary_title">Geliştiren</string>
     <string name="build_is_official_title">#official</string>
     <string name="maintainer_summary">%s tarafından</string>
+    <string name="unknown_maintainer">birisi tarafından</string>
     <string name="about_xperience_device">Cihaz</string>
     <string name="device_info_security_patch">Güvenlik güncellemesi</string>
     <string name="device_desc_category_title">Cihaz Banner\'ı</string>
@@ -57,17 +60,39 @@
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
+    <string name="soc_model">SoC-Model</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Toplam RAM</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">Döndürme ayarları</string>
+    <string name="display_rotation_enabled">Otomatik döndürme etkin</string>
+    <string name="display_rotation_disabled">Otomatik döndürme devre dışı</string>
+    <string name="display_rotation_unit">derece</string>
+    <string name="display_rotation_category_title">Rotasyon modu</string>
+    <string name="display_rotation_0_title">0 derece</string>
+    <string name="display_rotation_90_title">90 derece</string>
+    <string name="display_rotation_180_title">180 derece</string>
+    <string name="display_rotation_270_title">270 derece</string>
     <!--Unicorn power-->
+    <string name="xperience_summary">XPerience\'ın özel ayarları</string>
     <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Bir kez otomatik parlaklık</string>
+    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Siyah temayı kullan</string>
     <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
     <!-- XPerience Updater -->
+    <string name="update_settings_title">XPerience güncellemeleri</string>
+    <string name="update_settings_summary">XPerience\'ın en son sürümünü kontrol edin</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Diller, hareketler, güncelleyici, zaman, yedekleme</string>
     <!-- Reality Display Engine -->
+    <string name="display_engine_category">Görüntü ünitesi</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Pro Ekran</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Varsayılan</string>
+    <string name="display_engine_mode_footer_text">Sony\'nin Bravia Engine\'inden ilham alan Display Engine, daha iyi bir görsel deneyim için parlaklığı, renk doygunluğunu, ayrıntıyı ve renk doğruluğunu artıran birden fazla mod sunuyor.</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
@@ -89,5 +114,11 @@
     <string name="touchscreen_hovering_title">Temassız gezinme</string>
     <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
     <!-- Pocket mode -->
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
     <!-- Ongoing action chip -->
+    <string name="ongoing_action_chip_title">Devam eden eylem çipi</string>
+    <string name="ongoing_action_chip_summary">Devam eden işlemler için durum çubuğunda bir ilerleme göstergesi göster</string>
+    <!-- Navigation bar hint -->
+    <!-- Haptic Effect Style -->
 </resources>

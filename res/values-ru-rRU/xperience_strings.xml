@@ -62,4 +62,6 @@
     <string name="touchscreen_hovering_summary">Позволяет вам навести экран как мышь в веб-браузерах, удаленных настольных компьютерах и т.д.</string>
     <!-- Pocket mode -->
     <!-- Ongoing action chip -->
+    <!-- Navigation bar hint -->
+    <!-- Haptic Effect Style -->
 </resources>

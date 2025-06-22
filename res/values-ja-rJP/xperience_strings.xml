@@ -48,4 +48,6 @@
     <string name="touchscreen_hovering_summary">ウェブブラウザーやリモートデスクトップなどで、画面をマウスのようにホバーできるようにする。</string>
     <!-- Pocket mode -->
     <!-- Ongoing action chip -->
+    <!-- Navigation bar hint -->
+    <!-- Haptic Effect Style -->
 </resources>

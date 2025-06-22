@@ -66,4 +66,6 @@
     <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
     <!-- Pocket mode -->
     <!-- Ongoing action chip -->
+    <!-- Navigation bar hint -->
+    <!-- Haptic Effect Style -->
 </resources>

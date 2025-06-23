@@ -55,6 +55,7 @@
     <string name="hardware_info">Donanım</string>
     <string name="device_info_battery">Batarya</string>
     <string name="device_info_chipset">Yonga seti</string>
+    <string name="device_info_chipset_default">Bilinmeyen chipset</string>
     <string name="device_info_resolution">Çözünürlük</string>
     <string name="device_info_storage">Depolama</string>
     <!-- Hardware info -->
@@ -120,5 +121,9 @@
     <string name="ongoing_action_chip_title">Devam eden eylem çipi</string>
     <string name="ongoing_action_chip_summary">Devam eden işlemler için durum çubuğunda bir ilerleme göstergesi göster</string>
     <!-- Navigation bar hint -->
+    <string name="navbar_category">Gezinme çubuğu</string>
+    <string name="hide_navbar_gesture_bar_title">Navigasyon çubuğunu gizle</string>
+    <string name="hide_navbar_gesture_bar_summary">Ekranın alt kısmındaki navigasyon çubuğunu gizle</string>
     <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">Dokunsal efekt stili</string>
 </resources>

@@ -1,17 +1,6 @@
 /*
- * Copyright (C) 2020-2022 Paranoid Android
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * SPDX-FileCopyrightText: 2020-2022 Paranoid Android
+ * SPDX-License-Identifier: Apache-2.0
  */
 
 package com.android.settings.sound;
@@ -26,18 +15,22 @@ import android.provider.Settings;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.android.settings.widget.SettingsMainSwitchPreferenceController;
+import com.android.settings.core.TogglePreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 import com.android.settingslib.widget.MainSwitchPreference;
 
 public class AdaptivePlaybackSwitchPreferenceController extends
-        SettingsMainSwitchPreferenceController implements LifecycleObserver, OnStart, OnStop {
+        TogglePreferenceController implements LifecycleObserver, OnStart, OnStop, OnCheckedChangeListener {
 
     private MainSwitchPreference mPreference;
+    private @Nullable Preference mTogglePreference;
     private final SettingsObserver mSettingsObserver;
 
     public AdaptivePlaybackSwitchPreferenceController(Context context, String preferenceKey) {
@@ -65,9 +58,10 @@ public class AdaptivePlaybackSwitchPreferenceController extends
     }
 
     @Override
-    public void displayPreference(PreferenceScreen screen) {
+    public void displayPreference(@NonNull PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreference = screen.findPreference(getPreferenceKey());
+        mTogglePreference = screen.findPreference(getPreferenceKey());
     }
 
     @Override
@@ -109,7 +103,9 @@ public class AdaptivePlaybackSwitchPreferenceController extends
         public void onChange(boolean selfChange, Uri uri) {
             super.onChange(selfChange, uri);
             if (ADAPTIVE_PLAYBACK.equals(uri)) {
-                mPreference.setChecked(isChecked());
+                if (mTogglePreference != null) {
+                    updateState(mTogglePreference);
+                }
             }
         }
     }

@@ -227,7 +227,7 @@ public class FingerprintSettings extends SubSettings {
                 }
             }
             if (!isUdfps && context.getResources().getBoolean(
-                    org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock)) {
+                    com.android.internal.R.bool.config_fingerprintWakeAndUnlock)) {
                 controllers.add(
                         new FingerprintUnlockCategoryController(
                                 context,
@@ -733,7 +733,7 @@ public class FingerprintSettings extends SubSettings {
                         com.android.internal.R.bool.config_screen_off_udfps_enabled);
             } else if (isSfps()) {
                 return getContext().getResources().getBoolean(
-                        org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock);
+                        com.android.internal.R.bool.config_fingerprintWakeAndUnlock);
             }
             return false;
         }

@@ -94,9 +94,18 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(DeviceNamePreferenceController.class).setHost(this /* parent */);
+        // Others 
+        use(DeviceNamePreferenceController.class).setHost(this);
         mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
         mBuildNumberPreferenceController.setHost(this /* parent */);
+        // PhoneNumber: asign a variable value first
+        PhoneNumberPreferenceController phoneCtrl =
+                use(PhoneNumberPreferenceController.class);
+        if (phoneCtrl != null) {
+            phoneCtrl.init(getSettingsLifecycle());
+        } else {
+            Log.e(LOG_TAG, "PhoneNumberPreferenceController not disponible");
+        }
     }
 
     @Override

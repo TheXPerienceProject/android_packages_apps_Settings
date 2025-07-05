@@ -129,8 +129,4 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
 
-    <!--Unicorn power-->
-    <string name="xperience_title" translatable="false">Rainbow Unicorn</string>
-    <string name="xperience_summary">Custom settings of XPerience</string>
-
 </resources>

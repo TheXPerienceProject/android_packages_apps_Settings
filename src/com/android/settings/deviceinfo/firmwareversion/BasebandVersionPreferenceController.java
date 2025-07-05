@@ -54,7 +54,9 @@ public class BasebandVersionPreferenceController extends BasePreferenceControlle
                 }
             }
         }
-        return baseBands;
+        return SystemProperties.get(BASEBAND_PROPERTY,
+                mContext.getString(R.string.device_info_default));
+
     }
 }
 // LINT.ThenChange(BasebandVersionPreference.kt)

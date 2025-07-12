@@ -139,7 +139,7 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
     @Override
     public void onPause(@NonNull LifecycleOwner owner) {
         mMobileNetworkRepository.removeRegister(this);
-        if (mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
+        if (mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID && mDdsDataOptionStateTuner != null) {
             mDdsDataOptionStateTuner.unregister(mContext);
         }
     }
@@ -210,7 +210,7 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
             mPreference.setEnabled(false);
             mPreference.setSummary(R.string.mobile_data_settings_summary_auto_switch);
         } else {
-            if (mDdsDataOptionStateTuner.isDisallowed()) {
+            if (mDdsDataOptionStateTuner != null && mDdsDataOptionStateTuner.isDisallowed()) {
                 Log.d(TAG, "nDDS voice call in ongoing");
                 // we will get inside this block only when the current instance is for the DDS
                 if (isChecked()) {

@@ -128,7 +128,7 @@ public class MobileDataPreferenceController extends TelephonyTogglePreferenceCon
     public void onResume(@NonNull LifecycleOwner owner) {
         mMobileNetworkRepository.addRegister(owner, this, mSubId);
         mMobileNetworkRepository.updateEntity();
-        if (mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
+        if (mDdsDataOptionStateTuner != null && mSubId != SubscriptionManager.INVALID_SUBSCRIPTION_ID) {
             // Register for nDDS sub events. What happens to the mobile data toggle in case
             // of a voice call is dependent on the device being in temp DDS state which is
             // checked in updateState()

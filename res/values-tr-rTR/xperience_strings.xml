@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- device -->
+    <string name="about_device_name">Cihaz</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
+    <string name="selinux_status_permissive">Permissive (Serbest)</string>
+    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Pil optimizasyonu kullanılabilirliği</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabilir veya veri kaybına neden olabilir ve bu nedenle önerilmez!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın ön tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun önünde bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafında bulunan parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki parmak izi sensörüne dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki parmak izi sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Teknoloji</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Sağlık</string>
+    <string name="battery_health_good">İyi</string>
+    <string name="battery_health_overheat">Aşırı Isınma</string>
+    <string name="battery_health_dead">Ölü</string>
+    <string name="battery_health_over_voltage">Aşırı voltaj akımı</string>
+    <string name="battery_health_unspecified_failure">Belirtilmeyen hata</string>
+    <string name="battery_health_cold">Soğuk</string>
+    <string name="battery_health_unknown">Bilinmiyor</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Sıcaklık</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltaj</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Tipik kapasite</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">En yüksek kapasite</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!--Unicorn power-->
+    <string name="xperience_summary">XPerience\'ın özel ayarları</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience™ Sürümü</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience™ Cihaz kod adı</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Kanal</string>
+    <!-- About to show Device name -->
+    <string name="homepage_widget_battery_percent">yüzde</string>
+    <string name="homepage_widget_battery_charge">Şarj oluyor</string>
+    <string name="homepage_widget_battery_discharge">Şarjı boşalıyor</string>
+    <string name="homepage_widget_battery_title">Batarya</string>
+    <string name="homepage_widget_storage_title">Depolama</string>
+    <string name="default_user">Kullanıcı</string>
+    <string name="top_level_settings_title">Ayarlar</string>
+    <string name="search_button_text_title">Ara</string>
+    <string name="firmware_build_type_title">Yapı türü</string>
+    <string name="firmware_build_summary_title">Geliştiren</string>
+    <string name="build_is_official_title">#official</string>
+    <string name="maintainer_summary">%s tarafından</string>
+    <string name="unknown_maintainer">birisi tarafından</string>
+    <string name="about_xperience_device">Cihaz</string>
+    <string name="device_info_security_patch">Güvenlik güncellemesi</string>
+    <string name="device_desc_category_title">Cihaz Banner\'ı</string>
+    <string name="device_info_hw">Donanım bilgisi</string>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">Cihaz Adını Düzenle</string>
+    <string name="edit_text_hint">Cihaz adını girin</string>
+    <string name="build_status">Yapım İşi Durumu</string>
+    <string name="hardware_info">Donanım</string>
+    <string name="device_info_battery">Batarya</string>
+    <string name="device_info_chipset">Yonga seti</string>
+    <string name="device_info_chipset_default">Bilinmeyen chipset</string>
+    <string name="device_info_resolution">Çözünürlük</string>
+    <string name="device_info_storage">Depolama</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <string name="soc_model">SoC-Model</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Toplam RAM</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+</resources>

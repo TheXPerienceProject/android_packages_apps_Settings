@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- device -->
+    <string name="about_device_name">Dispositivo</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Desactivado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Disponibilidad de optimización de la batería</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Advertencia: Esta opción puede no funcionar correctamente o provocar la pérdida de datos, por lo que no se recomienda!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localice el sensor de huella digital en la parte delantera de su tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localiza el lector de huellas digitales en la parte frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localiza el sensor de huellas dactilares en la parte trasera de tu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localiza el lector de huellas en la parte trasera de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localiza el sensor de huellas en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localiza el lector de huellas en el lateral de la tableta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localiza el lector de huellas en el lateral del dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localiza el sensor de huellas en la parte lateral de tu teléfono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toca el sensor de huellas frontal de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toca el sensor de huellas frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toca el sensor de huellas trasero de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toca el sensor de huellas trasero de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toca el sensor en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toca el sensor de huellas lateral de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toca el sensor de huellas lateral de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toca el sensor de huellas lateral de tu teléfono.</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Tecnología</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Salud</string>
+    <string name="battery_health_good">Buena</string>
+    <string name="battery_health_overheat">Sobrecalentada</string>
+    <string name="battery_health_dead">Muerta</string>
+    <string name="battery_health_over_voltage">Sobre voltaje</string>
+    <string name="battery_health_unspecified_failure">Fallo no especificado</string>
+    <string name="battery_health_cold">Frio</string>
+    <string name="battery_health_unknown">Desconocido</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatura</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltaje</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Capacidad de diseño</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Capacidad máxima</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!--Unicorn power-->
+    <string name="xperience_title">Rainbow Unicorn</string>
+    <string name="xperience_summary">Ajustes personalizados de XPerience</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versión de XPerience™</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Código XPerience™</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal</string>
+    <!-- About to show Device name -->
+    <string name="homepage_widget_battery_percent">porcentaje</string>
+    <string name="homepage_widget_battery_charge">Cargando</string>
+    <string name="homepage_widget_battery_discharge">Descargándose</string>
+    <string name="homepage_widget_battery_title">Batería</string>
+    <string name="homepage_widget_storage_title">Almacenamiento</string>
+    <string name="default_user">Usuario</string>
+    <string name="top_level_settings_title">Configuración</string>
+    <string name="search_button_text_title">Búscar</string>
+    <string name="firmware_build_type_title">Tipo de build</string>
+    <string name="firmware_build_summary_title">Por mantenedor</string>
+    <string name="build_is_official_title">#oficial</string>
+    <string name="maintainer_summary">Por %s</string>
+    <string name="unknown_maintainer">por alguien</string>
+    <string name="about_xperience_device">Dispositivo</string>
+    <string name="device_info_security_patch">Actualización de seguridad</string>
+    <string name="device_desc_category_title">Banner del dispositivo</string>
+    <string name="device_info_hw">Información de Hardware</string>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">Editar nombre del dispositivo</string>
+    <string name="edit_text_hint">Introducir nuevo nombre de dispositivo</string>
+    <string name="build_status">Estado de la compilación</string>
+    <string name="hardware_info">Hardware</string>
+    <string name="device_info_battery">Batería</string>
+    <string name="device_info_chipset">Chipset</string>
+    <string name="device_info_chipset_default">Chipset desconocido</string>
+    <string name="device_info_resolution">Resolución</string>
+    <string name="device_info_storage">Almacenamiento</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <string name="soc_model">Modelo SoC</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM total</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- device -->
+    <!-- SELinux Status -->
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">技术</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">健康</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheat">过热</string>
+    <string name="battery_health_dead">死亡</string>
+    <string name="battery_health_over_voltage">电压过高</string>
+    <string name="battery_health_unspecified_failure">未知故障</string>
+    <string name="battery_health_cold">冷</string>
+    <string name="battery_health_unknown">未知</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">温度</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">电压</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">设计容量</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">最大容量</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!--Unicorn power-->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <!-- About to show Device name -->
+    <string name="homepage_widget_battery_percent">百分比</string>
+    <string name="homepage_widget_battery_charge">充电中</string>
+    <string name="homepage_widget_battery_discharge">未充电</string>
+    <string name="homepage_widget_battery_title">电池</string>
+    <string name="homepage_widget_storage_title">存储</string>
+    <string name="default_user">用户</string>
+    <string name="top_level_settings_title">设置</string>
+    <string name="search_button_text_title">搜索</string>
+    <string name="firmware_build_type_title">构建类型</string>
+    <string name="firmware_build_summary_title">维护者</string>
+    <string name="build_is_official_title">#official</string>
+    <string name="maintainer_summary">由 %s</string>
+    <string name="about_xperience_device">设备</string>
+    <string name="device_info_security_patch">安全更新</string>
+    <string name="device_desc_category_title">设备旗帜</string>
+    <string name="device_info_hw">硬件信息</string>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">编辑设备名称</string>
+    <string name="edit_text_hint">输入新设备名称</string>
+    <string name="build_status">构建状态</string>
+    <string name="hardware_info">硬件</string>
+    <string name="device_info_battery">电池</string>
+    <string name="device_info_chipset">芯片组</string>
+    <string name="device_info_resolution">分辨率</string>
+    <string name="device_info_storage">存储</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- App details: open play store link if app is user installed -->
+</resources>

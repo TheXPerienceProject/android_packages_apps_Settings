@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="unified_battery_saver_page_intro" product="default">Save power to help your phone battery last longer between charges</string>
+    <string name="unified_battery_saver_page_intro" product="tablet">Save power to help your tablet battery last longer between charges</string>
+</resources>

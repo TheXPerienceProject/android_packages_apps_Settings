@@ -7,7 +7,7 @@ package mx.xperience.settings.display.refreshrate;
 
 import android.os.Bundle;
 
-import com.android.internal.util.voltage.DisplayRefreshRateHelper;
+import com.android.internal.util.xperience.DisplayRefreshRateHelper;
 
 import com.android.settings.R;
 

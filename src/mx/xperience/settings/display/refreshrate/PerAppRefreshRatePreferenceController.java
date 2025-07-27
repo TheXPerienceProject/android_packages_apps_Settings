@@ -14,7 +14,7 @@ import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.util.voltage.DisplayRefreshRateHelper;
+import com.android.internal.util.xperience.DisplayRefreshRateHelper;
 
 import com.android.settings.core.BasePreferenceController;
 

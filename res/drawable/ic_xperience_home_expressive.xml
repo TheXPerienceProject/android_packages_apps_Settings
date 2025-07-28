@@ -17,4 +17,4 @@
 <com.android.settings.widget.TintDrawable
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/ic_xperience_logo_menu"
-    android:tint="@color/homepage_xperience_foreground" />
+    android:tint="@color/homepage_apps_foreground" />

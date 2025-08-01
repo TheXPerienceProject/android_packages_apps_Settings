@@ -70,4 +70,44 @@
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <!-- App details: open play store link if app is user installed -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <!-- Display : Rotation -->
+    <!-- Per-app configs -->
+    <!-- Per-app refresh rate -->
+    <!-- Screen refresh rate -->
+    <!-- Extreme refresh rate -->
+    <!-- Confirm dialog -->
+    <!-- Screen resolution -->
+    <!-- Black theme for dark mode -->
+    <!-- [CHAR LIMIT=NONE] Settings label. This setting lets the user's apps share intents function between their profiles. The adjective 'Cross-profile' is referring to the work and personal profiles a user ha-->
+    <!-- [CHAR LIMIT=NONE] Setting description. If the user turns on this setting, they can share content across their personal and work profiles. -->
+    <!-- Work profile settings screen, setting option to change profile timeout -->
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高触控采样率</string>
+    <string name="high_touch_polling_rate_summary">提高触控采样率</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
+    <string name="high_touch_sensitivity_summary">手套模式</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">悬浮操作</string>
+    <string name="touchscreen_hovering_summary">允许您把手指悬停在屏幕上作为浏览器、远程桌面等的鼠标指针</string>
+    <!-- Pocket mode -->
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <!-- Torch Power button gestures -->
+    <!-- Charging control settings -->
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_enable_title">启用充电控制</string>
+    <string name="charging_control_mode_title">充电模式</string>
+    <string name="charging_control_mode_auto_title">自动计划</string>
+    <string name="charging_control_mode_auto_summary">根据设置的闹钟自动确定何时开始充电</string>
+    <string name="charging_control_mode_custom_title">自定义计划</string>
+    <string name="charging_control_mode_custom_summary">设定一个完全充满时间</string>
+    <string name="charging_control_mode_limit_title">充电限制</string>
+    <string name="charging_control_mode_limit_summary">充电限制自定义百分比</string>
+    <string name="charging_control_start_time_title">起始时间</string>
+    <string name="charging_control_start_time_summary">在 %s 之后开始充电时，充电控制将被激活</string>
+    <string name="charging_control_target_time_title">完全充满所需的时间</string>
+    <string name="charging_control_target_time_summary">电池将在 %s 完全充满</string>
+    <string name="charging_control_limit_title">限制</string>
 </resources>

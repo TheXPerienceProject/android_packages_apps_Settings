@@ -24,6 +24,7 @@ import android.content.Context;
 import android.database.ContentObserver;
 import android.hardware.display.AmbientDisplayConfiguration;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -103,7 +104,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
 
     private void updateAmbientMusicPref() {
         final PreferenceScreen screen = getPreferenceScreen();
-        if (getContext().getResources().getBoolean(R.bool.config_show_now_playing) || screen == null) {
+        if (Build.MANUFACTURER.equals("Google") || screen == null) {
             return;
         }
         final Preference preference = screen.findPreference(KEY_NOW_PLAYING);
@@ -209,7 +210,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
                 public List<String> getNonIndexableKeys(Context context) {
                     final List<String> niks = super.getNonIndexableKeys(context);
                     niks.add(KEY_ADD_USER_FROM_LOCK_SCREEN);
-                    if (!context.getResources().getBoolean(R.bool.config_show_now_playing)) {
+                    if (!Build.MANUFACTURER.equals("Google")) {
                         niks.add(KEY_NOW_PLAYING);
                     }
                     return niks;

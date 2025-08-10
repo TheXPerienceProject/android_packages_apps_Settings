@@ -21,6 +21,7 @@ import static android.app.admin.DevicePolicyResources.Strings.Settings.WORK_PROF
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -127,7 +128,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
 
     private void updateAmbientMusicPref() {
         final PreferenceScreen screen = getPreferenceScreen();
-        if (getContext().getResources().getBoolean(R.bool.config_show_now_playing) || screen == null) {
+        if (Build.MANUFACTURER.equals("Google") || screen == null) {
             return;
         }
 
@@ -326,7 +327,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
 
-                    if (!context.getResources().getBoolean(R.bool.config_show_now_playing)) {
+                    if (!Build.MANUFACTURER.equals("Google")) {
                         keys.add(KEY_NOW_PLAYING);
                     }
 

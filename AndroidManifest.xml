@@ -5765,18 +5765,7 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="mx.xperience.unicorn.Rainbow" />
-        </activity>
-        <!-- Screen refresh rate -->
-        <activity android:name="Settings$ScreenRefreshRateActivity"
-            android:label="@string/screen_refresh_rate_title"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="mx.xperience.settings.display.refreshrate.ScreenRefreshRateFragment"/>
-        </activity>
+            </activity>
 
         <receiver android:name=".users.UserTimeoutReceiver"
             android:exported="false">

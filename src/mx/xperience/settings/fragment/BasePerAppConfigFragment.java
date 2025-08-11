@@ -14,6 +14,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Pair;
 import android.view.View;
 
 import androidx.preference.Preference;
@@ -38,29 +39,17 @@ public abstract class BasePerAppConfigFragment extends EmptyTextSettings {
     /**
      * Comparator by label, if null or empty then packageName.
      */
-    private static class AppComparator implements Comparator<AppData> {
+    private static class AppComparator implements Comparator<Pair<String, String>> {
 
         private final Collator mCollator = Collator.getInstance();
 
         @Override
-        public final int compare(AppData a, AppData b) {
-            String sa = a.label;
-            if (TextUtils.isEmpty(sa)) sa = a.packageName;
-            String sb = b.label;
-            if (TextUtils.isEmpty(sb)) sb = b.packageName;
+        public final int compare(Pair<String, String> a, Pair<String, String> b) {
+            String sa = a.first;
+            if (TextUtils.isEmpty(sa)) sa = a.second;
+            String sb = b.first;
+            if (TextUtils.isEmpty(sb)) sb = b.second;
             return mCollator.compare(sa, sb);
-        }
-    }
-
-    protected final class AppData {
-        protected String label;
-        protected String packageName;
-        protected int uid;
-
-        protected AppData(String label, String packageName, int uid) {
-            this.label = label;
-            this.packageName = packageName;
-            this.uid = uid;
         }
     }
 
@@ -98,8 +87,8 @@ public abstract class BasePerAppConfigFragment extends EmptyTextSettings {
         }
 
         // Rebuild the list of prefs
-        final ArrayList<AppData> apps = collectApps();
-        for (final AppData appData : apps) {
+        final ArrayList<Pair<String, String>> apps = collectApps();
+        for (final Pair<String, String> appData : apps) {
             screen.addPreference(createAppPreference(prefContext, appData));
         }
     }
@@ -116,20 +105,20 @@ public abstract class BasePerAppConfigFragment extends EmptyTextSettings {
     }
 
     /**
-     * @return the sorted list of AppData of all applications for current user,
+     * @return the sorted list of pair<label, packageName> of all applications for current user,
      * with extra system applications defined in R.array.config_perAppConfAllowedSystemApps.
      */
-    private ArrayList<AppData> collectApps() {
-        final ArrayList<AppData> apps = new ArrayList<>();
+    private ArrayList<Pair<String, String>> collectApps() {
+        final ArrayList<Pair<String, String>> apps = new ArrayList<>();
         final List<PackageInfo> installedPackages =
                 mPackageManager.getInstalledPackages(0);
         for (PackageInfo pi : installedPackages) {
             if ((pi.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) != 0) {
                 continue;
             }
-            apps.add(new AppData(
+            apps.add(new Pair<>(
                     pi.applicationInfo.loadLabel(mPackageManager).toString(),
-                    pi.packageName, pi.applicationInfo.uid));
+                    pi.packageName));
         }
         if (showSystemApp()) {
             final String[] systemApps = mContext.getResources().getStringArray(
@@ -137,9 +126,9 @@ public abstract class BasePerAppConfigFragment extends EmptyTextSettings {
             for (String app : systemApps) {
                 try {
                     final PackageInfo pi = mPackageManager.getPackageInfo(app, 0);
-                    apps.add(new AppData(
-                            pi.applicationInfo.loadLabel(mPackageManager).toString(),
-                            app, pi.applicationInfo.uid));
+                    pi.applicationInfo.loadLabel(mPackageManager).toString();
+                    apps.add(new Pair<>(
+                            pi.applicationInfo.loadLabel(mPackageManager).toString(), app));
                 } catch (NameNotFoundException e) {
                 }
             }
@@ -167,5 +156,6 @@ public abstract class BasePerAppConfigFragment extends EmptyTextSettings {
         return true;
     }
 
-    protected abstract Preference createAppPreference(Context prefContext, AppData appData);
+    protected abstract Preference createAppPreference(
+            Context prefContext, Pair<String, String> appData);
 }

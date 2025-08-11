@@ -6,6 +6,7 @@
 package mx.xperience.settings.fragment;
 
 import android.content.Context;
+import android.util.Pair;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
@@ -22,22 +23,22 @@ public abstract class PerAppSwitchConfigFragment extends BasePerAppConfigFragmen
     private final LinkedHashMap<String, Boolean> mPkgCheckState = new LinkedHashMap<>();
 
     @Override
-    protected Preference createAppPreference(Context prefContext, AppData appData) {
+    protected Preference createAppPreference(Context prefContext, Pair<String, String> appData) {
         final SwitchPreference pref = new AppSwitchPreference(prefContext);
-        pref.setIcon(getIcon(appData.packageName));
-        pref.setTitle(appData.label);
-        pref.setSummary(appData.packageName);
+        pref.setIcon(getIcon(appData.second));
+        pref.setTitle(appData.first);
+        pref.setSummary(appData.second);
 
-        final boolean checked = isChecked(appData.packageName, appData.uid);
+        final boolean checked = isChecked(appData.second);
         pref.setChecked(checked);
-        mPkgCheckState.put(appData.packageName, checked);
+        mPkgCheckState.put(appData.second, checked);
 
         pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
-                final boolean ret = onSetChecked(appData.packageName, appData.uid, (Boolean) newValue);
+                final boolean ret = onSetChecked(appData.second, (Boolean) newValue);
                 if (ret) {
-                    mPkgCheckState.put(appData.packageName, (Boolean) newValue);
+                    mPkgCheckState.put(appData.second, (Boolean) newValue);
                     onCheckedListUpdated(generateCheckedPkgList());
                 }
                 return ret;
@@ -57,9 +58,9 @@ public abstract class PerAppSwitchConfigFragment extends BasePerAppConfigFragmen
         return ret;
     }
 
-    protected abstract boolean isChecked(String packageName, int uid);
+    protected abstract boolean isChecked(String packageName);
 
-    protected abstract boolean onSetChecked(String packageName, int uid, boolean checked);
+    protected abstract boolean onSetChecked(String packageName, boolean checked);
 
     protected abstract void onCheckedListUpdated(List<String> pkgList);
 }

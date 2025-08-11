@@ -65,12 +65,12 @@ public class PerAppRefreshRateFragment extends PerAppListConfigFragment {
     }
 
     @Override
-    protected int getCurrentValue(String packageName, int uid) {
+    protected int getCurrentValue(String packageName) {
         return mRefreshRateManager.getRefreshRateForPackage(packageName);
     }
 
     @Override
-    protected void onValueChanged(String packageName, int uid, int value) {
+    protected void onValueChanged(String packageName, int value) {
         if (value > 0) {
             mRefreshRateManager.setRefreshRateForPackage(packageName, value);
         } else {

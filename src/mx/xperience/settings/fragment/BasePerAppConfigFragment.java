@@ -23,8 +23,6 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.widget.EmptyTextSettings;
 
-import com.android.settingslib.widget.TopIntroPreference;
-
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -65,29 +63,14 @@ public abstract class BasePerAppConfigFragment extends EmptyTextSettings {
     public void onResume() {
         super.onResume();
 
-        final Context prefContext = getPrefContext();
-        final PreferenceScreen screen = getPreferenceScreen();
-        if (screen == null) {
-            return;
-        }
-
         // Clear the prefs
+        final PreferenceScreen screen = getPreferenceScreen();
         screen.removeAll();
 
-        // Add TopIntroPreference if resource id is valid
-        if (getTopInfoResId() > 0) {
-            try {
-                final String title = mContext.getResources().getString(getTopInfoResId());
-                if (!TextUtils.isEmpty(title)) {
-                    final TopIntroPreference topInfoPref = new TopIntroPreference(prefContext);
-                    topInfoPref.setTitle(title);
-                    screen.addPreference(topInfoPref);
-                }
-            } catch (Exception e) {}
-        }
+        final ArrayList<Pair<String, String>> apps = collectApps();
 
         // Rebuild the list of prefs
-        final ArrayList<Pair<String, String>> apps = collectApps();
+        final Context prefContext = getPrefContext();
         for (final Pair<String, String> appData : apps) {
             screen.addPreference(createAppPreference(prefContext, appData));
         }
@@ -144,10 +127,6 @@ public abstract class BasePerAppConfigFragment extends EmptyTextSettings {
             }
         }
         return loadIcon != null ? loadIcon : mPackageManager.getDefaultActivityIcon();
-    }
-
-    protected int getTopInfoResId() {
-        return 0;
     }
 
     protected abstract Preference createAppPreference(

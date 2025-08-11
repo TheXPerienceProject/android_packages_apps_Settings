@@ -16,9 +16,9 @@ import java.util.List;
 
 import mx.xperience.display.RefreshRateManager;
 
-import mx.xperience.settings.fragment.PerAppListConfigFragment;
+import mx.xperience.settings.fragment.PerAppConfigFragment;
 
-public class PerAppRefreshRateFragment extends PerAppListConfigFragment {
+public class PerAppRefreshRateFragment extends PerAppConfigFragment {
 
     private DisplayRefreshRateHelper mHelper;
     private RefreshRateManager mRefreshRateManager;

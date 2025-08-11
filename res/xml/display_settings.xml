@@ -37,7 +37,7 @@
             android:key="@string/preference_key_auto_brightness"
             android:title="@string/auto_brightness_title"
             android:fragment="com.android.settings.display.AutoBrightnessSettings"
-            settings:useAdminDisabledSummary="true"
+            settings:useAdminDisabledSummary="false"
             settings:userRestriction="no_config_brightness"
             settings:controller="com.android.settings.display.AutoBrightnessPreferenceController" />
 

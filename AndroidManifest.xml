@@ -5779,6 +5779,17 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name=".Settings$DcDimActivity"
+                  android:label="@string/dc_dim_title"
+                  android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="com.android.settings.DC_DIM_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.display.DcDimSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

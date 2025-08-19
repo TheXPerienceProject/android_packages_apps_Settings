@@ -243,4 +243,8 @@
     <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 
+    <!-- DC Dim schedule -->
+    <string name="dc_dim_title">DC Dimming</string>
+    <string name="dc_dim_summary">Useful for people who are sensitive to PWM\nSide effects include eye strain, nausea and migraines.\nEnabling this usually implies less accurate display colors</string>
+    <string name="schedule_disabled">No schedule</string>
 </resources>

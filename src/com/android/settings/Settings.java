@@ -582,4 +582,5 @@ public class Settings extends SettingsActivity {
 
     /** new additions */
     public static class ScreenRefreshRateActivity extends SettingsActivity {}
+    public static class DcDimActivity extends SettingsActivity { /* empty */ }
 }

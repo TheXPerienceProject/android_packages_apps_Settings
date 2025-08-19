@@ -44,4 +44,7 @@
         <item>com.google.android.calendar</item>
         <item>com.google.android.gms</item>
     </string-array>
+
+    <!-- Show DC Dim settings and schedule -->
+    <bool name="config_showDcDimSettings" translatable="false">false</bool>
 </resources>

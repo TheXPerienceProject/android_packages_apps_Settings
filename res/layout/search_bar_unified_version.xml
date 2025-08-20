@@ -23,14 +23,15 @@
 
     <LinearLayout
         android:id="@+id/search_action_bar"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="86dp"
+        android:minHeight="72dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
-        android:focusedByDefault="true" >
+        android:focusedByDefault="true"
+        android:background="@drawable/search_bar_selected_background">
 
         <ImageView
             android:id="@+id/imageView"

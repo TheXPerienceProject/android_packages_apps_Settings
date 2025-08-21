@@ -39,7 +39,7 @@ import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.yasp.settings.preferences.SecureSettingListPreference;
+import mx.xperience.framework.preference.SecureSettingListPreference;
 
 import java.time.format.DateTimeFormatter;
 import java.time.LocalTime;
@@ -184,7 +184,7 @@ public class ExtraDimScheduleFragment extends DashboardFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.YASP;
+        return MetricsProto.MetricsEvent.RAINBOW_UNICORN;
     }
 
     @Override

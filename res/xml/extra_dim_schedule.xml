@@ -18,7 +18,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/extra_dim_schedule_title">
 
-    <com.yasp.settings.preferences.SecureSettingListPreference
+    <mx.xperience.framework.preference.SecureSettingListPreference
             android:key="extra_dim_auto_mode"
             android:title="@string/night_display_auto_mode_title"
             android:dialogTitle="@string/night_display_auto_mode_title"

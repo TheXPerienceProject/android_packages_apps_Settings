@@ -86,3 +86,5 @@
 
 # Keep all Sun classes
 -keep,allowoptimization,allowaccessmodification class mx.xperience.settings.** { *; }
+-keep,allowoptimization,allowaccessmodification class mx.xperience.unicorn.fragments.lockscreen.** { *; }
+-keep,allowoptimization,allowaccessmodification class mx.xperience.unicorn.fragments.lockscreen.doze.** { *; }

@@ -214,4 +214,9 @@
     <declare-styleable name="OverlaySwitchPreference">
         <attr name="dkey" format="string" />
     </declare-styleable>
+
+    <declare-styleable name="AdaptivePreference">
+        <attr name="position" format="string" />
+        <attr name="isLineageSettings" format="boolean" />
+    </declare-styleable>
 </resources>

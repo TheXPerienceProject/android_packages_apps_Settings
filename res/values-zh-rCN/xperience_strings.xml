@@ -110,4 +110,21 @@
     <string name="charging_control_target_time_title">完全充满所需的时间</string>
     <string name="charging_control_target_time_summary">电池将在 %s 完全充满</string>
     <string name="charging_control_limit_title">限制</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Per-app volume control -->
+    <string name="app_volume_title">应用独立音量控制</string>
+    <string name="app_volume_summary">允许为每个应用设置不同的音量大小</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">单次自动调节亮度</string>
+    <string name="auto_brightness_one_shot_summary">仅在点亮屏幕的那一刻调节一次亮度</string>
+    <!-- DC Dim schedule -->
+    <!-- AOD Schedule -->
+    <!-- extra dim schedule -->
+    <!-- Preferences -->
+    <!-- Haptic Effect Style -->
+    <!-- Reality Display Engine -->
+    <!-- HDR Display -->
 </resources>

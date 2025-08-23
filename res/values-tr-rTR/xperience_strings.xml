@@ -162,4 +162,33 @@
     <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
     <string name="charging_control_target_time_summary">Batarya %s%% saatinde şarj edilmiş olacak</string>
     <string name="charging_control_limit_title">Sınır</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Bir kez otomatik parlaklık</string>
+    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
+    <!-- DC Dim schedule -->
+    <!-- AOD Schedule -->
+    <!-- extra dim schedule -->
+    <!-- Preferences -->
+    <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">Dokunsal efekt stili</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Görüntü ünitesi</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Pro Ekran</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Varsayılan</string>
+    <string name="display_engine_mode_footer_text">Sony\'nin Bravia Engine\'inden ilham alan Display Engine, daha iyi bir görsel deneyim için parlaklığı, renk doygunluğunu, ayrıntıyı ve renk doğruluğunu artıran birden fazla mod sunuyor.</string>
+    <!-- HDR Display -->
 </resources>

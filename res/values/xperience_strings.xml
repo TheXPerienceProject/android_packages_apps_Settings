@@ -285,4 +285,11 @@
 
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Languages, gestures, updater, time, backup</string>
+
+    <!-- Ltpo features -->
+    <string name="ltpo_features_title">Enable LTPO features</string>
+    <string name="ltpo_features_summary">Enables device-specific adaptive idle and frame rate features for improving efficiency</string>
+    <string name="gaming_mode_ltpo_features_title">LTPO features</string>
+    <string name="gaming_mode_ltpo_features_summary">Whether to enable device-specific adaptive idle and frame rate features for improving efficiency</string>
 </resources>
+

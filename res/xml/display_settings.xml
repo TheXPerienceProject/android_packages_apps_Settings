@@ -238,6 +238,12 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.custom.touch.HighTouchPollingRateSettingsPreferenceController" />
 
+        <SwitchPreferenceCompat
+            android:key="ltpo_features"
+            android:title="@string/ltpo_features_title"
+            android:summary="@string/ltpo_features_summary"
+            settings:controller="com.android.settings.display.LtpoFeaturesPreferenceController" />
+
         <mx.xperience.framework.preference.SystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
             android:title="@string/high_touch_sensitivity_title"

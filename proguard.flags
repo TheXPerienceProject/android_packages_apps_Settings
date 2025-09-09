@@ -84,7 +84,8 @@
 # Keep the com.android.settings.media_drm.FakeFeatureFlagsImpl
 -keep class com.android.settings.media_drm.FakeFeatureFlagsImpl { *; }
 
-# Keep all Sun classes
+# Keep all xpe classes
 -keep,allowoptimization,allowaccessmodification class mx.xperience.settings.** { *; }
+-keep,allowoptimization,allowaccessmodification class mx.xperience.unicorn.fragments.** { *; }
 -keep,allowoptimization,allowaccessmodification class mx.xperience.unicorn.fragments.lockscreen.** { *; }
 -keep,allowoptimization,allowaccessmodification class mx.xperience.unicorn.fragments.lockscreen.doze.** { *; }

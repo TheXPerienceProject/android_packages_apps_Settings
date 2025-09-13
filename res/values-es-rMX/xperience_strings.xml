@@ -240,4 +240,35 @@
     <!-- HDR Display -->
     <string name="hdr_display_title">Pantalla HDR</string>
     <string name="hdr_display_summary">Habilitar el máximo brillo para el contenido HDR. Esto aumentará el uso de la batería</string>
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">Actualizaciones de XPerience™</string>
+    <string name="update_settings_summary">Busca la última versión de XPerience™</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Idiomas, gestos, actualizaciones, tiempo, copia de seguridad</string>
+    <!-- Ltpo features -->
+    <string name="ltpo_features_title">Habilitar características LTPO</string>
+    <string name="ltpo_features_summary">Permite características adaptativas específicas para el inactivo y la velocidad de fotogramas para mejorar la eficiencia</string>
+    <string name="gaming_mode_ltpo_features_title">Características LTPO</string>
+    <string name="gaming_mode_ltpo_features_summary">Permite habilitar funciones específicas del dispositivo para inactividad adaptativa y frecuencia de cuadros con el fin de mejorar la eficiencia</string>
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
+    <string name="adaptive_playback_enabled">Usar pausa inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_intro_text">La reproducción adaptativa detiene automáticamente la reproducción cuando el volumen se silencia y se reanudará automáticamente si el volumen se restablece dentro del tiempo establecido.</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ticker musical</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar pantalla ambiente cuando se reproduce una pista de música nueva</string>
 </resources>

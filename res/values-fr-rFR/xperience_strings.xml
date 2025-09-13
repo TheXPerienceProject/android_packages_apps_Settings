@@ -68,4 +68,10 @@
     <!-- Haptic Effect Style -->
     <!-- Reality Display Engine -->
     <!-- HDR Display -->
+    <!-- XPerience Updater -->
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <!-- Ltpo features -->
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_intro_text">Mettre automatiquement les médias en pause lorsque le volume est éteint et reprendre automatiquement lorsque le volume est restauré dans le délai défini.</string>
+    <!-- Pulse on music track change -->
 </resources>

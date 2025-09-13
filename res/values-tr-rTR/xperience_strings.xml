@@ -191,4 +191,29 @@
     <string name="display_engine_default">Varsayılan</string>
     <string name="display_engine_mode_footer_text">Sony\'nin Bravia Engine\'inden ilham alan Display Engine, daha iyi bir görsel deneyim için parlaklığı, renk doygunluğunu, ayrıntıyı ve renk doğruluğunu artıran birden fazla mod sunuyor.</string>
     <!-- HDR Display -->
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">XPerience güncellemeleri</string>
+    <string name="update_settings_summary">XPerience\'ın en son sürümünü kontrol edin</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Diller, hareketler, güncelleyici, zaman, yedekleme</string>
+    <!-- Ltpo features -->
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_screen_title">Akıllı Duraklatma</string>
+    <string name="adaptive_playback_enabled">Akıllı duraklatmayı kullan</string>
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
+    <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 dakika)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
+    <!-- Pulse on music track change -->
 </resources>

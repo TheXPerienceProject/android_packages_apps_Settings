@@ -228,4 +228,29 @@
     <string name="display_engine_default">Alapértelmezett</string>
     <string name="display_engine_mode_footer_text">A Sony Bravia által ihletett kijelzőmotor több módot kínál a fényerő, a színtelítettség, a részletgazdagság és a színpontosság fokozására a jobb vizuális élmény érdekében.</string>
     <!-- HDR Display -->
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">XPerience™-frissítés</string>
+    <string name="update_settings_summary">Találja meg a legfrissebb XPerience-verziót</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Mozdulatvezérlők, nyelvek, frissítés, idő, mentés</string>
+    <!-- Ltpo features -->
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
+    <string name="adaptive_playback_enabled">Az \'Okos szüneteltetés\' használata</string>
+    <string name="adaptive_playback_disabled_summary">Kikapcsol</string>
+    <string name="adaptive_playback_intro_text">Hangerőnémításkor automatikusan leállítja a lejátszást és a beállított időn belül automatikusan újra is indítja, ha a némítás megszűnik.</string>
+    <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
+    <string name="adaptive_playback_timeout_none">Nincs időtúllépés</string>
+    <string name="adaptive_playback_timeout_none_summary">Be (nincs időtúllépés)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
+    <!-- Pulse on music track change -->
 </resources>

@@ -124,27 +124,8 @@
     <string name="display_rotation_90_title">90 grados</string>
     <string name="display_rotation_180_title">180 grados</string>
     <string name="display_rotation_270_title">270 grados</string>
-    <!-- Per-app configs -->
-    <string name="per_app_config_empty_text">Ninguna aplicación instalada soporta la configuración actual</string>
-    <!-- Per-app refresh rate -->
-    <string name="per_app_refresh_rate_title">Frecuencia de actualización por aplicación</string>
-    <string name="per_app_refresh_rate_summary">Configura la tasa de actualización de forma individual para cada aplicación</string>
-    <string name="per_app_refresh_rate_default">Predeterminado del sistema</string>
-    <!-- Screen refresh rate -->
-    <string name="screen_refresh_rate_title">Tasa de actualización de la pantalla</string>
-    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
-    <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
-    <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
-    <string name="battery_saver_refresh_rate_summary">Usar velocidad de refresco de la pantalla de 60 Hz para ahorrar energía cuando el Ahorro de batería está encendido</string>
-    <string name="battery_saver_refresh_rate_disabled_summary">Frecuencia de actualización extrema activada</string>
-    <!-- Extreme refresh rate -->
-    <string name="extreme_refresh_rate_title">Frecuencia de actualización extrema</string>
-    <string name="extreme_refresh_rate_summary">Forzar Hz máximo en todas las apps</string>
-    <string name="extreme_refresh_rate_warning">Esto garantizará que el sistema seleccione la frecuencia de actualización más alta, ignorando las opciones seleccionadas por el usuario y las preferencias de la aplicación. Las aplicaciones que requieren una frecuencia de actualización específica pueden funcionar de forma anómala.</string>
     <!-- Confirm dialog -->
     <string name="confirm_before_enable_title">¿Continuar activando?</string>
-    <!-- Screen resolution -->
-    <string name="screen_resolution_footer_custom">La resolución completa usa más de su batería. SystemUI se reiniciará para recargar el diseño adecuado.</string>
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Negro puro</string>
     <string name="berry_black_theme_summary">Fondo negro puro para el tema oscuro</string>
@@ -198,4 +179,77 @@
     <string name="charging_control_target_time_title">Tiempo objetivo hasta la carga completa</string>
     <string name="charging_control_target_time_summary">La batería estará completamente cargada en %s</string>
     <string name="charging_control_limit_title">Limite</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Pulsación larga en el sensor de huella para desbloquear el teléfono</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Pulsación larga en el sensor de huella digital para desbloquear la tableta</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Pulsación larga en el sensor de huella para desbloquear el dispositivo</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Para despertar la pantalla y desbloquear, mantén pulsado el sensor de huella digital bajo pantalla.</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volumen de aplicación</string>
+    <string name="app_volume_title">Control de volumen por aplicación</string>
+    <string name="app_volume_summary">Permite establecer diferentes niveles de volumen para cada aplicación</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar el brillo automáticamente una sola vez</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
+    <!-- DC Dim schedule -->
+    <string name="dc_dim_title">DC-Dimming</string>
+    <string name="dc_dim_summary">Útil para personas sensibles al PWM\nLos efectos secundarios incluyen fatiga ocular, náuseas y migrañas.\nHabilitar esta opción suele implicar una menor precisión en los colores de la pantalla</string>
+    <string name="schedule_disabled">No programado</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Establecer horario de Aod</string>
+    <string name="always_on_display_schedule_sunset">Atardecer</string>
+    <string name="always_on_display_schedule_sunrise">Amanecer</string>
+    <string name="always_on_display_schedule_mixed_sunset">Activar desde la puesta del sol hasta una hora concreta</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Activar desde una hora concreta hasta el amanecer</string>
+    <!-- extra dim schedule -->
+    <string name="extra_dim_schedule_title">Programar</string>
+    <!-- Preferences -->
+    <string name="reevaluating_theme">Recargando temas del sistema...</string>
+    <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">Estilo de efecto háptico</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Motor de pantalla</string>
+    <string name="display_engine_mode_title">Motor Reality Display</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Pantalla Triluminous Pro™</string>
+    <string name="vivid_engine_mode_title">Pantalla vívida</string>
+    <string name="display_engine_default">Predeterminado</string>
+    <string name="display_engine_mode_footer_text">Inspirado por el motor Bravia de Sony, el motor de visualización ofrece múltiples modos para mejorar el brillo, la saturación del color, los detalles y la precisión del color para una mejor experiencia visual.</string>
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Pantalla HDR</string>
+    <string name="hdr_display_summary">Habilitar el máximo brillo para el contenido HDR. Esto aumentará el uso de la batería</string>
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">Actualizaciones de XPerience™</string>
+    <string name="update_settings_summary">Busca la última versión de XPerience™</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Idiomas, gestos, actualizaciones, tiempo, copia de seguridad</string>
+    <!-- Ltpo features -->
+    <string name="ltpo_features_title">Habilitar características LTPO</string>
+    <string name="ltpo_features_summary">Permite características adaptativas específicas para el inactivo y la velocidad de fotogramas para mejorar la eficiencia</string>
+    <string name="gaming_mode_ltpo_features_title">Características LTPO</string>
+    <string name="gaming_mode_ltpo_features_summary">Permite habilitar funciones específicas del dispositivo para inactividad adaptativa y frecuencia de cuadros con el fin de mejorar la eficiencia</string>
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
+    <string name="adaptive_playback_enabled">Usar pausa inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_intro_text">La reproducción adaptativa detiene automáticamente la reproducción cuando el volumen se silencia y se reanudará automáticamente si el volumen se restablece dentro del tiempo establecido.</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ticker musical</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar pantalla ambiente cuando se reproduce una pista de música nueva</string>
 </resources>

@@ -119,16 +119,7 @@
     <string name="display_rotation_90_title">90 derece</string>
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
-    <!-- Per-app configs -->
-    <!-- Per-app refresh rate -->
-    <!-- Screen refresh rate -->
-    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
-    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
-    <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
-    <string name="battery_saver_refresh_rate_summary">Pil tasarrufu açıkken güç tasarrufu yapmak için 60 Hz ekran yenileme hızını kullanın</string>
-    <!-- Extreme refresh rate -->
     <!-- Confirm dialog -->
-    <!-- Screen resolution -->
     <!-- Black theme for dark mode -->
     <!-- [CHAR LIMIT=NONE] Settings label. This setting lets the user's apps share intents function between their profiles. The adjective 'Cross-profile' is referring to the work and personal profiles a user ha-->
     <!-- [CHAR LIMIT=NONE] Setting description. If the user turns on this setting, they can share content across their personal and work profiles. -->
@@ -162,4 +153,58 @@
     <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
     <string name="charging_control_target_time_summary">Batarya %s%% saatinde şarj edilmiş olacak</string>
     <string name="charging_control_limit_title">Sınır</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Her bir uygulama için farklı ses seviyesi ayarlayın</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Bir kez otomatik parlaklık</string>
+    <string name="auto_brightness_one_shot_summary">Parlaklık ayarı yalnızca ekran açıldığında gerçekleşir</string>
+    <!-- DC Dim schedule -->
+    <!-- AOD Schedule -->
+    <!-- extra dim schedule -->
+    <!-- Preferences -->
+    <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">Dokunsal efekt stili</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Görüntü ünitesi</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Pro Ekran</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Varsayılan</string>
+    <string name="display_engine_mode_footer_text">Sony\'nin Bravia Engine\'inden ilham alan Display Engine, daha iyi bir görsel deneyim için parlaklığı, renk doygunluğunu, ayrıntıyı ve renk doğruluğunu artıran birden fazla mod sunuyor.</string>
+    <!-- HDR Display -->
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">XPerience güncellemeleri</string>
+    <string name="update_settings_summary">XPerience\'ın en son sürümünü kontrol edin</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Diller, hareketler, güncelleyici, zaman, yedekleme</string>
+    <!-- Ltpo features -->
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_screen_title">Akıllı Duraklatma</string>
+    <string name="adaptive_playback_enabled">Akıllı duraklatmayı kullan</string>
+    <string name="adaptive_playback_disabled_summary">Kapalı</string>
+    <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
+    <string name="adaptive_playback_timeout_none">Zaman aşımı yok</string>
+    <string name="adaptive_playback_timeout_none_summary">Açık (zaman aşımı yok)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 dakika)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
+    <!-- Pulse on music track change -->
 </resources>

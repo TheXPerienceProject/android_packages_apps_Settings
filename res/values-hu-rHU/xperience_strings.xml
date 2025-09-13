@@ -103,13 +103,17 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Az összes RAM</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Kevesebb, mint egy perc</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">Ma: %1$s</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play Áruház</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Képernyőkép csúsztatással</string>
     <string name="swipe_to_screenshot_gesture_summary">Csúsztasson három ujjal képernyőkép készítéséhez</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Alvómód érintéssel</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Az állapotsor vagy a záróképernyő dupla érintésére kikapcsol a képernyő</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Forgatási beállítások</string>
     <string name="display_rotation_enabled">Az automatikus elforgatás engedélyezve</string>
@@ -120,20 +124,21 @@
     <string name="display_rotation_90_title">90° fok</string>
     <string name="display_rotation_180_title">180° fok</string>
     <string name="display_rotation_270_title">270° fok</string>
-    <!-- Per-app configs -->
-    <!-- Per-app refresh rate -->
-    <!-- Screen refresh rate -->
-    <string name="min_refresh_rate_title">Képernyőfrissítési minimum</string>
-    <string name="max_refresh_rate_title">Képernyőfrissítési maximum</string>
-    <string name="battery_saver_refresh_rate_title">Képernyőfrissítés-csökkentés</string>
-    <string name="battery_saver_refresh_rate_summary">Ha az akkukímélőt bekapcsolja, energiatakarékosságból max. 60 Hz lesz a képernyőfrissítés</string>
-    <!-- Extreme refresh rate -->
     <!-- Confirm dialog -->
-    <!-- Screen resolution -->
+    <string name="confirm_before_enable_title">Folytatja az engedélyezést?</string>
     <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Valódi fekete</string>
+    <string name="berry_black_theme_summary">Egy igazán fekete háttér a sötét témákhoz</string>
     <!-- [CHAR LIMIT=NONE] Settings label. This setting lets the user's apps share intents function between their profiles. The adjective 'Cross-profile' is referring to the work and personal profiles a user ha-->
+    <string name="cross_profile_sharing_title">Profilon keresztüli megosztás</string>
     <!-- [CHAR LIMIT=NONE] Setting description. If the user turns on this setting, they can share content across their personal and work profiles. -->
+    <string name="cross_profile_sharing_summary">Az alkalmazáson belüli megosztás-gomb engedélyezése, hogy azok a személyes és a munkahelyi profilon is működjenek</string>
     <!-- Work profile settings screen, setting option to change profile timeout -->
+    <string name="work_hours_title">Munkaidő</string>
+    <string name="work_hours_end_on_summary">Értesítés megjelenítése a munkaprofil kikapcsolására naponta ekkor: <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="work_hours_end_off_summary">Napi értesítés megjelenítése a munkaprofil kikapcsolásához</string>
+    <string name="work_hours_end_notification_title">Munkanap vége</string>
+    <string name="work_hours_end_notification_description">A munkahelyi alkalmazások kikapcsolása</string>
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Magas értékű képernyő-lekérdezés</string>
     <string name="high_touch_polling_rate_summary">Az érintőképernyő lekérdezési értékének növelése</string>
@@ -143,13 +148,24 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Lebegő érintés</string>
     <string name="touchscreen_hovering_summary">Engedélyezi a lebegéssel való vezérlést, mint egy egérrel a böngészőknél, távoli asztaloknál, stb.</string>
+    <string name="touchscreen_gesture_settings_title">Érintőképernyő-mozdulatvezérlés</string>
+    <string name="touchscreen_gesture_settings_summary">Különböző képernyő-mozdulatvezérlések gyorsan végrehajtandó műveletekhez</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Véletlenébresztés-gátló</string>
     <string name="proximity_wake_summary">Ellenőrizze a közelségérzékelőt a képernyő felébresztése előtt</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Zseblámpa gyorskapcsoló</string>
+    <string name="use_power_button_torch_title">Bekapcsológomb használata</string>
+    <string name="use_power_button_torch_summary">Kikapcsolt képernyőnél a Zseblámpa a következő billentyűkombinációk egyikével kapcsolható</string>
+    <string name="gesture_power_button_torch_category_title">Kikapcsolt képernyőnél, a zseblámpa a következővel aktiválható</string>
+    <string name="gesture_power_button_torch_long_press_title">Bekapcsológomb hosszan-nyomása</string>
+    <string name="gesture_power_button_torch_double_tap_title">Bekapcsológomb kétszeri rövid megnyomása</string>
+    <string name="gesture_double_tap_power_summary_disabled">A Zseblámpa mozdulatvezérlője letiltotta</string>
+    <string name="double_tap_power_for_torch_summary_disabled">A Kameramegnyitás vezérlője letiltotta</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">Kontrollált töltés</string>
+    <string name="charging_control_summary">Személyre szabhatja a készüléke töltési ütemtervét és korlátait</string>
     <string name="charging_control_enable_title">A kontrollált töltés bekapcsolása</string>
     <string name="charging_control_mode_title">A töltés módja</string>
     <string name="charging_control_mode_auto_title">Automatikus ütemezés</string>
@@ -163,4 +179,59 @@
     <string name="charging_control_target_time_title">A teljes töltés célideje</string>
     <string name="charging_control_target_time_summary">Az akkumulátor teljesen feltöltődik ekkorra: %1$s</string>
     <string name="charging_control_limit_title">Limit</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Az ujjlenyomat-olvasó hosszannyomásával feloldható a telefon</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Az ujjlenyomat-olvasó hosszannyomásával feloldható a táblagép</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Az ujjlenyomat-olvasó hosszannyomásával feloldható a készülék</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">A képernyő feloldásához nyomja hosszan a képernyőbe épített ujjlenyomat-olvasót.</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Alkalmazás-hangerő</string>
+    <string name="app_volume_title">Alkalmazásonkénti hangerőszabályozás</string>
+    <string name="app_volume_summary">Lehetővé teszi, hogy minden alkalmazásnak más legyen a hangereje</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
+    <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
+    <!-- DC Dim schedule -->
+    <!-- AOD Schedule -->
+    <!-- extra dim schedule -->
+    <!-- Preferences -->
+    <!-- Haptic Effect Style -->
+    <string name="haptic_effect_style_title">A rezgő visszajelzés stílusa</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">A megjelenítés motorja</string>
+    <string name="display_engine_mode_title">Reality-mód</string>
+    <string name="x_reality_engine_mode_title">X-Reality motor</string>
+    <string name="triluminous_display_mode_title">Triluminous™ Pro képernyő</string>
+    <string name="vivid_engine_mode_title">Vivid-mód</string>
+    <string name="display_engine_default">Alapértelmezett</string>
+    <string name="display_engine_mode_footer_text">A Sony Bravia által ihletett kijelzőmotor több módot kínál a fényerő, a színtelítettség, a részletgazdagság és a színpontosság fokozására a jobb vizuális élmény érdekében.</string>
+    <!-- HDR Display -->
+    <!-- XPerience Updater -->
+    <string name="update_settings_title">XPerience™-frissítés</string>
+    <string name="update_settings_summary">Találja meg a legfrissebb XPerience-verziót</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Mozdulatvezérlők, nyelvek, frissítés, idő, mentés</string>
+    <!-- Ltpo features -->
+    <!-- Adaptive Playback (Smart Pause) -->
+    <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
+    <string name="adaptive_playback_enabled">Az \'Okos szüneteltetés\' használata</string>
+    <string name="adaptive_playback_disabled_summary">Kikapcsol</string>
+    <string name="adaptive_playback_intro_text">Hangerőnémításkor automatikusan leállítja a lejátszást és a beállított időn belül automatikusan újra is indítja, ha a némítás megszűnik.</string>
+    <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
+    <string name="adaptive_playback_timeout_none">Nincs időtúllépés</string>
+    <string name="adaptive_playback_timeout_none_summary">Be (nincs időtúllépés)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
+    <!-- Pulse on music track change -->
 </resources>

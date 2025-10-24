@@ -23,7 +23,7 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
-
+import android.graphics.Point
 import android.os.Build
 import android.os.SystemProperties
 import android.provider.Settings
@@ -31,8 +31,10 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.view.Display
 import android.view.LayoutInflater
 import android.view.View
+import android.view.WindowManager
 import androidx.cardview.widget.CardView
 import androidx.lifecycle.LifecycleOwner;
 import androidx.preference.Preference
@@ -142,8 +144,33 @@ class mtxInfoPreferenceController(context: Context) : AbstractPreferenceControll
         return getPropertyOrDefault(PROP_XPERIENCE_BATTERY)
     }
 
-    private fun getXPerienceResolution(): String {
+    private fun getDisplayResolution(): String {
+        val windowManager = mContext.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+        val display = mContext.display
+        
+        if (display != null) {
+            val size = Point()
+
+            // getRealSize is the key method for obtaining the physical resolution
+            // without being affected by system bars.
+            // Although it is @Suppress(‘DEPRECATION’) in the IDE, it is the correct way to 
+            // obtain the physical resolution of the panel.
+            @Suppress("DEPRECATION")
+            display.getRealSize(size)
+
+            // Format: Width x Height (e.g. ‘1440x3168’)
+            return "${size.x}x${size.y}"
+        }
+
+        // Fallback: if detection fails, use the static property
         return getPropertyOrDefault(PROP_XPERIENCE_DISPLAY)
+    }
+
+    private fun getXPerienceResolution(): String {
+        // Call the new detection function. 
+        // If it fails, getDisplayResolution() already has a fallback 
+        // to the system property.
+        return getDisplayResolution()
     }
 
     private fun getXPerienceSecurity(): String {

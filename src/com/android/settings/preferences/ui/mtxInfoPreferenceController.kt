@@ -98,7 +98,47 @@ class mtxInfoPreferenceController(context: Context) : AbstractPreferenceControll
         return skuToChipset[sku] ?: defaultFallbackChipset
     }
 
+    private fun getBatteryCapacityInMah(): String {
+        try {
+            val powerProfileClass = Class.forName("com.android.internal.os.PowerProfile")
+            val powerProfile = powerProfileClass.getConstructor(Context::class.java).newInstance(mContext)
+
+            val batteryCapacityMethod = try {
+                powerProfileClass.getMethod("getBatteryCapacity")
+            } catch (e: NoSuchMethodException) {
+                powerProfileClass.getMethod("getAveragePower", String::class.java)
+            }
+
+            val capacity: Double = if (batteryCapacityMethod.parameterTypes.isEmpty()) {
+                // getBatteryCapacity()
+                batteryCapacityMethod.invoke(powerProfile) as Double
+            } else {
+                // getAveragePower("battery.capacity")
+                batteryCapacityMethod.invoke(powerProfile, "battery.capacity") as Double
+            }
+
+            if (capacity > 0) {
+                // Returns the capacity in the format ‘XXXX mAh’
+                return "${capacity.toInt()} mAh"
+            }
+        } catch (e: Exception) {
+            // In case of failed reflection
+            // Log.e("BatteryInfo", "Failed to get battery capacity", e)
+        }
+
+        // If reflection fails or capacity is 0, we try PROP_XPERIENCE_BATTERY as a fallback.
+        return getPropertyOrDefault(PROP_XPERIENCE_BATTERY)
+    }
+
     private fun getXPerienceBattery(): String {
+        //Try to obtain the capacity through reflection (most accurate method)
+        val capacity = getBatteryCapacityInMah()
+
+        //If the value obtained by reflection is different from the default fallback, use it.
+        // This prevents ‘Unknown’ or similar from being displayed if the reflection failed.
+        if (capacity != defaultFallback) {
+            return capacity
+        }
         return getPropertyOrDefault(PROP_XPERIENCE_BATTERY)
     }
 

@@ -148,4 +148,5 @@
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 menit)</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

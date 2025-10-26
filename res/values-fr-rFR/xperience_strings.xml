@@ -69,4 +69,5 @@
     <!-- Adaptive Playback (Smart Pause) -->
     <string name="adaptive_playback_intro_text">Mettre automatiquement les médias en pause lorsque le volume est éteint et reprendre automatiquement lorsque le volume est restauré dans le délai défini.</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

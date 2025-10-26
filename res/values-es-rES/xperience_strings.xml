@@ -252,4 +252,22 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ticker musical</string>
     <string name="pulse_on_new_tracks_summary">Mostrar pantalla ambiente cuando se reproduce una pista de música nueva</string>
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Usar batería adaptativa</string>
+    <string name="basic_battery_saver_title">Ahorro de batería estándar</string>
+    <string name="basic_battery_saver_summary">Limita los efectos visuales y la actividad en segundo plano. Activa el tema oscuro, si aún no está activado.</string>
+    <string name="battery_saver_reminder_category">Recordatorios</string>
+    <string name="battery_saver_reminder_switch_title">Recordatorios de ahorro de batería</string>
+    <string name="battery_saver_reminder_switch_summary">Recibe avisos cuando la batería esté baja</string>
+    <string name="battery_saver_schedule_category">Programar</string>
+    <string name="battery_saver_schedule_switch_title">Activar basado en el nivel de batería</string>
+    <string name="battery_saver_schedule_switch_summary">Ahorro de batería se activa cuando la batería cae a un nivel que hayas establecido</string>
+    <string name="battery_schedule_title">Programación y recordatorios</string>
+    <string name="battery_schedule_summary">Administrar cuando el Ahorro de Batería se encienda</string>
+    <string name="extreme_battery_saver_title">Ahorro de batería extremo</string>
+    <string name="extreme_battery_saver_summary">Incluye todos los cambios mencionados anteriormente. También pausa las aplicaciones no esenciales y sus notificaciones.</string>
+    <string name="smart_battery_a11y_expand_label">Expandir, batería adaptativa</string>
+    <string name="smart_battery_a11y_collapse_label">Colapsar, batería adaptativa</string>
+    <string name="smart_battery_title">Batería adaptativa</string>
+    <string name="unified_battery_saver_page_intro">Ahorra energía para ayudar a que la batería de tu teléfono dure más entre cargas</string>
 </resources>

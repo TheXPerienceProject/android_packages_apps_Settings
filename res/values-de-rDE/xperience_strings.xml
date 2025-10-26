@@ -80,4 +80,5 @@
     <!-- Adaptive Playback (Smart Pause) -->
     <string name="adaptive_playback_intro_text">Medien werden bei Stummschaltung automatisch pausiert und bei Aufhebung der Stummschaltung innerhalb des Zeitlimits wieder fortgesetzt.</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

@@ -253,4 +253,5 @@
     <string name="adaptive_playback_timeout_10_min">10 perc</string>
     <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

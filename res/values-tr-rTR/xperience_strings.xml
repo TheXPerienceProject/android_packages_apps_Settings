@@ -216,4 +216,5 @@
     <string name="adaptive_playback_timeout_10_min">10 dakika</string>
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

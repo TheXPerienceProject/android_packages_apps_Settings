@@ -129,4 +129,5 @@
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

@@ -96,4 +96,5 @@
     <string name="adaptive_playback_timeout_10_min">10 minuti</string>
     <string name="adaptive_playback_timeout_10_min_summary">Acceso (10 minuti)</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

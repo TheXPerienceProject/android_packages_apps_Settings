@@ -133,4 +133,5 @@
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

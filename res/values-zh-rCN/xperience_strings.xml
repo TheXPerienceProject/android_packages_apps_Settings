@@ -134,4 +134,5 @@
     <string name="adaptive_playback_screen_title">自适应播放</string>
     <string name="adaptive_playback_enabled">使用自适应播放</string>
     <!-- Pulse on music track change -->
+    <!-- Battery Saver -->
 </resources>

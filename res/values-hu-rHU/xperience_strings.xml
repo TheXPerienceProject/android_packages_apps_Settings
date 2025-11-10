@@ -214,9 +214,19 @@
     <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
     <string name="auto_brightness_one_shot_summary">A fényerőbeállítás csak a képernyő bekapcsolásának pillanatában történik</string>
     <!-- DC Dim schedule -->
+    <string name="dc_dim_title">DC-kiegyenlítés</string>
+    <string name="dc_dim_summary">Hasznos azok számára, akik érzékenyek az impulzusszélesség-modulációra.\nMellékhatások lehetnek a szem megerőltetése, hányinger és migrén.\nAz opció engedélyezése általában kevésbé pontos kijelzőszíneket eredményez</string>
+    <string name="schedule_disabled">Nincs ütemezés</string>
     <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">A \'Mindig bekapcsolva\' ütemezése</string>
+    <string name="always_on_display_schedule_sunset">Napnyugta</string>
+    <string name="always_on_display_schedule_sunrise">Napkelte</string>
+    <string name="always_on_display_schedule_mixed_sunset">Napnyugtától kapcsol be az előre megadott ideig</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Egy adott időponttól Napkeltéig kapcsol be</string>
     <!-- extra dim schedule -->
+    <string name="extra_dim_schedule_title">Ütemezés</string>
     <!-- Preferences -->
+    <string name="reevaluating_theme">Rendszertémák újratöltése...</string>
     <!-- Haptic Effect Style -->
     <string name="haptic_effect_style_title">A rezgő visszajelzés stílusa</string>
     <!-- Reality Display Engine -->
@@ -228,12 +238,18 @@
     <string name="display_engine_default">Alapértelmezett</string>
     <string name="display_engine_mode_footer_text">A Sony Bravia által ihletett kijelzőmotor több módot kínál a fényerő, a színtelítettség, a részletgazdagság és a színpontosság fokozására a jobb vizuális élmény érdekében.</string>
     <!-- HDR Display -->
+    <string name="hdr_display_title">HDR Kijelző</string>
+    <string name="hdr_display_summary">HDR tartalmakhoz bekapcsolja a csúcsfényerőt. De megnöveli az akkumultátor-fogyasztást</string>
     <!-- XPerience Updater -->
     <string name="update_settings_title">XPerience™-frissítés</string>
     <string name="update_settings_summary">Találja meg a legfrissebb XPerience-verziót</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Mozdulatvezérlők, nyelvek, frissítés, idő, mentés</string>
     <!-- Ltpo features -->
+    <string name="ltpo_features_title">LTPO-szolgáltatások engedélyezése</string>
+    <string name="ltpo_features_summary">Készülék-specifikus adaptív tétlenségi és képkockasebesség-funkciókat engedélyez a hatékonyság javítása érdekében.</string>
+    <string name="gaming_mode_ltpo_features_title">LTPO-szolgáltatások</string>
+    <string name="gaming_mode_ltpo_features_summary">Készülék-specifikus adaptív tétlenségi és képkockasebesség-funkciókat engedélyez a hatékonyság javítása érdekében.</string>
     <!-- Adaptive Playback (Smart Pause) -->
     <string name="adaptive_playback_screen_title">Okos szüneteltetés</string>
     <string name="adaptive_playback_enabled">Az \'Okos szüneteltetés\' használata</string>
@@ -253,5 +269,24 @@
     <string name="adaptive_playback_timeout_10_min">10 perc</string>
     <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
     <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Zene-jelzőszalag</string>
+    <string name="pulse_on_new_tracks_summary">A Környezeti kijelző megjelenítése, ha új zeneszám kerül lejátszásra</string>
     <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Az \'Alkalmazkodó akkumulátor\' használata</string>
+    <string name="basic_battery_saver_title">Alap akkukímélő</string>
+    <string name="basic_battery_saver_summary">Korlátozza a vizuál-effekteket és a háttértevékenységet. Amennyiben még nincs bekapcsolva, bekapcsolja a Sötét témát.</string>
+    <string name="battery_saver_reminder_category">Emlékeztetők</string>
+    <string name="battery_saver_reminder_switch_title">Az \'Akkukímélő\' emlékeztetői</string>
+    <string name="battery_saver_reminder_switch_summary">Emlékeztetők alacsony akkumulátortöltöttség esetén</string>
+    <string name="battery_saver_schedule_category">Ütemezés</string>
+    <string name="battery_saver_schedule_switch_title">Bekapcsolás akkuszint alapján</string>
+    <string name="battery_saver_schedule_switch_summary">Az \'Akkukímélő mód\' akkor kapcsol be, amikor az akkumerülés eléri a beállított szintet</string>
+    <string name="battery_schedule_title">Ütemezés és emlékeztetők</string>
+    <string name="battery_schedule_summary">Az \'Akkukímélő mód\' bekapcsolásának kezelése</string>
+    <string name="extreme_battery_saver_title">Extrém Akkukímélő</string>
+    <string name="extreme_battery_saver_summary">Tartalmazza a fent felsorolt ​​összes módosítást. Szünetelteti a nem létfontosságú alkalmazásokat és azok értesítéseit is.</string>
+    <string name="smart_battery_a11y_expand_label">Kinyitás, Alkalmazkodó Akkumulátor</string>
+    <string name="smart_battery_a11y_collapse_label">Becsukás, Alkalmazkodó Akkumulátor</string>
+    <string name="smart_battery_title">Alkalmazkodó akkumulátor</string>
+    <string name="unified_battery_saver_page_intro">Energiatakarékosság, hogy a telefon akkumulátora tovább bírja a töltések között</string>
 </resources>

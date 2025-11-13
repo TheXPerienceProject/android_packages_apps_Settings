@@ -72,6 +72,7 @@ class mtxInfoPreferenceController(context: Context) : AbstractPreferenceControll
 
         val skuToChipset = mapOf(
             "lahaina" to "Snapdragon® 888 / 888+",
+            "sun" to "Snapdragon® 8 Elite",
             "waipio" to "Snapdragon® 8 Gen 1",
             "taro" to "Snapdragon® 8 Gen 1",
             "cape" to "Snapdragon® 8+ Gen 1",

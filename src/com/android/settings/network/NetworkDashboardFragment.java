@@ -81,15 +81,19 @@ public class NetworkDashboardFragment extends DashboardFragment implements
                 new VpnPreferenceController(context);
         final PrivateDnsPreferenceController privateDnsPreferenceController =
                 new PrivateDnsPreferenceController(context);
+	final EsimPowerPreferenceController esimPowerPreferenceController =
+                new EsimPowerPreferenceController(context, "esim_power_disable");
 
         if (lifecycle != null) {
             lifecycle.addObserver(vpnPreferenceController);
             lifecycle.addObserver(privateDnsPreferenceController);
+	    lifecycle.addObserver(esimPowerPreferenceController);
         }
 
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
 
         controllers.add(vpnPreferenceController);
+	controllers.add(esimPowerPreferenceController);
         controllers.add(privateDnsPreferenceController);
 
         // Start SettingsDumpService after the MobileNetworkRepository is created.

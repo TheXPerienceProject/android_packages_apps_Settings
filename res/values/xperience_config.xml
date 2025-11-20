@@ -28,4 +28,7 @@
 
     <!-- Show haptic styles -->
     <bool name="config_supportHapticProfiles" translatable="false">false</bool>
+
+    <!-- Whether eSIM power control is supported on this device -->
+    <bool name="config_supportEsimPowerControl">false</bool>
 </resources>

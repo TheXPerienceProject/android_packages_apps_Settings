@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2026 The XPerience Project
+    SPDX-License-Identifier: Apache-2.0
+
+    Hero card: top of About Phone.
+    Structure (bottom → top z-order):
+      1. WallpaperBlurView   — blurred copy of the user's wallpaper
+      2. scrim ImageView     — radial gradient darkens edges for legibility
+      3. LinearLayout        — white text: ROM name, Android ver, device, OTA link
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="false">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/xpe_card_radius"
+        app:cardElevation="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Layer 1: blurred wallpaper -->
+            <com.xperience.widget.WallpaperBlurView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:elevation="0dp"
+                android:gravity="center"
+                android:orientation="vertical" />
+
+            <!-- Layer 2: radial scrim overlay -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="1"
+                android:src="@drawable/scrim"
+                android:contentDescription="" />
+
+            <!-- Layer 3: text content -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="45dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <!-- ROM name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="35sp"
+                    android:textColor="#FFFFFF"
+                    android:text="XPerience" />
+
+                <!-- Android version -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp"
+                    android:textSize="15sp"
+                    android:textColor="#C9C8C8"
+                    android:text="Android 16" />
+
+                <!-- Device name (reads Settings.Global.DEVICE_NAME at runtime) -->
+                <com.xperience.widget.DeviceNameTextView
+                    android:id="@+id/device_name_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#C9C8C8" />
+
+                <!-- OTA link -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/system_accent1_200"
+                    android:text="Check for updates ➔" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The XPerience Project
+    Licensed under the Apache License, Version 2.0
+
+    Radial gradient scrim: semi-transparent center fading to opaque edges.
+    Sits on top of WallpaperBlurView so the white text is always readable.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="100%p"
+        android:startColor="@color/scrimstart"
+        android:endColor="@color/scrimend" />
+</shape>

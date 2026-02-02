@@ -18,4 +18,16 @@
 <resources>
     <!-- Fingerprint -->
     <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
+
+    <!-- Card layout -->
+    <dimen name="xpe_dashboard_padding">16dp</dimen>
+    <dimen name="xpe_card_radius">32dp</dimen>
+
+    <!-- Row icons -->
+    <dimen name="xpe_top_icn">42dp</dimen>
+    <dimen name="xpe_top_icn_max">52.5dp</dimen>
+
+    <!-- Row vertical spacing -->
+    <dimen name="xpe_pref_vert">5.5dp</dimen>
+    <dimen name="xpe_dashboard_margin_list">16dip</dimen>
 </resources>

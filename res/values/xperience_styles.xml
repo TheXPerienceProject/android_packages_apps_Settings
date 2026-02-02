@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The XPerience Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Card row: title text -->
+    <style name="xpe_dashboard_text_primary">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <!-- Card row: summary text -->
+    <style name="xpe_dashboard_text_secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+</resources>

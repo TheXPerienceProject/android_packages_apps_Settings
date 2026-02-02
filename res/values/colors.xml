@@ -296,4 +296,14 @@
 
     <color name="gm_grey_900">#202124</color>
 
+    <color name="xpe_crd_bg">@android:color/system_neutral1_800</color>
+    <color name="homepage_icon_bg">@*android:color/system_neutral2_50</color>
+    <color name="homepage_subicon_bg">?android:attr/colorAccent</color>
+
+    <!-- OxygenOS Colors -->
+    <color name="oxygen_red">#EB0029</color>
+    <color name="oxygen_black">#000000</color>
+    <color name="oxygen_dark_gray">#1A1A1A</color>
+    <color name="oxygen_light_gray">#B3B3B3</color>
+    <color name="oxygen_white">#FFFFFF</color>
 </resources>

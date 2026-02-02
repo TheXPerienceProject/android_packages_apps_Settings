@@ -36,4 +36,66 @@
     <string name="battery_saver_group_purpose" translatable="false">battery_saver_group</string>
     <string name="battery_saver_reminder_entry_purpose" translatable="false">battery_saver_reminder_entry</string>
     <string name="battery_saver_schedule_category_purpose" translatable="false">battery_saver_schedule_category</string>
+
+    <!-- device -->
+    <string name="about_device_name">Device</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Battery optimization availability</string>
+
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+
+    <!-- About Phone card labels -->
+    <string name="xpe_version">XPerience Version</string>
+    <string name="xpe_maintainer_title">Maintainer</string>
+    <string name="camera_info_unavailable">Information not available</string>
+
+    <!-- Hardware info categories (moved from my_device_info) -->
+    <string name="radio_info_title">Radio info</string>
+    <string name="net_info">Network</string>
+    <string name="mod_info">@string/model_info</string>
+    <string name="id_info">Identifiers</string>
+    <string name="model_summary">Model, phone number, IMEI, etc</string>
+    <string name="model_name">Device status</string>
+    <string name="legal_summary">Licenses and legal</string>
+    <string name="manufacturer_info">Manufacturer</string>
+    <string name="brand_info">Brand</string>
+    <string name="device_type">Device type</string>
+    <string name="serial_number"> Setial number</string>
+    <string name="device_name">Device name</string>
+    <string name="storage">Storage</string>
+    <string name="software_information">Software Information</string>
+    <string name="new_update_available">New update available</string>
+    <string name="version_up_to_date">Version up to date</string>
+    <string name="processor">Processor</string>
+    <string name="xpe_battery">Battery</string>
+    <string name="xpe_cameras">Cameras</string>
+
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">XPerience Version</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_uri" translatable="false">https://TheXPerienceProject.klozz.dev/</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">XPerience Codename</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Channel</String>
+
 </resources>

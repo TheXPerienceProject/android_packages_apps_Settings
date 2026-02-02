@@ -128,6 +128,14 @@ android_library {
         "device-state-schema",
         "dynamiccolors",
         "com.android.text.flags-aconfig-java",
+        
+        // XPerience
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-tooling-preview",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.material3_material3",
+        "androidx.compose.material_material-icons-extended",
+        "androidx.activity_activity-compose",
     ],
 
     plugins: [

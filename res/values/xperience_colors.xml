@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The XPerience Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- XPerience Colors - OxygenOS Style -->
+    <color name="xpe_accent">#FF4081</color>  <!-- Rosa/rojo XPerience -->
+    <color name="xpe_accent_dark">#C2185B</color>  <!-- Versión más oscura -->
+    <color name="xpe_accent_light">#F8BBD0</color>  <!-- Versión más clara -->
+
+    <!-- OxygenOS-style background colors -->
+    <color name="xpe_background_black">#000000</color>
+    <color name="xpe_background_dark">#121212</color>
+    <color name="xpe_background_card">#1A1A1A</color>
+
+    <!-- Text colors -->
+    <color name="xpe_text_primary">#FFFFFF</color>
+    <color name="xpe_text_secondary">#B3B3B3</color>
+    <color name="xpe_text_disabled">#666666</color>
+
+    <!-- Border/divider colors -->
+    <color name="xpe_divider">#333333</color>
+    <color name="xpe_border">#444444</color>
+
+    <!-- Status colors -->
+    <color name="xpe_success">#4CAF50</color>
+    <color name="xpe_warning">#FF9800</color>
+    <color name="xpe_error">#F44336</color>
+    <color name="xpe_info">#2196F3</color>
+</resources>

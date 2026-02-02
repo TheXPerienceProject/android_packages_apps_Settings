@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2026 The XPerience Project
+    SPDX-License-Identifier: Apache-2.0
+
+    ─────────────────────────────────────────────────────────────────
+    my_device_info.xml  →  About Phone (Settings → About Phone)
+    ─────────────────────────────────────────────────────────────────
+
+    Structure:
+      • ShrinkablePreference       ← hero OTA card (wallpaper blur + ROM name)
+      • PreferenceCategory         ← card rows:
+          ├ Android version        ← chevron → FirmwareVersionSettings
+          ├ XPerience Version      ← reads ro.xperience.version
+          ├ Maintainer             ← reads ro.xperience.build.status
+          ├ Uptime                 ← live uptime counter
+          ├ Build number           ← tap 7× to unlock developer options
+          └ Device status          ← navigates → HardwareInfoFragment
+                                     (model, SIM, IMEI, network, IDs…)
+
+    NOTE: Device name, Account, SIM, IMEI, network IDs, legal, etc.
+    have been moved into res/xml/hardware_info.xml (see that file).
+    ─────────────────────────────────────────────────────────────────
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="my_device_info_pref_screen"
+    android:title="@string/about_settings">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="my_device_info_header"
+        android:layout="@layout/settings_entity_header"
+        android:selectable="false"
+        settings:isPreferenceVisible="false"/>
+
+
+        <!-- Build number -->
+        <Preference
+            android:icon="@drawable/build_acc"
+            android:key="build_number"
+            android:order="9"
+            android:title="@string/build_number"
+            android:summary="@string/summary_placeholder"
+            app:enableCopying="true"
+            app:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"
+            app:layout="@layout/xpe_card_bot_abt"/>
+
+</PreferenceScreen>

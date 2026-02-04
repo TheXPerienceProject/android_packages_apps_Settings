@@ -72,28 +72,29 @@ public class XperienceBatteryController extends BasePreferenceController {
     /* =========================
      * Capacity type detection
      *
-     * TYP  → typical capacity
-     * NOM  → nominal / single cell
-     * DUAL → dual-cell design
+     * TYP  -> typical capacity
+     * NOM  -> nominal / single cell
+     * DUAL -> dual-cell design
      * ========================= */
     private String getCapacityType() {
         try {
-            PowerProfile profile = new PowerProfile(mContext);
+            // We use the standard battery Intent to read the actual voltage.
+            IntentFilter filter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+            Intent batteryStatus = mContext.registerReceiver(null, filter);
 
-            /*
-             * Safe heuristics:
-             *  - Dual cell almost always reports
-             *    nominal voltage ~7.6V (2 × 3.8)
-             *  - Single cell ~3.7-3.85V
-             */
-            double voltage = profile.getBatteryNominalVoltage(); // mV
+            if (batteryStatus != null) {
+                // The voltage is measured in millivolts (mV).
+                int voltage = batteryStatus.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0);
 
-            if (voltage >= 7000) {
-                return "DUAL";
+                // Safe heuristic:
+                // Single-cell batteries rarely exceed 4.5V (4500mV).
+                // If the system reports more than 6V (6000mV), it is almost certainly a dual-cell configuration.
+                if (voltage > 6000) {
+                    return "DUAL";
+                }
             }
-
-            return "TYP";
         } catch (Throwable ignored) {
+            // If something goes wrong, we assume the standard
         }
 
         return "TYP";
@@ -108,9 +109,19 @@ public class XperienceBatteryController extends BasePreferenceController {
         if (battery == null) return null;
 
         String tech = battery.getStringExtra(BatteryManager.EXTRA_TECHNOLOGY);
-        if (TextUtils.isEmpty(tech)) return null;
 
-        // Aesthetic standardisation
-        return tech.toLowerCase();
+        if (TextUtils.isEmpty(tech)) {
+            return null;
+        }
+
+        // We convert to lowercase first to standardise (in case LI-ION is used).
+        tech = tech.toLowerCase();
+
+        // We capitalise the first letter (e.g. li-ion -> Li-ion)
+        if (tech.length() > 1) {
+            tech = tech.substring(0, 1).toUpperCase() + tech.substring(1);
+        }
+
+        return tech;
     }
 }

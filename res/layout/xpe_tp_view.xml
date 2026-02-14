@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="@dimen/xpe_card_radius"
+        app:cardBackgroundColor="@android:color/transparent"
         app:cardElevation="0dp">
 
         <FrameLayout

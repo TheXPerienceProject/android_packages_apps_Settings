@@ -24,7 +24,7 @@
         android:focusable="true"
         app:cardCornerRadius="20dp"
         app:cardElevation="0dp"
-        app:cardBackgroundColor="?attr/colorSurface"
+        app:cardBackgroundColor="@android:color/transparent"
         app:strokeWidth="0dp">
 
         <LinearLayout
@@ -79,7 +79,7 @@
         android:focusable="true"
         app:cardCornerRadius="20dp"
         app:cardElevation="0dp"
-        app:cardBackgroundColor="?attr/colorSurface"
+        app:cardBackgroundColor="@android:color/transparent"
         app:strokeWidth="0dp">
 
         <LinearLayout

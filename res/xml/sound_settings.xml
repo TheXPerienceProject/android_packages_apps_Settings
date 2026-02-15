@@ -156,6 +156,14 @@
         android:title="@string/sound_audio_category_title">
         <!-- Live Caption -110 and Now Playing -105-->
 
+        <!-- Multi Audio Focus -->
+        <mx.xperience.framework.preference.SystemSettingSwitchPreference
+            android:key="multi_audio_focus_enabled"
+            android:title="@string/multi_audio_focus_title"
+            android:summary="@string/multi_audio_focus_summary"
+            android:defaultValue="false"
+            android:order="-111"/>
+
         <!-- Spatial audio -->
         <Preference
             android:key="spatial_audio_summary"
@@ -240,14 +248,6 @@
             android:title="@string/emergency_tone_title"
             android:summary="%s"
             android:order="-10"/>
-
-        <!-- Multi Audio Focus -->
-        <mx.xperience.framework.preference.SystemSettingSwitchPreference
-            android:key="multi_audio_focus_enabled"
-            android:title="@string/multi_audio_focus_title"
-            android:summary="@string/multi_audio_focus_summary"
-            android:defaultValue="false"
-            android:order="-4"/>
     </PreferenceCategory>
 
     <!-- Work profile sound category -->

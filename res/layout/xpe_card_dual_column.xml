@@ -110,6 +110,7 @@
                     android:textSize="11sp"
                     android:textColor="?android:attr/textColorSecondary"/>
 
+                <!-- probar a cambiar el width a match_parent -->
                 <TextView
                     android:id="@+id/summary_right"
                     android:layout_width="wrap_content"
@@ -118,7 +119,12 @@
                     android:textSize="14sp"
                     android:textStyle="bold"
                     android:textColor="?android:attr/textColorPrimary"
-                    android:layout_marginTop="2dp"/>
+                    android:layout_marginTop="2dp"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="10sp"
+                    app:autoSizeMaxTextSize="14sp"
+                    app:autoSizeStepGranularity="1sp"
+                    android:maxLines="2" />
             </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

@@ -138,6 +138,8 @@ android_library {
         "androidx.core_core-ktx",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
+        //XPerience preferences
+        "mx.xperience.framework",
     ],
 
     plugins: [

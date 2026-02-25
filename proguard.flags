@@ -20,7 +20,10 @@
     *;
 }
 
+# XPerience fragments
 -keep class mx.xperience.rainbow.*
+-keep class mx.xperience.unicorn.*
+-keep class mx.xperience.unicorn.fragments.NetworkTrafficSettings { *; }
 
 # We want to keep methods in Activity that could be used in the XML attribute onClick.
 -keepclassmembers class com.android.settings*.** extends android.app.Activity {
@@ -74,3 +77,7 @@
 
 # Keep the device state AppFunction schema
 -keep class com.google.android.appfunctions.schema.common.v1.devicestate.** { *; }
+
+# Keep all xperience classes
+-keep,allowoptimization,allowaccessmodification class mx.xperience.unicorn.fragments.** { *; }
+-keep,allowoptimization,allowaccessmodification class mx.xperience.settings.** { *; }

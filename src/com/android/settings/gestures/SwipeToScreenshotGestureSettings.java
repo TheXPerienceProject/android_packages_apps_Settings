@@ -44,7 +44,7 @@ public class SwipeToScreenshotGestureSettings extends DashboardFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.VOLTAGE;
+        return MetricsEvent.RAINBOW_UNICORN;
     }
 
     @Override

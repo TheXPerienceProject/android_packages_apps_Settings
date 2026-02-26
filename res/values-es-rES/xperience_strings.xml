@@ -119,6 +119,12 @@
     <string name="xperience_title">Unicornio Arcoíris</string>
     <string name="xperience_summary">Ajustes personalizados de XPerience</string>
     <!-- Pocket mode -->
+    <string name="proximity_wake_title">Evitar el encendido accidental</string>
+    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslizar para hacer captura de pantalla</string>
+    <string name="swipe_to_screenshot_gesture_summary">Desliza tres dedos por la pantalla para hacer una captura</string>
     <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar el brillo automáticamente una sola vez</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
 </resources>

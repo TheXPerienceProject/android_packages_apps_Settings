@@ -118,4 +118,7 @@
     <!--Unicorn power-->
     <string name="xperience_title">Unicornio Arcoíris</string>
     <string name="xperience_summary">Ajustes personalizados de XPerience</string>
+    <!-- Pocket mode -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- One shot automatic brightness -->
 </resources>

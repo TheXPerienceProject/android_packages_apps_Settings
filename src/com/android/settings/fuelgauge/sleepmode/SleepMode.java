@@ -38,7 +38,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.voltage.support.preferences.SecureSettingMainSwitchPreference;
+import mx.xperience.framework.preference.SecureSettingMainSwitchPreference;
 
 
 import java.time.format.DateTimeFormatter;

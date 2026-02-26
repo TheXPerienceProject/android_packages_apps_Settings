@@ -27,8 +27,8 @@ import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.android.internal.custom.hardware.HSIC;
-import com.android.internal.custom.hardware.LiveDisplayManager;
+import com.android.internal.xperience.hardware.HSIC;
+import com.android.internal.xperience.hardware.LiveDisplayManager;
 
 import com.android.settings.widget.IntervalSeekBar;
 import com.android.settings.R;

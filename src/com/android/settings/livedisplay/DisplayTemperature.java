@@ -28,12 +28,12 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.android.settings.R;
-import com.android.internal.util.custom.MathUtils;
+import com.android.internal.util.xperience.MathUtils;
 
-import com.android.internal.custom.hardware.LiveDisplayConfig;
-import com.android.internal.custom.hardware.LiveDisplayManager;
+import com.android.internal.xperience.hardware.LiveDisplayConfig;
+import com.android.internal.xperience.hardware.LiveDisplayManager;
 
-import com.android.settings.custom.preference.CustomDialogPreference;
+import com.android.settings.xperience.preference.CustomDialogPreference;
 
 /**
  * Preference for selection of color temperature range for LiveDisplay

@@ -16,18 +16,18 @@
  */
 package com.android.settings.livedisplay;
 
-import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_ANTI_FLICKER;
-import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_CABC;
-import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT;
-import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_COLOR_ENHANCEMENT;
-import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_DISPLAY_MODES;
-import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT;
-import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_READING_ENHANCEMENT;
-import static com.android.internal.custom.hardware.LiveDisplayManager.MODE_AUTO;
-import static com.android.internal.custom.hardware.LiveDisplayManager.MODE_DAY;
-import static com.android.internal.custom.hardware.LiveDisplayManager.MODE_NIGHT;
-import static com.android.internal.custom.hardware.LiveDisplayManager.MODE_OFF;
-import static com.android.internal.custom.hardware.LiveDisplayManager.MODE_OUTDOOR;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.FEATURE_ANTI_FLICKER;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.FEATURE_CABC;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.FEATURE_COLOR_ENHANCEMENT;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.FEATURE_DISPLAY_MODES;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.FEATURE_PICTURE_ADJUSTMENT;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.FEATURE_READING_ENHANCEMENT;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.MODE_AUTO;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.MODE_DAY;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.MODE_NIGHT;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.MODE_OFF;
+import static com.android.internal.xperience.hardware.LiveDisplayManager.MODE_OUTDOOR;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -49,21 +49,21 @@ import androidx.preference.PreferenceScreen;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.android.internal.custom.hardware.DisplayMode;
-import com.android.internal.custom.hardware.LineageHardwareManager;
-import com.android.internal.custom.hardware.LiveDisplayConfig;
-import com.android.internal.custom.hardware.LiveDisplayManager;
+import com.android.internal.xperience.hardware.DisplayMode;
+import com.android.internal.xperience.hardware.LineageHardwareManager;
+import com.android.internal.xperience.hardware.LiveDisplayConfig;
+import com.android.internal.xperience.hardware.LiveDisplayManager;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.custom.utils.ResourceUtils;
-import com.android.settings.custom.utils.SettingsHelper;
+import com.android.settings.xperience.utils.ResourceUtils;
+import com.android.settings.xperience.utils.SettingsHelper;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexableRaw;
 import com.android.settingslib.widget.LayoutPreference;
 
-import com.android.settings.custom.preference.CustomDialogPreference;
+import com.android.settings.xperience.preference.CustomDialogPreference;
 import mx.xperience.framework.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
@@ -119,7 +119,6 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
     private PictureAdjustment mPictureAdjustment;
     private DisplayTemperature mDisplayTemperature;
-    private DisplayColor mDisplayColor;
 
     private ListPreference mColorProfile;
     private String[] mColorProfileSummaries;
@@ -274,11 +273,11 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
             mPictureAdjustment = null;
         }
 
-        mDisplayColor = findPreference(KEY_DISPLAY_COLOR);
-        if (advancedPrefs != null && mDisplayColor != null &&
+        DisplayColor misplayColor = findPreference(KEY_DISPLAY_COLOR);
+        if (advancedPrefs != null && misplayColor != null &&
                 !mConfig.hasFeature(FEATURE_COLOR_ADJUSTMENT)) {
-            advancedPrefs.removePreference(mDisplayColor);
-            mDisplayColor = null;
+            advancedPrefs.removePreference(misplayColor);
+            misplayColor = null;
         }
 
         mAntiFlicker = findPreference(KEY_LIVE_DISPLAY_ANTI_FLICKER);

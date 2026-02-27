@@ -73,6 +73,10 @@
     <string name="app_play_store">Google Play</string>
     <!-- App lock -->
     <string name="app_lock_title">Bloqueo de aplicaciones</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> La aplicación está protegida</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> Las aplicaciones están protegidas</item>
+    </plurals>
     <string name="app_lock_authentication_dialog_title">Desbloquear</string>
     <string name="enable_debugging">Activar depuración</string>
     <string name="disable_debugging">Desactivar depuración</string>
@@ -118,4 +122,131 @@
     <!--Unicorn power-->
     <string name="xperience_title">Unicornio Arcoíris</string>
     <string name="xperience_summary">Ajustes personalizados de XPerience</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Evitar el encendido accidental</string>
+    <string name="proximity_wake_summary">Comprueba el sensor de proximidad antes de encender la pantalla</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslizar para hacer captura de pantalla</string>
+    <string name="swipe_to_screenshot_gesture_summary">Desliza tres dedos por la pantalla para hacer una captura</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Ajustar el brillo automáticamente una sola vez</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimizar su pantalla basada en la hora del día y las condiciones ambientales para mejorar la legibilidad y reducir la fatiga visual</string>
+    <string name="live_display_mode">Modo de pantalla</string>
+    <string name="live_display_color_temperature_title">Temperatura de color</string>
+    <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="grados">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_night">Noche</string>
+    <string name="live_display_outdoor_mode_title">Modo automático al aire libre</string>
+    <string name="live_display_outdoor_mode_summary">Aumentar el brillo y la saturación automáticamente bajo la luz del sol</string>
+    <string name="live_display_anti_flicker_title">Antiparpadeo</string>
+    <string name="live_display_anti_flicker_summary">Evita el parpadeo excesivo y reduce la fatiga ocular en condiciones de poca luz. Puede degradar la precisión del color y afectar a la forma en que se muestran algunos elementos.</string>
+    <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+    <string name="live_display_low_power_summary">Ajustar la pantalla para obtener el menor consumo energético sin pérdida de calidad</string>
+    <string name="live_display_enhance_color_title">Mejorar los colores</string>
+    <string name="live_display_enhance_color_summary">Mejora la intensidad del color de los tonos de piel, paisajes y otras imágenes</string>
+    <string name="live_display_color_profile_title">Perfil de color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
+    <string name="live_display_color_profile_cinema_title">Cine</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducción perfecta de color para video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+    <string name="live_display_color_profile_astronomy_summary">Rojo intenso para preservar la visión nocturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografía</string>
+    <string name="live_display_color_profile_photography_summary">Reproducción perfecta del color para las fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usar pantalla sin calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptable</string>
+    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colores precisos según el espacio de color sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colores precisos según el espacio de color DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo lectura</string>
+    <string name="live_display_reading_mode_summary">Modo escala de grises para lectura prolongada</string>
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibrar los colores en pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azúl</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajuste de imagen</string>
+    <string name="picture_adjustment_summary">Ajustar el tono, la saturación, la intensidad y el contraste</string>
+    <string name="adj_hue_title">Tonalidad</string>
+    <string name="adj_saturation_title">Saturación</string>
+    <string name="adj_intensity_title">Intensidad</string>
+    <string name="adj_contrast_title">Contraste</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Control de carga</string>
+    <string name="charging_control_summary">Personaliza el horario de carga y los límites para tu dispositivo</string>
+    <string name="charging_control_enable_title">Activar el control de la carga</string>
+    <string name="charging_control_mode_title">Modo de carga</string>
+    <string name="charging_control_mode_auto_title">Programación automática</string>
+    <string name="charging_control_mode_auto_summary">Determina automáticamente cuándo comenzar a cargar en función de las alarmas configuradas</string>
+    <string name="charging_control_mode_custom_title">Horario personalizado</string>
+    <string name="charging_control_mode_custom_summary">Establecer un tiempo objetivo para la carga completa</string>
+    <string name="charging_control_mode_limit_title">Límite de carga</string>
+    <string name="charging_control_mode_limit_summary">Limitar la carga a un determinado porcentaje</string>
+    <string name="charging_control_start_time_title">Hora de inicio</string>
+    <string name="charging_control_start_time_summary">El control de carga se activa cuando se inicia la carga después de %s</string>
+    <string name="charging_control_target_time_title">Tiempo estimado para la carga completa</string>
+    <string name="charging_control_target_time_summary">La batería se cargará completamente en %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar pantalla ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar Pantalla Ambiente en lugar de despertar completamente la pantalla</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidad táctil</string>
+    <string name="high_touch_sensitivity_summary">Aumenta la sensibilidad de la pantalla para que pueda usarse con guantes</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
+    <string name="touchscreen_hovering_summary">Permite desplazarte por la pantalla como un ratón en navegadores web, escritorios remotos, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tasa alta de muestreo táctil</string>
+    <string name="high_touch_polling_rate_summary">Aumentar la tasa de muestreo táctil</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo de sueño</string>
+    <string name="sleep_mode_summary_on">Encender / <xliff:g name="auto_mode_summary" example="Nunca apagar automáticamente">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desactivado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de timbre</string>
+    <string name="sleep_mode_ringer_off_title">No cambiar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">No molestar</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
+    <string name="sleep_mode_schedule_sunset">Atardecer</string>
+    <string name="sleep_mode_schedule_sunrise">Amanecer</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Se enciende desde la puesta del sol hasta una hora personalizada</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Se enciende desde una hora personalizada hasta el amanecer</string>
+    <string name="sleep_mode_toggles_title">Interruptores</string>
+    <string name="sleep_mode_wifi_toggle_title">Desactivar Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desactivar el Wi-Fi cuando el modo sueño está activado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Apagar Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desactivar el Bluetooth cuando el modo sueño está activado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desactivar datos móviles</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desactivar datos móviles cuando el modo Sueño está activado</string>
+    <string name="sleep_mode_location_toggle_title">Desactivar ubicación</string>
+    <string name="sleep_mode_location_toggle_summary">Desactivar la ubicación cuando el modo sueño está activado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desactivar sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desactivar los sensores cuando el modo sueño está activado</string>
+    <string name="sleep_mode_display_text">El modo sueño te permite desactivar ciertos servicios para ahorrar batería y silenciar tu teléfono mientras duermes.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Encender ahora</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Apagar ahora</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Encender hasta el amanecer</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Apagar hasta la puesta del sol</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Activar hasta <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Desactivar hasta <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
 </resources>

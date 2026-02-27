@@ -30,4 +30,18 @@
     <!-- Pocket mode -->
     <!-- Three-fingers-swipe to screenshot -->
     <!-- One shot automatic brightness -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- Charging control settings -->
+    <!-- Ambient wake toggles -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Sleep Mode -->
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
 </resources>

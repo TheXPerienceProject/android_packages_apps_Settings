@@ -127,4 +127,18 @@
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Ajustar el brillo automáticamente una sola vez</string>
     <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- Charging control settings -->
+    <!-- Ambient wake toggles -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Sleep Mode -->
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
 </resources>

@@ -560,8 +560,17 @@ public class NetworkProviderSettings extends RestrictedDashboardFragment
         };
 
         if (mIsInSetupWizard) {
-            mConfigureWifiSettingsPreference.setVisible(false);
-            mDataUsagePreference.setVisible(false);
+            if (mConfigureWifiSettingsPreference != null) {
+                mConfigureWifiSettingsPreference.setVisible(false);
+            } else {
+                Log.w(TAG, "mConfigureWifiSettingsPreference is null, skipping setVisible");
+            }
+
+            if (mDataUsagePreference != null) {
+                mDataUsagePreference.setVisible(false);
+            } else {
+                Log.w(TAG, "mDataUsagePreference is null, skipping setVisible");
+            }
         }
 
         if (savedInstanceState != null) {

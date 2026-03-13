@@ -28,4 +28,8 @@
 
     <!-- Show haptic styles -->
     <bool name="config_supportHapticProfiles" translatable="false">false</bool>
+
+    <!-- Uses the legacy UDFPS enrollment UI with side text instead of a footer button. -->
+    <bool name="config_useLegacyUdfpsUi" translatable="false">false</bool>
+
 </resources>

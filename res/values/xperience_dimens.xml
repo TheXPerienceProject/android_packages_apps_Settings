@@ -30,4 +30,7 @@
     <!-- Row vertical spacing -->
     <dimen name="xpe_pref_vert">5.5dp</dimen>
     <dimen name="xpe_dashboard_margin_list">16dip</dimen>
+
+    <dimen name="fingerprint_side_skip_margin">24dp</dimen>
+
 </resources>

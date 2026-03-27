@@ -295,9 +295,6 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
         // density. Otherwise, the lottie will overlap with the settings header text.
         boolean isLandscape = BiometricUtils.isReverseLandscape(getApplicationContext())
                 || BiometricUtils.isLandscape(getApplicationContext());
-        final boolean useLegacyUdfpsUi = mCanAssumeUdfps
-                && !isLandscape
-                && getResources().getBoolean(R.bool.config_useLegacyUdfpsUi);
 
         updateOrientation((isLandscape
                 ? Configuration.ORIENTATION_LANDSCAPE : Configuration.ORIENTATION_PORTRAIT));
@@ -306,19 +303,21 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
         mProgressBar = findViewById(R.id.fingerprint_progress_bar);
         mVibrator = getSystemService(Vibrator.class);
 
-        if (useLegacyUdfpsUi) {
+        mFooterBarMixin = getLayout().getMixin(FooterBarMixin.class);
+        mFooterBarMixin.setSecondaryButton(
+                new FooterButton.Builder(this)
+                        .setText(R.string.security_settings_fingerprint_enroll_enrolling_skip)
+                        .setListener(this::onSkipButtonClick)
+                        .setButtonType(FooterButton.ButtonType.SKIP)
+                        .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
+                        .build()
+        );
+
+        // If it's udfps, set the background color only for secondary button if necessary.
+        if (mCanAssumeUdfps) {
             mShouldSetFooterBarBackground = false;
-            ((UdfpsEnrollEnrollingView) getLayout()).showSideSkipButton(this::onSkipButtonClick);
-        } else {
-            mFooterBarMixin = getLayout().getMixin(FooterBarMixin.class);
-            mFooterBarMixin.setSecondaryButton(
-                    new FooterButton.Builder(this)
-                            .setText(R.string.security_settings_fingerprint_enroll_enrolling_skip)
-                            .setListener(this::onSkipButtonClick)
-                            .setButtonType(FooterButton.ButtonType.SKIP)
-                            .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
-                            .build()
-            );
+            ((UdfpsEnrollEnrollingView) getLayout()).setSecondaryButtonBackground(
+                    getBackgroundColor());
         }
 
         final LayerDrawable fingerprintDrawable = mProgressBar != null

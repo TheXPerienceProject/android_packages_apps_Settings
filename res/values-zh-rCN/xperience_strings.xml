@@ -44,4 +44,5 @@
     <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
     <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <!-- Reality Display Engine -->
 </resources>

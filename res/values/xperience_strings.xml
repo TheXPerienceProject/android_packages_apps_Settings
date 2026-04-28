@@ -283,4 +283,13 @@
     <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
     <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display engine</string>
+    <string name="display_engine_mode_title">Reality display engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality engine</string>
+    <string name="vivid_engine_mode_title">Vivid display</string>
+    <string name="triluminos_engine_mode_title">Triluminos display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, X-Reality mode for improved detail and color accuracy, and Triluminos mode for notorious display color accuracy.</string>
 </resources>

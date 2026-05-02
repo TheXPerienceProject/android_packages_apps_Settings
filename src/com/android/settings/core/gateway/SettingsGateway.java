@@ -109,6 +109,7 @@ import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings;
 import com.android.settings.deviceinfo.legal.ModuleLicensesDashboard;
 import com.android.settings.display.AutoBrightnessSettings;
 import com.android.settings.display.ColorContrastFragment;
+import com.android.settings.display.GpuCompositionAppsSelectionFragment;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.ScreenTimeoutSettings;
 import com.android.settings.display.RefreshRateSettings;
@@ -409,6 +410,7 @@ public class SettingsGateway {
             NfcAndPaymentFragment.class.getName(),
             ColorAndMotionFragment.class.getName(),
             ColorContrastFragment.class.getName(),
+            GpuCompositionAppsSelectionFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
             RegionPickerFragment.class.getName(),
             RegionalPreferencesEntriesFragment.class.getName(),

@@ -47,12 +47,14 @@ public class ProcessorSpecPreferenceController extends BasePreferenceController 
         SKU_TO_CHIPSET.put("tangor", "Snapdragon® 7 Gen 3 Elite");
         SKU_TO_CHIPSET.put("volcano", "Snapdragon® 7s Gen 3");
         SKU_TO_CHIPSET.put("msmnile", "Snapdragon® 860");
+        SKU_TO_CHIPSET.put("kona", "Snapdragon® 870");
         SKU_TO_CHIPSET.put("lahaina", "Snapdragon® 888 / 888+");
         SKU_TO_CHIPSET.put("waipio", "Snapdragon® 8 Gen 1");
         SKU_TO_CHIPSET.put("taro", "Snapdragon® 8 Gen 1");
         SKU_TO_CHIPSET.put("cape", "Snapdragon® 8+ Gen 1");
         SKU_TO_CHIPSET.put("kalama", "Snapdragon® 8 Gen 2");
         SKU_TO_CHIPSET.put("pineapple", "Snapdragon® 8 Gen 3");
+        SKU_TO_CHIPSET.put("cliffs", "Snapdragon® 8s Gen 3");
         SKU_TO_CHIPSET.put("sun", "Snapdragon® 8 Elite");
 
 

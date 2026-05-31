@@ -200,6 +200,7 @@
     <string name="charging_control_target_time_title">Tiempo estimado para la carga completa</string>
     <string name="charging_control_target_time_summary">La batería se cargará completamente en %s</string>
     <string name="charging_control_limit_title">Limite</string>
+    <string name="charging_control_limit_summary">Límite actual: %d%%</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostrar pantalla ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar Pantalla Ambiente en lugar de despertar completamente la pantalla</string>
@@ -250,4 +251,11 @@
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
     <string name="night_display_activation_off_custom">Desactivar hasta <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <!-- Reality Display Engine -->
+    <string name="display_engine_category">Motor de visualización</string>
+    <string name="display_engine_mode_title">Motor Reality Display</string>
+    <string name="x_reality_engine_mode_title">Motor X-Reality</string>
+    <string name="vivid_engine_mode_title">Pantalla vívida</string>
+    <string name="triluminos_engine_mode_title">Pantalla Triluminos</string>
+    <string name="display_engine_default">Predeterminado</string>
+    <string name="display_engine_mode_footer_text">Inspirado en el motor Bravia/X-Reality de Sony, el motor de visualización incluye el modo Vivid, que mejora el brillo y la saturación del color; el modo X-Reality, que mejora el nivel de detalle y la precisión del color; y el modo Triluminos, que ofrece una precisión del color en la pantalla de renombre.</string>
 </resources>

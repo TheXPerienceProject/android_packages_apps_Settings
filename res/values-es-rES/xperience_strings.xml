@@ -200,6 +200,7 @@
     <string name="charging_control_target_time_title">Tiempo estimado para la carga completa</string>
     <string name="charging_control_target_time_summary">La batería se cargará completamente en %s</string>
     <string name="charging_control_limit_title">Limite</string>
+    <string name="charging_control_limit_summary">Límite actual: %d%%</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostrar pantalla ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar Pantalla Ambiente en lugar de despertar completamente la pantalla</string>

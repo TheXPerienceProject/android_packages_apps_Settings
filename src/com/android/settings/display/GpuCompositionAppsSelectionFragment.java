@@ -57,6 +57,13 @@ public class GpuCompositionAppsSelectionFragment extends SettingsPreferenceFragm
             "com.google.ar.core"
     ));
 
+    private static final Set<String> DEFAULT_ENABLED_APPS = new HashSet<>(Arrays.asList(
+            "com.android.chrome",
+            "com.google.android.youtube",
+            "com.instagram.android",
+            "com.zhiliaoapp.musically"
+    ));
+
     private PackageManager mPackageManager;
     private final Set<String> mEnabledApps = new HashSet<>();
     private final Handler mMainHandler = new Handler(Looper.getMainLooper());
@@ -275,6 +282,9 @@ public class GpuCompositionAppsSelectionFragment extends SettingsPreferenceFragm
         mEnabledApps.clear();
         if (!TextUtils.isEmpty(enabledAppsString)) {
             mEnabledApps.addAll(Arrays.asList(enabledAppsString.split(",")));
+        } else {
+            mEnabledApps.addAll(DEFAULT_ENABLED_APPS);
+            saveEnabledApps();
         }
     }
 

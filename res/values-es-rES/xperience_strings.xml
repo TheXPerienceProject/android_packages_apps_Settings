@@ -259,4 +259,6 @@
     <string name="display_engine_default">Predeterminado</string>
     <string name="display_engine_mode_footer_text">Inspirado en el motor Bravia/X-Reality de Sony, el motor de visualización incluye el modo Vivid, que mejora el brillo y la saturación del color; el modo X-Reality, que mejora el nivel de detalle y la precisión del color; y el modo Triluminos, que ofrece una precisión del color en la pantalla de renombre.</string>
     <!-- Per-app GPU composition -->
+    <string name="use_gpu_for_screen_composition_title">Composición de pantalla por GPU</string>
+    <string name="use_gpu_for_screen_composition_summary">Desactiva las superposiciones de HW durante el uso de las aplicaciones seleccionadas</string>
 </resources>

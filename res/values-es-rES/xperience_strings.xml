@@ -261,4 +261,13 @@
     <!-- Per-app GPU composition -->
     <string name="use_gpu_for_screen_composition_title">Composición de pantalla por GPU</string>
     <string name="use_gpu_for_screen_composition_summary">Desactiva las superposiciones de HW durante el uso de las aplicaciones seleccionadas</string>
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
+    <!-- Battery Saver -->
+    <!-- eSIM settings -->
 </resources>

@@ -13,6 +13,7 @@ import com.android.settingslib.metadata.SwitchPreference
 class BatterySaverRemindersPreference :
     SwitchPreference(
         "low_power_mode_reminder_enabled",
+        R.string.low_power_mode_reminder_enabled_purpose,
         R.string.battery_saver_reminder_switch_title,
         R.string.battery_saver_reminder_switch_summary,
     ) {

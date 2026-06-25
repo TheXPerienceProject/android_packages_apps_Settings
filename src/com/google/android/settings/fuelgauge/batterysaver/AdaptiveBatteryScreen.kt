@@ -19,6 +19,7 @@ import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.preferenceHierarchy
+import com.android.settingslib.metadata.preferencesapi.preconditions.PreconditionStability
 import kotlinx.coroutines.CoroutineScope
 
 class AdaptiveBatteryScreen(context: Context) :
@@ -32,7 +33,11 @@ class AdaptiveBatteryScreen(context: Context) :
 
     private var keyedObserver: KeyedObserver<String>? = null
 
+    override val availabilityDescription: String = "The device must support adaptive battery."
+
     override val key: String = "adaptive_battery_entry"
+
+    override val purpose: Int = R.string.adaptive_battery_entry_purpose
 
     override val title: Int = R.string.smart_battery_title
 
@@ -91,12 +96,15 @@ class AdaptiveBatteryScreen(context: Context) :
         }
     }
 
+    override fun getAvailabilityStability(): PreconditionStability =
+        PreconditionStability.STABLE_UNTIL_APK_UPDATE
+
     override fun isAvailable(context: Context): Boolean =
         Companion.isAdaptiveBatteryAvailable(context)
 
     companion object {
         fun isAdaptiveBatteryAvailable(context: Context): Boolean =
-            true // context.resources.getBoolean(android.R.bool.config_supportShortPressPowerWhenDefaultDisplayOn)
+            true // context.resources.getBoolean(android.R.bool.config_unfoldTransitionEnabled)
     }
 }
 

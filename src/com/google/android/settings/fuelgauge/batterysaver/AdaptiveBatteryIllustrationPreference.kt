@@ -11,7 +11,11 @@ class AdaptiveBatteryIllustrationPreference : PreferenceMetadata, PreferenceBind
 
     override val key: String = "adaptive_battery_illustration"
 
+    override val purpose: Int = R.string.adaptive_battery_illustration_purpose
+
     override val indexable: Boolean = false
+
+    override fun tags(context: Context): Array<String> = arrayOf("ui_only_preference")
 
     override fun createWidget(context: Context): IllustrationPreference {
         return IllustrationPreference(context).apply {

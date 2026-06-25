@@ -9,6 +9,7 @@ import com.android.settingslib.datastore.Permissions
 import com.android.settingslib.datastore.SettingsGlobalStore
 import com.android.settingslib.metadata.BooleanValuePreference
 import com.android.settingslib.metadata.PreferenceAvailabilityProvider
+import com.android.settingslib.metadata.preferencesapi.preconditions.PreconditionStability
 import com.android.settingslib.metadata.ReadWritePermit
 import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.widget.MainSwitchPreferenceBinding
@@ -21,11 +22,18 @@ class AdaptiveBatteryPreference(private val dataStore: KeyValueStore) :
 
     override val key: String = "adaptive_battery_management_enabled"
 
+    override val purpose: Int = R.string.adaptive_battery_management_enabled_purpose
+
     override val title: Int = R.string.adaptive_battery_switch_title
 
     override fun tags(context: Context): Array<String> = arrayOf("adaptive_battery")
 
     override fun storage(context: Context): KeyValueStore = dataStore
+
+    override val availabilityDescription: String = "The device must support adaptive battery."
+
+    override fun getAvailabilityStability(): PreconditionStability =
+        PreconditionStability.STABLE_UNTIL_APK_UPDATE
 
     override fun isAvailable(context: Context): Boolean =
         AdaptiveBatteryScreen.isAdaptiveBatteryAvailable(context)
@@ -45,6 +53,8 @@ class AdaptiveBatteryPreference(private val dataStore: KeyValueStore) :
         callingPid: Int,
         callingUid: Int,
     ): Int = ReadWritePermit.ALLOW
+
+    override val supportsWrite: Boolean = true
 
     override val preferenceActionMetrics: Int = SettingsEnums.ACTION_ADAPTIVE_BATTERY
 

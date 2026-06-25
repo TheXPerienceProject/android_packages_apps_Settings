@@ -29,6 +29,8 @@ abstract class BatterySaverModePreference(protected val dataStore: BatterySaverM
     SelectorWithWidgetPreference.OnClickListener,
     PreferenceLifecycleProvider {
 
+    override val supportsWrite: Boolean = true
+
     override fun getReadPermit(context: Context, callingPid: Int, callingUid: Int): Int =
         ReadWritePermit.ALLOW
 
@@ -78,7 +80,11 @@ abstract class BatterySaverModePreference(protected val dataStore: BatterySaverM
 class BasicBatterySaverPreference(dataStore: BatterySaverModeDataStore) :
     BatterySaverModePreference(dataStore) {
 
+    override val sensitivityLevel: Int = SensitivityLevel.NO_SENSITIVITY
+
     override val key: String = "basic_battery_saver"
+
+    override val purpose: Int = R.string.basic_battery_saver_purpose
 
     override val title: Int = R.string.basic_battery_saver_title
 
@@ -90,13 +96,18 @@ class ExtremeBatterySaverPreference(dataStore: BatterySaverModeDataStore) :
 
     override val preferenceActionMetrics: Int = SettingsEnums.ACTION_EXTREME_BATTERY_SAVER
 
+    override val sensitivityLevel: Int = SensitivityLevel.NO_SENSITIVITY
+
     override val key: String = "extreme_battery_saver"
+
+    override val purpose: Int = R.string.extreme_battery_saver_purpose
 
     override val title: Int = R.string.extreme_battery_saver_title
 
     override val summary: Int = R.string.extreme_battery_saver_summary
 
-    override fun tags(context: Context): Array<String> = arrayOf("extreme_battery_saver")
+    override fun tags(context: Context): Array<String> =
+        arrayOf("extreme_battery_saver", "mustpass_set")
 
     override fun intent(context: Context): Intent =
         Intent("android.settings.batterysaver.flipendo").setPackage("com.google.android.flipendo")

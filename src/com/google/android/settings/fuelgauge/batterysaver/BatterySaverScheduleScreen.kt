@@ -25,6 +25,8 @@ class BatterySaverScheduleScreen : PreferenceScreenMixin {
         com.android.settings.fuelgauge.batterysaver.BatterySaverSchedulePreferenceController
             .KEY_BATTERY_SAVER_SCHEDULE
 
+    override val purpose: Int = R.string.battery_saver_schedule_purpose
+
     override val title: Int = R.string.battery_schedule_title
 
     override val summary: Int = R.string.battery_schedule_summary
@@ -43,6 +45,7 @@ class BatterySaverScheduleScreen : PreferenceScreenMixin {
         preferenceHierarchy(context) {
             +PreferenceCategory(
                 "battery_saver_reminder_entry",
+                R.string.battery_saver_reminder_entry_purpose,
                 R.string.battery_saver_reminder_category,
             ) order 90 +=
                 {

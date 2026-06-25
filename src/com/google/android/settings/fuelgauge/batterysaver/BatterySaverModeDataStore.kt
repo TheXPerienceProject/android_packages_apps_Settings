@@ -14,7 +14,7 @@ class BatterySaverModeDataStore(private val context: Context) :
 
     private var isFlipendoAggressiveMode: Boolean = false
     private var isFlipendoEnabled: Boolean = false
-    private val isFlipendoInstalled: Boolean = false
+    private val isFlipendoInstalled: Boolean = FlipendoUtils.isFlipendoInstalled(context)
 
     private var contentObserver: ContentObserver? = null
 

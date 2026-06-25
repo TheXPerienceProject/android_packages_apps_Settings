@@ -7,6 +7,7 @@ package com.android.settings.deviceinfo.xperience;
 
 import android.content.Context;
 import android.os.SystemProperties;
+import android.text.TextUtils;
 
 import androidx.preference.Preference;
 
@@ -22,9 +23,11 @@ import java.util.Map;
  * on the About Phone screen.
  *
  * Detection order:
- *  1. ro.xpe.chipset (manual override)
- *  2. ro.boot.product.vendor.sku (runtime detection)
- *  3. Fallback string if unknown
+ * 1. ro.xpe.chipset (manual override)
+ * 2. ro.boot.product.vendor.sku (runtime detection - mostly QCOM)
+ * 3. ro.vendor.mediatek.platform (MediaTek specific platform prop)
+ * 4. ro.boot.hardware (fallback platform detection)
+ * 5. Fallback string if unknown
  */
 public class ProcessorSpecPreferenceController extends BasePreferenceController {
 
@@ -33,9 +36,10 @@ public class ProcessorSpecPreferenceController extends BasePreferenceController 
     private static final Map<String, String> SKU_TO_CHIPSET = new HashMap<>();
 
     static {
-        /* Mediatek */
-        SKU_TO_CHIPSET.put("shennron", "MediaTek Dimensity 9000");
+        /* MediaTek */
+        SKU_TO_CHIPSET.put("shennron", "MediaTek Dimensity 9000"); /*tbd*/
         SKU_TO_CHIPSET.put("mt6899", "Dimensity 8400 Ultra");
+
         /* Qualcomm */
         SKU_TO_CHIPSET.put("bengal", "Snapdragon® 460 / 662 / 678");
         SKU_TO_CHIPSET.put("trinket", "Snapdragon® 665 / 675");
@@ -56,8 +60,6 @@ public class ProcessorSpecPreferenceController extends BasePreferenceController 
         SKU_TO_CHIPSET.put("pineapple", "Snapdragon® 8 Gen 3");
         SKU_TO_CHIPSET.put("cliffs", "Snapdragon® 8s Gen 3");
         SKU_TO_CHIPSET.put("sun", "Snapdragon® 8 Elite");
-
-
     }
 
     public ProcessorSpecPreferenceController(Context context, String key) {
@@ -80,15 +82,28 @@ public class ProcessorSpecPreferenceController extends BasePreferenceController 
     private String getDetectedChipset() {
         // 1. Manual override
         final String manual = SystemProperties.get("ro.xpe.chipset", "");
-        if (!manual.isEmpty()) {
+        if (!TextUtils.isEmpty(manual)) {
             return manual;
         }
 
-        // 2. Runtime SKU detection
-        final String sku = SystemProperties
-                .get("ro.boot.product.vendor.sku", "")
-                .toLowerCase(Locale.US);
+        // 2. Runtime SKU detection (Mainly QCOM)
+        String propKey = SystemProperties.get("ro.boot.product.vendor.sku", "").toLowerCase(Locale.US);
+        if (SKU_TO_CHIPSET.containsKey(propKey)) {
+            return SKU_TO_CHIPSET.get(propKey);
+        }
 
-        return SKU_TO_CHIPSET.getOrDefault(sku, FALLBACK_CHIPSET);
+        // 3. MediaTek Platform detection
+        propKey = SystemProperties.get("ro.vendor.mediatek.platform", "").toLowerCase(Locale.US);
+        if (SKU_TO_CHIPSET.containsKey(propKey)) {
+            return SKU_TO_CHIPSET.get(propKey);
+        }
+
+        // 4. Fallback Hardware detection (For older MTKs or variant structures) save for future testing
+        /*propKey = SystemProperties.get("ro.boot.hardware", "").toLowerCase(Locale.US);
+        if (SKU_TO_CHIPSET.containsKey(propKey)) {
+            return SKU_TO_CHIPSET.get(propKey);
+        }*/
+
+        return FALLBACK_CHIPSET;
     }
 }

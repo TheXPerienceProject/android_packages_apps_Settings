@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Locale Picker -->
+    <string-array name="global_locales" translatable="false">
+        <item>en</item>
+        <item>de</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>pt</item>
+        <item>hi</item>
+        <item>ja</item>
+        <item>zh-Hans</item>
+        <item>zh-Hant</item>
+    </string-array>
+
+    <string-array name="japan_locales" translatable="false">
+        <item>ja</item>
+    </string-array>
+
+    <string-array name="tts_locales" translatable="false">
+        <item>en</item>
+        <item>de</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>ja</item>
+    </string-array>
+
+    <string-array name="united_states_locales" translatable="false">
+        <item>en-US</item>
+        <item>es-US</item>
+    </string-array>
+</resources>

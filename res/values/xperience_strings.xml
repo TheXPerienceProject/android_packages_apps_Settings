@@ -4,6 +4,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Clear query</string>
+    <string name="language_picker_page">Language picker page</string>
+    <string name="search_region">Search regions</string>
+    <string name="search_region_page">Search region page</string>
+
     <!-- Battery Saver -->
     <string name="adaptive_battery_entry_purpose">Allows users to enable or disable Adaptive Battery, which optimizes app battery usage based on phone usage patterns to extend battery life.</string>
     <string name="adaptive_battery_management_enabled_purpose">Whether Adaptive Battery is enabled to optimize battery usage based on app usage patterns.</string>

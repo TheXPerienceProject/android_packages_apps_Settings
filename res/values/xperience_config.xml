@@ -4,6 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Locale Picker -->
+    <bool name="config_show_setuplocalepicker_region_searchbox">true</bool>
+
     <!-- Uses the legacy UDFPS enrollment UI with side text instead of a footer button. -->
     <bool name="config_useLegacyUdfpsUi" translatable="false">false</bool>
 </resources>

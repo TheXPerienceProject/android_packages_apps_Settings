@@ -50,14 +50,7 @@ public class BatteryManagerPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        if (!mPowerUsageFeatureProvider.isBatteryManagerSupported()) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
-        if (!mContext.getResources().getBoolean(R.bool.config_battery_manager_consider_ac)) {
-            return AVAILABLE_UNSEARCHABLE;
-        }
-        return mPowerUsageFeatureProvider.isAdaptiveChargingSupported()
-                ? AVAILABLE_UNSEARCHABLE : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override

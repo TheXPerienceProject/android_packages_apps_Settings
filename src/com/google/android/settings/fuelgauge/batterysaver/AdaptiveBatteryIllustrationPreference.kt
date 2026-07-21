@@ -19,7 +19,7 @@ class AdaptiveBatteryIllustrationPreference : PreferenceMetadata, PreferenceBind
 
     override fun createWidget(context: Context): IllustrationPreference {
         return IllustrationPreference(context).apply {
-            setLottieAnimationResId(R.raw.lottie_adaptive_battery)
+            setLottieAnimationResId(R.raw.auto_awesome_battery_expressive_lottie)
             applyDynamicColor()
         }
     }

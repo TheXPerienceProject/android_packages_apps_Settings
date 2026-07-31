@@ -355,4 +355,13 @@
 
     <!-- eSIM settings -->
     <string name="esim_settings_title">eSIM settings</string>
+
+    <!-- eSIM power control -->
+    <string name="esim_power_disable_title">Disable eSIM power</string>
+    <string name="esim_power_disable_summary">Disabling eSIM power allows using the second physical SIM slot</string>
+    <string name="esim_power_disable_dialog_message">Disabling eSIM power will allow you to use the second physical SIM slot. A reboot may be required. Continue?</string>
+    <string name="esim_power_enable_dialog_message">Enabling eSIM power will disable the second physical SIM slot. A reboot may be required. Continue?</string>
+    <string name="esim_power_dialog_cancel">Cancel</string>
+    <string name="esim_power_dialog_disable">Disable</string>
+    <string name="esim_power_dialog_enable">Enable</string>
 </resources>

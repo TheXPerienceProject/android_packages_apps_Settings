@@ -22,6 +22,9 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import androidx.preference.Preference;
+import android.view.LayoutInflater;
+
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.flags.Flags;

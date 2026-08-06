@@ -20,15 +20,21 @@ import android.app.settings.SettingsEnums
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
+import android.database.ContentObserver
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.os.SystemClock
 import android.os.SystemProperties
 import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.preference.Preference
@@ -60,6 +66,20 @@ class MyDeviceInfoFragment : InstrumentedPreferenceFragment() {
 
     private lateinit var buildNumberController: BuildNumberPreferenceController
 
+    // Backs the "update available" card. Settings.Global reads are not
+    // observable by default, so we bridge changes into Compose state
+    // manually via a ContentObserver (registered in onStart, torn down
+    // in onStop below).
+    private lateinit var updateAvailableState: MutableState<Boolean>
+
+    private val updateAvailableObserver = object : ContentObserver(Handler(Looper.getMainLooper())) {
+        override fun onChange(selfChange: Boolean) {
+            if (::updateAvailableState.isInitialized) {
+                updateAvailableState.value = isUpdateAvailable(requireContext())
+            }
+        }
+    }
+
     override fun getMetricsCategory(): Int = SettingsEnums.DEVICEINFO
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
@@ -81,12 +101,14 @@ class MyDeviceInfoFragment : InstrumentedPreferenceFragment() {
         savedInstanceState: Bundle?
     ): View {
         val context = requireContext()
+        updateAvailableState = mutableStateOf(isUpdateAvailable(context))
         return ComposeView(context).apply {
             setContent {
+                val updateAvailable by updateAvailableState
                 XperienceTheme {
                     AboutDeviceScreen(
                         specs = buildDeviceSpecs(context),
-                        updateAvailable = isUpdateAvailable(context),
+                        updateAvailable = updateAvailable,
                         osName = getXperienceOsName(),
                         onBackClick = { activity?.onBackPressedDispatcher?.onBackPressed() },
                         onUpdateCardClick = { launchUpdater(context) },
@@ -97,6 +119,26 @@ class MyDeviceInfoFragment : InstrumentedPreferenceFragment() {
                 }
             }
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        requireContext().contentResolver.registerContentObserver(
+            Settings.Global.getUriFor(KEY_UPDATE_AVAILABLE),
+            /* notifyForDescendants= */ true,
+            updateAvailableObserver
+        )
+        // Handles the case where the flag changed while the fragment was
+        // paused (e.g., you returned from the background after the Updater
+        // wrote to it).
+        if (::updateAvailableState.isInitialized) {
+            updateAvailableState.value = isUpdateAvailable(requireContext())
+        }
+    }
+
+    override fun onStop() {
+        requireContext().contentResolver.unregisterContentObserver(updateAvailableObserver)
+        super.onStop()
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -154,14 +196,18 @@ class MyDeviceInfoFragment : InstrumentedPreferenceFragment() {
     * (UpdatesCheckReceiver detects a new OTA; UpdatesActivity
     * clears it once the update has been installed and only a reboot is needed).
     * See Constants.SETTING_XPE_UPDATE_AVAILABLE in the Updater.
+    *
+    * NOTE: this is a plain synchronous read, not observable on its own.
+    * updateAvailableObserver (onStart/onStop below) is what makes the
+    * "update available" card react live while this screen is open.
     */
     private fun isUpdateAvailable(context: Context): Boolean =
         Settings.Global.getInt(context.contentResolver, KEY_UPDATE_AVAILABLE, 0) == 1
 
      /**
-     * Reads ro.xperience.build.version (e.g., “21.0”, “22.1”) and constructs the name
-     * displayed in the header. If it ends with “.0”, it is truncated (“21.0” ->
-     * “v21”); if it includes a point release, it is kept as-is (“21.5” -> “v21.5”).
+     * Reads ro.xperience.build.version (e.g., "21.0", "22.1") and constructs the name
+     * displayed in the header. If it ends with ".0", it is truncated ("21.0" ->
+     * "v21"); if it includes a point release, it is kept as-is ("21.5" -> "v21.5").
      */
     private fun getXperienceOsName(): String {
         val rawVersion = SystemProperties.get(PROP_XPERIENCE_VERSION, "")

@@ -33,7 +33,7 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.settingslib.RestrictedPreference;
 
-import com.android.internal.util.xperience.Utils;
+import com.android.internal.util.xperience.XperienceUtils;
 
 import java.util.List;
 
@@ -54,7 +54,7 @@ public class WallpaperPreferenceController extends BasePreferenceController {
 
     public WallpaperPreferenceController(Context context, String key) {
         super(context, key);
-        final boolean isGoogleWpInstalled = Utils.isPackageInstalled(context, GOOGLE_WP_PKG);
+        final boolean isGoogleWpInstalled = XperienceUtils.isPackageInstalled(context, GOOGLE_WP_PKG);
         mWallpaperPackage = isGoogleWpInstalled ? GOOGLE_WP_PKG : DEFAULT_WP_PKG;
         mWallpaperClass = isGoogleWpInstalled ? GOOGLE_WP_CLASS : DEFAULT_WP_CLASS;
         mStylesAndWallpaperClass = isGoogleWpInstalled ?

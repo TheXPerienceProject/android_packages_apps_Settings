@@ -75,7 +75,10 @@ class MyDeviceInfoFragment : InstrumentedPreferenceFragment() {
     private val updateAvailableObserver = object : ContentObserver(Handler(Looper.getMainLooper())) {
         override fun onChange(selfChange: Boolean) {
             if (::updateAvailableState.isInitialized) {
-                updateAvailableState.value = isUpdateAvailable(requireContext())
+                val newValue = isUpdateAvailable(requireContext())
+                if (updateAvailableState.value != newValue) {
+                    updateAvailableState.value = newValue
+                }
             }
         }
     }
@@ -131,6 +134,13 @@ class MyDeviceInfoFragment : InstrumentedPreferenceFragment() {
         // Handles the case where the flag changed while the fragment was
         // paused (e.g., you returned from the background after the Updater
         // wrote to it).
+        if (::updateAvailableState.isInitialized) {
+            updateAvailableState.value = isUpdateAvailable(requireContext())
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
         if (::updateAvailableState.isInitialized) {
             updateAvailableState.value = isUpdateAvailable(requireContext())
         }

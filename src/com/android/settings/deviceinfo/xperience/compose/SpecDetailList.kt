@@ -53,13 +53,13 @@ private fun SpecListItem(label: String, value: String, modifier: Modifier = Modi
         Text(
             text = label,
             style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
+            color = MaterialTheme.colorScheme.onSurface
         )
         Text(
             text = value,
             style = MaterialTheme.typography.bodyLarge,
             fontWeight = FontWeight.Medium,
-            color = MaterialTheme.colorScheme.onSurface,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = androidx.compose.ui.text.style.TextAlign.End
         )
     }
@@ -69,7 +69,7 @@ private fun SpecListItem(label: String, value: String, modifier: Modifier = Modi
 private fun SpecDivider() {
     HorizontalDivider(
         modifier = Modifier.padding(horizontal = 16.dp),
-        thickness = 0.5.dp,
+        thickness = 1.2.dp,
         color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.1f)
     )
 }

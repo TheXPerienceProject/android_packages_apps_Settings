@@ -81,7 +81,8 @@
         <SwitchPreferenceCompat
             android:key="auto_pin_confirm"
             android:title="@string/lock_screen_auto_pin_confirm_title"
-            android:summary="@string/lock_screen_auto_pin_confirm_summary" />
+            android:summary="@string/lock_screen_auto_pin_confirm_summary"
+            android:defaultValue="true" />
 
         <SwitchPreferenceCompat
             android:key="enhancedPinPrivacy"

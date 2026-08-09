@@ -45,6 +45,7 @@
     <!-- Hardware info -->
     <string name="soc_model">Modelo SoC</string>
     <string name="total_ram">RAM total</string>
+    <string name="camera_info_unavailable">Información no disponible</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Cambiar proveedor de la copia de seguridad</string>
     <string name="backup_transport_title">Seleccionar proveedor de la copia de seguridad</string>
@@ -262,13 +263,54 @@
     <string name="use_gpu_for_screen_composition_title">Composición de pantalla por GPU</string>
     <string name="use_gpu_for_screen_composition_summary">Desactiva las superposiciones de HW durante el uso de las aplicaciones seleccionadas</string>
     <!-- Battery Info: Technology -->
+    <string name="battery_technology">Tecnología</string>
     <!-- Battery Info: Health -->
+    <string name="battery_health">Salud</string>
+    <string name="battery_health_good">Buena</string>
+    <string name="battery_health_overheat">Sobrecalentada</string>
+    <string name="battery_health_dead">Muerta</string>
+    <string name="battery_health_over_voltage">Sobre voltaje</string>
+    <string name="battery_health_unspecified_failure">Fallo no especificado</string>
+    <string name="battery_health_cold">Frio</string>
+    <string name="battery_health_unknown">Desconocido</string>
     <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatura</string>
     <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltaje</string>
     <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Capacidad de diseño</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
     <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Capacidad máxima</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Usar batería adaptativa</string>
+    <string name="basic_battery_saver_title">Ahorro de batería estándar</string>
+    <string name="basic_battery_saver_summary">Limita los efectos visuales y la actividad en segundo plano. Activa el tema oscuro, si aún no está activado.</string>
+    <string name="battery_saver_reminder_category">Recordatorios</string>
+    <string name="battery_saver_reminder_switch_title">Recordatorios de ahorro de batería</string>
+    <string name="battery_saver_reminder_switch_summary">Recibe avisos cuando la batería esté baja</string>
+    <string name="battery_saver_schedule_category">Programar</string>
+    <string name="battery_saver_schedule_switch_title">Activar basado en el nivel de batería</string>
+    <string name="battery_saver_schedule_switch_summary">Ahorro de batería se activa cuando la batería cae a un nivel que hayas establecido</string>
+    <string name="battery_schedule_title">Programación y recordatorios</string>
+    <string name="battery_schedule_summary">Administrar cuando el Ahorro de Batería se encienda</string>
+    <string name="extreme_battery_saver_title">Ahorro de batería extremo</string>
+    <string name="extreme_battery_saver_summary">Incluye todos los cambios mencionados anteriormente. También pausa las aplicaciones no esenciales y sus notificaciones.</string>
+    <string name="smart_battery_a11y_expand_label">Expandir, batería adaptativa</string>
+    <string name="smart_battery_a11y_collapse_label">Colapsar, batería adaptativa</string>
+    <string name="smart_battery_title">Batería adaptativa</string>
+    <string name="unified_battery_saver_page_intro">Ahorra energía para ayudar a que la batería de tu teléfono dure más entre cargas</string>
     <!-- eSIM settings -->
+    <string name="esim_settings_title">Configuración de eSIM</string>
     <!-- eSIM power control -->
+    <string name="esim_power_disable_title">Desactivar energía eSIM</string>
+    <string name="esim_power_disable_summary">Desactivar la energía eSIM permite usar la segunda ranura física de la SIM</string>
+    <string name="esim_power_disable_dialog_message">Desactivar el encendido eSIM le permitirá usar la segunda rama física de la SIM. Puede ser necesario reiniciar el sistema. ¿Continuar?</string>
+    <string name="esim_power_enable_dialog_message">Desactivar el encendido eSIM le permitirá usar la segunda rama física de la SIM. Puede ser necesario reiniciar el sistema. ¿Continuar?</string>
+    <string name="esim_power_dialog_cancel">Cancelar</string>
+    <string name="esim_power_dialog_disable">Deshabilitar</string>
+    <string name="esim_power_dialog_enable">Activar</string>
 </resources>

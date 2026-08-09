@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The XPerience Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Locale Picker -->
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Usar batería adaptativa</string>
+    <string name="basic_battery_saver_title">Ahorro de batería estándar</string>
+    <string name="basic_battery_saver_summary">Limita los efectos visuales y la actividad en segundo plano. Activa el tema oscuro, si aún no está activado.</string>
+    <string name="battery_saver_reminder_category">Recordatorios</string>
+    <string name="battery_saver_reminder_switch_title">Recordatorios de ahorro de batería</string>
+    <string name="battery_saver_reminder_switch_summary">Recibe avisos cuando la batería esté baja</string>
+    <string name="battery_saver_schedule_category">Programar</string>
+    <string name="battery_saver_schedule_switch_title">Activar basado en el nivel de batería</string>
+    <string name="battery_saver_schedule_switch_summary">Ahorro de batería se activa cuando la batería cae a un nivel que hayas establecido</string>
+    <string name="battery_schedule_title">Programación y recordatorios</string>
+    <string name="battery_schedule_summary">Administrar cuando el Ahorro de Batería se encienda</string>
+    <string name="extreme_battery_saver_title">Ahorro de batería extremo</string>
+    <string name="extreme_battery_saver_summary">Incluye todos los cambios mencionados anteriormente. También pausa las aplicaciones no esenciales y sus notificaciones.</string>
+    <!-- device -->
+    <string name="about_device_name">Dispositivo</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status_disabled">Deshabilitado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio (Enforcing)</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Disponibilidad de optimización de la batería</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Advertencia: ¡Esta opción puede no funcionar correctamente o provocar la pérdida de datos, por lo que no se recomienda!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localice el sensor de huella digital en la parte delantera de su tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localiza el lector de huellas digitales en la parte frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localiza el sensor de huella digital en el frontal del teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localiza el sensor de huellas dactilares en la parte trasera de tu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localiza el lector de huellas en la parte trasera de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localiza el sensor de huellas en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localiza el lector de huellas en el lateral de la tableta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localiza el lector de huellas en el lateral del dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localiza el sensor de huellas en la parte lateral de tu teléfono.</string>
+    <!-- About Phone card labels -->
+    <string name="xpe_version">Versión de XPerience™</string>
+    <string name="xpe_maintainer_title">Mantenedor</string>
+    <string name="camera_info_unavailable">Información no disponible</string>
+    <!-- Hardware info categories (moved from my_device_info) -->
+    <string name="radio_info_title">Información de radio</string>
+    <string name="net_info">Red</string>
+    <string name="mod_info">@string/model_info</string>
+    <string name="id_info">Identificadores</string>
+    <string name="model_summary">Modelo, número de teléfono, IMEI, etc</string>
+    <string name="model_name">Estado del dispositivo</string>
+    <string name="legal_summary">Licencias y legales</string>
+    <string name="manufacturer_info">Fabricante</string>
+    <string name="brand_info">Marca</string>
+    <string name="device_type">Tipo de dispositivo</string>
+    <string name="serial_number"> Numero de serie</string>
+    <string name="device_name">Nombre del dispositivo</string>
+    <string name="storage">Almacenamiento</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_firmware_version">Versión de XPerience™</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="xperience_build_code">Código XPerience™</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="build_channel">Canal de actualización</string>
+    <!-- Hardware info -->
+    <string name="soc_model">Modelo SoC</string>
+    <string name="total_ram">RAM total</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
+    <!-- Running services - Background processes tab -->
+    <!-- Copy to clipboard -->
+    <!-- Hotspot -->
+    <!-- Auto pin confirm -->
+    <!-- Black theme for dark mode -->
+</resources>

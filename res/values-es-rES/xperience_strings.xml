@@ -5,20 +5,30 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Locale Picker -->
+    <string name="clear_search_query_description">Borrar consulta</string>
+    <string name="language_picker_page">Página de selección de idioma</string>
+    <string name="search_region">Buscar regiones</string>
+    <string name="search_region_page">Página de búsqueda de región</string>
     <!-- Battery Saver -->
+    <string name="adaptive_battery_entry_purpose">Permite a los usuarios activar o desactivar la batería adaptativa, lo que optimiza el uso de la batería de la aplicación basándose en los patrones de uso del teléfono para prolongar la vida de la batería.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Si la función «Batería adaptativa» está activada para optimizar el uso de la batería según los patrones de uso de las aplicaciones.</string>
     <string name="adaptive_battery_switch_title">Usar batería adaptativa</string>
     <string name="basic_battery_saver_title">Ahorro de batería estándar</string>
     <string name="basic_battery_saver_summary">Limita los efectos visuales y la actividad en segundo plano. Activa el tema oscuro, si aún no está activado.</string>
+    <string name="basic_battery_saver_purpose">Activa el modo de ahorro de batería estándar, que limita los efectos visuales y la actividad en segundo plano</string>
     <string name="battery_saver_reminder_category">Recordatorios</string>
     <string name="battery_saver_reminder_switch_title">Recordatorios de ahorro de batería</string>
     <string name="battery_saver_reminder_switch_summary">Recibe avisos cuando la batería esté baja</string>
     <string name="battery_saver_schedule_category">Programar</string>
     <string name="battery_saver_schedule_switch_title">Activar basado en el nivel de batería</string>
     <string name="battery_saver_schedule_switch_summary">Ahorro de batería se activa cuando la batería cae a un nivel que hayas establecido</string>
+    <string name="battery_saver_schedule_purpose">Permite a los usuarios configurar horarios para el modo de ahorro de batería, incluyendo la activación automática según el porcentaje de batería y la desactivación automática cuando se carga, así como administrar los recordatorios de notificación de batería baja.</string>
     <string name="battery_schedule_title">Programación y recordatorios</string>
     <string name="battery_schedule_summary">Administrar cuando el Ahorro de Batería se encienda</string>
     <string name="extreme_battery_saver_title">Ahorro de batería extremo</string>
     <string name="extreme_battery_saver_summary">Incluye todos los cambios mencionados anteriormente. También pausa las aplicaciones no esenciales y sus notificaciones.</string>
+    <string name="extreme_battery_saver_purpose">Activa el modo de ahorro extremo de batería, que suspende las aplicaciones y notificaciones no esenciales</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Si desea recibir recordatorios cuando el nivel de batería sea bajo</string>
     <!-- device -->
     <string name="about_device_name">Dispositivo</string>
     <!-- SELinux Status -->
@@ -58,6 +68,12 @@
     <string name="serial_number"> Numero de serie</string>
     <string name="device_name">Nombre del dispositivo</string>
     <string name="storage">Almacenamiento</string>
+    <string name="software_information">Información sobre el software</string>
+    <string name="new_update_available">Hay una nueva actualización disponible</string>
+    <string name="version_up_to_date">Versión actualizada</string>
+    <string name="processor">Procesador</string>
+    <string name="xpe_battery">Batería</string>
+    <string name="xpe_cameras">Cámaras</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="xperience_firmware_version">Versión de XPerience™</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
@@ -69,17 +85,47 @@
     <string name="soc_model">Modelo SoC</string>
     <string name="total_ram">RAM total</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Frecuencia de actualización</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptable)</string>
+    <string name="refresh_rate_vrr_title">Frecuencia de actualización adaptativa</string>
+    <string name="refresh_rate_vrr_summary">Reduce automáticamente la frecuencia de actualización cuando la pantalla está inactiva, para ahorrar energía. Puede provocar parpadeos o alteraciones en los colores en ciertas pantallas</string>
+    <string name="refresh_rate_footer">Una frecuencia de actualización más alta hace que la imagen se vea más fluida, pero aumenta el consumo de energía</string>
+    <string name="keywords_refresh_rate">frecuencia de actualización, frecuencia, suavidad, pico, 60 Hz, 90 Hz, 120 Hz, 144 Hz, 165 Hz</string>
+    <string name="peak_refresh_rate_summary_custom">Aumenta automáticamente la frecuencia de actualización de 60 a %1$d Hz para ciertos contenidos. Aumenta el consumo de batería.</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hoy</string>
     <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Procesos en segundo plano</string>
     <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="longpress_to_clipboard">Mantén presionado para copiar</string>
     <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Red oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nombre de tu punto de acceso móvil no aparecerá en la lista de redes WLAN disponibles.</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Ver y administrar los dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mostrar los dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_limit_title">Límite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta acción desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" de este dispositivo y lo agregará a la lista de bloqueados</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Actualmente no hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
     <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Se desbloquea automáticamente si ingresas un PIN correcto. Esto es un poco menos seguro que presionar «Enter» para confirmar.</string>
     <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Negro puro</string>
+    <string name="berry_black_theme_summary">Fondo negro puro para el tema oscuro</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Desliza para captura de pantalla</string>
+    <string name="three_finger_gesture_summary">Deslice hacia abajo con tres dedos para tomar una captura de pantalla</string>
     <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">poner en pausa la animación</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Ajustes de rotación</string>
     <string name="display_rotation_enabled">La rotación automática está activada</string>
@@ -166,4 +212,9 @@
     <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
     <string name="touchscreen_hovering_summary">Permite desplazarte por la pantalla como un ratón en navegadores web, escritorios remotos, etc</string>
     <!-- General strings -->
+    <string name="ok">De acuerdo</string>
+    <string name="reset">Restablecer</string>
+    <string name="save">Guardar</string>
+    <string name="default_string">Por defecto</string>
+    <string name="disabled">Desactivado</string>
 </resources>

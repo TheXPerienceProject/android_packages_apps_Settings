@@ -64,7 +64,7 @@
             android:key="top_level_unicorn"
             android:title="@string/xperience_title"
             android:summary="@string/xperience_summary"
-            android:icon="@drawable/ic_xperience_logo_menu"
+            android:icon="@drawable/ic_xperience_expressive"
             android:order="-125"
             android:fragment="mx.xperience.unicorn.Rainbow"/>
 

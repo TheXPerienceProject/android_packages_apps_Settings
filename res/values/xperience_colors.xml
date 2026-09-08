@@ -38,4 +38,8 @@
     <color name="wifi_qr_secondary_background">@android:color/system_on_surface_light</color>
     <color name="wifi_qr_secondary_foreground">@android:color/system_secondary_light</color>
     <color name="wifi_qr_tertiary_background">@android:color/system_tertiary_container_light</color>
+
+    <color name="homepage_xperience_glow">#FFFFA0A6</color>
+    <color name="homepage_xperience_background">#D9343E</color>
+    <color name="homepage_xperience_foreground">#FFFFFFFF</color>
 </resources>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (C) 2025 The Android Open Source Project
 
@@ -13,7 +14,37 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.settings.widget.TintDrawable
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/ic_xperience_logo"
-    android:tint="@color/homepage_safety_foreground" />
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer glow / halo -->
+    <item>
+        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+            android:width="@dimen/dashboard_tile_image_size"
+            android:height="@dimen/dashboard_tile_image_size"
+            android:color="@color/homepage_xperience_glow" />
+    </item>
+
+    <!-- Main red background -->
+    <item
+        android:left="3dp"
+        android:top="3dp"
+        android:right="3dp"
+        android:bottom="3dp">
+        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+            android:width="@dimen/dashboard_tile_image_size"
+            android:height="@dimen/dashboard_tile_image_size"
+            android:color="@color/homepage_xperience_background" />
+    </item>
+
+    <!-- XPerience shield -->
+    <item
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp">
+        <com.android.settings.widget.TintDrawable
+            android:drawable="@drawable/ic_xperience_logo_expressive"
+            android:tint="@color/homepage_xperience_foreground" />
+    </item>
+
+</layer-list>

@@ -217,4 +217,7 @@
     <string name="save">Guardar</string>
     <string name="default_string">Por defecto</string>
     <string name="disabled">Desactivado</string>
+    <!--Unicorn power-->
+    <string name="xperience_title">Unicornio Arcoíris</string>
+    <string name="xperience_summary">Ajustes personalizados de XPerience</string>
 </resources>

@@ -207,6 +207,7 @@ abstract class BaseDarkModeScreen(context: Context, val isUiOnly: Boolean) :
 open class DarkModeScreen(context: Context) : BaseDarkModeScreen(context, false) {
     override fun tags(context: Context) = arrayOf(APP_FUNCTION_UNCATEGORIZED, MUSTPASS_SET)
 
+    override fun hasCompleteHierarchy() = false
     override val key
         get() = KEY
 

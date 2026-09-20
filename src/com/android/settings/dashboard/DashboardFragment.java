@@ -99,14 +99,9 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
         mDashboardFeatureProvider =
                 FeatureFactory.getFeatureFactory().getDashboardFeatureProvider();
 
-        final int resId = getPreferenceScreenResId();
         PreferenceScreenCreator preferenceScreenCreator = getPreferenceScreenCreator();
 
-        // XPerience still carries customizations in legacy XML preference screens.
-        // When an XML hierarchy exists, keep loading its controllers even if a
-        // complete Catalyst hierarchy is registered for the same screen.
-        if (resId > 0
-                || preferenceScreenCreator == null
+        if (preferenceScreenCreator == null
                 || !preferenceScreenCreator.hasCompleteHierarchy()) {
             // Load preference controllers from code
             final List<AbstractPreferenceController> controllersFromCode =
@@ -114,8 +109,8 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
 
             // Load preference controllers from xml definition
             final List<BasePreferenceController> controllersFromXml =
-                    PreferenceControllerListHelper
-                            .getPreferenceControllersFromXml(context, resId);
+                    PreferenceControllerListHelper.getPreferenceControllersFromXml(
+                            context, getPreferenceScreenResId());
 
             // Filter xml-based controllers in case a similar controller is created from code
             // already.
@@ -393,24 +388,24 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
      */
     private void displayResourceTiles() {
         PreferenceScreen screen;
+        PreferenceScreenCreator preferenceScreenCreator = getPreferenceScreenCreator();
 
-        // Prefer legacy XML screens when available. XPerience still carries
-        // custom preferences that have not been migrated to Catalyst.
-        final int resId = getPreferenceScreenResId();
-        if (resId > 0) {
-            addPreferencesFromResource(resId);
-            screen = getPreferenceScreen();
-        } else {
-            PreferenceScreenCreator preferenceScreenCreator = getPreferenceScreenCreator();
-            if (preferenceScreenCreator == null) {
-                return;
-            }
-
+        if (preferenceScreenCreator != null) {
             screen = createPreferenceScreen();
+
             if (!preferenceScreenCreator.hasCompleteHierarchy()) {
                 removeControllersForHybridMode();
             }
+
             setPreferenceScreen(screen);
+        } else {
+            final int resId = getPreferenceScreenResId();
+            if (resId <= 0) {
+                return;
+            }
+
+            addPreferencesFromResource(resId);
+            screen = getPreferenceScreen();
         }
 
         screen.setOnExpandButtonClickListener(this);

@@ -221,7 +221,29 @@
     <string name="xperience_title">Unicornio Arcoíris</string>
     <string name="xperience_summary">Ajustes personalizados de XPerience</string>
     <!-- Advanced VPN -->
+    <string name="advanced_vpn_preference_group_title">Integrado</string>
+    <string name="vpn_preference_group_title">Otros</string>
     <!-- Pocket mode -->
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquea la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
     <!-- Adaptive playback -->
+    <string name="adaptive_playback_screen_title">Pausa Inteligente</string>
+    <string name="adaptive_playback_enabled">Usar pausa inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_intro_text">La reproducción adaptativa detiene automáticamente la reproducción cuando el volumen se silencia y se reanudará automáticamente si el volumen se restablece dentro del tiempo establecido.</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
     <!-- aptX Settings -->
+    <string name="connected_device_codec_preference">Preferencias de Codec de Qualcomm®️ aptX™</string>
 </resources>

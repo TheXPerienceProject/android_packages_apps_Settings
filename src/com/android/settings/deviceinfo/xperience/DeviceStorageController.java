@@ -62,13 +62,29 @@ public class DeviceStorageController extends BasePreferenceController {
         }
     }
 
+    private static String getFirstNonEmpty(String... keys) {
+        for (String key : keys) {
+            String value = SystemProperties.get(key, "");
+            if (!value.isEmpty()) {
+                return value;
+            }
+        }
+        return "";
+    }
+
     @Override
     public void updateState(Preference preference) {
         if (preference instanceof DualColumnPreference) {
             mPreference = (DualColumnPreference) preference;
 
             // Device name
-            String deviceName = SystemProperties.get("ro.product.vendor.marketname", "");
+            String deviceName = getFirstNonEmpty(
+                    "ro.product.vendor.marketname",
+                    "ro.product.marketname",
+                    "ro.product.odm.marketname",
+                    "ro.product.system.marketname"
+            );
+
             if (deviceName.isEmpty()) {
                 deviceName = android.os.Build.MODEL;
             }

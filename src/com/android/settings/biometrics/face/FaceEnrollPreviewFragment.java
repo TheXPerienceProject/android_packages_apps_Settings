@@ -56,10 +56,6 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
     private static final int MAX_PREVIEW_WIDTH = 1920;
     private static final int MAX_PREVIEW_HEIGHT = 1080;
 
-    public interface PreviewSurfaceCallback {
-        void onPreviewSurfaceCreated(Surface surface);
-    }
-
     private Handler mHandler = new Handler(Looper.getMainLooper());
     private CameraManager mCameraManager;
     private String mCameraId;
@@ -68,9 +64,7 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
     private CameraCaptureSession mCaptureSession;
     private CaptureRequest mPreviewRequest;
     private Size mPreviewSize;
-    private Surface mPreviewSurface;
     private ParticleCollection.Listener mListener;
-    private PreviewSurfaceCallback mPreviewSurfaceCallback;
 
     // View used to contain the circular cutout and enrollment animation drawable
     private ImageView mCircleView;
@@ -129,20 +123,15 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
                 texture.setDefaultBufferSize(mPreviewSize.getWidth(), mPreviewSize.getHeight());
 
                 // This is the output Surface we need to start preview
-                mPreviewSurface = new Surface(texture);
-
-                // Notify callback that surface is created
-                if (mPreviewSurfaceCallback != null) {
-                    mPreviewSurfaceCallback.onPreviewSurfaceCreated(mPreviewSurface);
-                }
+                Surface surface = new Surface(texture);
 
                 // Set up a CaptureRequest.Builder with the output Surface
                 mPreviewRequestBuilder =
                         mCameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW);
-                mPreviewRequestBuilder.addTarget(mPreviewSurface);
+                mPreviewRequestBuilder.addTarget(surface);
 
                 // Create a CameraCaptureSession for camera preview
-                mCameraDevice.createCaptureSession(Arrays.asList(mPreviewSurface),
+                mCameraDevice.createCaptureSession(Arrays.asList(surface),
                     new CameraCaptureSession.StateCallback() {
 
                         @Override
@@ -193,18 +182,6 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.FACE_ENROLL_PREVIEW;
-    }
-
-    public Surface getPreviewSurface() {
-        return mPreviewSurface;
-    }
-
-    public void setPreviewSurfaceCallback(PreviewSurfaceCallback callback) {
-        mPreviewSurfaceCallback = callback;
-
-        if (mPreviewSurface != null && callback != null) {
-            callback.onPreviewSurfaceCreated(mPreviewSurface);
-        }
     }
 
     @Override

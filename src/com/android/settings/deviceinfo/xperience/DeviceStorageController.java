@@ -11,6 +11,7 @@ import android.provider.Settings;
 import android.os.Environment;
 import android.os.StatFs;
 import android.os.SystemProperties;
+import android.text.TextUtils;
 import android.view.View;
 
 import androidx.fragment.app.Fragment;
@@ -78,17 +79,7 @@ public class DeviceStorageController extends BasePreferenceController {
             mPreference = (DualColumnPreference) preference;
 
             // Device name
-            String deviceName = getFirstNonEmpty(
-                    "ro.product.vendor.marketname",
-                    "ro.product.marketname",
-                    "ro.product.odm.marketname",
-                    "ro.vendor.oplus.market.name",
-                    "ro.product.system.marketname"
-            );
-
-            if (deviceName.isEmpty()) {
-                deviceName = android.os.Build.MODEL;
-            }
+            String deviceName = getDeviceName();
 
             // Storage info
             StatFs stat = new StatFs(Environment.getDataDirectory().getPath());
@@ -156,8 +147,31 @@ public class DeviceStorageController extends BasePreferenceController {
     }
 
     public String getDeviceName() {
-        String name = SystemProperties.get("ro.product.vendor.marketname", "");
-        return name.isEmpty() ? android.os.Build.MODEL : name;
+        String deviceName = Settings.Global.getString(mContext.getContentResolver(),
+                Settings.Global.DEVICE_NAME);
+
+        String marketName = getFirstNonEmpty(
+                "ro.product.marketname",
+                "ro.product.vendor.marketname",
+                "ro.product.odm.marketname",
+                "ro.vendor.oplus.market.name",
+                "ro.product.system.marketname"
+        );
+
+        // Si no hay nombre configurado o si Settings.Global tiene el modelo genérico
+        // (por ejemplo PJZ110 o 2412DPC0AG de un primer booteo sin marketname),
+        // mostramos el market name comercial.
+        if (TextUtils.isEmpty(deviceName) || deviceName.equals(android.os.Build.MODEL)) {
+            if (!TextUtils.isEmpty(marketName)) {
+                return marketName;
+            }
+        }
+
+        if (!TextUtils.isEmpty(deviceName)) {
+            return deviceName;
+        }
+
+        return !TextUtils.isEmpty(marketName) ? marketName : android.os.Build.MODEL;
     }
 
     public String getStorageSummary() {

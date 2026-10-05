@@ -82,6 +82,7 @@ public class DeviceStorageController extends BasePreferenceController {
                     "ro.product.vendor.marketname",
                     "ro.product.marketname",
                     "ro.product.odm.marketname",
+                    "ro.vendor.oplus.market.name",
                     "ro.product.system.marketname"
             );
 
